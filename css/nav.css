@@ -1,0 +1,135 @@
+/********************* NAV START ********************/
+.nav-home a {
+	background-color: #FFD000;
+	opacity: 1;
+	z-index: 1000;
+	position: fixed;
+	top: -35px;
+	margin: 0 auto;
+	left: 50%; 
+	margin-left: -40px;
+	width: 80px;;
+	height: 80px;
+	border-radius: 100px;
+
+}
+
+.nav-home span {
+	text-align: center;
+	color: #1A1A1A; 
+	font-size: 20px;
+	line-height: 106px;
+}
+
+/* nav div */
+#nav  {
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left:0;
+	right: 0;
+	width: 100%;
+	margin: 0 auto;
+	background: rgba(26,26,26,0.8);
+	font-family: "Courier New";
+	font-size: 12px;
+	z-index: 10;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	border: 5px solid #FFD000;
+	border-bottom: none;
+	border-top: none;
+}
+
+/* nav container */
+#nav ul {
+	width: 100%;
+	text-align: center;
+	display: inline;
+	margin: 0;
+	padding: 12px 0;
+	list-style: none;
+	line-height: 29px; 
+}
+/*nav list*/
+#nav ul li {
+	max-width: 100px;
+	width: 12.8%;
+	display: inline-block;
+	margin: 0;
+	position: relative;
+	padding: 5px 0;
+	background: rgba(0,0,0,0);
+	cursor: pointer;
+	border-style: none;
+}
+/* nav list links */
+#nav ul li a {
+	color: #FFD000;	
+	text-shadow: none;	
+	text-decoration: none;
+}
+/*nav list hover - if not link */
+#nav ul li:hover {
+  /*background: rgba(255,0,0,0);*/
+  /*text-shadow: 0 0px 10px #FFF;*/
+}
+/* */
+#nav ul li:hover.home {
+	opacity: 0;
+}
+/* nav list hover link and dropdown color */
+#nav ul li:hover a {
+	color: #FFD000;
+	/*text-shadow: 0 0px 10px #FFD000;*/
+	text-decoration: none;
+}
+
+/*dropdown container*/
+#nav ul li ul {
+	text-align: left;
+	border: none;
+	box-shadow: none;
+	padding: 0;
+	position: absolute;
+	margin: 0;
+	margin-top: 5.5px;
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+ }
+
+/*dropdown list */
+#nav ul li ul li { 
+	font-size: 11px;
+	width: 80px;
+	padding: 3px 10px;
+	background: rgba(26,26,26,0.9);
+	display: block; 
+	text-transform: lowercase;
+}
+/*doesn't work cause attached to ul li:hover a*/
+#nav ul li ul li a {
+	color: yellow;
+}
+
+/*dropdown list hover box */
+#nav ul li ul li:hover { 
+	background: rgba(255,208,0,0.9); 
+	font-weight: bold;
+	/*opacity: 1;*/
+}
+/* dropdown list hover link */
+#nav ul li ul li:hover a { 
+	color: #1A1A1A;
+	text-shadow: 0 0px 10px #FFD000;
+	/*opacity: 1;*/
+}
+/*makes dropdown list show*/
+#nav ul li:hover ul {
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
+/******************  NAV END ********************/

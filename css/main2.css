@@ -1,0 +1,383 @@
+/*
+	color: #FFD000;
+	background-color: #1A1A1A; 
+	background-color: rgba (26,26,26,1); 
+*/
+
+/*
+
+
+font-family: 'Ruda', sans-serif;
+
+font-family: 'Coming Soon', cursive;
+
+font-family: 'Jura', sans-serif;
+
+font-family: 'Marvel', sans-serif;
+
+font-family: 'Patrick Hand', cursive;
+
+font-family: 'Port Lligat Slab', serif;
+
+font-family: 'Sue Ellen Francisco', cursive;
+
+font-family: 'Pompiere', cursive;
+
+font-family: 'Architects Daughter', cursive;
+
+font-family: 'Didact Gothic', sans-serif;
+
+font-family: 'Work Sans', sans-serif;
+
+font-family: 'Poppins', sans-serif;
+
+font-family: 'Cabin Sketch', cursive;
+
+font-family: 'Delius', cursive;
+
+
+*/
+
+/*
+	COLORS:
+	bl0cks background: rgba(255,255,255,0.8); rgba(28,28,28,1);
+	t3xt color: #1C1C1C, Arial; 
+	h3ading: #28383D, 'Cabin Sketch', cursive; 	background-color: rgba(40,56,61,1);
+	b4ckground:
+	headings:
+
+	n4v: font-family: 'Coming Soon', cursive;
+	n4v h0ver background: background-color: rgba(28,28,28,1);
+	n4v h0ver text: color: rgba(255,255,255,0.9);
+
+*/
+
+body {
+	background-color: #1A1A1A; 
+	color: #1C1C1C;
+	padding: 0;
+	margin: 0 auto;
+	font-family: Arial;
+	font-size: 13px;
+	text-align: center;
+	background: url('../images/main/bgs/background_galaxy.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+a {
+	color: #454545;
+}
+
+a:hover {
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Cabin Sketch', cursive;
+text-transform: uppercase;
+color: #454545;
+}
+
+
+/**************************** START: NAVBAR ***************************************/
+
+/* prevent entire navbar from creating a hole */
+div#navbar-container {
+	/*height done with jquery */
+}
+
+div#navbar {	/*list container */
+	width: 100%;
+	background-color: rgba(0,0,0,0.6);	/* n4v background-color */
+
+	/*text-shadow: 0px 0px 10px #FFF;*/
+	font-size: 14px;
+	font-family: 'Coming Soon', cursive;
+}
+div#navbar a {
+	color: rgba(255,255,255,0.9);	/* n4v color */
+}
+
+div#navbar ul.menu {	/* list */ 
+	/*background-color: blue;*/
+	width: 100%;
+	max-width: 931px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+
+	background-color: transparent; 
+}
+
+div#navbar ul.menu > li {	/* main menu item block */ 
+	/*background-color: red;*/
+	display: inline-block;	/* makes it one line */
+	width: 13%;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+
+	background-color: transparent;
+}
+div#navbar ul.menu > li:hover {	/* main menu item block hover */ 
+	/*background-color: green;*/
+
+	background-color: transparent;
+	background-color: rgba(255,255,255,0.9);	/* n4v h0ver background */
+}
+div#navbar ul.menu > li:hover > a.menu-link {
+	color: rgba(0,0,0,0.9);	/* n4v h0ver text */
+}
+
+div#navbar ul.menu > li > a.menu-link, div#navbar ul.menu > li > span.menu-link {	/* main menu item link */
+	/*color: cyan; */	
+	text-decoration: none;
+	display: block;	/* makes padding work */
+	padding: 15px 0;	/* padding to make whole block button */
+
+	/*color:#FFD000;*/
+}
+
+div#navbar ul.menu > li > ul.submenu {	/* submenu */	
+	/*background-color: yellow; */
+	display: none;
+	position: absolute;
+	padding: 0;
+	padding: 0 10px 10px 10px;
+	margin-top: 0px;	/*depends on padding of main menu item */
+	margin-left: -10px;
+	background-color: transparent;
+}
+
+div#navbar ul.menu > li > ul.submenu > li{	/* submenu menu item */
+	/*background-color: orange; */	
+	list-style: none;
+	text-align: left;
+	text-transform: none;
+	width: 143px;
+
+	background-color: rgba(0,0,0,0.8);	/* n4v background-color */
+}
+div#navbar ul.menu > li > ul.submenu > li > a.menu-link {	/* sub menu item link */
+	/*color: purple;*/
+	text-decoration: none;
+	display: block;
+	padding: 10px 10px;
+
+	/*color: #FFD000;*/
+}
+div#navbar ul.menu > li > ul.submenu > li:hover {	/* submenu menu item hover */
+	/*background-color: pink;*/
+
+	/*background-color: #FFD000;*/
+	background-color: rgba(255,255,255,0.9);	/* n4v h0ver background */
+
+}
+div#navbar ul.menu > li > ul.submenu > li:hover a.menu-link {	/* submenu menu item hover link */
+	/*color: #1A1A1A;*/
+	color: rgba(0,0,0,0.9);	/* n4v h0ver text */
+
+}
+/*makes dropdown list show*/
+div#navbar ul.menu > li:hover ul.submenu {
+	display: block;
+}
+
+@media (max-width: 400px) {
+	div#navbar ul.menu {	/* list container */ 
+		/*background-color: pink;*/
+	}
+	div#navbar ul.menu > li {	/* main menu item block */ 
+		/*background-color: grey;*/
+		display: block;
+		width: 100%;
+	}
+	div#navbar ul.menu > li > a.menu-link {	/* main menu item link */
+		/*background-color: lightblue;*/
+		width: 100%;
+	}
+	div#navbar ul.menu > li > ul.submenu {	/* submenu */	
+		/*background-color: lightyellow;*/
+		position: relative;
+		width: 100%;
+	}
+	div#navbar ul.menu > li > ul.submenu > li{	/* submenu menu item */
+		width: 100%;
+	}
+
+
+	div#navbar ul.menu li.home .home-logo {	/* hide home logo */
+		display: none;
+	}
+	div#navbar ul.menu li.home span.menu-link {
+		display: inline-block !important;
+	}
+}
+
+div#navbar.stick {	/*scroll passed menu stick */
+	position: fixed;
+	top: 0;
+
+/*	background-color: rgba(26,26,26,0.2);*/
+}
+div#navbar.stick a {
+}
+/*div#navbar ul.menu li.home .home-logo.logo-reposition {	/* move logo back down so it's not cut off */
+/*	margin-top: -22px;
+}*/
+
+div#navbar ul.menu li.home span.menu-link { display: none; }
+div#navbar ul.menu li.home .home-logo {	/* home logo */
+	position: absolute;
+	z-index: 100;
+
+	left: 50%;	/* position it in the middle. */
+	margin-left: -25px;	/* half of width */
+
+	margin-top: -27px;	/* move it up a bit to center  */
+	width: 50px;
+	height: 50px;
+	background-image: url('../images/main/sanzoid_logo_colored.png');
+	background-size: 100%;
+}
+
+/**************************** END: NAVBAR ***************************************/
+
+/**************************** START: CONTENT and PROFILE *************************/
+
+div#content, div#profile {
+	background-color: rgba(255,255,255, 0.9);
+	margin: 50px 20px;
+	padding: 25px 25px;
+	text-align: left; 
+	vertical-align: top;
+}
+
+div#content .content-page-title {	/*title*/
+	font-size: 66px;
+	line-height: 66px; 
+	margin: 10px 0;
+}
+
+div#content h1 {
+	font-size: 55px;
+}
+div#content h2 {
+	font-size: 44px;
+}
+div#content h3 {
+	font-size: 33px;
+}
+div#content h4 {
+	font-size: 22px;
+}
+
+div#content div.body {
+
+}
+
+div#content div.body p {
+	line-height: 14px;
+}
+
+/*****************************************************************************/
+
+div#profile img.profileimage {
+	float: left;
+	margin: 5px 5px 5px 0;
+}
+
+div#profile div.aboutme {
+	display: inline-block;
+	width: 75%;
+
+}
+
+div#profile div.contactinfo {
+	vertical-align: top;
+	display: inline-block;
+	width: 20%;
+}
+
+/*************** LESS THAN 960PX *********************/
+/* Profile box moves next to content  */
+@media (min-width: 960px) {
+	div#content {
+		display: inline-block;
+		width: 64%;
+
+		margin-right: 10px;
+	}
+
+	div#profile {
+		display: inline-block;
+		width: 200px;
+
+		margin-left: 10px;
+		padding: 15px;
+	}
+
+	div#profile div.contactinfo {
+		display: block;
+	}
+}
+
+/**************************** END: CONTENT and PROFILE *************************/
+
+/**************************** START: BANNER *************************/
+
+#banner {
+	/*background-color: red;*/
+	/*max-width: 960px;*/
+	margin: 50px auto;
+	padding: 0 20px;
+
+	height: 100px;
+	text-align: left;
+
+	background: transparent;
+}
+
+#banner div.title {
+	/*background-color: red;*/
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	width: 250px;
+	height: 100px;
+
+	background-color: transparent;
+	background-image: url('../images/main/sanzoid_banner_logo.png');
+}
+
+#banner div.image {
+	/*background-color: yellow;*/
+	display: inline-block;
+	vertical-align: top;
+
+	width: 60%;
+	height: 100px;
+	margin:0;
+	padding: 0;
+
+	background-image: url('../images/main/banner_bitstrips_money.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+@media (max-width: 400px) {	/* too small to fit banner image */
+	#banner div.image {
+		/*display: none;*/
+	}
+	#banner  {
+		/*text-align: center;*/
+	}
+}
+
+/**************************** END: BANNER *************************/
+
+
+
+

@@ -1,0 +1,33 @@
+.yel {
+	color: #FFDD00;
+}
+
+
+#intro h1 {
+	font-size: ;
+	color: #FFFD00;
+	text-shadow: 2px 2px 10px #000;
+}
+
+#intro img {
+	max-width: 220px;
+	border: none;
+	margin: 10px;
+}
+
+#bleach, #town {
+	float: left;
+}
+
+#comics, #cereal {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.cover {
+	z-index: 10;
+	text-shadow: -50px 0px 5px #000;
+}

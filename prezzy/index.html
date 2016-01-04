@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+
+   <title>AJAX</title>
+
+   <meta name="description" content="">
+   <meta name="author" content="Steven">
+
+   <meta name="apple-mobile-web-app-capable" content="yes" />
+   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+   <link rel="stylesheet" href="css/reveal.css">
+   <link rel="stylesheet" href="css/theme/night.css" id="theme">
+   <link rel="stylesheet" href="css/main.css">
+
+   <!-- For syntax highlighting -->
+   <!--<link rel="stylesheet" href="lib/css/zenburn.css">-->
+
+   <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+   <script>
+      /*if( window.location.search.match( /print-pdf/gi ) ) {
+         var link = document.createElement( 'link' );
+         link.rel = 'stylesheet';
+         link.type = 'text/css';
+         link.href = 'css/print/pdf.css';
+         document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }*/
+   </script>
+   <script src="lib/js/jquery.min.js"></script>
+   <script src="lib/js/typed.js"></script>
+
+      <!--[if lt IE 9]>
+      <script src="lib/js/html5shiv.js"></script>
+      <![endif]-->
+      <script>
+         function getVote(int) {
+           if (window.XMLHttpRequest) {
+             // code for IE7+, Firefox, Chrome, Opera, Safari
+             xmlhttp=new XMLHttpRequest();
+           } else {  // code for IE6, IE5
+             xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+           }
+           xmlhttp.onreadystatechange=function() {
+             if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+               document.getElementById("poll").innerHTML=xmlhttp.responseText;
+             }
+           }
+           xmlhttp.open("GET","poll_vote.php?vote="+int,true);
+           xmlhttp.send();
+         }
+      </script>
+   </head>
+
+   <body>
+
+      <div class="reveal">
+
+         <!-- Any section element inside of this container is displayed as a slide -->
+         <div class="slides">
+
+            <section id="intro" data-background="files/AJAX_title.png">
+            </section>
+
+            
+
+            <section>
+               <p class="fragment fade-out" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0;" data-fragment-index="0">
+                  <span class="yel">A</span>synchronous <span class="yel">J</span>avascript <span class="yel">a</span>nd <span class="yel">X</span>ML
+               </p>
+               <p class="fragment fade-in" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0;" data-fragment-index="0">
+                  <span class="yel">S</span>ynchronous <span class="yel">J</span>avascript <span class="yel">a</span>nd <span class="yel">X</span>ML
+               </p>
+            </section>
+               <section><img src="files/facebook1percent.png" /></section>
+               <section>
+                  <div id="poll" style="margin:auto; text-align:center;">
+                     <p>ajax is awesome</p>
+                     <form>
+                     Yes:
+                     <input type="radio" name="vote" value="0" onclick="getVote(this.value)">
+                     <br>No:
+                     <input type="radio" name="vote" value="1" onclick="getVote(this.value)">
+                     </form>
+                     </div>
+               </section>
+               <!--<section><iframe width="100%" height="900" src="http://www.spoilertv.com/2015/06/hannibal-primavera-live-discussion-what.html"></iframe>
+               </section>-->
+               <section>
+                  <div style="position:relative" >
+        <p class="fragment fade-in" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0;" data-fragment-index="0">
+        TWO
+        </p>
+        <p class="fragment fade-out fade-in" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0;" data-fragment-index="0">
+          ONE
+        </p>
+        <p class="fragment fade-out" style="position:absolute; margin-left: auto; margin-right: auto; left: 0; right: 0;" data-fragment-index="0">
+          ONE
+        </p>
+    </div>
+               </section>
+               <section >
+                  <!--What just happened with that poll?-->
+                  <img height="750"  style="top:0; margin-top:-300px; left:0; position:fixed; z-index:100" src="files/ajax_diagram_0.png"/>
+                  <img  class="fragment" height="750"  style="top:0; margin-top:-300px; left:0; position:fixed; z-index:200" src="files/ajax_diagram_0.png"/>
+                  <img  class="fragment" height="750"  style="top:0; margin-top:-300px; left:0; position:fixed; z-index:300" src="files/ajax_diagram_0.png"/>
+                 <img class="fragment" height="auto" width="100%" style="top:20px; left: 0; position:fixed; z-index:100" src="files/ajax_diagram_1.png"/>
+                 <img class="fragment" height="auto" width="100%" style="top:20px; left: 0; position:fixed; z-index:100" src="files/ajax_diagram_2.png"/>
+
+                
+
+
+               </section>
+               <section><img height="750" src="files/ajax_diagram_1.png"/></section>
+               <section><img height="750" src="files/ajax_diagram_2.png"/></section>
+               <section><img height="750" src="files/ajax_diagram_3.png"/></section>
+               <section><img height="750" src="files/ajax_diagram_4.png"/></section>
+            </section>
+            <section>
+               <section>Less Time Wasted</section>
+            </section>
+            <section>Patience Not Tested</section> 
+            <section>
+               <section><strike>CONTENT</strike> <span class="yel">ACTION</span></section>
+               <section>New Conte<span class="yel">n</span>t -> Reload page<br>New Conte<span class="yel">x</span>t -> Don't reload page</section>
+               <section>Web Site<span class="cover">Application</section>
+               <section><span class="yel">________</span> vs . .&nbsp;&nbsp;&nbsp;..&nbsp;.&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;.&nbsp;&nbsp;.</section>
+            </section>
+            <!-- Sending information, Receiving new information, Less annoying things -->
+            <section>
+            There is no doubt that you already experience ajax when you browse the internet. 
+            But it's not completely used where it could be used. The point is to get more people to use ajax. The more developers we have using ajax, the better the internet can be. 
+            There are issues like security, how well ajax is implemented, but if more people use it, there will be more support for it. The more developers that spend their time developing with ajax, the more time THEIR users save. 
+            Emphasize on how it all happens in the background. 
+               <section>Upvotes, Ratings, and the Likes</section>
+               <section>GIF OF SCROLLING FACEBOOK</section>
+               <section>IMAGE AT TOP OF PAGE (RELOADED) VS. GIF OF LIKING AND STAYING ON SAME PAGE</section>
+               <section>[ANALOGY - RELOADING THE WORLD]</section>
+               <section>GIF OF REDDIT UPVOTES AND IMDB RATINGS</section>
+            </section>
+            <section>
+               <section>Your Opinion Counts</section><!-- You want to be able to see that your opinion was counted and get something in return for that opinion -->
+               <section>[GIF OF NETFLIX - getting recommendations once you give rating]</section>
+               <section>[GIF OF POLLS + VOTING - getting poll results]</section>
+            </section>
+            <section>
+               <section>A Taste of Content</section>
+               <section>[GIF of hovering stuff for content previews (FACEBOOK)]</section>
+            </section>
+            <section>
+
+               <section>Less Annoying Ads</section>
+               <section>[Image of advertisement/things that ask for your opinion] (BUDDYTV when they asked "Would you like to like our Facebook page?". Could click "No I do not like BuddyTV" which is much nicer than stuff popping out at you - you are given a choice rather than uncontrollable popups. It's much more polite.</section>
+               <section>[GIf of NEW TAB ON MOBILE]</section>
+
+            </section>
+
+            <section>
+                  <section>Captchas</section>
+                  <section>GIF OF UNREADABLE CAPTCHA, GIF OF PRESSING THE REFRESH BUTTON MANY MANY TIMES - MENTION FORMS HERE</section>
+            </section>
+            
+            <section>
+               <section>Don't overuse it</section>
+
+            </section>
+
+            <section>
+               <section>Patience Not Tested</section>
+            </section>
+            <section>Less Time Wasted</section>
+            <section>More time to do other things. (pictures of various things)</section>
+            
+
+            <section>END<br>http://stackoverflow.com/questions/6938969/is-it-safe-to-use-ajax-for-login<br>https://moz.com/blog/how-to-use-ajax-5-real-world-examples</section>
+            
+
+            <section>
+               OLD STUFF
+            </section>
+<section>
+                  <section><span class="yel">A</span>synchronous <span class="yel">J</span>avascript <span class="yel">A</span>nd <span class="yel">X</span>ML</section>
+                  <section><strike>CONTENT</strike> <span class="yel">ACTION</span></section>
+                  <section>New Conte<span class="yel">n</span>t -> Reload page<br>New Conte<span class="yel">x</span>t -> Don't reload page</section>
+                  <section>Web Site<span class="cover">Application</span><!--(Use the word natural when explaining)--></section>
+            </section>
+            <section>
+                  <section>When should it be used?</section>
+                  <section>(Huge List, but don't explain)</section>
+            </section>
+            <section>
+                  <section>Why?</section>
+                  <section>Something about how refreshing a page takes longer than not refreshing the page (depends on the site and your internet and your computer). Makes all the difference on mobile. Something about attention spans. If it takes too long, we don't bother. Or we waste time. With examples, emphasize how life would be like if you did all of this stuff without ajax. If you did one small action and had to reload all of these images and content on the page. </section>
+            </section>
+            <section>
+                  <section>Upvotes, Ratings, and the Likes</section>
+                  <section>(Reddit Upvotes - local file. update the number by accessing file like the poll thing)</section>
+                  <section>(IMDB/Netflix Ratings - just simulate the star thing) </section>
+                  <section>(Facebook Likes - a facebook like button here?)</section>
+            </section>
+            
+            <section>
+                  <section>Form Validation</section>
+                  <section>Autocomplete/Suggestions</section>
+                  <section>That username has already been taken.</section>
+                  <section>Login Form</section>
+            </section>
+
+            <section>
+                  <section>Comments, Tweets, Chats, etc. </section>
+                  <section>multiple people are 'first'</section>
+            </section>
+
+            <section>
+                  <section>Next Page vs. Endless Scrolling (Tumblr)</section>
+                  <section></section>
+            </section>
+
+            <section>
+                  <section>Your Opinion Counts (polls and surveys)</section>
+                  <section></section>
+            </section>
+            <section>
+                  <section>Captchas</section>
+                  <section></section>
+            </section>
+            <section>
+                  <section>A Taste of Content</section>
+                  <section>(those pop up boxes for previews of profiles on FB. stuff like that. )</section>
+            </section>
+
+            <section>
+                  <section>Ads (lightboxes)</section>
+                  <section></section>
+            </section>
+
+            <section>
+                  <section>Emails, Tweets, Notifications</section>
+                  <section>Don't have to refresh the page while waiting for that incoming email. Will automatically fetch for you.</section>
+            </section>
+
+
+
+
+            <section>
+                  <section>When shouldn't it be used?</section>
+                  <section>Content - Bookmarks</section>
+                  <section>Hello World</section>
+                  <section>Hello World</section>
+                  <section>Hello World</section>
+                  <section>Hello World</section>
+            </section>
+         </div>
+
+      </div>
+
+      <script src="lib/js/head.min.js"></script>
+      <script src="js/reveal.min.js"></script>
+      <script src="js/countto.js"></script>
+
+      <script>
+
+         // Full list of configuration options available here:
+         // https://github.com/hakimel/reveal.js#configuration
+         Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+             width: '100%',
+             height: '100%', 
+             margin: 0.1,
+            // minScale: 0.2,
+            // maxScale: 1.0,
+
+
+            theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+            transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+            // Parallax scrolling
+            // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+            // parallaxBackgroundSize: '2100px 900px',
+
+            // Optional libraries used to extend on reveal.js
+            dependencies: [
+            { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+            { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+            { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+            { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+            ]
+         });
+
+         Reveal.configure({
+            keyboard: {
+               48: function() {
+                  $('#definition').typed({
+                     strings: ["HTML5 is a core technology <strong>markup language</strong> of the Internet used <u>for structuring and presenting content</u> for the World Wide Web."],
+                     callback: function() {
+                        $('.typed-cursor').hide();
+                     },
+                     contentType: 'html'
+                  });
+               },
+               49: function() { 
+                  $('#vision1').typed({
+                     strings: ["HTML5DevConf: HTML5 was finally announced final and complete ^1000 - <span id='days0'>9</span><span id='days1'>9</span> days ago"],
+                     callback: function() {
+                        countDownTo(5, '#days0');
+                        countDownTo(1, '#days1');
+                        $('.typed-cursor').hide();
+                     },
+                     contentType: 'html'
+                  });
+               },
+               50: function() {
+                  $('#vision2').typed({
+                     strings: ["<span id='percent1'>0</span><span id='percent2'>0</span>% of 10,000 developers surveyed by 2014 Vision Mobile is already using HTML5 to build apps."],
+                     callback: function() {
+                        countUpTo(4, '#percent1');
+                        countUpTo(2, '#percent2');
+                        $('.typed-cursor').hide();
+                     }
+                  });
+               },
+               51: function() {
+                  $('#vision3').typed({
+                     strings: ["Promise: Write once, deploy anywhere - lowering the cost of developing powerful, cross-platform applications."],
+                     callback: function() {
+                        $('.typed-cursor').hide();
+                     }
+                  });
+               },
+               52: function() {
+                  $('#thankyou').typed({
+                     strings: ["^2000Thank you^3000", "^1000:-)"],
+                     callback: function() {
+                        $('.typed-cursor').hide();
+                     }
+                  });
+               },
+            }
+         });
+
+      </script>
+
+   </body>
+</html>

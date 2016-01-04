@@ -1,0 +1,71 @@
+<html>
+<head>
+	<title>Demos</title>
+</head>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>
+// Get the <datalist> and <input> elements.
+var dataList = document.getElementById('json-datalist');
+var input = document.getElementById('ajax');
+
+// Create a new XMLHttpRequest.
+var request = new XMLHttpRequest();
+
+// Handle state changes for the request.
+request.onreadystatechange = function(response) {
+  if (request.readyState === 4) {
+    if (request.status === 200) {
+    	alert("nice");
+      // Parse the JSON
+      var jsonOptions = JSON.parse(request.responseText);
+  
+      // Loop over the JSON array.
+      jsonOptions.forEach(function(item) {
+        // Create a new <option> element.
+        var option = document.createElement('option');
+        // Set the value using the item in the JSON array.
+        option.value = item;
+        // Add the <option> element to the <datalist>.
+        dataList.appendChild(option);
+      });
+      
+      // Update the placeholder text.
+      input.placeholder = "e.g. datalist";
+    } else {
+      // An error occured :(
+      input.placeholder = "Couldn't load datalist options :(";
+    }
+  }
+};
+
+// Update the placeholder text.
+input.placeholder = "Loading options...";
+
+// Set up and make the request.
+request.open('GET', 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/4621/html-elements.json', true);
+request.send();
+
+
+</script>
+
+<body>
+<!-- A form with name, e-mail, country 
+http://blog.teamtreehouse.com/creating-autocomplete-dropdowns-datalist-element
+
+-->
+
+<form>
+	<p>Name: <input type="text" name="name"></p>
+	<p>Email: <input type="email" name="email"></p><!-- This email is in our system, is not in our system -->
+	<p>Country: <input type="text" name="country"></p><!-- -->
+
+	Country: 
+	<div><input type="submit" value="Submit"></div>
+</form>
+
+<label for="ajax">Pick an HTML Element (options loaded using AJAX)</label>
+  <input type="text" id="ajax" list="json-datalist" placeholder="e.g. datalist">
+  <datalist id="json-datalist"></datalist>
+
+</body>
+</html>

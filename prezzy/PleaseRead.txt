@@ -1,0 +1,1 @@
+Look for ``<aside></aside>`` notes in index.html for how to trigger the hidden content (typed.js) - not the best implementation, but had limited time making it work

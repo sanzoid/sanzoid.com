@@ -1,0 +1,185 @@
+body {
+	background-color: #1A1A1A;
+	color: #FFD000;
+	font-family: "Courier New", Courier, monospace; 
+	font-size: 12px; 
+	margin: 0;
+}
+
+a, a:visited {
+	color: white;
+}
+a:hover {
+	color: cyan;
+}
+
+#body-border {
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	border: 5px solid #FFD000;
+	border-bottom: none;
+	border-top: none;
+	background-color: (0,0,0,0); 
+	height: 100%;
+	width:100%;
+	position: fixed;
+	top:0;
+}
+
+#main-container {
+	width: 90%;
+	margin: auto;
+	margin-top: 60px;
+	position: relative;
+}
+
+/****************** START: BANNER *********************/
+#banner {
+	/*background-color: #444444;*/
+}
+
+#banner-left {
+	width: 29%;
+	height: 100px;
+	float: left;
+
+	background-color: #000;
+	margin: 0px 0.5% 20px 0px;
+
+	background-image: url("../images/main/jamesspader.jpg");
+	background-size: cover;
+	background-position: center;
+	border-top: 5px solid #FFD000;
+	border-bottom: 5px solid #FFD000;
+}
+
+#banner-right {
+	width: 70%;
+	height: 100px;
+	float: right;
+
+	background-color: #FFF;
+	margin: 0px 0px 20px 0.5%;
+
+	background-image: url("../images/main/johnreese.png");
+	background-size: auto 100%;
+	border-top: 5px solid #FFD000;
+	border-bottom: 5px solid #FFD000;
+
+}
+
+#banner-right h1 {
+	text-align: center;
+	font-size: 40px;
+	text-shadow: 5px 0px 5px #000;
+}
+/****************** END: BANNER *********************/
+
+/********************* START: SIDEBAR *********************/
+#sidebar-container {
+	width: 29%;
+	background-color: rgba(255,255,255,0.1);
+	float: right;
+	margin-left: 0.5%;
+}
+#sidebar {
+	margin: 20px 10px;
+}
+
+#sidebar h1 {
+	font-size: 14px;
+}
+
+#sidebar ul {
+	margin-left: -22px;
+}
+/********************* END: SIDEBAR *********************/
+
+/********************* START: CONTENT *******************/
+#content-container {
+	width: 70%;
+	background-color: rgba(255,255,255,0.1);
+	float: left;
+	margin-right: 0.5%;
+	margin-bottom: 100px;
+
+	
+}
+#content {
+	margin: 20px 15px;
+}
+/********************* END: CONTENT *******************/
+
+
+.clear {
+	clear:both;
+}
+
+/******************** START: FOOTER *******************/
+#footer {
+	font-family: "Courier New"; 
+	font-size: 11px;
+	bottom: 0;
+	position: relative; 
+	bottom: 0; 
+	left: 0; 
+	right: 0;
+	width: 100%; 
+	text-transform: uppercase;
+}
+
+#footer-date::before { content: "LAST MODIFIED: " }
+
+#footer-date {
+	float: left;
+	margin-left: 10px;
+}
+#footer-siggy {
+	float: right;
+	margin-right: 12px;
+}
+/******************** END: FOOTER *******************/
+
+a.anchor  {
+	position: relative;
+	top: -50px;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+ul {
+	list-style-type: square;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #5EA4FF;
+}
+
+::selection {
+    color: white; 
+    background: #00D0FF;
+}
+
+/***************** START: Tables *********************/
+table, tr, td {
+	border: 1px dotted #FFD000;
+	border-collapse: collapse;
+	padding:5px;
+}
+
+table {
+	border-left: 3px solid #FFD000;
+}
+
+/***************** END: Tables *********************/
+
+/***********  CUSTOM STUFF *************************/
+
+#mockups img {
+	max-width: 250px; 
+	vertical-align: top;
+}
+

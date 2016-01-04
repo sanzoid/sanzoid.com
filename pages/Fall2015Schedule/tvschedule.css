@@ -1,0 +1,155 @@
+
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	margin:0;
+	padding: 0;
+	background-color: #000000;
+	background-image:url('images/theblacklist_wallpaper.jpg');
+	background-position: top;
+	background-repeat: none;
+	background-attachment:fixed;
+	text-align: center;
+	/*background-color: #1A1A1A;*/
+}
+
+h1 {
+	color:#CCCCCC;
+	text-transform: uppercase;
+	font-size: 50px;
+	margin: 50px 0 0 0;
+	text-shadow: 0px 0px 10px #1A1A1A;
+}
+
+p {
+	color: #CCCCCC;
+	background-color:rgba(26,26,26,0.6);
+	display: inline;
+	line-height: 20px;
+	padding: 3px;
+}
+
+a {
+	color: #CCCCCC;
+}
+
+#div-schedule {
+	padding: 20px 0 20px 0;
+	/*background-color: rgba(0,0,0,0.6);*/
+	display: inline-block;
+}
+
+table.day-schedule td:hover {
+	color:white;
+	opacity: 0.7;
+}
+
+div.day {
+	display:inline-block;
+	width:280px;
+	vertical-align: top;
+	margin: 0 0 5px 0;
+}
+
+div {
+	padding: 0;
+	margin: 0;
+}
+
+table.day-schedule {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	color:#CCCCCC;
+	background-color:rgba(26,26,26,0.95);
+	border: none;
+}
+table.day-schedule tr, table.day-schedule td {
+	border:1px;
+	border-style:dotted;
+	border-color: #CCCCCC; 
+
+	font-size: 12px;
+	background-size:cover;
+	background-position: center;
+	text-align: left;
+	vertical-align: bottom;
+	text-shadow: -1px 1px 5px #1A1A1A, -1px -1px 5px #1A1A1A, 1px 1px 5px #1A1A1A, 1px -1px 5px #1A1A1A;
+	font-weight: bold;
+}
+
+table.day-schedule .timeslot { /* hide when maximize */
+	width: 30px;
+	text-align: right;
+	border: none;
+	font-weight: normal;
+	font-size: 11px;
+	vertical-align: middle;
+}
+
+table.day-schedule tr {
+	height: 40px;
+	overflow: hidden;
+}
+
+table.day-schedule td, table.day-schedule th {
+	padding: 5px;
+}
+
+td.empty {
+	border: dotted 1px #3D3D3D !important;
+}
+
+/*
+280 = 1 
+560 = 2 
+840 = 3 
+1120 = 4 
+1400 = 5
+1680 = 6
+
+
+*/
+
+
+/*@media screen and (max-width: 280px) {
+	#monday table.day-schedule .timeslot { display: none; }
+}*/
+/* hide when can fit 2. */
+@media screen and (min-width: 564px) {
+	#tuesday table.day-schedule .timeslot { display: none; }
+}
+/* hide when can fit 3 */
+@media screen and (min-width: 847px) {
+	#wednesday table.day-schedule .timeslot { display: none; }
+}
+/* hide when can fit 4. hide when can fit 2. */
+@media screen and (min-width: 1130px), (min-width: 564px) and (max-width: 846px) {
+	#thursday table.day-schedule .timeslot { display: none; }
+}
+/* hide when can fit 5. hide when can fit 3. */ 
+@media screen and (min-width: 1413px), (min-width: 847px) and (max-width: 1129px) {
+	#friday table.day-schedule .timeslot { display: none; }
+}
+/* hide when can fit 6. hide when can fit 4. hide when can fit 3. hide when can fit 2. */
+@media screen and (min-width: 1696px), (min-width: 1130px) and (max-width: 1412px), (min-width: 847px) and (max-width: 1129px), (min-width: 564px) and (max-width: 847px) {
+	#sunday table.day-schedule .timeslot { display: none; }
+}
+
+
+
+
+
+.other-shows {
+	display: block;
+}
+.other-shows a {
+	font-size:13px;
+	text-transform: uppercase;
+	display: inline-block;
+	text-decoration: none;
+	background-color: #1A1A1A;
+	padding: 5px;
+}
+

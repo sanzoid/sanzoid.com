@@ -1,0 +1,212 @@
+<!DOCTYPE html> 
+
+<html>
+<head>
+	<title>SANZOID KINGDOM</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/main2.css">
+	<link href='https://fonts.googleapis.com/css?family=Coming+Soon|Cabin+Sketch' rel='stylesheet' type='text/css'>	
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>-->
+	<script type="text/javascript">
+		/*function myFunction() {
+		    var obj = document.getElementById("h01");
+		    obj.innerHTML = "Hello jQuery";
+		}
+		onload = myFunction;*/
+		function myFunction2() {
+		    $("#h01").html("Hello jQuery2");
+		}
+		$(document).ready(myFunction2);
+
+
+/*
+		$(document).ready(function(){
+		    $("p").click(function(){
+		        alert($(this).html());
+		    });
+		});
+
+		var navbarPos; 
+		$(document).ready(function() { 
+			navbarPos = $("#navbar").offset().top;
+		});
+
+		$(document).scroll(function() {
+			var scrollPos = $(document).scrollTop();
+			var windowWidth = $(window).width();
+
+			// sticky navbar 
+			if(scrollPos >= navbarPos && windowWidth > 400) {
+				$("#navbar").addClass("stick");
+				$("#navbar .home-logo").addClass("logo-reposition");
+			} else {
+				$("#navbar").removeClass("stick");
+				$("#navbar .home-logo").removeClass("logo-reposition");
+			}
+		});
+
+		$(window).bind("load resize scroll",function(e){ 
+			var windowWidth = $(window).width();
+			//$("#test").text(windowWidth);
+			var bannerTitleWidth = $("#banner .title").outerWidth(); 
+			var bannerImageWidth = windowWidth - bannerTitleWidth - 60; 
+			$("#banner .image").width(bannerImageWidth); 
+
+
+			var contentWidth = $("#content").outerWidth();
+			var profileWidth = $("#profile").outerWidth(); 
+			var contentAndProfileWidth = contentWidth + profileWidth; 
+
+			if(windowWidth > 960) {
+				//$("#test").text(contentWidth + " " + profileWidth + " " + " " + contentAndProfileWidth);
+				$("#banner").width(contentAndProfileWidth);
+				bannerImageWidth = contentAndProfileWidth - bannerTitleWidth - 10;
+				$("#banner .image").width(bannerImageWidth);
+			} 
+
+			// set navbar-container to be same height as navbar so there is never a hole when it sticks
+			var navbarHeight = $("#navbar").outerHeight(); 
+			if(windowWidth > 400) {
+				$("#navbar-container").height(navbarHeight);
+			}
+		});*/
+	</script>
+
+</head>
+
+<body>
+	<h1 id="h01"></h1>
+<p id="test">jquery test</p>
+
+<!-- START: banner -->
+<div id="banner" class="global">
+	<!-- banner title --><div class="title"></div>
+	<!-- banner image --><div class="image"></div>
+</div>
+<!-- END: banner -->
+
+<div id="navbar-container">
+<!-- START: navbar -->
+<div id="navbar" class="global">
+	<ul class="menu">
+		<li class="media null"><a class="menu-link" href="#">media</a>
+			<ul class="submenu">
+				<li class="null"><a class="menu-link" href="#">tv</a></li>
+				<li class="null"><a class="menu-link" href="#">movies</a></li>
+				<li class="null"><a class="menu-link" href="#">books</a></li>
+				<li class="null"><a class="menu-link" href="#">manga</a></li>
+			</ul>
+		</li>
+		<li class="art null"><a class="menu-link" href="#">art</a>
+			<ul class="submenu">
+				<li class="null"><a class="menu-link" href="#">sculptures</a></li>
+				<li class="null"><a class="menu-link" href="#">drawings</a></li>
+				<li class="null"><a class="menu-link" href="#">paintings</a></li>
+				<li class="null"><a class="menu-link" href="#">this is my design</a></li>
+			</ul>
+		</li>
+		<li class="goals null"><a class="menu-link" href="#">goals</a>
+			<!--<ul class="submenu">
+				<li class="null"><a class="menu-link" href="#"></a></li>
+			<ul>-->
+		</li>
+		<li class="home null"><div class="home-logo"></div><span class="menu-link">home</span></li>
+		<li class="thoughts"><a class="menu-link" href="#">thoughts</a>
+			<ul class="submenu">
+				<li class="null"><a class="menu-link" href="#">opinions</a></li>
+				<li class="null"><a class="menu-link" href="#">ideas</a></li>
+				<li class="null"><a class="menu-link" href="#">philosophy</a></li>
+				<li class="null"><a class="menu-link" href="#">theories</a></li>
+			</ul>
+		</li>
+		<li class="quotes null"><a class="menu-link" href="#">quotes</a>
+			<ul class="submenu">
+				<li class="null"><a class="menu-link" href="#">my quotes</a></li>
+				<li class="null"><a class="menu-link" href="#">tv quotes</a></li>
+				<li class="null"><a class="menu-link" href="#">movie quotes</a></li>
+				<li class="null"><a class="menu-link" href="#">random quotes</a></li>
+			</ul>
+		</li>
+		<li class="things null"><a class="menu-link" href="#">things</a>
+			<ul class="submenu">
+				<li class="null"><a class="menu-link" href="#">favourite things</a></li>
+				<li class="null"><a class="menu-link" href="#">exploration</a></li>
+				<li class="null"><a class="menu-link" href="#">notes</a></li>
+				<li class="null"><a class="menu-link" href="#">satisfying</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+<!-- END: navbar -->
+</div>
+
+<!-- START: content -->
+<div id="content" class="global">
+	<!-- title--><h1 class="content-page-title">You smile, I smile</h1>
+	<!-- start: content body -->
+	<div class="body"><p>"The numbers never stop coming, Mr. Reese." â€”Mr. Finch "When you find that one person who connects you to the world, you become someone different, someone better. When that person is taken from you, what do you become then?" â€”John Reese "I don't have any friends. I don't have any family left either. I went around the world looking for bad guys. But there were plenty of you right here all along." â€” John Reese "Everyone is relevant to someone." â€”Nathan Ingram "I know what it's like to lose someone and to feel the need to disappear, but trust me, you don't want to leave people behind." â€”Finch "Maybe it's up to me to do what the good people can't. Or maybe there are no good people. Maybe there are only good decisions." â€”John Reese "In the end we're all alone, and no one's coming to save you." â€” John Reese "If you really need a mystery, I suggest the human heart." â€”Harold Finch "Only the paranoid survive." â€”Harold Finch "I am the evolution of organized crime." â€”Elias "I looked for a I'm-sorry-I-got-you-shot card, but they were all out." â€”Joss Carter "One day, I realized all the dumb, selfish things people do... it's not our fault. No one designed us. We're just an accident, Harold. We're just bad code. But the thing you built... It's perfect. Rational. Beautiful. By design." â€”Root "Pi, the ratio of the circumference of a circle to its diameter, and this is just the beginning; it keeps on going, forever, without ever repeating. Which means that contained within this string of decimals, is every single other number. Your birthdate, combination to your locker, your social security number, it's all in there, somewhere. And if you convert these decimals into letters, you would have every word that ever existed in every possible combination; the first syllable you spoke as a baby, the name of your latest crush, your entire life story from beginning to end, everything we ever say or do; all of the world's infinite possibilities rest within this one simple circle. Now what you do with that information; what it's good for, well that would be up to you." â€”Harold Finch, explaining the value of pi to a math class. "Your mistakes, like mine, are a part of who you are now. You can't move on from that. Believe me, I've made a sizable number. But...sometimes your mistakes can surprise you. My biggest mistake, for instance, brought me here. At exactly this moment when you might need some help." â€”Harold Finch, to a suicidal young man. "You can't stop what's coming and neither can I, but we have the opportunity to understand things when they finally change. The future is coming. You started it, and I'll finish it." â€”Root "We help people out of difficult situations, even situations of their own design." â€”Harold Finch "If they don't want you to get inside, they ought to build it better." â€”Harold Finch "There's a time for a scalpel and a time for a hammer. It's hammer time." â€”Shaw "Trust in me. I am always watching." â€”The Machine "We have free will, and with that comes great responsibility. And sometimes great loss." â€”Harold Finch "I always liked you, Hersh. Even after you killed me." â€”Shaw Root:"How badly did you have to break [The Machine] to make it care about people so much?" Harold Finch: "I didn't break it, it's what made it work. It was only after I taught The Machine that people mattered that it could begin to be able to help them. I'd like to do the same thing for you, if you'll let me." "Since we started this, things have changed. We've changed. But the mission, our purpose, has always been constant: to save lives. If that's changed somehow, if we're in a place now where the Machine is asking us to commit murder... that's a place I can't go. I'm afraid this is where I get off." â€”Harold Finch<br>asdfasdfsaasdfasfsadf</p></div>
+	<h1>Heading 1</h1>
+	<h2>Heading 2</h2>
+	<h3>Heading 3</h3>
+	<h4>Heading 4 why would I use heading 4?</h4>
+	<!-- end: content body -->
+</div>
+<!-- END: content -->
+
+<!-- START: profile -->
+<div id="profile" class="global">
+	<!-- start: about me -->
+	<div class="aboutme">
+		<h1>About Me</h1>
+		<img class="profileimage" src="" alt="Profile Image" />
+		<p>about me blah blha blha</p>
+		<p>asfasfsafjh ahahhaahahaha aha ah aha ah aha</p>
+		<p>â‚¬â€Harold Finch, explaining the value of pi to a math class. "Your mistakes, like mine, are a part of who you are now. You can't move on from that. Believe me, I've made a sizable number. But...sometimes your mistakes can surprise you. My biggest mistake, for instance, brought me here. At exactly this mome</p>
+	</div>
+	<!-- end: about me -->
+	<!-- start: contact info -->
+	<div class="contactinfo">
+		<h1>Contact Info</h1>
+		<p>sandyho.cs<span>@</span>gmail.com</p>
+	</div>
+	<!-- end: contact info -->
+	<!-- Begin MailChimp Signup Form -->
+	<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:200px;}
+		/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+		   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+	</style>
+	<div id="mc_embed_signup">
+	<form action="//sanzoid.us12.list-manage.com/subscribe/post?u=70e890cae5a65fcc4b0c01e9a&amp;id=86687df9eb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	    <div id="mc_embed_signup_scroll">
+		<h2>Get updates on my progress</h2>
+	<div class="mc-field-group">
+		<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+	</label>
+		<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+	</div>
+		<div id="mce-responses" class="clear">
+			<div class="response" id="mce-error-response" style="display:none"></div>
+			<div class="response" id="mce-success-response" style="display:none"></div>
+		</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+	    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_70e890cae5a65fcc4b0c01e9a_86687df9eb" tabindex="-1" value=""></div>
+	    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+	    </div>
+	</form>
+	</div>
+	<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+</div>
+<!-- END: about me -->
+
+<!-- START: footer -->
+<div id="footer" class="global">
+	<div class="lastmodified"></div>
+	<div class="siggy"></div>
+</div>
+<!-- END: footer -->
+
+
+</body>
+</html>

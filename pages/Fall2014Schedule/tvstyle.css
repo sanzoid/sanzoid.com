@@ -1,0 +1,264 @@
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	margin:0;
+	background-image:url('fall2014schedule/samaritan.png');
+	text-align: center;
+
+}
+
+#container{
+	width:90%;
+	margin: 25px auto;
+	background-color: rgba(0,0,0,0.6);
+	padding:20px;
+
+	overflow:hidden;
+	border-radius: 12px;
+}
+
+
+#schedulehead {
+	color:white;
+	font-size:5em;
+	padding:0;
+	margin:0;
+	margin-top: 25px;
+	vertical-align: bottom;
+}
+
+#pdcontainer {
+	width:100%;
+	margin:0 auto;
+}
+
+#premieredates {
+	margin:0 auto;
+	border-collapse:collapse;
+	padding:10px;
+	font-style:none;
+	
+	color:white;
+	background-position:top;
+	vertical-align: top;
+	display:inline-block;
+	
+
+}
+
+
+#premieredates table, td, tr{
+	background-color:#0F0F0F;
+	padding:5px;
+	margin:0 auto;
+	border: none;
+	vertical-align: center;
+
+}
+
+.premiered {
+	text-decoration: line-through;
+	color:#525252;
+
+}
+
+.date:hover{
+	background-color:#222;
+}
+.date{
+	width:60px;
+}
+
+.month{
+	font-size:18px;
+	text-align: center;
+
+}
+
+#schedule{
+	width:100%;
+	color:#CCCCCC;
+	background-color:#0F0F0F;
+	font-weight: bold;
+}
+
+#schedule a{
+	display:block;
+	text-decoration: none;
+}
+
+#schedule table,td,tr{
+	border:1px;
+	border-style:dotted;
+	border-color: #CCCCCC; 
+	/*border-collapse: collapse;*/
+	font-size: 12px;
+	background-size:cover;
+	background-position: center;
+	text-align: left;
+	vertical-align: bottom;
+}
+
+#schedule td:hover{
+	color:white;
+	opacity: 0.8;
+}
+
+.time{
+	font-size:11px;
+	font-weight: none;
+	border-left: solid 3px;
+	padding:auto auto;
+	padding:5px;
+}
+
+.day{
+	font-size: 12px;
+	font-weight: bold;
+	border-top:solid 3px;
+	border-bottom:solid 3px;
+	padding:auto auto;
+	padding:5px;
+}
+
+.none{
+	border:none;
+}
+
+.FOX,.CBS, .NBC, .ABC, .CW {
+	padding:0 2px 0 2px;
+	color:white;
+	background-color: white;
+	border-radius: 5px 5px 0 0;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	text-shadow: -1px 1px black, -1px -1px black, 1px 1px black, 1px -1px black;
+}
+
+.FOX{
+	border-color:#1038E8;
+}
+
+.CBS{
+	border-color:#FFA30F;
+}
+
+.NBC{
+	border-color:#10E879;	
+}
+
+.ABC{
+	border-color:#E81034;
+}
+
+.CW{
+	border-color:#A10DDB;
+}
+
+.channel{
+	background-color:#0F0F0F;
+	border-top-style: solid;
+	border-radius:3px;
+	border-top-width: 3px;
+	font-style: none;
+	font-size: 10px;
+	text-align: center;
+	padding:2px;
+}
+
+.gotham{
+	background-image:url('fall2014schedule/gotham.png');
+}
+
+.scorpion{
+	background-image:url('fall2014schedule/scorpion.jpg');
+}
+
+.flash{
+	background-image:url('fall2014schedule/flash.jpg');
+}
+
+.shield{
+	background-image:url('fall2014schedule/shield.jpg');
+}
+
+.marryme{
+	background-image:url('fall2014schedule/marryme.jpg');
+}
+
+.mindyproject{
+	background-image:url('fall2014schedule/mindyproject.jpg');
+	background-position: left;
+}
+
+.personofinterest{
+	background-image:url('fall2014schedule/personofinterest.png');
+}
+
+.forever{
+	background-image:url('fall2014schedule/forever.jpg');
+}
+
+.mysteriesoflaura{
+	background-image:url('fall2014schedule/mysteriesoflaura.jpg');
+}
+
+.arrow{
+	background-image:url('fall2014schedule/arrow.jpg');
+}
+
+.redbandsociety{
+	background-image:url('fall2014schedule/redbandsociety.jpg');
+}
+
+.modernfamily{
+	background-image:url('fall2014schedule/modernfamily.jpg');
+}
+
+.black-ish{
+	background-image:url('fall2014schedule/black-ish.jpg');
+}
+
+.greysanatomy{
+	background-image:url('fall2014schedule/greysanatomy.jpg');
+}
+
+.badjudge{
+	background-image:url('fall2014schedule/badjudge.jpg');
+}
+
+.atoz{
+	background-image:url('fall2014schedule/atoz.jpg');
+}
+
+.scandal{
+	background-image:url('fall2014schedule/scandal.jpg');
+}
+
+.elementary{
+	background-image:url('fall2014schedule/elementary.jpg');
+}
+.howtogetawaywithmurder{
+	background-image:url('fall2014schedule/howtogetawaywithmurder.jpg');
+}
+
+.cristela{
+	background-image:url('fall2014schedule/cristela.jpg');
+}
+
+.grimm{
+	background-image:url('fall2014schedule/grimm.jpg');
+}
+
+.constantine{
+	background-image:url('fall2014schedule/constantine.jpg');
+	background-position:top;
+}
+
+.ouat{
+	background-image:url('fall2014schedule/ouat.jpg');
+}
+
+.madamsecretary{
+	background-image:url('fall2014schedule/madamsecretary.jpg');
+}

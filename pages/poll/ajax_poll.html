@@ -1,0 +1,55 @@
+<html>
+<head>
+<script>
+function getVote(int) {
+  if (window.XMLHttpRequest) {
+    // code for IE7+, Firefox, Chrome, Opera, Safari
+    xmlhttp=new XMLHttpRequest();
+  } else {  // code for IE6, IE5
+    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+  xmlhttp.onreadystatechange=function() {
+    if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+      document.getElementById("poll").innerHTML=xmlhttp.responseText;
+    }
+  }
+  xmlhttp.open("GET","poll_vote.php?vote="+int,true);
+  xmlhttp.send();
+}
+</script>
+<style>
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+body {
+	background-color: #222222;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none; 
+	text-transform: none;
+	font-weight: normal;
+	font-style: normal;
+}
+h1 {
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+h2 {
+	font-size: 30px;
+	display: inline-block;
+	margin-bottom: 0;
+}
+</style>
+</head>
+<body>
+
+<div id="poll">
+<h1>ajax is awesome</h1>
+<form>
+<h2>Yes:</h2>
+<input type="radio" name="vote" value="0" onclick="getVote(this.value)">
+<br><h2>No:</h2>
+<input type="radio" name="vote" value="1" onclick="getVote(this.value)">
+</form>
+</div>
+
+</body>
+</html>
