@@ -67,7 +67,7 @@ div#navbar {	/*list container */
 	font-size: 14px;
 	font-family: 'Coming Soon', cursive;
 }
-div#navbar a {
+div#navbar, div#navbar a {
 	color: rgba(255,255,255,0.9);	/* n4v color */
 }
 
@@ -156,36 +156,90 @@ div#navbar ul.menu > li:hover ul.submenu {
 	display: block;
 }
 
-@media (max-width: 400px) {
-	div#navbar ul.menu {	/* list container */ 
-		/*background-color: pink;*/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px)
+and (max-device-width : 480px), 
+(max-width: 480px) {
+	div#navbar ul.menu {
+		position: fixed;
+		top: 0;
+		background-color: #000;
+		background-color: rgba(0,0,0,0.6);
 	}
-	div#navbar ul.menu > li {	/* main menu item block */ 
-		/*background-color: grey;*/
-		display: block;
-		width: 100%;
-	}
-	div#navbar ul.menu > li > a.menu-link {	/* main menu item link */
-		/*background-color: lightblue;*/
-		width: 100%;
-	}
-	div#navbar ul.menu > li > ul.submenu {	/* submenu */	
-		/*background-color: lightyellow;*/
-		position: relative;
-		width: 100%;
-	}
-	div#navbar ul.menu > li > ul.submenu > li{	/* submenu menu item */
-		width: 100%;
-	}
-
-
-	div#navbar ul.menu li.home .home-logo {	/* hide home logo */
-		display: none;
+	div#navbar ul.menu > li {
+		width: 13%;
+		height: 13%;
+		background-image: url('../images/main/sanzoid_logo_colored.png');
+		background-position: center;
+		background-size: 100%;
+		background-repeat: no-repeat;
 	}
 	div#navbar ul.menu li.home span.menu-link {
 		display: inline-block !important;
 	}
+	div#navbar ul.menu li.home .home-logo {
+		display: none;
+	}
+	div#navbar ul.menu > li > a.menu-link, div#navbar ul.menu > li > span.menu-link {
+		color: rgba(0,0,0,0);
+	}
+
+
+	div#navbar ul.menu > li.media {
+		background-image: url('../images/main/icons/icon_tv_white.png');
+	}
+	div#navbar ul.menu > li.art {
+		background-image: url('../images/main/icons/icon_art_white.png');
+	}
+	div#navbar ul.menu > li.goals {
+		background-image: url('../images/main/icons/icon_goals_white.png');
+	}
+	div#navbar ul.menu > li.thoughts {
+		background-image: url('../images/main/icons/icon_thoughts_white.png');
+	}
+	div#navbar ul.menu > li.quotes {
+		background-image: url('../images/main/icons/icon_quotes_white.png');
+	}
+	div#navbar ul.menu > li.things {
+		background-image: url('../images/main/icons/icon_things_white.png');
+	}
+/*	div#navbar ul.menu > li > ul.submenu {	
+	display: none;
+	position: absolute;
+	padding: 0;
+	padding: 0 10px 10px 10px;
+	margin-top: 0px;	
+	margin-left: -10px;
+	background-color: transparent;
+	}
+
+	div#navbar ul.menu > li > ul.submenu > li{	
+		list-style: none;
+		text-align: left;
+		text-transform: none;
+		width: 143px;
+
+		background-color: rgba(0,0,0,0.8);	
+	}*/
+	div#navbar ul.menu > li > ul.submenu {
+		width: 100%;
+		position: absolute;
+		padding: 0;
+		margin: 0;
+		left: 0;
+	}
+	div#navbar ul.menu > li > ul.submenu > li {
+		width: 100%;
+	} 
+	div#navbar ul.menu > li > ul.submenu > li.full-width{
+		width: 500px;
+		background-color: red;
+	}	
 }
+
+
+
 
 div#navbar.stick {	/*scroll passed menu stick */
 	position: fixed;
@@ -299,6 +353,21 @@ div#profile div.contactinfo {
 		width: 100%;
 	}
 }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* Styles */
+	body {
+		font-size: 20px;
+		line-height: 20px; 
+	}
+	div#content .body {
+		background-color: red;
+	}
+}
+
 
 /**************************** END: CONTENT and PROFILE *************************/
 

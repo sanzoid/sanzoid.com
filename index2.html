@@ -3,33 +3,75 @@
 <html>
 <head>
 	<title>SANZOID KINGDOM</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<meta charset="UTF-8">
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
 	<link rel="stylesheet" type="text/css" href="./css/main2.css">
 	<link href='https://fonts.googleapis.com/css?family=Coming+Soon|Cabin+Sketch' rel='stylesheet' type='text/css'>	
 	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>-->
+	<script src="./js/jquery-2.1.4.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
 	<script type="text/javascript">
+	;(function($){
+        // your code
+   
 		/*function myFunction() {
 		    var obj = document.getElementById("h01");
 		    obj.innerHTML = "Hello jQuery";
 		}
 		onload = myFunction;*/
-/*		function myFunction2() {
+		function myFunction2() {
 		    $("#h01").html("Hello jQuery2");
 		}
 		$(document).ready(myFunction2);
-*/
 
-/*
-		$(document).ready(function(){
+		function closeAllSubmenus() {
+			$("#navbar .menu > li .submenu").css({"display" : "none"});
+		}
+
+		/*$(document).ready(function(){
 		    $("p").click(function(){
 		        alert($(this).html());
 		    });
-		});
-*/
+		});*/
+
 		var navbarPos; 
 		$(document).ready(function() { 
 			navbarPos = $("#navbar").offset().top;
+
+			
+
+
 		});
+
+		// display submenu on click 	
+		/*	$("#navbar .menu > li").click(function() {
+				closeAllSubmenus();
+				$(this).find(".submenu").css({"display" : "block"});
+			});*/
+
+		$("#navbar .menu > li").on('click', function(e) {
+			$(this).find(".submenu").css({"display" : "block"});
+		});
+		$(document).on('click', function(e) {
+			closeAllSubmenus(); 
+		});
+/*
+		$(document).click(function(){
+			var openSubmenu = false;
+			$("#navbar .menu > li").each(function() {
+				$(this).css({"color" : "red"});
+				$(this).find(".submenu").css({"color" : "green"});
+				if($(this).find(".submenu").attr("display") == "block") {
+					openSubmenu = true; 
+					alert("wee");
+				}
+			});
+			if(openSubmenu) {
+				closeAllSubmenus();
+			}
+		});
+*/
 
 		$(document).scroll(function() {
 			var scrollPos = $(document).scrollTop();
@@ -44,6 +86,8 @@
 				$("#navbar .home-logo").removeClass("logo-reposition");
 			}
 		});
+
+		
 
 		$(window).bind("load resize scroll",function(e){ 
 			var windowWidth = $(window).width();
@@ -84,7 +128,11 @@
 					$("#banner .right").width(0);
 				}
 			} 
+
+
+
 		});
+ 	})(jQuery);
 	</script>
 
 </head>
