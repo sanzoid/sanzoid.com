@@ -5,40 +5,6 @@
 */
 
 /*
-
-
-font-family: 'Ruda', sans-serif;
-
-font-family: 'Coming Soon', cursive;
-
-font-family: 'Jura', sans-serif;
-
-font-family: 'Marvel', sans-serif;
-
-font-family: 'Patrick Hand', cursive;
-
-font-family: 'Port Lligat Slab', serif;
-
-font-family: 'Sue Ellen Francisco', cursive;
-
-font-family: 'Pompiere', cursive;
-
-font-family: 'Architects Daughter', cursive;
-
-font-family: 'Didact Gothic', sans-serif;
-
-font-family: 'Work Sans', sans-serif;
-
-font-family: 'Poppins', sans-serif;
-
-font-family: 'Cabin Sketch', cursive;
-
-font-family: 'Delius', cursive;
-
-
-*/
-
-/*
 	COLORS:
 	bl0cks background: rgba(255,255,255,0.8); rgba(28,28,28,1);
 	t3xt color: #1C1C1C, Arial; 
@@ -75,11 +41,16 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-font-family: 'Cabin Sketch', cursive;
-text-transform: uppercase;
-color: #454545;
+	font-family: 'Cabin Sketch', cursive;
+	text-transform: uppercase;
+	color: #454545;
+	margin: 20px 0;
 }
 
+.main-wrapper {
+	margin: 0 auto;
+	width: 100%;
+}
 
 /**************************** START: NAVBAR ***************************************/
 
@@ -245,20 +216,28 @@ div#navbar ul.menu li.home .home-logo {	/* home logo */
 
 /**************************** END: NAVBAR ***************************************/
 
+
+/* Fix padding making document width bigger*/
+div.margin-wrapper {
+	margin: 20px 25px;
+}
+
 /**************************** START: CONTENT and PROFILE *************************/
 
 div#content, div#profile {
 	background-color: rgba(255,255,255, 0.9);
-	margin: 50px 20px;
-	padding: 25px 25px;
+	display: inline-block;
+	margin: 50px auto;
+	/*padding: 25px 25px;*/
 	text-align: left; 
 	vertical-align: top;
+	width: 960px;
 }
 
 div#content .content-page-title {	/*title*/
 	font-size: 66px;
 	line-height: 66px; 
-	margin: 10px 0;
+	margin: 50px 0 30px 0;
 }
 
 div#content h1 {
@@ -292,35 +271,32 @@ div#profile img.profileimage {
 div#profile div.aboutme {
 	display: inline-block;
 	width: 75%;
-
 }
 
 div#profile div.contactinfo {
-	vertical-align: top;
 	display: inline-block;
+	vertical-align: top;
 	width: 20%;
 }
 
-/*************** LESS THAN 960PX *********************/
+/*************** MORE THAN 1280PX (960 + 200 + 20margin) *********************/
 /* Profile box moves next to content  */
-@media (min-width: 960px) {
+@media (min-width: 1280px) {
 	div#content {
-		display: inline-block;
-		width: 64%;
-
-		margin-right: 10px;
+		width: 960px;
 	}
-
 	div#profile {
-		display: inline-block;
 		width: 200px;
-
-		margin-left: 10px;
-		padding: 15px;
+		margin-left: 20px;
 	}
-
-	div#profile div.contactinfo {
-		display: block;
+	div#profile div.aboutme, div#profile div.contactinfo {
+		width:100%;
+	}
+}
+/*************** LESS THAN 960px *********************/
+@media (max-width: 960px) {
+	div#content, div#profile, div#profile div.aboutme, div#profile div.contactinfo {
+		width: 100%;
 	}
 }
 
@@ -332,12 +308,13 @@ div#profile div.contactinfo {
 	/*background-color: red;*/
 	/*max-width: 960px;*/
 	margin: 50px auto;
-	padding: 0 20px;
+	padding: 0;
 
 	height: 100px;
-	text-align: left;
+	text-align: center;
 
 	background: transparent;
+	max-width: 1265px;
 }
 
 #banner div.title {
@@ -362,6 +339,51 @@ div#profile div.contactinfo {
 	margin:0;
 	padding: 0;
 
+
+	background-image: url('../images/main/banner_bitstrips_money.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+#banner div.left {
+	background-color: yellow;
+	background-color: rgba(255,255,255, 0.9);
+	display: inline-block;
+	margin: 0;
+	/*width: 34%;*/
+	height: 100px;
+	width: 425px;
+	max-width: 425px;
+
+	background-image: url('../images/main/banner_bitstrips_money.jpg');
+	background-position: center;
+	background-size: cover;
+
+}
+#banner div.mid {
+	display: inline-block;
+	background-color: rgba(255,255,255, 0);
+
+	margin: 0;
+	/*width: 30%;*/
+	width: 400px;
+	height: 100px;
+
+
+	background-image: url('../images/main/sanzoid_banner_logo.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#banner div.right {
+	background-color: yellow;
+	background-color: rgba(255,255,255, 0.9);
+	display: inline-block;
+	margin: 0;
+	/*width: 34%;*/
+	height: 100px;
+	width: 425px;
+	max-width: 425px;
+
 	background-image: url('../images/main/banner_bitstrips_money.jpg');
 	background-position: center;
 	background-size: cover;
@@ -374,8 +396,22 @@ div#profile div.contactinfo {
 	#banner  {
 		/*text-align: center;*/
 	}
-}
+	#banner div.right, #banner div.left {
+		display: none;
+	}
+	#banner div.mid {
+		width: 100%;
+	}
+}/*
 
+@media(max-width: 960px) {
+	#banner div.mid {
+		width: 300px;
+	}
+	#banner div.left, #banner div.right {
+		width: 329px;
+	}
+}*/
 /**************************** END: BANNER *************************/
 
 
