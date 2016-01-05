@@ -3,13 +3,16 @@
 <html>
 <head>
 	<title>SANZOID KINGDOM</title>
-	<meta charset="UTF-8">
+	<!--<meta charset="UTF-8">-->
 	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
 	<link rel="stylesheet" type="text/css" href="./css/main2.css">
 	<link href='https://fonts.googleapis.com/css?family=Coming+Soon|Cabin+Sketch' rel='stylesheet' type='text/css'>	
-	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>-->
-	<script src="./js/jquery-2.1.4.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<!--<script src="./js/jquery-2.1.4.min.js"></script>-->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
 
 	<script type="text/javascript">
 	;(function($){
@@ -25,8 +28,9 @@
 		}
 		$(document).ready(myFunction2);
 
+		// Close all submenus 
 		function closeAllSubmenus() {
-			$("#navbar .menu > li .submenu").css({"display" : "none"});
+			$("#navbar .menu > li .submenu").slideUp();
 		}
 
 		/*$(document).ready(function(){
@@ -35,13 +39,65 @@
 		    });
 		});*/
 
+		// Calculate top of navigation position for stickiness 
 		var navbarPos; 
 		$(document).ready(function() { 
 			navbarPos = $("#navbar").offset().top;
 
-			
+			// Toggle submenu by click 
+			$("#navbar .menu > li").click(function(e) {
+				//alert("0");
+				//var clicked = $(this).data("clicked"); 
+				//alert(clicked);
+				var submenuOpened = $(this).hasClass("submenuOpened"); 
+				if(submenuOpened) {
+					//alert("clicked" + clicked);
+					//$(this).data("clicked", false);
+					// go to link 
+					//$(this).removeClass("submenuOpened");
+					
+				} else {	// It has not been clicked. Open the submenu only if it has a submenu 
+					//alert("not clicked" + clicked);
+					//$(this).data("clicked", true); 
+					var $element = $(".submenu", this);	// what we are toggling 
+					if($element.length) {	// only if the submenu exists do we do something else. Otherwise, it will just go to the menu link
+						//alert("wee");
+						$("#navbar .menu > li > .submenu").not($element).slideUp(); // slide up other elements 
+						$("#navbar .menu > li").not(this).removeClass("submenuOpened");
+						$(this).addClass("submenuOpened");  
+						$element.stop(true, true).slideToggle(400); 	// toggle element 
+						return false;
+					}
+				}
+				/*
+				if(clicked) {	// 1 - if it's been clicked, this is our second click 
+					$(this).data("clicked", false); 
+				else {	// 0 - first click 
+					$(this).data("clicked", true); 
+					alert("2");
+					var $element = $(".submenu", this);	// what we are toggling 
+					closeAllSubmenus();
+					$("#navbar > li > .submenu").not($element).slideUp(); // slide up other elements 
+					$element.stop(true, true).slideToggle(400); 	// toggle element 
+				}
 
+				return false; */
+			});
 
+			$("#navbar .menu > li > .submenu > li").click(function(e) {
+				e.stopPropagation(); 	// stop events from bubbling from submenu clicks 
+			});
+
+			$(document).on('vclick', function(e) {
+				//alert("wee");
+				e.stopPropagation(); 
+					//if(!$(e.target).is("#navbar .menu > li")) {
+				if($(e.target).parents("#navbar").length == 0) {
+					//alert("boom");
+					$("#navbar .menu > li").removeClass("submenuOpened");
+					$("#navbar .menu > li  > .submenu").slideUp();
+				}
+			});
 		});
 
 		// display submenu on click 	
@@ -50,12 +106,15 @@
 				$(this).find(".submenu").css({"display" : "block"});
 			});*/
 
-		$("#navbar .menu > li").on('click', function(e) {
+
+
+/*		$("#navbar .menu > li").on('click', function(e) {
 			$(this).find(".submenu").css({"display" : "block"});
 		});
 		$(document).on('click', function(e) {
 			closeAllSubmenus(); 
 		});
+*/
 /*
 		$(document).click(function(){
 			var openSubmenu = false;
@@ -77,7 +136,7 @@
 			var scrollPos = $(document).scrollTop();
 			var windowWidth = $(window).width();
 
-			// sticky navbar 
+			// sticky navbar - stick to top when past the original navbar position. unstick when back to that position 
 			if(scrollPos >= navbarPos && windowWidth > 400) {
 				$("#navbar").addClass("stick");
 				$("#navbar .home-logo").addClass("logo-reposition");
@@ -160,48 +219,48 @@
 	<ul class="menu">
 		<li class="media null"><a class="menu-link" href="#">media</a>
 			<ul class="submenu">
-				<li class="null"><a class="menu-link" href="#">tv</a></li>
-				<li class="null"><a class="menu-link" href="#">movies</a></li>
-				<li class="null"><a class="menu-link" href="#">books</a></li>
-				<li class="null"><a class="menu-link" href="#">manga</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">tv</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">movies</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">books</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">manga</a></li>
 			</ul>
 		</li>
-		<li class="art null"><a class="menu-link" href="#">art</a>
+		<li class="art null"><a class="menu-link" href="http://www.neopets.com/">art</a>
 			<ul class="submenu">
-				<li class="null"><a class="menu-link" href="#">sculptures</a></li>
-				<li class="null"><a class="menu-link" href="#">drawings</a></li>
-				<li class="null"><a class="menu-link" href="#">paintings</a></li>
-				<li class="null"><a class="menu-link" href="#">this is my design</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">sculptures</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">drawings</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">paintings</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">this is my design</a></li>
 			</ul>
 		</li>
-		<li class="goals null"><a class="menu-link" href="#">goals</a>
+		<li class="goals null"><a class="menu-link" href="http://www.neopets.com/">goals</a>
 			<!--<ul class="submenu">
-				<li class="null"><a class="menu-link" href="#"></a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/"></a></li>
 			<ul>-->
 		</li>
 		<li class="home null"><div class="home-logo"></div><span class="menu-link">home</span></li>
-		<li class="thoughts"><a class="menu-link" href="#">thoughts</a>
+		<li class="thoughts"><a class="menu-link" href="http://www.neopets.com/">thoughts</a>
 			<ul class="submenu">
-				<li class="null"><a class="menu-link" href="#">opinions</a></li>
-				<li class="null"><a class="menu-link" href="#">ideas</a></li>
-				<li class="null"><a class="menu-link" href="#">philosophy</a></li>
-				<li class="null"><a class="menu-link" href="#">theories</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">opinions</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">ideas</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">philosophy</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">theories</a></li>
 			</ul>
 		</li>
-		<li class="quotes null"><a class="menu-link" href="#">quotes</a>
+		<li class="quotes null"><a class="menu-link" href="http://www.neopets.com/">quotes</a>
 			<ul class="submenu">
-				<li class="null"><a class="menu-link" href="#">my quotes</a></li>
-				<li class="null"><a class="menu-link" href="#">tv quotes</a></li>
-				<li class="null"><a class="menu-link" href="#">movie quotes</a></li>
-				<li class="null"><a class="menu-link" href="#">random quotes</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">my quotes</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">tv quotes</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">movie quotes</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">random quotes</a></li>
 			</ul>
 		</li>
-		<li class="things null"><a class="menu-link" href="#">things</a>
+		<li class="things null"><a class="menu-link" href="http://www.neopets.com/">things</a>
 			<ul class="submenu">
-				<li class="null"><a class="menu-link" href="#">favourite things</a></li>
-				<li class="null"><a class="menu-link" href="#">exploration</a></li>
-				<li class="null"><a class="menu-link" href="#">notes</a></li>
-				<li class="null"><a class="menu-link" href="#">satisfying</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">favourite things</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">exploration</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">notes</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">satisfying</a></li>
 			</ul>
 		</li>
 	</ul>

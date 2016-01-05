@@ -236,6 +236,10 @@ and (max-device-width : 480px),
 		width: 500px;
 		background-color: red;
 	}	
+
+	div#navbar ul.menu > li:hover ul.submenu {
+		display: none;
+	}
 }
 
 
