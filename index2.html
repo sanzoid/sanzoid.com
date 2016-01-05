@@ -42,62 +42,80 @@
 		// Calculate top of navigation position for stickiness 
 		var navbarPos; 
 		$(document).ready(function() { 
+/*			var windowWidth = $(window).width();
+
+			if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+ 				// calculate the width of each navigation button 
+ 				// div#navbar ul.menu > li
+ 				var navButtonWidth = (windowWidth / 7); 
+ 				alert(navButtonWidth); 
+ 				var navFontSize = navButtonWidth * 0.4; 
+ 				$("div#navbar ul.menu > li").css({"max-width":navButtonWidth, "font-size" : navFontSize + "px"});
+
+
+			}*/
+
+
 			navbarPos = $("#navbar").offset().top;
 
+
 			// Toggle submenu by click 
-			$("#navbar .menu > li").click(function(e) {
-				//alert("0");
-				//var clicked = $(this).data("clicked"); 
-				//alert(clicked);
-				var submenuOpened = $(this).hasClass("submenuOpened"); 
-				if(submenuOpened) {
-					//alert("clicked" + clicked);
-					//$(this).data("clicked", false);
-					// go to link 
-					//$(this).removeClass("submenuOpened");
-					
-				} else {	// It has not been clicked. Open the submenu only if it has a submenu 
-					//alert("not clicked" + clicked);
-					//$(this).data("clicked", true); 
-					var $element = $(".submenu", this);	// what we are toggling 
-					if($element.length) {	// only if the submenu exists do we do something else. Otherwise, it will just go to the menu link
-						//alert("wee");
-						$("#navbar .menu > li > .submenu").not($element).slideUp(); // slide up other elements 
-						$("#navbar .menu > li").not(this).removeClass("submenuOpened");
-						$(this).addClass("submenuOpened");  
-						$element.stop(true, true).slideToggle(400); 	// toggle element 
-						return false;
+			if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+				$("#navbar .menu > li").click(function(e) {
+					//alert("0");
+					//var clicked = $(this).data("clicked"); 
+					//alert(clicked);
+					var submenuOpened = $(this).hasClass("submenuOpened"); 
+					if(submenuOpened) {
+						//alert("clicked" + clicked);
+						//$(this).data("clicked", false);
+						// go to link 
+						//$(this).removeClass("submenuOpened");
+						
+					} else {	// It has not been clicked. Open the submenu only if it has a submenu 
+						//alert("not clicked" + clicked);
+						//$(this).data("clicked", true); 
+						var $element = $(".submenu", this);	// what we are toggling 
+						if($element.length) {	// only if the submenu exists do we do something else. Otherwise, it will just go to the menu link
+							//alert("wee");
+							$("#navbar .menu > li > .submenu").not($element).slideUp(); // slide up other elements 
+							$("#navbar .menu > li").not(this).removeClass("submenuOpened");
+							$(this).addClass("submenuOpened");  
+							$element.stop(true, true).slideToggle(400); 	// toggle element 
+							return false;
+						}
 					}
-				}
-				/*
-				if(clicked) {	// 1 - if it's been clicked, this is our second click 
-					$(this).data("clicked", false); 
-				else {	// 0 - first click 
-					$(this).data("clicked", true); 
-					alert("2");
-					var $element = $(".submenu", this);	// what we are toggling 
-					closeAllSubmenus();
-					$("#navbar > li > .submenu").not($element).slideUp(); // slide up other elements 
-					$element.stop(true, true).slideToggle(400); 	// toggle element 
-				}
+					/*
+					if(clicked) {	// 1 - if it's been clicked, this is our second click 
+						$(this).data("clicked", false); 
+					else {	// 0 - first click 
+						$(this).data("clicked", true); 
+						alert("2");
+						var $element = $(".submenu", this);	// what we are toggling 
+						closeAllSubmenus();
+						$("#navbar > li > .submenu").not($element).slideUp(); // slide up other elements 
+						$element.stop(true, true).slideToggle(400); 	// toggle element 
+					}
 
-				return false; */
-			});
+					return false; */
+				});
 
-			$("#navbar .menu > li > .submenu > li").click(function(e) {
-				e.stopPropagation(); 	// stop events from bubbling from submenu clicks 
-			});
+				$("#navbar .menu > li > .submenu > li").click(function(e) {
+					e.stopPropagation(); 	// stop events from bubbling from submenu clicks 
+				});
 
-			$(document).on('vclick', function(e) {
-				//alert("wee");
-				e.stopPropagation(); 
-					//if(!$(e.target).is("#navbar .menu > li")) {
-				if($(e.target).parents("#navbar").length == 0) {
-					//alert("boom");
-					$("#navbar .menu > li").removeClass("submenuOpened");
-					$("#navbar .menu > li  > .submenu").slideUp();
-				}
-			});
+				$(document).on('vclick', function(e) {
+					//alert("wee");
+					e.stopPropagation(); 
+						//if(!$(e.target).is("#navbar .menu > li")) {
+					if($(e.target).parents("#navbar").length == 0) {
+						//alert("boom");
+						$("#navbar .menu > li").removeClass("submenuOpened");
+						$("#navbar .menu > li  > .submenu").slideUp();
+					}
+				});
+
+			}
 		});
 
 		// display submenu on click 	
@@ -137,7 +155,7 @@
 			var windowWidth = $(window).width();
 
 			// sticky navbar - stick to top when past the original navbar position. unstick when back to that position 
-			if(scrollPos >= navbarPos && windowWidth > 400) {
+			if(scrollPos >= navbarPos) {
 				$("#navbar").addClass("stick");
 				$("#navbar .home-logo").addClass("logo-reposition");
 			} else {
@@ -178,13 +196,15 @@
 				// calculate the percentage width of left and right banner divs 
 				var bannerMidWidth = $("#banner .mid").width(); 
 				// (windowWidth - bannerMidWidth) / 2 = % 
-				var bannerLeftRightWidth = ((windowWidth - bannerMidWidth) / 2) - 20; 
-				if(bannerLeftRightWidth > 10) {
-				$("#banner .left").width(bannerLeftRightWidth); 
-				$("#banner .right").width(bannerLeftRightWidth); 
+				var bannerLeftRightWidth = ((windowWidth - bannerMidWidth) / 2) - 40; 
+				if(bannerLeftRightWidth > 0) {
+					$("#banner .left").width(bannerLeftRightWidth); 
+					$("#banner .right").width(bannerLeftRightWidth); 
+					$("#banner .left").css({"display" : "inline-block"});
+					$("#banner .right").css({"display" : "inline-block"});
 				} else {
-					$("#banner .left").width(0); 
-					$("#banner .right").width(0);
+					$("#banner .left").css({"display" : "none"});
+					$("#banner .right").css({"display" : "none"});
 				}
 			} 
 
@@ -197,21 +217,17 @@
 </head>
 
 <body>
-	<h1 id="h01"></h1>
-<p style="color:white;" id="test">jquery test</p>
+	<!--<h1 id="h01"></h1>
+<p style="color:white;" id="test">jquery test</p>-->
 
 
-<div class="main-wrapper"><!-- START: main-wrapper -->
 <!-- START: banner -->
 <div id="banner" class="global">
 	<!-- banner left --><div class="left"></div>
 	<!-- banner mid --><div class="mid"></div>
 	<!-- banner right --><div class="right"></div>
-	<!-- banner title --><!--<div class="title"></div>-->
-	<!-- banner image --><!--<div class="image"></div>-->
 </div>
 <!-- END: banner -->
-</div><!-- END: main-wrapper -->
 
 <div id="navbar-container">
 <!-- START: navbar -->
@@ -268,55 +284,59 @@
 <!-- END: navbar -->
 </div>
 
-<!-- START: main-wrapper -->
-<div class="main-wrapper">
 <!-- START: content -->
 <div id="content" class="global">
+<!-- start: margin-wrapper -->
 <div class="margin-wrapper">
-	<!-- title--><h1 class="content-page-title">You smile, I smile</h1>
+	<!-- title--><h1 class="content-page-title">Hello World!</h1>
+
 	<!-- start: content body -->
-	<div class="body"><p>"The numbers never stop coming, Mr. Reese." â€”Mr. Finch "When you find that one person who connects you to the world, you become someone different, someone better. When that person is taken from you, what do you become then?" â€”John Reese "I don't have any friends. I don't have any family left either. I went around the world looking for bad guys. But there were plenty of you right here all along." â€” John Reese "Everyone is relevant to someone." â€”Nathan Ingram "I know what it's like to lose someone and to feel the need to disappear, but trust me, you don't want to leave people behind." â€”Finch "Maybe it's up to me to do what the good people can't. Or maybe there are no good people. Maybe there are only good decisions." â€”John Reese "In the end we're all alone, and no one's coming to save you." â€” John Reese "If you really need a mystery, I suggest the human heart." â€”Harold Finch "Only the paranoid survive." â€”Harold Finch "I am the evolution of organized crime." â€”Elias "I looked for a I'm-sorry-I-got-you-shot card, but they were all out." â€”Joss Carter "One day, I realized all the dumb, selfish things people do... it's not our fault. No one designed us. We're just an accident, Harold. We're just bad code. But the thing you built... It's perfect. Rational. Beautiful. By design." â€”Root "Pi, the ratio of the circumference of a circle to its diameter, and this is just the beginning; it keeps on going, forever, without ever repeating. Which means that contained within this string of decimals, is every single other number. Your birthdate, combination to your locker, your social security number, it's all in there, somewhere. And if you convert these decimals into letters, you would have every word that ever existed in every possible combination; the first syllable you spoke as a baby, the name of your latest crush, your entire life story from beginning to end, everything we ever say or do; all of the world's infinite possibilities rest within this one simple circle. Now what you do with that information; what it's good for, well that would be up to you." â€”Harold Finch, explaining the value of pi to a math class. "Your mistakes, like mine, are a part of who you are now. You can't move on from that. Believe me, I've made a sizable number. But...sometimes your mistakes can surprise you. My biggest mistake, for instance, brought me here. At exactly this moment when you might need some help." â€”Harold Finch, to a suicidal young man. "You can't stop what's coming and neither can I, but we have the opportunity to understand things when they finally change. The future is coming. You started it, and I'll finish it." â€”Root "We help people out of difficult situations, even situations of their own design." â€”Harold Finch "If they don't want you to get inside, they ought to build it better." â€”Harold Finch "There's a time for a scalpel and a time for a hammer. It's hammer time." â€”Shaw "Trust in me. I am always watching." â€”The Machine "We have free will, and with that comes great responsibility. And sometimes great loss." â€”Harold Finch "I always liked you, Hersh. Even after you killed me." â€”Shaw Root:"How badly did you have to break [The Machine] to make it care about people so much?" Harold Finch: "I didn't break it, it's what made it work. It was only after I taught The Machine that people mattered that it could begin to be able to help them. I'd like to do the same thing for you, if you'll let me." "Since we started this, things have changed. We've changed. But the mission, our purpose, has always been constant: to save lives. If that's changed somehow, if we're in a place now where the Machine is asking us to commit murder... that's a place I can't go. I'm afraid this is where I get off." â€”Harold Finch<br>asdfasdfsaasdfasfsadf</p></div>
-	<h1>Heading 1</h1>
-	<h2>Heading 2</h2>
-	<h3>Heading 3</h3>
-	<h4>Heading 4 why would I use heading 4?</h4>
+	<div class="body">
+		<p>Welcome to my newly renovated site. I have re-designed it so many times and I even thought the last one was the final time, but hopefully this is the last time I will ever re-design this. I worked hard to make it responsive, so feel free to minimize and maximize the window as much as you'd like. </p>
+		<h1>Sanzoid Technologies</h1>
+		<p>Founded on January 4th, 2016, Sanzoid Technologies is a company that does whatever the CEO Developer wants. The company is portable and goes wherever its CEO Developer goes. It's like magic!</p>
+		<p>Employee count to date: 1</p>
+		<h2>CEO Developer: Sandy Ho</h2>
+		<p>Sandy Ho enjoys watching television on the actual television. </p>
+
+	</div>
 	<!-- end: content body -->
 </div>
+<!-- end: margin-wrapper -->
 </div>
 <!-- END: content -->
 
 <!-- START: profile -->
 <div id="profile" class="global">
+	<!-- start: margin-wrapper -->
 	<div class="margin-wrapper">
+
 	<!-- start: about me -->
 	<div class="aboutme">
 		<h1>About Me</h1>
-		<img class="profileimage" src="" alt="Profile Image" />
-		<p>about me blah blha blha</p>
-		<p>asfasfsafjh ahahhaahahaha aha ah aha ah aha</p>
-		<p>â‚¬â€Harold Finch, explaining the value of pi to a math class. "Your mistakes, like mine, are a part of who you are now. You can't move on from that. Believe me, I've made a sizable number. But...sometimes your mistakes can surprise you. My biggest mistake, for instance, brought me here. At exactly this mome</p>
+		<img class="profileimage" src="./images/main/profilepic_100x100.png" alt="Profile Image" />
+		<p>My name is Sandy and this is my website!</p>
+		
+		<p>I am a Computer Science Major and <em>Psychology Minor</em> at the University of Waterloo. Currently taking a break from school and co-op after finishing an awesome 3A term. I'm working as a CEO Developer at Sanzoid Technologies in my very own home to learn how to be an iOS developer so I can leave web development as a hobby and start a mobile development career. </p>
 	</div>
 	<!-- end: about me -->
+
 	<!-- start: contact info -->
 	<div class="contactinfo">
 		<h1>Contact Info</h1>
-		<p>sandyworks<span>@</span>icloud.com</p>
+		<p>If you would like to hire me:<br><span class="contact-email"><span class="dont-spam-me">sandyho</span>.<span>cs</span><span>@</span><span>gmail</span>.<span>com</span></span></p>
+		<p>For other inquiries:<br><span class="contact-email"><span class="dont-spam-me">sandyworks</span><span>@</span><span>icloud</span>.com</span></p>
 	</div>
 	<!-- end: contact info -->
 
-	<!-- Begin MailChimp Signup Form -->
-	<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
-	<style type="text/css">
-		#mc_embed_signup{background:transparent; width:100%;}
-		/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-		   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-	</style>
+	<!-- start: MailChimp Signup Form -->
+	<!--<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">-->
 	<div id="mc_embed_signup">
 	<form action="//sanzoid.us12.list-manage.com/subscribe/post?u=70e890cae5a65fcc4b0c01e9a&amp;id=86687df9eb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 	    <div id="mc_embed_signup_scroll">
-		<h2>Sign up for my newsletter</h2>
+		<h2>Subscribe to my newsletter!</h2>
 	<div class="mc-field-group">
-		<!--<label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>-->
+		<!--<label for="mce-EMAIL">Email Address </label>-->
 		<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email Address">
 	</div>
 		<div id="mce-responses" class="clear">
@@ -324,16 +344,26 @@
 			<div class="response" id="mce-success-response" style="display:none"></div>
 		</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 	    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_70e890cae5a65fcc4b0c01e9a_86687df9eb" tabindex="-1" value=""></div>
-	    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+	    <div class="clear"><input type="submit" value="" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 	    </div>
 	</form>
 	</div>
 	<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-	<!--End mc_embed_signup-->
+	<!-- end: MailChimp Signup Form -->
+
+	</div>
+	<!-- end: margin-wrapper -->
+
+	<!-- START: Twitter Timeline -->
+	<div id="twitter" class="global">
+		<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/officesandy" data-widget-id="684442290660720646" height="300">Tweets by @officesandy</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
+	<!-- END: Twitter Timeline -->
+
 </div>
-</div>
-<!-- END: about me -->
-</div><!-- END: main-wrapper -->
+<!-- END: Profile-->
+
 
 <!-- START: footer -->
 <div id="footer" class="global">
@@ -341,7 +371,5 @@
 	<div class="siggy"></div>
 </div>
 <!-- END: footer -->
-
-
 </body>
 </html>

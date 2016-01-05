@@ -1,0 +1,30 @@
+@media (max-width: 400px) {
+	div#navbar ul.menu {	/* list container */ 
+		/*background-color: pink;*/
+	}
+	div#navbar ul.menu > li {	/* main menu item block */ 
+		/*background-color: grey;*/
+		display: block;
+		width: 100%;
+	}
+	div#navbar ul.menu > li > a.menu-link {	/* main menu item link */
+		/*background-color: lightblue;*/
+		width: 100%;
+	}
+	div#navbar ul.menu > li > ul.submenu {	/* submenu */	
+		/*background-color: lightyellow;*/
+		position: relative;
+		width: 100%;
+	}
+	div#navbar ul.menu > li > ul.submenu > li{	/* submenu menu item */
+		width: 100%;
+	}
+
+
+	div#navbar ul.menu li.home .home-logo {	/* hide home logo */
+		display: none;
+	}
+	div#navbar ul.menu li.home span.menu-link {
+		display: inline-block !important;
+	}
+}
