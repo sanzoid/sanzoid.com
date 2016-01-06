@@ -4,15 +4,17 @@
 <head>
 	<title>sanzoid.com - <?php echo $title; ?></title>
 	<!--<meta charset="UTF-8">-->
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<?php /*
 	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+	*/ ?>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="/css/main2.css">
 	<!--<script type="text/javascript" src="<?php echo $base; ?>/js/main.js"></script>-->
 	<link href='https://fonts.googleapis.com/css?family=Coming+Soon|Cabin+Sketch' rel='stylesheet' type='text/css'>	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
 	<!--<script src="./js/jquery-2.1.4.min.js"></script>-->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<?php include_once($base."/js/main.js"); ?>
 </head>
 
@@ -68,7 +70,7 @@
 				<li class="null"><a class="menu-link" href="#">random quotes</a></li>
 			</ul>
 		</li>
-		<li class="things null"><a class="menu-link" href="#">things</a>
+		<li class="things null"><a class="menu-link" href="http://www.neopets.com">things</a>
 			<ul class="submenu">
 				<li class="null"><a class="menu-link" href="#">favourite things</a></li>
 				<li class="null"><a class="menu-link" href="#">exploration</a></li>

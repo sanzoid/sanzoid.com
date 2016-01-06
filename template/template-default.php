@@ -8,14 +8,16 @@
 	/////////////////////////////////////////
 ?>
 
-<?php include_once($path_top); ?>
+<?php include($path_top); ?>
 <!-- Template: Top -->
 
 <!-- START: BODY-->
+<?php /***************************** CUSTOM PAGE HTML BEGINS HERE ***************************************/ ?>
 
 <p>This is the default template page.</p>
 
+<?php /***************************** CUSTOM PAGE HTML ENDS HERE *****************************************/ ?>
 <!-- END: BODY -->
 
 <!-- Template: Bottom -->
-<?php include_once($path_bottom); ?>
+<?php include($path_bottom); ?>
