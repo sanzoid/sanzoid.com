@@ -1,129 +1,170 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
+
 <html>
-<?php include './template/template-top.php'; ?>
-<?php include './js/main.js'; ?>
+<head>
+	<title>SANZOID KINGDOM</title>
+	<!--<meta charset="UTF-8">-->
+	<link rel="stylesheet" type="text/css" href="./css/main2.css">
+	<link href='https://fonts.googleapis.com/css?family=Coming+Soon|Cabin+Sketch' rel='stylesheet' type='text/css'>	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script type="text/javascript" src="./js/main.js"></script>
+	<!--<script src="./js/jquery-2.1.4.min.js"></script>-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
 
-<p>Take a look at my <a href="./pages/Fall2015Schedule/Fall2015Schedule.html">Fall 2015 TV Schedule</a>. IT'S RESPONSIVE.</p>
-<h1>Welcome World!</h1>
-<p>Welcome to my newly renovated website! I am actually going to redo it AGAIN with responsiveness in mind!</p>
+<body>
+	
+<!-- START: banner -->
+<div id="banner" class="global">
+	<!-- banner left --><div class="left"></div>
+	<!-- banner mid --><div class="mid"></div>
+	<!-- banner right --><div class="right"></div>
+</div>
+<!-- END: banner -->
 
-<p>UPDATE: I'm currently working on the new design while listening to Justin Bieber. <a href="./index2.html">Check out the work in progress here.</a> I decided to re-code everything since I didn't really know what I was doing with the navigation bar when I first made it.</p>
-
-<p>Below are the mockups for my new design. It is based on the current design, but better and with the logo I designed!</p>
-
-<div id="mockups">
-	<a target="_blank" href="./images/main/sanzoid-homepage_960_TOP.png"><img src="./images/main/sanzoid-homepage_960_TOP.png" /></a>
-	<a target="_blank" href="./images/main/sanzoid-homepage_960_SCROLL.png"><img src="./images/main/sanzoid-homepage_960_SCROLL.png" /></a>
-	<a target="_blank" href="./images/main/sanzoid-homepage_1440_TOP.png"><img src="./images/main/sanzoid-homepage_1440_TOP.png" /></a>
+<div id="navbar-container">
+<!-- START: navbar -->
+<div id="navbar" class="global">
+	<ul class="menu">
+		<li class="media null"><a class="menu-link" href="#">media</a>
+			<ul class="submenu">
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">tv</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">movies</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">books</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">manga</a></li>
+			</ul>
+		</li>
+		<li class="art null"><a class="menu-link" href="http://www.neopets.com/">art</a>
+			<ul class="submenu">
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">sculptures</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">drawings</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">paintings</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">this is my design</a></li>
+			</ul>
+		</li>
+		<li class="goals null"><a class="menu-link" href="http://www.neopets.com/">goals</a>
+			<!--<ul class="submenu">
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/"></a></li>
+			<ul>-->
+		</li>
+		<li class="home null"><div class="home-logo"></div><span class="menu-link">home</span></li>
+		<li class="thoughts"><a class="menu-link" href="http://www.neopets.com/">thoughts</a>
+			<ul class="submenu">
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">opinions</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">ideas</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">philosophy</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">theories</a></li>
+			</ul>
+		</li>
+		<li class="quotes null"><a class="menu-link" href="http://www.neopets.com/">quotes</a>
+			<ul class="submenu">
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">my quotes</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">tv quotes</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">movie quotes</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">random quotes</a></li>
+			</ul>
+		</li>
+		<li class="things null"><a class="menu-link" href="http://www.neopets.com/">things</a>
+			<ul class="submenu">
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">favourite things</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">exploration</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">notes</a></li>
+				<li class="null"><a class="menu-link" href="http://www.neopets.com/">satisfying</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+<!-- END: navbar -->
 </div>
 
+<!-- START: content -->
+<div id="content" class="global">
+<!-- start: margin-wrapper -->
+<div class="margin-wrapper">
+	<!-- title--><h1 class="content-page-title">Hello World!</h1>
+
+	<!-- start: content body -->
+	<div class="body">
+		<h1><?php echo "PHP SUCCESSSSSSS" ?></h1>
+		<p>Welcome to my newly renovated site. I have re-designed it so many times and I even thought the last one was the final time, but hopefully this is the last time I will ever re-design this. I worked hard to make it responsive, so feel free to minimize and maximize the window as much as you'd like. </p>
+		<h1>Sanzoid Technologies</h1>
+		<p>Founded on January 4th, 2016, Sanzoid Technologies is a company that does whatever the CEO Developer wants. The company is portable and goes wherever its CEO Developer goes. It's like magic!</p>
+		<p>Employee count to date: 1</p>
+		<h2>CEO Developer: Sandy Ho</h2>
+		<p>Sandy Ho enjoys watching television on the actual television. </p>
+
+	</div>
+	<!-- end: content body -->
+</div>
+<!-- end: margin-wrapper -->
+</div>
+<!-- END: content -->
+
+<!-- START: profile -->
+<div id="profile" class="global">
+	<!-- start: margin-wrapper -->
+	<div class="margin-wrapper">
+
+	<!-- start: about me -->
+	<div class="aboutme">
+		<h1>About Me</h1>
+		<img class="profileimage" src="./images/main/profilepic_100x100.png" alt="Profile Image" />
+		<p>My name is Sandy and this is my website!</p>
+		
+		<p>I am a Computer Science Major and <em>Psychology Minor</em> at the University of Waterloo. Currently taking a break from school and co-op after finishing an awesome 3A term. I'm working as a CEO Developer at Sanzoid Technologies in my very own home to learn how to be an iOS developer so I can leave web development as a hobby and start a mobile development career. </p>
+	</div>
+	<!-- end: about me -->
+
+	<!-- start: contact info -->
+	<div class="contactinfo">
+		<h1>Contact Info</h1>
+		<p>If you would like to hire me:<br><span class="contact-email"><span class="dont-spam-me">sandyho</span>.<span>cs</span><span>@</span><span>gmail</span>.<span>com</span></span></p>
+		<p>For other inquiries:<br><span class="contact-email"><span class="dont-spam-me">sandyworks</span><span>@</span><span>icloud</span>.com</span></p>
+	</div>
+	<!-- end: contact info -->
+
+	<!-- start: MailChimp Signup Form -->
+	<!--<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">-->
+	<div id="mc_embed_signup">
+	<form action="//sanzoid.us12.list-manage.com/subscribe/post?u=70e890cae5a65fcc4b0c01e9a&amp;id=86687df9eb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	    <div id="mc_embed_signup_scroll">
+		<h2>Subscribe to my newsletter!</h2>
+	<div class="mc-field-group">
+		<!--<label for="mce-EMAIL">Email Address </label>-->
+		<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email Address">
+	</div>
+		<div id="mce-responses" class="clear">
+			<div class="response" id="mce-error-response" style="display:none"></div>
+			<div class="response" id="mce-success-response" style="display:none"></div>
+		</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+	    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_70e890cae5a65fcc4b0c01e9a_86687df9eb" tabindex="-1" value=""></div>
+	    <div class="clear"><input type="submit" value="" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+	    </div>
+	</form>
+	</div>
+	<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+	<!-- end: MailChimp Signup Form -->
+
+	</div>
+	<!-- end: margin-wrapper -->
+
+	<!-- START: Twitter Timeline -->
+	<div id="twitter" class="global">
+		<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/officesandy" data-widget-id="684442290660720646" height="300">Tweets by @officesandy</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
+	<!-- END: Twitter Timeline -->
+
+</div>
+<!-- END: Profile-->
 
 
-<?php 
-	/*$mysql_host = "mysql2.000webhost.com";
-	$mysql_database = "a1257259_db";
-	$mysql_user = "a1257259_sandy";
-	$mysql_password = "b00gers";
-	// Create connection
-	$conn = mysqli_connect($mysql_host,$mysql_user,$mysql_password, $mysql_database); 
-	// Check connection
-	if ($conn->connect_error) {
-	    die("Connection failed: " . $conn->connect_error);
-	} 
-	echo "MySQL connected successfully!! ";*/
-?>
-<h1>TV Shows Table</h1>
-<p>This is my very first database table!</p>
-<table> 
-<?php 
-	/*$sql = 'SELECT * FROM `tvshows` WHERE 1 LIMIT 0, 30 ';
-	$result = $conn->query($sql); 
-	while($show = $result->fetch_assoc()): ?>
-	<tr>
-		<td><?php print $show["name"]; ?></td>
-		<td><?php print $show["rating"]; ?>/10</td>
-		<td><?php print $show["feel"]; ?></td>
-		<td><?php print $show["thoughts"]; ?></td>
-		<td><?php print $show["status"]; ?></td>
-	</tr>
-
-<?php endwhile; */?>
-</table>
-
-
-<h1>Table</h1>
-<table>
-	<tr>
-		<td>awefweaf </td>
-		<td>10/10</td>
-		<td>Love</td>
-		<td>awefweaf dsfasdf awefweaf dsfasdf lfh alsfhlsa fhlsjdhl shfl sajhfls lshdflshflksdfhl sflshf lsjhf lshf lsdjhf lsdjhfl sdhflksdhfl sfhljshd fljshflksdhflskhflksjdhf lsjhf lsjhfl sjfhlskhfl sjfhlskjdf ljsdlsjfh lsjfh lsajdhflksafhlk asjflsajflasfhlashf</td>
-	</tr>
-	<tr>
-		<td>awefweaf </td>
-		<td>10/10</td>
-		<td>Love</td>
-		<td>awefweaf dsfasdf awefweaf dsfasdf lfh alsfhlsa fhlsjdhl shfl sajhfls lshdflshflksdfhl sflshf lsjhf lshf lsdjhf lsdjhfl sdhflksdhfl sfhljshd fljshflksdhflskhflksjdhf lsjhf lsjhfl sjfhlskhfl sjfhlskjdf ljsdlsjfh lsjfh lsajdhflksafhlk asjflsajflasfhlashf</td>
-	</tr>
-	<tr>
-		<td>awefweaf </td>
-		<td>10/10</td>
-		<td>Love</td>
-		<td>awefweaf dsfasdf awefweaf dsfasdf lfh alsfhlsa fhlsjdhl shfl sajhfls lshdflshflksdfhl sflshf lsjhf lshf lsdjhf lsdjhfl sdhflksdhfl sfhljshd fljshflksdhflskhflksjdhf lsjhf lsjhfl sjfhlskhfl sjfhlskjdf ljsdlsjfh lsjfh lsajdhflksafhlk asjflsajflasfhlashf</td>
-	</tr>
-</table>
-
-<h1><a name="poi" class="anchor"></a>Person of Interest</h1>
-	<p>"The numbers never stop coming, Mr. Reese."
-	—Mr. Finch
-	"When you find that one person who connects you to the world, you become someone different, someone better. When that person is taken from you, what do you become then?"
-	—John Reese
-	"I don't have any friends. I don't have any family left either. I went around the world looking for bad guys. But there were plenty of you right here all along."
-	— John Reese
-	"Everyone is relevant to someone."
-	—Nathan Ingram
-	"I know what it's like to lose someone and to feel the need to disappear, but trust me, you don't want to leave people behind."
-	—Finch
-	"Maybe it's up to me to do what the good people can't. Or maybe there are no good people. Maybe there are only good decisions."
-	—John Reese
-	"In the end we're all alone, and no one's coming to save you."
-	— John Reese
-	"If you really need a mystery, I suggest the human heart."
-	—Harold Finch
-	"Only the paranoid survive."
-	—Harold Finch
-	"I am the evolution of organized crime."
-	—Elias
-	"I looked for a I'm-sorry-I-got-you-shot card, but they were all out."
-	—Joss Carter
-	"One day, I realized all the dumb, selfish things people do... it's not our fault. No one designed us. We're just an accident, Harold. We're just bad code. But the thing you built... It's perfect. Rational. Beautiful. By design."
-	—Root
-	"Pi, the ratio of the circumference of a circle to its diameter, and this is just the beginning; it keeps on going, forever, without ever repeating. Which means that contained within this string of decimals, is every single other number. Your birthdate, combination to your locker, your social security number, it's all in there, somewhere. And if you convert these decimals into letters, you would have every word that ever existed in every possible combination; the first syllable you spoke as a baby, the name of your latest crush, your entire life story from beginning to end, everything we ever say or do; all of the world's infinite possibilities rest within this one simple circle. Now what you do with that information; what it's good for, well that would be up to you."
-	—Harold Finch, explaining the value of pi to a math class.
-	"Your mistakes, like mine, are a part of who you are now. You can't move on from that. Believe me, I've made a sizable number. But...sometimes your mistakes can surprise you. My biggest mistake, for instance, brought me here. At exactly this moment when you might need some help."
-	—Harold Finch, to a suicidal young man.
-	"You can't stop what's coming and neither can I, but we have the opportunity to understand things when they finally change. The future is coming. You started it, and I'll finish it."
-	—Root
-	"We help people out of difficult situations, even situations of their own design."
-	—Harold Finch
-	"If they don't want you to get inside, they ought to build it better."
-	—Harold Finch
-	"There's a time for a scalpel and a time for a hammer. It's hammer time."
-	—Shaw
-	"Trust in me. I am always watching."
-	—The Machine
-	"We have free will, and with that comes great responsibility. And sometimes great loss."
-	—Harold Finch
-	"I always liked you, Hersh. Even after you killed me."
-	—Shaw
-	Root:"How badly did you have to break [The Machine] to make it care about people so much?"
-	Harold Finch: "I didn't break it, it's what made it work. It was only after I taught The Machine that people mattered that it could begin to be able to help them. I'd like to do the same thing for you, if you'll let me."
-	"Since we started this, things have changed. We've changed. But the mission, our purpose, has always been constant: to save lives. If that's changed somehow, if we're in a place now where the Machine is asking us to commit murder... that's a place I can't go. I'm afraid this is where I get off."
-	—Harold Finch
-	</p>
-<a name="denny-crane" class="anchor"></a><h2>Denny Crane</h2>
-	<p>Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. Denny Crane. </p>
-
-
-<?php include './template/template-bottom.php'; ?>
+<!-- START: footer -->
+<div id="footer" class="global">
+	<div class="lastmodified"></div>
+	<div class="siggy"></div>
+</div>
+<!-- END: footer -->
+</body>
 </html>
