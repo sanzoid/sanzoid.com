@@ -13,7 +13,7 @@
 	<!-- start: about me -->
 	<div class="aboutme">
 		<h1>About Me</h1>
-		<img class="profileimage" src="<?php echo $base; ?>/images/main/profilepic_100x100.png" alt="Profile Image" />
+		<div class="profileimage"></div>
 		<p>My name is Sandy and this is my website!</p>
 		
 		<p>I am a Computer Science Major and <em>Psychology Minor</em> at the University of Waterloo. Currently taking a break from school and co-op after finishing an awesome 3A term. I'm working as a CEO Developer at Sanzoid Technologies in my very own home to learn how to be an iOS developer so I can leave web development as a hobby and start a mobile development career. </p>

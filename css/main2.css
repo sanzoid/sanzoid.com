@@ -320,7 +320,7 @@ div#content h4 {
 }
 
 div#content div.body {
-
+	margin-bottom: 50px;
 }
 
 div#content div.body p {
@@ -329,9 +329,13 @@ div#content div.body p {
 
 /*****************************************************************************/
 
-div#profile img.profileimage {
+div#profile div.profileimage {
 	float: left;
 	margin: 5px 5px 5px 0;
+	background: url('../images/main/profilepic_100x100.png');
+	background-size: 100px; 
+	width: 100px;
+	height: 100px;
 }
 
 div#profile div.aboutme {

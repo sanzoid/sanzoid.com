@@ -1,3 +1,4 @@
+<script>
 ;(function($){
     // your code
 
@@ -199,3 +200,4 @@
 /*function lastMod() {
 	return document.lastModified; 
 }*/
+</script>

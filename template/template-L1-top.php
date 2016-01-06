@@ -7,12 +7,13 @@
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="../css/main2.css">
-	<script type="text/javascript" src="../js/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="/css/main2.css">
+	<!--<script type="text/javascript" src="<?php echo $base; ?>/js/main.js"></script>-->
 	<link href='https://fonts.googleapis.com/css?family=Coming+Soon|Cabin+Sketch' rel='stylesheet' type='text/css'>	
 
 	<!--<script src="./js/jquery-2.1.4.min.js"></script>-->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<?php include_once($base."/js/main.js"); ?>
 </head>
 
 <body>
