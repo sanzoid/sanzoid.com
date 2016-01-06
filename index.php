@@ -1,170 +1,18 @@
-<!DOCTYPE html> 
+<?php include './template/template-L0-top.php'; ?>
+<!-- Template: Top -->
 
-<html>
-<head>
-	<title>SANZOID KINGDOM</title>
-	<!--<meta charset="UTF-8">-->
-	<link rel="stylesheet" type="text/css" href="./css/main2.css">
-	<link href='https://fonts.googleapis.com/css?family=Coming+Soon|Cabin+Sketch' rel='stylesheet' type='text/css'>	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-	<script type="text/javascript" src="./js/main.js"></script>
-	<!--<script src="./js/jquery-2.1.4.min.js"></script>-->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-</head>
+<!-- START: BODY-->
 
-<body>
-	
-<!-- START: banner -->
-<div id="banner" class="global">
-	<!-- banner left --><div class="left"></div>
-	<!-- banner mid --><div class="mid"></div>
-	<!-- banner right --><div class="right"></div>
-</div>
-<!-- END: banner -->
+<!-- title--><h1 class="content-page-title">Hello World!</h1>
+<h1><?php echo "PHP SUCCESSSSSSS" ?></h1>
+<p>Welcome to my newly renovated site. I have re-designed it so many times and I even thought the last one was the final time, but hopefully this is the last time I will ever re-design this. I worked hard to make it responsive, so feel free to minimize and maximize the window as much as you'd like. </p>
+<h1>Sanzoid Technologies</h1>
+<p>Founded on January 4th, 2016, Sanzoid Technologies is a company that does whatever the CEO Developer wants. The company is portable and goes wherever its CEO Developer goes. It's like magic!</p>
+<p>Employee count to date: 1</p>
+<h2>CEO Developer: Sandy Ho</h2>
+<p>Sandy Ho enjoys watching television on the actual television. </p>
 
-<div id="navbar-container">
-<!-- START: navbar -->
-<div id="navbar" class="global">
-	<ul class="menu">
-		<li class="media null"><a class="menu-link" href="#">media</a>
-			<ul class="submenu">
-				<li class="null"><a class="menu-link" href="http://www.neopets.com/">tv</a></li>
-				<li class="null"><a class="menu-link" href="http://www.neopets.com/">movies</a></li>
-				<li class="null"><a class="menu-link" href="http://www.neopets.com/">books</a></li>
-				<li class="null"><a class="menu-link" href="http://www.neopets.com/">manga</a></li>
-			</ul>
-		</li>
-		<li class="art null"><a class="menu-link" href="http://www.neopets.com/">art</a>
-			<ul class="submenu">
-				<li class="null"><a class="menu-link" href="http://www.neopets.com/">sculptures</a></li>
-				<li class="null"><a class="menu-link" href="http://www.neopets.com/">drawings</a></li>
-				<li class="null"><a class="menu-link" href="http://www.neopets.com/">paintings</a></li>
-				<li class="null"><a class="menu-link" href="http://www.neopets.com/">this is my design</a></li>
-			</ul>
-		</li>
-		<li class="goals null"><a class="menu-link" href="http://www.neopets.com/">goals</a>
-			<!--<ul class="submenu">
-				<li class="null"><a class="menu-link" href="http://www.neopets.com/"></a></li>
-			<ul>-->
-		</li>
-		<li class="home null"><div class="home-logo"></div><span class="menu-link">home</span></li>
-		<li class="thoughts"><a class="menu-link" href="http://www.neopets.com/">thoughts</a>
-			<ul class="submenu">
-				<li class="null"><a class="menu-link" href="http://www.neopets.com/">opinions</a></li>
-				<li class="null"><a class="menu-link" href="http://www.neopets.com/">ideas</a></li>
-				<li class="null"><a class="menu-link" href="http://www.neopets.com/">philosophy</a></li>
-				<li class="null"><a class="menu-link" href="http://www.neopets.com/">theories</a></li>
-			</ul>
-		</li>
-		<li class="quotes null"><a class="menu-link" href="http://www.neopets.com/">quotes</a>
-			<ul class="submenu">
-				<li class="null"><a class="menu-link" href="http://www.neopets.com/">my quotes</a></li>
-				<li class="null"><a class="menu-link" href="http://www.neopets.com/">tv quotes</a></li>
-				<li class="null"><a class="menu-link" href="http://www.neopets.com/">movie quotes</a></li>
-				<li class="null"><a class="menu-link" href="http://www.neopets.com/">random quotes</a></li>
-			</ul>
-		</li>
-		<li class="things null"><a class="menu-link" href="http://www.neopets.com/">things</a>
-			<ul class="submenu">
-				<li class="null"><a class="menu-link" href="http://www.neopets.com/">favourite things</a></li>
-				<li class="null"><a class="menu-link" href="http://www.neopets.com/">exploration</a></li>
-				<li class="null"><a class="menu-link" href="http://www.neopets.com/">notes</a></li>
-				<li class="null"><a class="menu-link" href="http://www.neopets.com/">satisfying</a></li>
-			</ul>
-		</li>
-	</ul>
-</div>
-<!-- END: navbar -->
-</div>
+<!-- END: BODY -->
 
-<!-- START: content -->
-<div id="content" class="global">
-<!-- start: margin-wrapper -->
-<div class="margin-wrapper">
-	<!-- title--><h1 class="content-page-title">Hello World!</h1>
-
-	<!-- start: content body -->
-	<div class="body">
-		<h1><?php echo "PHP SUCCESSSSSSS" ?></h1>
-		<p>Welcome to my newly renovated site. I have re-designed it so many times and I even thought the last one was the final time, but hopefully this is the last time I will ever re-design this. I worked hard to make it responsive, so feel free to minimize and maximize the window as much as you'd like. </p>
-		<h1>Sanzoid Technologies</h1>
-		<p>Founded on January 4th, 2016, Sanzoid Technologies is a company that does whatever the CEO Developer wants. The company is portable and goes wherever its CEO Developer goes. It's like magic!</p>
-		<p>Employee count to date: 1</p>
-		<h2>CEO Developer: Sandy Ho</h2>
-		<p>Sandy Ho enjoys watching television on the actual television. </p>
-
-	</div>
-	<!-- end: content body -->
-</div>
-<!-- end: margin-wrapper -->
-</div>
-<!-- END: content -->
-
-<!-- START: profile -->
-<div id="profile" class="global">
-	<!-- start: margin-wrapper -->
-	<div class="margin-wrapper">
-
-	<!-- start: about me -->
-	<div class="aboutme">
-		<h1>About Me</h1>
-		<img class="profileimage" src="./images/main/profilepic_100x100.png" alt="Profile Image" />
-		<p>My name is Sandy and this is my website!</p>
-		
-		<p>I am a Computer Science Major and <em>Psychology Minor</em> at the University of Waterloo. Currently taking a break from school and co-op after finishing an awesome 3A term. I'm working as a CEO Developer at Sanzoid Technologies in my very own home to learn how to be an iOS developer so I can leave web development as a hobby and start a mobile development career. </p>
-	</div>
-	<!-- end: about me -->
-
-	<!-- start: contact info -->
-	<div class="contactinfo">
-		<h1>Contact Info</h1>
-		<p>If you would like to hire me:<br><span class="contact-email"><span class="dont-spam-me">sandyho</span>.<span>cs</span><span>@</span><span>gmail</span>.<span>com</span></span></p>
-		<p>For other inquiries:<br><span class="contact-email"><span class="dont-spam-me">sandyworks</span><span>@</span><span>icloud</span>.com</span></p>
-	</div>
-	<!-- end: contact info -->
-
-	<!-- start: MailChimp Signup Form -->
-	<!--<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">-->
-	<div id="mc_embed_signup">
-	<form action="//sanzoid.us12.list-manage.com/subscribe/post?u=70e890cae5a65fcc4b0c01e9a&amp;id=86687df9eb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-	    <div id="mc_embed_signup_scroll">
-		<h2>Subscribe to my newsletter!</h2>
-	<div class="mc-field-group">
-		<!--<label for="mce-EMAIL">Email Address </label>-->
-		<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email Address">
-	</div>
-		<div id="mce-responses" class="clear">
-			<div class="response" id="mce-error-response" style="display:none"></div>
-			<div class="response" id="mce-success-response" style="display:none"></div>
-		</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-	    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_70e890cae5a65fcc4b0c01e9a_86687df9eb" tabindex="-1" value=""></div>
-	    <div class="clear"><input type="submit" value="" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-	    </div>
-	</form>
-	</div>
-	<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-	<!-- end: MailChimp Signup Form -->
-
-	</div>
-	<!-- end: margin-wrapper -->
-
-	<!-- START: Twitter Timeline -->
-	<div id="twitter" class="global">
-		<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/officesandy" data-widget-id="684442290660720646" height="300">Tweets by @officesandy</a>
-		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-	</div>
-	<!-- END: Twitter Timeline -->
-
-</div>
-<!-- END: Profile-->
-
-
-<!-- START: footer -->
-<div id="footer" class="global">
-	<div class="lastmodified"></div>
-	<div class="siggy"></div>
-</div>
-<!-- END: footer -->
-</body>
-</html>
+<!-- Template: Bottom -->
+<?php include './template/template-L0-bottom.php'; ?>
