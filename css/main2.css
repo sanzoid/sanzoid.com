@@ -6,8 +6,8 @@
 
 /*
 	COLORS:
-	bl0cks background: rgba(255,255,255,0.8); rgba(28,28,28,1);
-	t3xt color: #1C1C1C, Arial; 
+	bl0cks background: rgba(255,255,255,0.8); 
+	t3xt color: #1C1C1C, Arial; rgba(28,28,28,1);
 	h3ading: #28383D, 'Cabin Sketch', cursive; 	background-color: rgba(40,56,61,1);
 	b4ckground:
 	headings:
@@ -19,17 +19,21 @@
 */
 
 body {
-	background-color: #1A1A1A; 
+	background-color: #FFF; 
 	color: #1C1C1C;
 	padding: 0;
 	margin: 0 auto;
 	font-family: Arial;
 	font-size: 13px;
 	text-align: center;
-	background: url('../images/main/bgs/background_galaxy.jpg');
+	/*background: url('http://i48.tinypic.com/dwlr4.jpg');*/
+	background: url('../images/main/bgs/background_poi.png');
 	background-position: center;
 	background-attachment: fixed;
-	background-size: cover;
+	background-size: 100%;
+	word-wrap: break-word;
+
+	/*cursor: url('../images/main/cursors/cursor_maplestory.png'), auto;*/
 }
 
 
@@ -38,7 +42,7 @@ a {
 }
 
 a:hover {
-
+	/*cursor: url(http://i247.photobucket.com/albums/gg132/chipmapple/maple%20cursor/link.gif), pointer;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -99,7 +103,7 @@ div#navbar ul.menu > li:hover > a.menu-link {
 	color: rgba(0,0,0,0.9);	/* n4v h0ver text */
 }
 
-div#navbar ul.menu > li > a.menu-link, div#navbar ul.menu > li > span.menu-link {	/* main menu item link */
+div#navbar ul.menu > li > a.menu-link, div#navbar ul.menu > li span.menu-link {	/* main menu item link */
 	/*color: cyan; */	
 	text-decoration: none;
 	display: block;	/* makes padding work */
@@ -209,13 +213,17 @@ div#navbar ul.menu li.home .home-logo {	/* home logo */
 	} 
 }
 
-/* Smartphones (portrait and landscape) ----------- */
 /* icon menu for phones */
+/* Smartphones (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 320px)
-and (max-device-width : 480px)
+and (max-device-width : 480px) 
+/* iPads (portrait and landscape) ----------- */
+/*only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)*/
 {
-	div#navbar ul.menu {
+	div#navbar ul.menu {	/* keep navigation at the top always */
 		position: fixed;
 		top: 0;
 		background-color: #000;
@@ -229,7 +237,7 @@ and (max-device-width : 480px)
 		background-size: 70%;
 		background-repeat: no-repeat;
 	}
-	div#navbar ul.menu li.home span.menu-link {
+	div#navbar ul.menu li.home span.menu-link {	/* return home button to normal */
 		display: inline-block !important;
 	}
 	div#navbar ul.menu li.home .home-logo {
@@ -238,7 +246,7 @@ and (max-device-width : 480px)
 
 
 	/* position the link text below the icon */
-	div#navbar ul.menu > li > a.menu-link, div#navbar ul.menu > li > span.menu-link {
+	div#navbar ul.menu > li > a.menu-link, div#navbar ul.menu > li span.menu-link {
 		color: rgba(255,255,255,0.9);
 		font-size: 8px;
 		padding-top: 70%;
@@ -280,7 +288,26 @@ and (max-device-width : 480px)
 		display: none;
 	}
 }
+
+/* All other mobile devices need this for submenu to open properly */ 
+div#navbar ul.menu > li:hover ul.submenu.mobile {
+	display: none;
+}
+
+@media (max-width: 960px) {	/* smaller than 960px. Make the submenu full width */
+	div#navbar ul.menu > li > ul.submenu {	/* full width submenu */
+		width: 100%;
+		position: absolute;
+		padding: 0;
+		margin: 0;
+		left: 0;
+	}
+	div#navbar ul.menu > li > ul.submenu > li {
+		width: 100%;
+	} 
+}
 /**************************** END: NAVBAR ***************************************/
+
 
 
 /* Fix padding making document width bigger*/
@@ -506,6 +533,30 @@ and (max-device-width : 480px) {
 }*/
 /**************************** END: BANNER *************************/
 
+/*************** TEMPORARY STUFF **************/
+div#navbar ul.menu li.null a.menu-link {
+	cursor: url('../images/main/cursors/cursor_donottouch.png'), not-allowed;
+}
+div#navbar ul.menu li.null a.menu-link {
+	color: rgba(255,255,255,0.4);
+}
+div#navbar ul.menu ul.submenu li.null a.menu-link::after {
+	margin-left: 5px;
+	background-color: #FFD000;
+	color: #1C1C1C;
+	padding: 2px 3px;
+	border-radius: 2px;
+	font-size: 8px;
+	font-family: "Arial";
+	content: "coming\a0soon";
+	word-wrap: normal;
+	vertical-align: middle;
+}
+
+div#credits, div#credits a {
+	color: #FFD000;
+	margin: 20px 0;
+}
 
 
 
@@ -535,7 +586,7 @@ and (max-device-width : 480px) {
 	background-position: center;
 	background-size: 90%;
 	background-repeat: no-repeat;
-
+	margin: 10px 0;
 }
 
 

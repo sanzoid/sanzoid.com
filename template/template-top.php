@@ -16,6 +16,8 @@
 
 	<!--<script src="./js/jquery-2.1.4.min.js"></script>-->
 	<?php include_once($base."/js/main.js"); ?>
+
+
 </head>
 
 <body>
@@ -53,8 +55,8 @@
 				<li class="null"><a class="menu-link" href="#"></a></li>
 			<ul>-->
 		</li>
-		<li class="home null"><a href="/"><div class="home-logo"></div><span class="menu-link">home</span></a></li>
-		<li class="thoughts"><a class="menu-link" href="#">thoughts</a>
+		<li class="home"><a href="/"><div class="home-logo"></div><span class="menu-link">home</span></a></li>
+		<li class="thoughts null"><a class="menu-link" href="#">thoughts</a>
 			<ul class="submenu">
 				<li class="null"><a class="menu-link" href="#">opinions</a></li>
 				<li class="null"><a class="menu-link" href="#">ideas</a></li>
@@ -81,6 +83,7 @@
 	</ul>
 </div>
 <!-- END: navbar -->
+<!--<div class="menu-message null">You won't find anything there</div>-->
 </div>
 
 <!-- START: content -->

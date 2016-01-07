@@ -12,6 +12,10 @@
 	}
 	$(document).ready(myFunction2);
 
+	$( document ).on( "mobileinit", function() {
+    	$.mobile.ajaxEnabled=false;
+	});
+
 	// Close all submenus 
 	function closeAllSubmenus() {
 		$("#navbar .menu > li .submenu").slideUp();
@@ -21,7 +25,8 @@
 	    $("p").click(function(){
 	        alert($(this).html());
 	    });
-	});*/
+	});*/	
+
 
 	// Calculate top of navigation position for stickiness 
 	var navbarPos; 
@@ -42,10 +47,41 @@
 
 		navbarPos = $("#navbar").offset().top;
 
+		$.event.special.tap = {
+		    setup: function(data, namespaces) {
+		        var $elem = $(this);
+		        $elem.bind('touchstart', $.event.special.tap.handler)
+		             .bind('touchmove', $.event.special.tap.handler)
+		             .bind('touchend', $.event.special.tap.handler);
+		    },
+
+		    teardown: function(namespaces) {
+		        var $elem = $(this);
+		        $elem.unbind('touchstart', $.event.special.tap.handler)
+		             .unbind('touchmove', $.event.special.tap.handler)
+		             .unbind('touchend', $.event.special.tap.handler);
+		    },
+
+		    handler: function(event) {
+		        event.preventDefault();
+		        var $elem = $(this);
+		        $elem.data(event.type, 1);
+		        if (event.type === 'touchend' && !$elem.data('touchmove')) {
+		            event.type = 'tap';
+		            $.event.handle.apply(this, arguments);
+		        } else if ($elem.data('touchend')) {
+		            $elem.removeData('touchstart touchmove touchend');
+		        }
+		    }
+		};
+
+
 
 		// Toggle submenu by click 
 		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-			$("#navbar .menu > li").click(function(e) {
+			$("#navbar ul.menu > li ul.submenu").addClass("mobile");
+
+			$("#navbar .menu > li").on('touchstart', function(e) {
 				//alert("0");
 				//var clicked = $(this).data("clicked"); 
 				//alert(clicked);
@@ -84,11 +120,11 @@
 				return false; */
 			});
 
-			$("#navbar .menu > li > .submenu > li").click(function(e) {
+			$("#navbar .menu > li > .submenu > li").on('touchstart', function(e) {
 				e.stopPropagation(); 	// stop events from bubbling from submenu clicks 
 			});
 
-			$(document).on('vclick', function(e) {
+			$(document).on('touchstart', function(e) {
 				//alert("wee");
 				e.stopPropagation(); 
 					//if(!$(e.target).is("#navbar .menu > li")) {
@@ -201,3 +237,69 @@
 	return document.lastModified; 
 }*/
 </script>
+
+
+<script language="javascript">
+// Trailing text cursor 
+
+var text='0 1 1 2 3 5 8 13 21 34 55 89';
+var delay=15; // speed of trail
+var Xoff=6; // pixel count from the left of the cursor (- values go to left)
+var Yoff=7; // pixel count from the top of the cursor (- values go up)
+var txtw=0;  // amount of pixel space each character occupies
+var beghtml='<font color="#1C1C1C" style="font-family:"Comic Sans";text-transform:uppercase;"><b>';  // optional html code that effects whole text string such as font color, size, etc.
+var endhtml='</b></font>';  
+ns4 = (navigator.appName.indexOf("Netscape")>=0 && document.layers)? true : false;
+ie4 = (document.all && !document.getElementById)? true : false;
+ie5 = (document.all && document.getElementById)? true : false;
+ns6 = (document.getElementById && navigator.appName.indexOf("Netscape")>=0 )? true: false;
+var txtA=new Array();
+text=text.split('');
+var x1=0;
+var y1=-1000;
+var t='';
+for(i=1;i<=text.length;i++){
+t+=(ns4)? '<layer left="0" top="-100" width="'+txtw+'" name="txt'+i+'" height="1">' : '<div id="txt'+i+'" style="position:absolute; top:-100px; left:0px; height:1px; width:'+txtw+'; visibility:visible;">';
+t+=beghtml+text[i-1]+endhtml;
+t+=(ns4)? '</layer>' : '</div>';
+}
+document.write(t);
+function moveid(id,x,y){
+if(ns4)id.moveTo(x,y);
+else{
+id.style.left=x+'px';
+id.style.top=y+'px';
+}}
+function animate(evt){
+x1=Xoff+((ie4||ie5)?event.clientX+document.body.scrollLeft:evt.pageX);
+y1=Yoff+((ie4||ie5)?event.clientY+document.body.scrollTop:evt.pageY);
+}
+function getidleft(id){
+if(ns4)return id.left;
+else return parseInt(id.style.left);
+}
+function getidtop(id){
+if(ns4)return id.top;
+else return parseInt(id.style.top);
+}
+function getwindowwidth(){
+if(ie4||ie5)return document.body.clientWidth+document.body.scrollLeft;
+else return window.innerWidth+pageXOffset;
+}
+function movetxts(){
+for(i=text.length;i>1;i=i-1){
+if(getidleft(txtA[i-1])+txtw*2>=getwindowwidth()){
+moveid(txtA[i-1],0,-1000);
+moveid(txtA[i],0,-1000);
+}else moveid(txtA[i], getidleft(txtA[i-1])+txtw, getidtop(txtA[i-1]));
+}
+moveid(txtA[1],x1,y1);
+}
+window.onload=function(){
+for(i=1;i<=text.length;i++)txtA[i]=(ns4)?document.layers['txt'+i]:(ie4)?document.all['txt'+i]:document.getElementById('txt'+i);
+if(ns4)document.captureEvents(Event.MOUSEMOVE);
+document.onmousemove=animate;
+setInterval('movetxts()',delay);
+}
+</script>
+
