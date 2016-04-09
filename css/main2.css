@@ -27,10 +27,11 @@ body {
 	font-size: 13px;
 	text-align: center;
 	/*background: url('http://i48.tinypic.com/dwlr4.jpg');*/
-	background: url('../images/main/bgs/background_poi.png');
-	background-position: center;
+	background: url('../images/main/bgs/background_obsidianrainbow.png');
+	background-repeat: repeat-x;
+	background-position: top;
 	background-attachment: fixed;
-	background-size: 100%;
+	/*background-size: 100%;*/
 	word-wrap: break-word;
 
 	/*cursor: url('../images/main/cursors/cursor_maplestory.png'), auto;*/
@@ -95,13 +96,14 @@ div#navbar ul.menu > li {	/* main menu item block */
 }
 div#navbar ul.menu > li:hover {	/* main menu item block hover */ 
 	/*background-color: green;*/
-
 	background-color: transparent;
-	background-color: rgba(255,255,255,0.9);	/* n4v h0ver background */
+	background-color: rgba(255,255,255,0.2);	/* n4v h0ver background */
 }
 div#navbar ul.menu > li:hover > a.menu-link {
-	color: rgba(0,0,0,0.9);	/* n4v h0ver text */
+	/*color: rgba(0,0,0,0.9);	/* n4v h0ver text */
+	/*color: yellow;*/
 }
+
 
 div#navbar ul.menu > li > a.menu-link, div#navbar ul.menu > li span.menu-link {	/* main menu item link */
 	/*color: cyan; */	
@@ -109,7 +111,6 @@ div#navbar ul.menu > li > a.menu-link, div#navbar ul.menu > li span.menu-link {	
 	display: block;	/* makes padding work */
 	padding: 15px 0;	/* padding to make whole block button */
 
-	/*color:#FFD000;*/
 }
 
 div#navbar ul.menu > li > ul.submenu {	/* submenu */	
@@ -184,7 +185,7 @@ div#navbar ul.menu li.home .home-logo {	/* home logo */
 	margin-top: -27px;	/* move it up a bit to center  */
 	width: 50px;
 	height: 50px;
-	background-image: url('../images/main/sanzoid_logo_colored.png');
+	background-image: url('../images/main/logo/sandig_100.png');
 	background-size: 100%;
 }
 
@@ -430,21 +431,22 @@ and (max-device-width : 480px) {
 #banner {
 	/*background-color: red;*/
 	/*max-width: 960px;*/
-	margin: 50px auto;
+	margin: 0px auto;
 	padding: 0;
 
 	height: 100px;
 	text-align: center;
 
-	background-color: rgba(0, 0, 0, 0.6);
-	background: transparent;
+	background-color: rgba(0, 0, 0, 0.8);
+	/*background: transparent;*/
 	margin-top: 0;
 	padding: 50px 0;
 	/*max-width: 1265px;*/
-}
 
+}
+/*
 #banner div.title {
-	/*background-color: red;*/
+	background-color: red;
 	display: inline-block;
 	margin: 0;
 	padding: 0;
@@ -456,7 +458,6 @@ and (max-device-width : 480px) {
 }
 
 #banner div.image {
-	/*background-color: yellow;*/
 	display: inline-block;
 	vertical-align: top;
 
@@ -469,7 +470,7 @@ and (max-device-width : 480px) {
 	background-image: url('../images/main/banner_bitstrips_money.jpg');
 	background-position: center;
 	background-size: cover;
-}
+}*/
 
 #banner div.left, #banner div.right {
 	background-color: yellow;
@@ -480,17 +481,18 @@ and (max-device-width : 480px) {
 	height: 100px;
 	width: 425px;
 	max-width: 425px;
-
+	
+	background-color: transparent;
 	background-position: center;
 	background-size: cover;
 
 	display: none;
 }
 #banner div.left {
-	background-image: url('../images/main/banner_bitstrips_money.jpg');
+	/*background-image: url('../images/main/banners/banner_bitstrips_money.jpg');*/
 }
 #banner div.right {
-	background-image: url('../images/main/banner_bitstrips_money.jpg');
+	/*background-image: url('../images/main/banners/banner_bitstrips_money.jpg');*/
 }
 
 #banner div.mid {
@@ -503,7 +505,7 @@ and (max-device-width : 480px) {
 	max-width: 100%;
 	height: 100px;
 
-	background-image: url('../images/main/sanzoid_banner_logo.png');
+	background-image: url('../images/main/banners/banner_sanzoid_sandig_scratch.png');
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -534,7 +536,7 @@ and (max-device-width : 480px) {
 /**************************** END: BANNER *************************/
 
 /*************** TEMPORARY STUFF **************/
-div#navbar ul.menu li.null a.menu-link {
+/*div#navbar ul.menu li.null a.menu-link {
 	cursor: url('../images/main/cursors/cursor_donottouch.png'), not-allowed;
 }
 div#navbar ul.menu li.null a.menu-link {
@@ -556,7 +558,7 @@ div#navbar ul.menu ul.submenu li.null a.menu-link::after {
 div#credits, div#credits a {
 	color: #FFD000;
 	margin: 20px 0;
-}
+}*/
 
 
 

@@ -241,7 +241,7 @@
 
 <script language="javascript">
 // Trailing text cursor 
-
+/*
 var text='0 1 1 2 3 5 8 13 21 34 55 89';
 var delay=15; // speed of trail
 var Xoff=6; // pixel count from the left of the cursor (- values go to left)
@@ -300,6 +300,6 @@ for(i=1;i<=text.length;i++)txtA[i]=(ns4)?document.layers['txt'+i]:(ie4)?document
 if(ns4)document.captureEvents(Event.MOUSEMOVE);
 document.onmousemove=animate;
 setInterval('movetxts()',delay);
-}
+}*/
 </script>
 

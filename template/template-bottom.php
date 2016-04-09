@@ -62,7 +62,7 @@
 
 </div>
 <!-- END: Profile-->
-<div id="credits"><a href="http://sasstronautmarkwatney.tumblr.com/post/33695135725/wallpapers-1366-x-768-1-x-2-x-3-x">background</a></div>
+<div id="credits">Background: <em>Obsidian Rainbow</em></div>
 
 <!-- START: footer -->
 <div id="footer" class="global">
