@@ -1,5 +1,6 @@
 <?php 
-	$base = "/home/a1257259/public_html"; 
+	$base = "/home/a1257259/public_html"; 	// does not work locally 
+	$base = $_SERVER['DOCUMENT_ROOT']; 	// does not work with 000webhost 
 	$path_top = $base."/template/template-top.php";
 	$path_bottom = $base."/template/template-bottom.php";
 

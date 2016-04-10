@@ -50,7 +50,8 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Cabin Sketch', cursive;
 	text-transform: uppercase;
 	color: #454545;
-	margin: 20px 0;
+	margin: 40px 0 0px 0;
+	padding: 0;
 }
 
 
@@ -589,6 +590,114 @@ div#credits, div#credits a {
 	background-size: 90%;
 	background-repeat: no-repeat;
 	margin: 10px 0;
+}
+
+
+/*********** Extra Page stuff *********************/
+
+a.link-block {
+	display:inline-block; 
+	background-color: lightgrey;
+	text-align:center;  
+	font-size:14px;
+	padding:10px; 
+	border-radius:5px; 
+	border: 1px solid #FFF;
+	text-decoration:none;
+}
+
+hr {
+	margin: 30px 0;
+}
+
+ul.pages-submenu:before {
+	content:"MENU";
+	font-size: 16px;
+	border-bottom: 1px solid lightgrey;
+	display: block;
+	margin: 5px 0 10px 0;
+}
+ul.pages-submenu {
+	background-color: rgba(255, 255, 255, 0.6);
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: solid 1px lightgrey;
+	position: fixed; 
+	right: 10px;
+	bottom: 10px;
+	width: 150px;
+	text-align: right;
+	list-style: none;
+}
+ul.pages-submenu a {
+	text-decoration: none;
+	background-color: white;
+}
+ul.pages-submenu a:hover {
+	background-color: lightgrey;
+}
+
+@media (max-width:480px) {
+	ul.pages-submenu {
+		width:90%;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		padding: 5px;
+		text-align: center;
+		background-color: rgba(255, 255, 255, 0.8);
+	}
+	ul.pages-submenu li {
+		display:inline-block;
+		border-left: solid lightgrey 1px;
+		border-right: solid lightgrey 1px;
+		padding: 2px 5px;
+	}
+}
+
+.anchored h2 {
+	padding-top: 50px;	/* anchor jumps to 50px above h2 */
+}
+
+div#books-main ul, div#books-main ol {
+	list-style: none;
+}
+
+div#books-main li.favourite:before {
+	content:"Favourite";
+	text-transform: uppercase;
+	background-color: #F0E0C9; 
+	border-radius: 2px;
+	font-size: 10px;
+	color: #A3783C;
+	padding: 2px 5px;
+	margin: 0 5px 0 0;
+}
+
+div#books-main li.school:after {
+	content:"*\00a0";
+}
+
+div#books-main li.in-progress:before {
+	content:"In-Progress";
+	text-transform: uppercase;
+	background-color: #09B51D; 
+	border-radius: 2px;
+	font-size: 10px;
+	color: #FFF;
+	padding: 2px 5px;
+	margin: 0 5px 0 0;
+}
+
+div#manga-main span.progress:before {
+	content:"--\00a0";
+}
+
+div#manga-main span.progress {
+	font-size: 11px;
+	font-style: italic;
+	padding-left: 10px;
 }
 
 

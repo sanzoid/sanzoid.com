@@ -10,6 +10,7 @@
 	*/ ?>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="/css/main2.css">
+	<link rel="stylesheet" type="text/css" href="/css/quotes.css">
 	<!--<script type="text/javascript" src="<?php echo $base; ?>/js/main.js"></script>-->
 	<link href='https://fonts.googleapis.com/css?family=Coming+Soon|Cabin+Sketch' rel='stylesheet' type='text/css'>	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -36,12 +37,12 @@
 <!-- START: navbar -->
 <div id="navbar" class="global">
 	<ul class="menu">
-		<li class="media null"><a class="menu-link" href="#">loves</a>
+		<li class="media null"><a class="menu-link" href="#">hobbies</a>
 			<ul class="submenu">
-				<li class="null"><a class="menu-link" href="#">tv</a></li>
-				<li class="null"><a class="menu-link" href="#">movies</a></li>
-				<li class="null"><a class="menu-link" href="#">books</a></li>
-				<li class="null"><a class="menu-link" href="#">manga</a></li>
+				<li class="null"><a class="menu-link" href="/pages/hobbies/tv.php">tv</a></li>
+				<li class="null"><a class="menu-link" href="/pages/hobbies/movies.php">movies</a></li>
+				<li class="null"><a class="menu-link" href="/pages/hobbies/books.php">books</a></li>
+				<li class="null"><a class="menu-link" href="/pages/hobbies/manga.php">manga</a></li>
 			</ul>
 		</li>
 		<li class="art null"><a class="menu-link" href="#">art</a>
@@ -66,7 +67,7 @@
 				<li class="null"><a class="menu-link" href="#">theories</a></li>
 			</ul>-->
 		</li>
-		<li class="quotes null"><a class="menu-link" href="#">quotes</a>
+		<li class="quotes null"><a class="menu-link" href="/pages/quotes/quotes.php">quotes</a>
 			<!--<ul class="submenu">
 				<li class="null"><a class="menu-link" href="#">my quotes</a></li>
 				<li class="null"><a class="menu-link" href="#">tv quotes</a></li>
@@ -78,7 +79,7 @@
 			<ul class="submenu">
 				<li class="null"><a class="menu-link" href="#">favourite things</a></li>
 				<li class="null"><a class="menu-link" href="#">exploration</a></li>
-				<li class="null"><a class="menu-link" href="#">notes</a></li>
+				<li class="null"><a class="menu-link" href="/pages/test/test-deeper.php">notes</a></li>
 			</ul>
 		</li>
 	</ul>

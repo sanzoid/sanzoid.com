@@ -1,0 +1,50 @@
+
+
+#quotes-main {
+
+}
+
+#quotes-main span.quote:before, #quotes-main span.quote:after {
+	content:"\"";
+}
+
+#quotes-main span.quote {	/* quote paragraph */
+	display: inline-block;
+}
+
+#quotes-main span.quote br {
+	line-height: 18px;	/* more space between multi-speaker quotes*/
+}
+
+#quotes-main p {
+	padding: 10px;
+	border-radius: 3px;
+	border: lightgrey 1px dotted;
+	background-color: white;
+}
+
+#quotes-main p:hover {
+	background-color: #F5F5F5;
+}
+
+#quotes-main span.author:before {
+	content: "\00a0\2014\00a0"; 
+}
+#quotes-main span.author {	/* quote paragraph author */
+	font-style: italic;
+	padding: 0;
+	margin: 5px 0 0 0;
+	font-size: 12px;
+	text-transform: uppercase;
+	display: block;
+	text-align: right;
+}
+
+
+#quotes-main div.quotes-section p.description {
+	background-color: transparent;
+	padding: 20px 0px;
+	border-radius: 0px;
+	border: dotted darkgrey 0px;
+	text-align: left;
+}
