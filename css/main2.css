@@ -592,6 +592,25 @@ div#credits, div#credits a {
 	margin: 10px 0;
 }
 
+/*********** Handles *********************/
+div#handles ul {
+	list-style: none; 
+	margin: 0;
+	padding: 0;
+}
+
+div#handles ul li {
+	display: inline-block;
+}
+
+div#handles ul li img {	/* handle_icon */
+	height: 30px;
+}
+
+div#handles ul li a {	/* handle link */
+	target-name:new;
+	target-new:tab;
+}
 
 /*********** Extra Page stuff *********************/
 
@@ -700,6 +719,11 @@ div#manga-main span.progress {
 	padding-left: 10px;
 }
 
+.upword li.empty {
+	list-style-type: none;
+	height: 12px;
+}
+
 .upword .important {
 	font-weight: bold; 
 }
@@ -712,3 +736,7 @@ div#manga-main span.progress {
 	text-transform: capitalize;
 }
 
+div#music-main li.favourite {
+	font-weight: bold; 
+	font-size: 14px;
+}

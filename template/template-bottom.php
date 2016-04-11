@@ -50,6 +50,23 @@
 	<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 	<!-- end: MailChimp Signup Form -->
 
+	<!-- start: Handles -->
+	<div id="handles">
+		<h2>The Picture of Sandy Ho</h2>
+		<ul>
+			<li class=""><a href="https://twitter.com/officesandy" target="_blank"><img src="/images/main/handle_icons/icon_twitter.png" /></a></li>
+			<li class=""><a href="https://sanzoid.wordpress.com/" target="_blank"><img src="/images/main/handle_icons/icon_wordpress.png" /></a></li>
+			<li class=""><a href="https://github.com/sanzoid" target="_blank"><img src="/images/main/handle_icons/icon_github.png" /></a></li>
+			<li class=""><a href="https://www.udemy.com/user/sandyho4/" target="_blank"><img src="/images/main/handle_icons/icon_udemy.png" /></a></li>
+			<li class=""><a href="https://www.codecademy.com/sanzoidy" target="_blank"><img src="/images/main/handle_icons/icon_codecademy.png" /></a></li>
+			<li class=""><a href="https://www.codeschool.com/users/sanzoidy" target="_blank"><img src="/images/main/handle_icons/icon_codeschool.png" /></a></li>
+			<li class=""><a href="https://www.duolingo.com/sanzoidy" target="_blank"><img src="/images/main/handle_icons/icon_duolingo.png" /></a></li>
+			<li class=""><a href="https://trakt.tv/users/sanzoidy" target="_blank"><img src="/images/main/handle_icons/icon_trakt.png" /></a></li>
+			<li class=""><a href="http://www.neopets.com/userlookup.phtml?user=sanzoidy" target="_blank"><img src="/images/main/handle_icons/icon_neopets.png" /></a></li>
+		</ul>
+	</div>
+	<!-- end: Handles -->
+
 	</div>
 	<!-- end: margin-wrapper -->
 

@@ -8,23 +8,8 @@
 	content:"\"";
 }
 
-#quotes-main span.quote {	/* quote paragraph */
-	display: inline-block;
-}
-
 #quotes-main span.quote br {
 	line-height: 18px;	/* more space between multi-speaker quotes*/
-}
-
-#quotes-main p {
-	padding: 10px;
-	border-radius: 3px;
-	border: lightgrey 1px dotted;
-	background-color: white;
-}
-
-#quotes-main p:hover {
-	background-color: #F5F5F5;
 }
 
 #quotes-main span.author:before {
@@ -40,6 +25,23 @@
 	text-align: right;
 }
 
+#quotes-main ul {
+	padding: 0;
+	margin: 0;
+}
+
+#quotes-main li {
+	padding: 10px;
+	border-radius: 3px;
+	border: lightgrey 1px dotted;
+	background-color: white;
+	list-style: none;
+	margin: 15px 0;
+}
+
+#quotes-main li:hover {
+	background-color: #F5F5F5;
+}
 
 #quotes-main div.quotes-section p.description {
 	background-color: transparent;

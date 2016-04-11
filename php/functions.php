@@ -7,7 +7,7 @@ function render_txt_file($file_link) {
 	$file = file_get_contents($file_link);
 
 	$file = explode("\n", $file); 
-	$title = $file[0]; 
+	$title = trim(str_replace("?", "", utf8_decode($file[0]))); 
 
 	echo "<div>\n";
 	echo "<h2>" . $title . "</h2>\n";
@@ -41,12 +41,46 @@ function render_txt_file($file_link) {
 
 		if (!empty($line)) {
 			$html = "<li class=\"" . $class . "\">" . $line ."</li>\n"; 
+		} else {
+			$html = "<li class=\"empty\"></li>\n";
 		}
 
 		echo $html; 
 	}
 	echo "</ul>\n";
 	echo "</div>\n";
+}
+
+function render_list_from_file($data_file, $wrap_before, $wrap_after) {
+	$data_stream = file_get_contents($data_file); 
+
+	$lines = explode("\n", $data_stream); 
+
+	echo "<ul>";
+	foreach ($lines as $line) {
+		if (!empty($line)) {
+			echo "<li>". $wrap_before . $line . $wrap_after . "</li>"; 
+		}
+	}
+	echo "</ul>";
+}
+
+function render_quotes_list_from_file($data_file) {
+	$data_stream = file_get_contents($data_file); 
+
+	$lines = explode("\n", $data_stream); 
+
+	echo "<ul>";
+	for ($i = 0; $i < count($lines); $i++) {
+		$line = $lines[$i]; 
+		if (!empty($line)) {
+			// get next line for author 
+			$i++; 
+			$author = $lines[$i]; 
+			echo "<li><span class=\"quote\">" . $line . "</span><span class=\"author\">" . $author . "</span></li>"; 
+		}
+	}
+	echo "</ul>";
 }
 
 ?>

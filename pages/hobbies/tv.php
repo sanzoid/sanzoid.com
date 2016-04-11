@@ -56,6 +56,11 @@
 
 <p>I might post reviews/recommendations down here later. </p>
 
+<hr />
+
+<?php 
+	render_txt_file("https://www.dropbox.com/s/0c295uz3l1x4uig/2016%20PILOT%20SEASON.txt?raw=1");
+?>
 
 <?php /***************************** CUSTOM PAGE HTML ENDS HERE *****************************************/ ?>
 <!-- END: BODY -->

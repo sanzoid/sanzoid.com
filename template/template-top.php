@@ -39,49 +39,44 @@
 <!-- START: navbar -->
 <div id="navbar" class="global">
 	<ul class="menu">
-		<li class="media null"><a class="menu-link" href="#">hobbies</a>
+		<li class="media"><a class="menu-link" href="/pages/hobbies/hobbies.php">hobbies</a>
 			<ul class="submenu">
-				<li class="null"><a class="menu-link" href="/pages/hobbies/tv.php">tv</a></li>
-				<li class="null"><a class="menu-link" href="/pages/hobbies/movies.php">movies</a></li>
-				<li class="null"><a class="menu-link" href="/pages/hobbies/books.php">books</a></li>
-				<li class="null"><a class="menu-link" href="/pages/hobbies/manga.php">manga</a></li>
+				<li class=""><a class="menu-link" href="/pages/hobbies/tv.php">tv</a></li>
+				<li class=""><a class="menu-link" href="/pages/hobbies/movies.php">movies</a></li>
+				<li class=""><a class="menu-link" href="/pages/hobbies/books.php">books</a></li>
+				<li class=""><a class="menu-link" href="/pages/hobbies/manga.php">manga</a></li>
+				<li class=""><a class="menu-link" href="/pages/hobbies/music.php">music</a></li>
 			</ul>
 		</li>
-		<li class="art null"><a class="menu-link" href="/pages/art/art.php">art</a>
-			<!--<ul class="submenu">
-				<li class="null"><a class="menu-link" href="#">sculptures</a></li>
-				<li class="null"><a class="menu-link" href="#">drawings</a></li>
-				<li class="null"><a class="menu-link" href="#">paintings</a></li>
-				<li class="null"><a class="menu-link" href="#">this is my design</a></li>
-			</ul>-->
+		<li class="art "><a class="menu-link" href="/pages/art/art.php">art</a>
 		</li>
-		<li class="goals null"><a class="menu-link" href="/pages/projects/projects.php">projects</a>
+		<li class="goals "><a class="menu-link" href="/pages/projects/projects.php">projects</a>
 			<ul class="submenu">
-				<li class="null"><a class="menu-link" href="/pages/projects/goals.php">goals</a></li>
+				<li class=""><a class="menu-link" href="/pages/projects/goals.php">goals</a></li>
 			</ul>
 		</li>
 		<li class="home"><a href="/"><div class="home-logo"></div><span class="menu-link">home</span></a></li>
-		<li class="thoughts null"><a class="menu-link" href="/pages/thoughts/thoughts.php">thoughts</a>
+		<li class="thoughts "><a class="menu-link" href="/pages/thoughts/thoughts.php">thoughts</a>
 			<!--<ul class="submenu">
-				<li class="null"><a class="menu-link" href="#">opinions</a></li>
-				<li class="null"><a class="menu-link" href="#">ideas</a></li>
-				<li class="null"><a class="menu-link" href="#">philosophy</a></li>
-				<li class="null"><a class="menu-link" href="#">theories</a></li>
+				<li class=""><a class="menu-link" href="#">opinions</a></li>
+				<li class=""><a class="menu-link" href="#">ideas</a></li>
+				<li class=""><a class="menu-link" href="#">philosophy</a></li>
+				<li class=""><a class="menu-link" href="#">theories</a></li>
 			</ul>-->
 		</li>
-		<li class="quotes null"><a class="menu-link" href="/pages/quotes/quotes.php">quotes</a>
+		<li class="quotes "><a class="menu-link" href="/pages/quotes/quotes.php">quotes</a>
 			<!--<ul class="submenu">
-				<li class="null"><a class="menu-link" href="#">my quotes</a></li>
-				<li class="null"><a class="menu-link" href="#">tv quotes</a></li>
-				<li class="null"><a class="menu-link" href="#">movie quotes</a></li>
-				<li class="null"><a class="menu-link" href="#">random quotes</a></li>
+				<li class=""><a class="menu-link" href="#">my quotes</a></li>
+				<li class=""><a class="menu-link" href="#">tv quotes</a></li>
+				<li class=""><a class="menu-link" href="#">movie quotes</a></li>
+				<li class=""><a class="menu-link" href="#">random quotes</a></li>
 			</ul>-->
 		</li>
-		<li class="things null"><a class="menu-link" href="/pages/things/things.php">things</a>
+		<li class="things "><a class="menu-link" href="/pages/things/things.php">things</a>
 			<ul class="submenu">
-				<li class="null"><a class="menu-link" href="/pages/things/notes.php">notes</a></li>
-				<!--<li class="null"><a class="menu-link" href="#">favourite things</a></li>-->
-				<!--<li class="null"><a class="menu-link" href="#">exploration</a></li>-->
+				<li class=""><a class="menu-link" href="/pages/things/notes.php">notes</a></li>
+				<!--<li class=""><a class="menu-link" href="#">favourite things</a></li>-->
+				<!--<li class=""><a class="menu-link" href="#">exploration</a></li>-->
 			</ul>
 		</li>
 	</ul>
