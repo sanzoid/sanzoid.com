@@ -1,0 +1,23 @@
+
+#art-main .section ul {
+	list-style: none;
+	padding: 0;
+	margin: 20px 0;
+	text-align: center;
+}
+
+#art-main .section ul li {
+	display: inline-block;
+	background-color: white;
+	margin: 10px;
+	vertical-align: middle;
+}
+
+#art-main .section ul li img {
+	max-height: 200px;
+	display:block;
+}
+
+#art-main img {
+	max-width: 300px;
+}

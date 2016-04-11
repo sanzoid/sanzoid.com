@@ -700,4 +700,15 @@ div#manga-main span.progress {
 	padding-left: 10px;
 }
 
+.upword .important {
+	font-weight: bold; 
+}
+
+.upword .strike {
+	text-decoration: line-through;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
 

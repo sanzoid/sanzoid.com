@@ -11,12 +11,14 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="/css/main2.css">
 	<link rel="stylesheet" type="text/css" href="/css/quotes.css">
+	<link rel="stylesheet" type="text/css" href="/css/art.css">
 	<!--<script type="text/javascript" src="<?php echo $base; ?>/js/main.js"></script>-->
 	<link href='https://fonts.googleapis.com/css?family=Coming+Soon|Cabin+Sketch' rel='stylesheet' type='text/css'>	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
 	<!--<script src="./js/jquery-2.1.4.min.js"></script>-->
 	<?php include_once($base."/js/main.js"); ?>
+	<?php include_once($base."/php/functions.php"); ?>
 
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -28,7 +30,7 @@
 <!-- START: banner -->
 <div id="banner" class="global">
 	<!-- banner left --><div class="left"></div>
-	<!-- banner mid --><div class="mid"></div>
+	<!-- banner mid --><a href="/"><div class="mid"></div></a>
 	<!-- banner right --><div class="right"></div>
 </div>
 <!-- END: banner -->
@@ -45,7 +47,7 @@
 				<li class="null"><a class="menu-link" href="/pages/hobbies/manga.php">manga</a></li>
 			</ul>
 		</li>
-		<li class="art null"><a class="menu-link" href="#">art</a>
+		<li class="art null"><a class="menu-link" href="/pages/art/art.php">art</a>
 			<!--<ul class="submenu">
 				<li class="null"><a class="menu-link" href="#">sculptures</a></li>
 				<li class="null"><a class="menu-link" href="#">drawings</a></li>
@@ -53,13 +55,13 @@
 				<li class="null"><a class="menu-link" href="#">this is my design</a></li>
 			</ul>-->
 		</li>
-		<li class="goals null"><a class="menu-link" href="#">projects</a>
+		<li class="goals null"><a class="menu-link" href="/pages/projects/projects.php">projects</a>
 			<ul class="submenu">
-				<li class="null"><a class="menu-link" href="#">goals</a></li>
+				<li class="null"><a class="menu-link" href="/pages/projects/goals.php">goals</a></li>
 			</ul>
 		</li>
 		<li class="home"><a href="/"><div class="home-logo"></div><span class="menu-link">home</span></a></li>
-		<li class="thoughts null"><a class="menu-link" href="#">thoughts</a>
+		<li class="thoughts null"><a class="menu-link" href="/pages/thoughts/thoughts.php">thoughts</a>
 			<!--<ul class="submenu">
 				<li class="null"><a class="menu-link" href="#">opinions</a></li>
 				<li class="null"><a class="menu-link" href="#">ideas</a></li>
@@ -75,11 +77,11 @@
 				<li class="null"><a class="menu-link" href="#">random quotes</a></li>
 			</ul>-->
 		</li>
-		<li class="things null"><a class="menu-link" href="#">things</a>
+		<li class="things null"><a class="menu-link" href="/pages/things/things.php">things</a>
 			<ul class="submenu">
-				<li class="null"><a class="menu-link" href="#">favourite things</a></li>
-				<li class="null"><a class="menu-link" href="#">exploration</a></li>
-				<li class="null"><a class="menu-link" href="/pages/test/test-deeper.php">notes</a></li>
+				<li class="null"><a class="menu-link" href="/pages/things/notes.php">notes</a></li>
+				<!--<li class="null"><a class="menu-link" href="#">favourite things</a></li>-->
+				<!--<li class="null"><a class="menu-link" href="#">exploration</a></li>-->
 			</ul>
 		</li>
 	</ul>

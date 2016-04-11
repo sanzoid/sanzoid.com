@@ -1,6 +1,8 @@
 <?php 
-	$base = "/home/a1257259/public_html"; 	// does not work locally 
-	$base = $_SERVER['DOCUMENT_ROOT']; 	// does not work with 000webhost 
+	//$base = "/home/a1257259/public_html"; 	// does not work locally 
+	//$base = $_SERVER['DOCUMENT_ROOT']; 	// does not work with 000webhost 
+	$base = dirname(getcwd());				// go up one level
+	//$base = dirname(dirname(getcwd()));		// go up two levels 
 	$path_top = $base."/template/template-top.php";
 	$path_bottom = $base."/template/template-bottom.php";
 
@@ -13,6 +15,14 @@
 <!-- Template: Top -->
 
 <!-- START: BODY-->
+
+<p>This is an example of a txt file created by Upword being rendered via Dropbox:</p>
+<div class="capitalize">
+<?php 
+	render_txt_file("https://www.dropbox.com/s/fyu9oo8gagaglz8/movies%202014-2016.txt?raw=1"); 
+?>
+</div>
+
 
 <h1>HTML Ipsum Presents</h1>
 	       

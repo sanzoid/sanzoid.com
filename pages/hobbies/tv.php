@@ -1,6 +1,8 @@
 <?php 
-	$base = "/home/a1257259/public_html"; 	// does not work locally 
+	//$base = "/home/a1257259/public_html"; 	// does not work locally 
 	//$base = $_SERVER['DOCUMENT_ROOT']; 	// does not work with 000webhost 
+	//$base = dirname(getcwd());				// go up one level
+	$base = dirname(dirname(getcwd()));		// go up two levels 
 	$path_top = $base."/template/template-top.php";
 	$path_bottom = $base."/template/template-bottom.php";
 
@@ -15,7 +17,7 @@
 <!-- START: BODY-->
 <?php /***************************** CUSTOM PAGE HTML BEGINS HERE ***************************************/ ?>
 
-<p>My number one passion is Television. If someone paid me to just watch television all day without having, that would be the dream life. I'm not talking about watching, then reviewing. No, I'm talking about just watching, no strings attached.</p>
+<p>My number one passion is Television. If someone paid me to just watch television all day without having to do anything else, that would be the dream life. I'm not talking about watching, then reviewing. No, I'm talking about just watching, no strings attached.</p>
 <p>Realistically, that is no way to live which is why I'm pursuing my second passion: <em>Building</em> (in my case, building with code).</p>
 <p>Growing up, I always believed that television was the best. I learned everything by watching TV. Although it's a bad influence, it also teaches many life lessions. In high school, I discovered American Network television (more like I felt I was old and mature enought to finally watch that stuff), and I fell in love. I found my meaning in life. I no longer felt that life was meaningless. I was happy. I had a reason to live.</p>
 <p>I mainly watch Network Television. Sometimes Cable.</p>

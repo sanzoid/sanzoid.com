@@ -1,6 +1,8 @@
 <?php 
-	$base = "/home/a1257259/public_html"; 	// does not work locally 
+	//$base = "/home/a1257259/public_html"; 	// does not work locally 
 	//$base = $_SERVER['DOCUMENT_ROOT']; 	// does not work with 000webhost 
+	//$base = dirname(getcwd());				// go up one level
+	$base = dirname(dirname(getcwd()));		// go up two levels 
 	$path_top = $base."/template/template-top.php";
 	$path_bottom = $base."/template/template-bottom.php";
 
@@ -61,6 +63,12 @@
 
 <p>I might add reviews and recommendations down here some time. That's only if and when I watch movies.</p>
 
+<p>Below is a list of movies I want to watch (started in 2014). It's edited using an app called UpWord and syncs up to my Dropbox account. This renders it in real-time. So if I make a change in the app, it will reflect here automatically! Cool, huh?</p>
+<div class="capitalize">
+<?php 
+	render_txt_file("https://www.dropbox.com/s/fyu9oo8gagaglz8/movies%202014-2016.txt?raw=1");
+?>
+</div>
 
 <?php /***************************** CUSTOM PAGE HTML ENDS HERE *****************************************/ ?>
 <!-- END: BODY -->

@@ -1,0 +1,375 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<title>PSYCH 232 &#8212; TEXT NOTES &#8212; sanzoid.</title>
+
+<link rel="stylesheet" type="text/css" href="notes.css">
+
+<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+<link rel="icon" href="../favicon.ico" type="image/x-icon">
+
+
+<script type="text/JavaScript" language="JavaScript">
+// format date as dd-mmm-yy
+function date_ddmmmyy(date)
+{
+  var d = date.getDate();
+  var m = date.getMonth() + 1;
+  var y = date.getYear();
+
+  // handle different year values 
+  // returned by IE and NS in 
+  // the year 2000.
+  if(y >= 2000)
+  {
+    y -= 2000;
+  }
+  if(y >= 100)
+  {
+    y -= 100;
+  }
+
+  // could use splitString() here but the following method is more compatible
+  var mmm = 
+    ( 1==m)?'Jan':( 2==m)?'Feb':(3==m)?'Mar':
+    ( 4==m)?'Apr':( 5==m)?'May':(6==m)?'Jun':
+    ( 7==m)?'Jul':( 8==m)?'Aug':(9==m)?'Sep':
+    (10==m)?'Oct':(11==m)?'Nov':'Dec';
+
+  return "" +
+    (d<10?"0"+d:d) + "-" +
+    mmm + "-" +
+    (y<10?"0"+y:y);
+}
+
+// get last modified date of the current document.
+function date_lastmodified()
+{
+  var lmd = document.lastModified;
+  var s   = "Unknown";
+  var d1;
+
+  // check if we have a valid date before proceeding
+  if(0 != (d1=Date.parse(lmd)))
+  { s = "" + date_ddmmmyy(new Date(d1)); }
+
+  return s;
+}
+
+function lastMod() {
+	document.write(date_lastmodified());
+}
+</script>
+</head>
+
+<body>
+<div id="nts-cont">
+	<!-- NAV START -->
+	<div id="nts-nav">
+		<ul>
+			<li class="web-link"><a href="../index.html">sanzoid.com</a></li>
+			<li><a href="#">PSYCH 232</a></li>
+			<li><a href="#"></a></li>
+		</ul>
+	</div>
+	<!-- NAV END -->
+	
+	<!-- TABLE OF CONTENTS START --> 
+	<div id="nts-toc">
+		<ul>
+			<li>Table of Contents
+			<ul>
+				<li><a href="#ch1">Chapter 1</a></li>
+				<li><a href="#ch2">Chapter 2</a></li>
+				<li><a href="#ch3">Chapter 3</a></li>
+				<li><a href="#ch7">Chapter 7</a></li>
+			</ul>
+			</li>
+		</ul>
+	</div>
+	<!-- TABLE OF CONTENTS END --> 
+
+	
+<!-- CONTAINER START -->
+<div id="nts-container">
+	
+	<!-- BANNER START -->
+	<div id="nts-banner">
+		<div id="nts-banner-coursecode">PSYCH 232&nbsp;&#8212;&nbsp;Text</div>
+		<div id="nts-banner-course">The Psychology of Evil&nbsp;&#8212;&nbsp;<em>Evil: Inside Human Violence and Cruelty</em></div>
+		<div id="nts-banner-prof">Christopher T. Burris</div>
+		<div id="nts-banner-author">Roy F. Baumeister</div>
+	</div>
+	<!-- BANNER END -->
+	
+	<!-- COURSE DESCRIPTION -->
+	<div id="nts-text-desc" class="dark-bg">
+		Why is there evil, and what can scientific research tell us about the origins and persistence of evil behavior? Considering evil from the unusual perspective of the perpetrator, Baumeister asks, How do ordinary people find themselves beating their wives? Murdering rival gang members? Torturing political prisoners? Betraying their colleagues to the secret police? Why do cycles of revenge so often escalate? 
+		<br><br>
+		Baumeister casts new light on these issues as he examines the gap between the victim's viewpoint and that of the perpetrator, and also the roots of evil behavior, from egotism and revenge to idealism and sadism. A fascinating study of one of humankind's oldest problems, Evil has profound implications for the way we conduct our lives and govern our society.
+	</div>
+	
+	<!-- CONTENT START: THIS IS WHERE THE NOTES GO -->
+	<div id="nts-content" class="psych232txt">
+		<h1 id="ch1" class="chapter">Chapter 1: The Question of Evil, and the Answers</h1>
+		
+		<p>Evil is in the eye of the beholder. Victims need to see the perpetrators as evil. Humans have this belief that people are generally good, so when bad shit happens, they call it evil. </p>
+		<ol>How evil comes into existence:  
+			<li>How do the events happen? </li>
+			<li>What leads people to perceive the events as evil? </li>
+			<li>What accounts for the wide gap between the perceptions and the reality of evil? </li>
+		</ol>
+		
+		<h2>A Brush With Evil</h2>
+		<div class="example">Lady at the airport. She sat down in front of a man. She started eating her chips. He starting eating the chips. She was shocked that he was eating her chips. She left. She noticed in her bag that her bag of chips was still in her bag. Evil is in the eye of the beholder. To the man, she was evil. To her, he was evil. It was an honest mistake. Two core aspects of evil: <span class="keyword">HARM</span> and <span class="keyword">CHAOS</span>. The woman was upset that what was happening was outside of her conception of human decency. She felt like she encountered an alien.</div>
+		
+		<h2>What Is Evil?</h2>
+		<p>Evil is found in the judgements of others. Perpetrators often do not see what they're doing as evil. </p>
+		<ul>Evil is not: 
+			<li>Natural disasters</li>
+			<li>Surgeons inflicting pain to help patients</li>
+			<li>Prostitutes spanking for stimulation</li>
+			<li>Insanity/Psychosis</li>
+		</ul>
+		
+		<h2>Once More, without Feeling</h2>
+		<div class="example">Soldiers attacking an Indian village. An officer saw a three year old child and took a shot. He missed. Another man said, "Let me try the son of a bitch; I can hit him." He missed too. A third man tried and killed the little boy. <br>
+		One: <span class="keyword">Attitude</span>: this was an everyday thing. <br>
+		Two: <span class="keyword">Egotism</span>: It was a competition and someone had won. 
+		</div>
+		<p>Perpetrators are better off if they are not sensitive. Games can take their mind off the guilt. Sensitive perpetrators will suffer from nightmares, anxiety attacks, guilt, gastrointestinal problems, and other signs of stress. </p>
+		
+		<h2>Impulse and Commitment</h2>
+		<div class="example">Kody Scott. Knocked up a girl. In a gang. His girl was in labor. Walked in the enemy's hood. Shot a guy. Went home to watch TV. Kody knew his victim. He had a <span class="keyword">choice</span> and he had <span class="keyword">self-control</span>. It was an <span class="keyword">impulsive</span> crime. </div>
+		<p>People are commonly victimized by people they know than strangers.</p>
+		<p>Why isn't there more violence? <span class="keyword">Self-control</span>. Self-control prevents a lot of acts of evil. Lose it, and you be causing evil everywhere. </p>
+		<p>Drugs stopped violence. Drugs = money so everyone stopped the violence to start making $$. </p>
+		
+		<h2>True Crime and False</h2>
+		<div class="example">Susan Smith. She said a black man pointed a gun at her to get out of the car. Her children were in the back. He drove away with her children. The media was all over it because it fit the myth of pure evil. Victim wholly innocent, senseless perpetrator, different race. She had actually killed her two children by pushing her car into the lake and there was no black man. It was a false story that she made up. </div>
+		
+		<h2>The Magnitude of Evil</h2>
+		<p><span class="defn">Magnitude Gap</span> the difference between the importance of the act to the victim and the perpetrator. Victims are usually traumatized by the fact that someone could do such a thing whereas perpetrators treat the act as a small part of their life. </p>
+
+		<h2>A Pair of Hate Crimes</h2>
+		<div class="example">Omaha, Nebraska. A string of rapes by black men. A white woman identified her rapist - Mr. Brown. Trial never happened. 15000 drunk, white men mobbed outside the courthouse/jail. Mr. Brown was handed to the mob. He was beaten, shot over 1000 times, and burned. The men were not satisfied with just his death, they wanted more. The announcer said that everyone was smiling, but that was not the fact. This mistake = stereotype of evil: perps get pleasure out of inflicting harm. <br>
+		They were avenging their women and being racist. </div>
+		<div class="example">Virginia. Black kids saw a white boy and automatically decided to beat him. Most of them stopped at a certain point, but one guy kept going. The reason: white people oppressed black people for a long time so they were entitled to get revenge. </div>
+		<p><span class="defn">Egotism</span>thinking well of yourself, regardless of whether those thoughts are justified or not. The good kind is a healthy high self-esteem. The bad kind is being conceited or arrogant.</p>
+		<p>Violence occurs when egotistical people feel that their favourable views on themselves are being threatened. Violence puts the other person down so you feel higher than them. </p>
+		<p>Groups are essential for human social life and are necessary to survive, but they also cause this separation between people. If one group feels threatened by another group, they strike back.</p>
+		
+		<h2>A Young Woman's Faith</h2>		
+		<div class="example">Korean woman. She was ordered to shoot down an airplane. She did not doubt the order as she was told it would benefit the country. She knew she would be killing hundreds of people, but it was for a good cause. She did not realize what she had done until she faced the families of the victims. <br>
+		<ul>
+			<li>She was focused on the here-and-now. She felt terrible afterwards. </li>
+			<li>She was motivated by the highest ideals and principles. Not hatred, but a duty to her people. She was doing good.</li>
+			<li>Her action did not lead to the desired goal. The political purpose was a complete failure although the mission succeeded. Evil acts tend to fail to bring long-term purposes. </li>
+		</ul></div>
+		<p>Goals are usually never satisfied long-term. So evil cannot be explained by such goals. </p>
+		
+		<h1 class="part">Part 1: Image and Reality</h1>
+		<h1 id="ch2" class="chapter">Chapter 2: Victims and Perpetrators </h1>
+		<ol>Evil can be approached in two ways: 
+			<li>Understand the image of evil</li>
+			<li>Understand what causes "evil" behaviours</li>
+		</ol>
+		<p>Reality of evil is shaped by the image of evil. No one deliberately does evil, but how do so many evil acts get done? How do the performers of evil think and feel about their acts? </p>
+		
+		<h2>Killers Dressed in Black</h2>
+		<ul>Nazis were: 
+			<li><span class="keyword">Idealists</span>: They thought they were making the world a better place. They wanted to build a perfect society. They used the example of Americans killing Indians to persuade the people. Germans disliked the Jews, but this was not a main contribution to the holocaust. <strong>Crimes of passion are inefficient as passion is disruptive.</strong></p>
+		<p><span class="defn">Gardener's Mentality</span>A gardener raises plants to make a pretty garden. The weeds have to be removed. Some hate the weeds or think of them as an inconvenience. Both types kill the weeds. The holocaust followed this mentality. The Jews were the weeds and no matter how they felt about them, they had to exterminate them for a better society. </li>
+			<li><span class="keyword">Righting past wrongs</span>: Nazis thought that they were righting past wrongs. They felt that they were treated unfairly in the First World War.</li>
+			<li><span class="keyword">Doing good where cruelty was an unfortunate by-product</span>: Some say that Hitler did many good things. The bad things were a by-product of the good that he was doing. Others say that what he did was necessary for a utopian future. Bad means toward a good end.</li>
+		</ul>
+		
+		<h2>How Perpetrators Think</h2>
+		<p>Victim accounts are not reliable. Perpetrators are ordinary humans with their own motives, reasons, and rationalizations. It is important to look at the perpetrator's side, but they often do not say much. People also do not trust what they say. Victims may also be biased so <strong>both victims and perpetrators distort reality</strong>. Difficult to study perps as crimes are rare. </p>
+		<div class="example">Baumeister study. Write a perpetrator story and a victim story. Actions seem much less wrong to perpetrators than to the victims. Victims see black and white. Perpetrators see grey. Perps know they were partly wrong, but not fully wrong. They also think victims overreact. "It wasn't so bad" and "I couldn't help it." Some perps claim that their actions were fully justifiable. Victims say that the perpetrators had no reason to do what they did or that they did it just to be malicious. </div>
+		<p><span class="defn">The Elastic Time Frame</span>Victims have a very long time span whereas the perpetrators "let bygones be bygones." Victims can never forget whereas perpetrators forget very quickly. Relates to the <span class="keyword">magnitude gap</span>.</p>
+		<p>People see others' ordinary actions as personal attacks. Abusive husbands will see a simple comment as an attack on their pride so they have to beat their wives to assert dominance. <span class="keyword">Hypersensitive</span> people are potentially dangerous. They merely respond to attacks. </p>
+		<div class="example">Arlene Stillwell experiment. Each participant given the role of the victim or perpetrator and had to recite it as if it had happened to them. Both victims and perpetrators extorted the facts to an equal degree. Victims would twist the facts to make the offense seem worse and the perpetrators made it seem less bad. We cannot rely on victims or perpetrators. </div>
+				
+		<h2>Mixing and Blurring the Roles: When Perpetrators Become Victims</h2>
+		<p>Perpetrators see themselves as victims. They are provoked by the victim. The victim attacks them in some way and they have the right to retaliate. Prisoners feel more like victims. Their kills were a spur-of-the-moment thing whereas capitalism is premeditated.</p>
+		<p>Victim status is promising. People tend to want to help them so victims can distort the story and have people trust them. Perpetrators will try to play this victim card to gain sympathy. </p>
+		<div class="example">Two strangers in a bar. Both aggressive. Hard to tell who was the first aggressor. Both of them were defending themselves. </div>
+		<p>Neither side saw itself as evil, but both sides were in a battle against evil. </p>
+		<div class="example">Masada. Roman taking over Masada where Jews were. Jews made a suicide pact. Men killed their families then themselves. They failed to compromise. Who can you blame? The Jews did not want to surrender. Romans gave them a choice. Jews killed their women and children, but Romans said they would not have been so cruel. Jews chose death over slavery.</div>
+		<p>Do we blame no one? It is a mistake to want to find a single person to blame. Being victimized does not justify a violent response. Victims may need to be blamed, but that does not mean what perpetrators do is okay. We have to be willing to blame both parties. <strong>We should blame both sides.</strong></p>
+		<p>The legal system sucks. The abuser says they were abused as a child so the abusing is not their fault. They gain sympathy from that and are not convicted. We tend to see good guys and bad guys instead of seeing both sides as wrong. </p>
+		
+		<h1 id="ch3" class="chapter">Chapter 3: The Myth of Pure Evil</h1>
+		<p>It is rare for an organization to associate their name with evil. Raiders, Pirates, Demons, Hell's Angels, Public Enemy, Black Sabbath, etc. The organization itself is not dedicated to evil. They use such names to strike fear into their opponents. No sports teams call themselves the Child Abusers. People choose "evil" names, but do not see themselves as evil.</p>
+		<p>The face of evil is no one's face. It's a false image imposed on the opponent. We know it. But at the same tme, we don't know it. How does such an image survive? Things are distorted to fit this image. This image is the <span class="keyword">myth of pure evil</span>.</p>
+		
+		<h2>Images of Evil</h2>
+		<p><span class="keyword">Evil at the Movies</span>: People like to see villains. Chaos is a common theme. Fear is created. Innocent families are invaded by an evil power they cannot understand. Human villains created a new genre. Movie villains usually hurt just because they enjoyed it. Drug dealers.</p>
+		<p><span class="keyword">Religion and the Devil</span>: Religion provides explicit explanations of evil. Evil doesn't exist by itself, it is the opposite of good. 
+		<br>Christians: God either chose to create evil (he shares the blame) or God could not prevent evil(he's not all-powerful). Both views unacceptable.
+		<br>Other religions: Satan is the equal of God. 
+		<br>In our time: Are people inherently good or is there a side that's inherently bad? People tend to identify themselves with a group and see other groups as rival. Your group is the good group and everyone else is evil.
+		<br>There are many theories about evil figures. The main point is that they have all been proud. Their pride, arrogance, and confidence are key to their evilness.
+		</p>
+		<p><span class="keyword">Bad Guys for Kids</span>: Children's cartoons. Common theme: villains have no reason for their attacks. They are evil for evil's sake. They have little motive. They are foreign. They lose emotional control which causes slip-ups.</p>
+		<p><span class="keyword">The New War</span>: Weapon technology. Self-control vs. the lack of it.</p>
+		
+		<h2>The Myth of Pure Evil</h2>
+		<ol>
+			<li><span class="keyword">Evildoers intentionally harm</span></li>
+			<li><span class="keyword">Evildoers harm because they enjoy it</span> - people are unable to see that others had an understandable reason.</li>
+			<li><span class="keyword">Victim is innocent and good</span> - They are going about their day and someone just wants to torment them out of no where</li>
+			<li><span class="keyword">Evil is the other/enemy/outsider/out-group</span> - Us against them. </li>
+			<li><span class="keyword">Evil is unchanging</span> - Evil has just been evil. </li>
+			<li><span class="keyword">Evil is the opposite of order, peace, and stability</span> - evil is a disruption in a stable, predictable world. </li>
+			<li><span class="keyword">Evil characters are marked by egotism</span> - Too much self-esteem. </li>
+			<li><span class="keyword">Evil figures have difficulty maintaining control over their feelings</span></li>
+		</ol>
+		
+		<h2>The Myth of Pure Evil in Modern Life</h2>
+		<p><span class="keyword">Crime and Evil in the News</span>: The media portrays acts of crime differently. They leave out details that would make the crime seem less surprising. If a random person attacks someone for no reason, it makes people fear it. Random crime conforms to the myth of pure evil and that's what interests people. Black rioters beat a white man, but it was black people who found him and took him to the hospital (this part was left out as it did not fit the myth of pure evil). The media prefers interracial crimes even though whites kill whites and blacks kill blacks. </p>
+		<p><strong>Increased recognition of differences between groups has led more often to conflict and violence than to peaceful cooperation and sharing.</strong></p>
+		<p><span class="keyword">Drugs and Alcohol: The Chemical Demons</span>: The media portrays drug-dealing as the cause of violence, but this is not the case. Money is more appealing than violence, so violence has gone down since drugs appeared. The news needs to attract an audience so they may leave out details. They tell the people what they want to hear. Why do people prefer that drugs are the source of violence? Because it supports the myth of pure evil. Drugs are alien, they cause unpredictability in humans. It gives an easy answer to everything - blame the drugs. It's the modern version of being possessed by demons. Alcohol is used to explain violent behaviour because it reduces inner restraints, although it does not cause impulses. Alcohol only increases aggression, it does not cause it. Blaming drugs and alcohol gives a simpler explanation to why things happen. The abused love their abuser, so they must find a reason to stay with them. They blame the alcohol.</p>
+		<p><span class="keyword">The Hated Face: Enemies in War</span>: "War is inconceivable without a clearly defined image of the enemy." An evil enemy gives the right to hate and destroy him. It justifies one's own actions if they see the enemy as pure evil. It takes away the guilt.</p>
+		<p><span class="keyword">Innocent Victims</span>: People don't want the truth, they just want a conclusion. People rely on the myth to make themselves feel better - it's the easy route to an explanation. People look for explanations to their suffering and they often look outside of themselves. Freeing the blame from themselves is very appealing because it does not bring down their self-esteem.</p>
+		<ul>You've been injured by another person: 
+			<li>It was your fault. You deserved it.</li>
+			<li>It was no one's fault. It was a difference of opinion or a problem of communication.</li>
+			<li>It was their fault. They were under pressure. </li>
+			<li>It was their fault. They are a bad person. People don't like to give the benefit of the doubt. This option is most appealing because it gets rid of all responsibility for their own suffering. </li>
+		</ul>
+		<p><span class="keyword">Reciprocal Violence</span>: Both sides see themselves as innocent people. </p>
+		<p><strong>The myth of pure evil encourages people to believe that they are good and will remain good no matter what, even if they harm their opponents. It allows evil to masquerade as good. It gives people a moral immunity.</strong></p>
+		
+		<h1 id="ch7" class="chapter">Chapter 7: Can Evil Be Fun? The Joy of Hurting</h1>
+		<p><span class="defn">Sadism</span>Getting enjoyment or pleasure from hurting others, as well as the desire for the pleasure.</p>
+		<p>A lot of people get PTSD after killing someone. They cry while shooting people. They can't bring themselves to do it. Serial killers find their first kills disappointing and upsetting. They don't find the satisfaction they expect. It gets easier as they kill more. </p>
+		<h2>Why Do They Laugh?</h2>
+		<p>Laughter is emphasized because it matches the myth of pure evil. But the laughter may not mean pleasure from hurting someone. It could be from embarrassment, nervousness/uncertainty, from pleasure of doing a good job, or humiliation of another person.</p>
+		<p>Soldiers would make games out of killing, but that does not mean that the killing was pleasant. It reduces sensitivity. </p>
+
+		<p>People want to see violence. People do enjoy watching people get hurt.</p>
+		
+		<h2>Empathy, Children, and Psychopaths</h2>
+		<p>Children harm or kill other creatures out of curiosity. When they develop a sense of empathy, their cruelty disappears. Empathy takes a long time to grow, so there is a wide range. Psychopaths lack empathy. They get amusement from the sufferings of their victims, but that's not the driving force. </p>
+		
+		<h2>Can People Really Enjoy Hurting?</h2>
+		<p>Yes. Some people enjoy hunting. They enjoy killing. Some serial killers do not enjoy killing. They may profess that they do just to defy social standards when they have already been convicted. Some really enjoy hurting and are surprised that others don't understand the feeling. Some get high from shooting people. </p>
+		<p><span class="defn">Opponent Process Theory</span>Body in a state of equilibrium. If the homeostasis is disturbed (like running a race), it must be be brought back to normal. The theory is that the restoring process gets stronger over time. Tolerance. Some people may experience something unpleasant and restore from it. Over time, they get used to this and no longer fear it. They may find pleasure in it. Like killing. They may need to dose up the extremity. When someone kills someone, it is unpleasant, but the body finds a way to return to normal. </p>
+		<p>Why doesn't everyone become a sadist? A lot of people have been forced to kill, they should like it. <span class="keyword">Guilt</span>. People feel guilty if they hurt someone. Everyone has a sadistic side to them, but guilt keeps that hidden. It's why people can watch violent films, but not commit violent acts. There is no guilt in watching violent films.</p>
+		<p>Some people find hurting others fun. They seek the excitement. The whole experience is small. Violating rules causes excitement. </p>
+		
+		<h2>Power</h2>
+		<p>Power refers to having an impact on other people. The goal is to produce an effect. Power imposes the will of one on the other. People want to connect with others to change them. They want to cause them to show real human emotion. </p>
+		
+		<h2>When Empathy Serves Cruelty</h2>
+		<p><strong>The most extreme cruelty makes use of empathy. To be seriously, thoroughly cruel, it is necessary to know what the victim is feeling, in order to maximize the suffering. Maximum cruelty makes use of empathy without sympathy.</strong> Knowing exactly how a person feels is the best way to hurt them. Emotional abuse plays on empathy. Emotional abuse gains no help because there are no physical injuries. </p>
+		
+		<h1>Part 2: Roots of Evil</h1>
+		<p>There are 4 roots of evil: </p>
+		<ul>
+			<li>Evil as a means to an end</li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		
+		<h1>Chapter 4: Greed, Lust Ambition: Evil as a Means to an End</h1>
+
+		<div class="example">The Mongol Policy: Mongols were being practical when killing. They wanted wealth and power. They would go to cities and give them a choice: Give them money and accept their power presence and they would leave OR resist and be massacred. It was wasteful to kill a pretty woman without raping her first. Taking pity was counterproductive => impractical => stupid. Killing EVERYONE was essential to get the message across. Killing was just a strategy, it was a <strong>means to an end</strong>. It was <span class="keyword">instrumental violence</span>. Violence is only necessary when they could not get what they want in a peaceful manner. <strong>Material gain</strong> is the main goal, not the victim's suffering.</div>
+		
+		<p>The means are evil, not the ends. Although some churches may condemn the ends (greed, lust, etc. being sins), these desires are not evil as they are what motivate people to live. (So don't condemn the ends). Evil being the use of wrong means is way off of the Myth of Pure Evil since the myth says that evil is an <strong>end in itself</strong>. Purely instrumental violence may gain no pleasure at all because all the want is the end goal.</p>
+		<div class="example">If I have to kill you to win the Olympics, I will do it. I won't enjoy it, but I have to win the Olympics.</div>
+		
+		<h2>What makes people choose evil means rather than acceptable ones?</h2>
+		<div class="example">Members of the Free Company: Ordinary men who had nowhere else to go. Joining the Free Company meant food, safety, and money. Their desires were not evil, but they felt that violence was the only way of obtaining them. </div>
+		<p>Why turn to crime? </p>
+		<ul>
+			<li>legal ways don't seem to work</li>
+			<li>evil means appear to be easier - no skill, patience, insitutional credentials, or planning </li>
+			<li>evil means seem to be more effective - torture maintains power </li>
+			<li>they believe they have no alternatives - they tried the legal way, but it just ain't cuttin' it. </li>
+		</ul>
+		<div class="example">I could train really hard to beat you in the Olympics, or I could just kill you. It is certainly easier and faster. </div>
+		
+		<h2>Are Evil Means Effective?</h2>
+		<p>Evil is not effective in obtaining long-term goals. It can help obtain immediate, temporary goals, but it won't last. Does crime pay? Sometimes, but not very much.</p>
+		<div class="example">Assassins kill their target, but it usually does not bring about the governmental changes they want. You can rob a store, but the money is spent. </div>
+		<div class="example">I killed you to win the Olympics, but I did not win it with my own merit. I cannot enter the Olympics next time, because I simply am not good enough.</div>
+		<p>Burglars don't rob a lot, and what they do get, is worth much less to the market than the victim. They rob, go on a spending spree, and then need to rob again. Organized crime gain a lot of money, but the risk of being imprisoned or murdered is high. Political murder does not change politics. Terrorists don't get what they want, instead they are hated by the people. Repressive governments may be successful, but are not a permanent basis of power. Silenced, but not eliminated. Torture may cause an innocent to confess to crimes they did not commit. In war, excessive cruelty can generate power differential, but it causes a lot of hatred. Evil doesn't win the contest, it tells the other that the contest is no longer a contest. I win, or you die. Murderers usually end up in jail. Two patterns of murder: killing someone you know over a dispute OR killing a witness while you're committing some other crime. Murderers are a much bigger deal than non-murderers, so they are more easily caught. </p>
+		<p>What evil accomplishes: Making someone else suffer. The perpetrator gets what they want for a moment, but the victim loses a lot more for longer.</p>
+		
+		<p>Violence is used to maintain power. The <span class="keyword">badass</span> uses the myth of pure evil to his own benefit: hurting innocent people for no reason, wearing evil symbols, chaos, etc..</p>
+		<p>The violent person only focuses on the immediate situation, and not the future. </p>
+		
+		<h1>Chapter 5: Egotism and Revenge</h1>
+		<p>Revenge: When one suffers and feels that making them suffer is the only way to make things right again. One must avenge blows to one's pride. </p>
+		<p>Low Self-esteem: Not linked with violence.<br>High Self-esteem: linked with violence. </p>
+		
+		<h2>Threatened Egotism</h2>
+		<p>Accepting criticism vs. rejecting criticism. </p>
+		<p>Envy - they were more deserving than you or they used some kind of unfair advantage. </p>
+		<p>Status inconsistency - serious contradiction to one's status. High qualifications but poor careers => violent. Low qualificaions but successful career => not violent. THREATENED EGOTISM. </p>
+		
+		<p>Highs and lows => know the risk of it dropping, so less violent</p>
+		<p>Most think well of yourself => more vulnerable to losses in self-esteem</p>
+		<p>Unshakably high self-esteem - immune to ego threats </p>
+		
+		<ul>4 Groups 
+			<li>Unstable High Self-esteem [HOSTILE!!]: Think well of themselves, but self-esteem fluctuates. Prone to act defensively at ego threats.</li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		
+		
+		
+		<!--
+		<div class="example"></div>
+		<div class="example"></div>
+		<div class="example"></div>
+		
+		
+		
+		<span class="keyword"></span>
+		
+		
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		
+		
+		
+		
+		
+		
+		
+		-->
+		
+		
+	</div>
+	<!-- CONTENT END -->
+	
+</div>
+<!-- CONTAINER END -->
+</div>
+<!-- FOOTER START -->
+<div id="nts-footer">
+	<span id="nts-last-mod">
+	<script>lastMod();</script>
+	</span>
+	<span id="nts-signature">Sandy Ho &#8212; sanzoid.com</span>
+</div>
+<!-- FOOTER END -->
+
+</body>
+</html>

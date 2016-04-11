@@ -1,0 +1,1460 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<title>PSYCH 232 &#8212; NOTES &#8212; sanzoid.</title>
+
+<link rel="stylesheet" type="text/css" href="notes.css">
+
+<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+<link rel="icon" href="../favicon.ico" type="image/x-icon">
+
+
+<script type="text/JavaScript" language="JavaScript">
+// format date as dd-mmm-yy
+function date_ddmmmyy(date)
+{
+  var d = date.getDate();
+  var m = date.getMonth() + 1;
+  var y = date.getYear();
+
+  // handle different year values 
+  // returned by IE and NS in 
+  // the year 2000.
+  if(y >= 2000)
+  {
+    y -= 2000;
+  }
+  if(y >= 100)
+  {
+    y -= 100;
+  }
+
+  // could use splitString() here but the following method is more compatible
+  var mmm = 
+    ( 1==m)?'Jan':( 2==m)?'Feb':(3==m)?'Mar':
+    ( 4==m)?'Apr':( 5==m)?'May':(6==m)?'Jun':
+    ( 7==m)?'Jul':( 8==m)?'Aug':(9==m)?'Sep':
+    (10==m)?'Oct':(11==m)?'Nov':'Dec';
+
+  return "" +
+    (d<10?"0"+d:d) + "-" +
+    mmm + "-" +
+    (y<10?"0"+y:y);
+}
+
+// get last modified date of the current document.
+function date_lastmodified()
+{
+  var lmd = document.lastModified;
+  var s   = "Unknown";
+  var d1;
+
+  // check if we have a valid date before proceeding
+  if(0 != (d1=Date.parse(lmd)))
+  { s = "" + date_ddmmmyy(new Date(d1)); }
+
+  return s;
+}
+
+function lastMod() {
+	document.write(date_lastmodified());
+}
+</script>
+</head>
+
+<body>
+<div id="nts-cont">
+	<!-- NAV START -->
+	<div id="nts-nav">
+		<ul>
+			<li class="web-link"><a href="../index.html">sanzoid.com</a></li>
+			<li><a href="#">PSYCH 232</a></li>
+			<li><a href="#"></a></li>
+		</ul>
+	</div>
+	<!-- NAV END -->
+	
+	<!-- TABLE OF CONTENTS START --> 
+	<div id="nts-toc">
+		<ul>
+			<li>Table of Contents
+			<ul>
+			</ul>
+			</li>
+		</ul>
+	</div>
+	<!-- TABLE OF CONTENTS END --> 
+
+	
+<!-- CONTAINER START -->
+<div id="nts-container">
+	
+	<!-- BANNER START -->
+	<div id="nts-banner">
+		<div id="nts-banner-coursecode">PSYCH 232</div>
+		<div id="nts-banner-course">The Psychology of Evil</div>
+		<div id="nts-banner-prof">Christopher T. Burris</div>
+	</div>
+	<!-- BANNER END -->
+	
+	<!-- COURSE DESCRIPTION -->
+	<div id="nts-course-desc" class="dark-bg">
+		Psychological perspectives concerning definitions, causes, and consequences of institutional and personal evil, as well as symbols and interpretations of evil in both religious and secular contexts, will be considered.
+	</div>
+	
+	<!-- CONTENT START: THIS IS WHERE THE NOTES GO -->
+	<div id="nts-content">
+		
+		<div class="date">January 07, 2015</div>
+		
+		<h1>What Is &quot;Evil&quot;?</h1> 
+		<p>What comes to mind when you think of "evil"?</p>
+		<ol id="fa-responses">Top free associated responses: 
+			<li class="type1">Physical Victimization - physical harm being inflicted on someone by someone else.</li>
+			<li class="type1">Psychological Victimization - abusive power, coercian, betrayal, interpersonal influence, intimidation.</li>
+			<li class="type2">Emotion - emotion-related words. Reactions to victimization. Crying, fear, no hope.</li>
+			<li class="type2">Description/Evaluation - Bad, necessary, human nature.</li>
+			<li class="type2">Religious Symbols - the devlil, 666, Adam & Eve.</li>
+			<li class="type2">Secular Symbols - money, Darth Vader (cluster of behaviours that typify evil), Dr. Evil, Black. </li>
+		</ol>
+		<p>2 Types:<br> 1, 2  &#8594; harm<br>3, 4, 5, 6  &#8594; Construal - "My words were construed" - how we make sense out of something</p>
+		<p></p>
+		
+		<div class="date">January 12, 2015</div>
+		
+		<h2>How can we know what &quot;Evil&quot; is?</h2> 
+
+<div class="quote">"Evil is in the eye of the beholder." (Baumeister)</div>
+
+<ol>Implications: 
+	<li>Evil is <span class="keyword">SUBJECTIVE</span> - People don't always agree. People forcefully disagree.</li>
+	<li>Evil is <span class="keyword">INTERPRETIVE</span> - from psychological perspective, there is <em>nothing inherently evil</em>. Evil is something we apply to something. 
+		<div class="quote">"But it wasn't an evil laugh, it was normal."</div>
+		<div class="quote">"It looked evil" - 911 "It's a freakin' plane!"</div>
+		Bad tummy feeling could cause this evil interpretation. 
+	</li>
+	<li>Evil is a <span class="keyword">LABEL</span> - When we label, we group it with other things. We imply that there's a fundamental similarity between the thing we're labelling and the other things it's grouped with. Strong link between labelling and perception. It's reflexive, automatized, non-rational, influenced by language (the labels we have available). <em>Labels are always consequential</em>. <strong>It's the categorization that drives out behaviour, determines our reaction to the stimulus.</strong> </li>
+</ol>
+
+<div class="quote">"It doesn't have to make sense. It doesn't have to be rational."</div>
+
+<h2>Characteristics of the &quot;evil&quot; label</h2> 
+
+<ol>Evil is: 
+	<li><span class="keyword">Descriptive</span> - conveys or summarizes information about the object. Tells you something about that something.</li>
+	<li><span class="keyword">Category-defining</span> - it's hard to see people as a "little bit" evil. All or none. <div class="example">[Tajfel - ask people to judge lengths of lines. C & D were same length. Everything same colour - C & D were "pretty much the same length". A-C were red, D-F were black. C closer to longer one, D closer to shorter one. People categorized them with the group. THE COLOUR OF LINE  &#8594; COLOUR OF PEOPLE.]</div> If we divide the world in categories, that has implications. We tend to percieve differences between groups.</li>
+	<li><span class="keyword">Evaluative</span> - Evil implies an underlying good/bad element. Lazy - bad. Kind-hearted - good. </li>
+	<li><span class="keyword">Explanatory</span> - Says something about origins and causation. It is a non-random label. Labels that imply cause (chain of events behind them): sick/ill, blessed, victim, parolee.</li>
+</ol>
+<p>If evil is a label, it should operate on the same rules of labels. If we look into how people use labels, then we can understand how people use evil as a label.</p>
+
+<h2>When and how do people use other labels?</h2>
+<p>Should we group this new object with something that we already know?</p>
+<p><span class="defn">Prototype</span> A kind of mental abstraction, grand averaging, of the features of the objects that belong to a category. It yields invariant common features. The prototype has "old" objects that are perceived as having all of the same common elements. </p>
+
+<div class="example">Chair. What makes it a chair? Now what you're sitting on, otherwise called a medieval torture device. Potty chair - The primary function rhymes with sitting. A bean bag chair: like Dayam, that's just a blob. When we encounter "new" object, we will engage in a <strong>feature-matching</strong> process. The features are the elements of the prototype. If feature A is there, if feature B is there, feature C is there  &#8594; it belongs. Those features are those gotta-be-there things. <br>The more features we have in common with the prototype, the faster, the more confident we'll be about the judgement.</div>
+
+<p>If evil is a label and people engage in prototype-matching, then <em>evil must have a prototype</em>.</p>
+
+<div class="profquote">"And folks, this is so foundational, I could scream."</div> 
+
+<h2>What are the features of the prototype of &quot;evil&quot;?</h2>
+
+<ol>
+	<li><span class="keyword">Harm</span></li>
+	<li><span class="keyword">Intentionality</span><br></li>
+	<li><span class="keyword">justifiability</span>
+	</li>
+</ol>
+
+<h3>Harm</h3>
+	<p>The focus: event and victim. The likelihood of putting this label is going to be increased. <em>Severity/extremity matters.</em></p>
+<h3>Intentionality</h3>
+	<p>Implies a doer, a perpetrator. A tree could create harm, but unless you thought Oofa, the angry winter god, you're not gonna go with &quot;evil&quot;. Implies that it's being done with some degree of choice.<br>
+		<span class="indent1">"repeat offender" status matters <div class="quote">"You fool me twice, you're a frickin' repeat offender."</div></span> (BILLY'S BALLOON)
+	<div class="example">DATA: the story of "Mr. X" and "Y". 	Mr. X had sexual contacts with Y. Story: Mr. X transmitted an infection to Y. Some read: <br>
+	> UTI OR HIV. <br>
+	> Mr. X didn't know he was infected OR Mr. X did know he was infected. <br>
+	= 4 versions of the story. <br>
+	Asked: <em>how evil do you think Mr. X is?</em> <br>
+	From very evil to a little bit evil: <br><strong>high intent</strong>/high harm > <strong>high intent</strong>/low harm > low intent/high harm > low intent/low harm. <em>Our laws reflect our psychology.</em> INTENT is bad.</div></p>
+<h3>(lack of) Justifiability</h3>
+	<p>Is that intentional harmful behaviour seen as justifiable or not? Based on the perciever - who is judging that action? Victims, perpetrators, or third party? All could be seeing a given behaviour as more or less justifiable. <strong>Taking the perpetrator's perspective matters.</strong> We are justifiers. This is the <em>swing vote</em>. 
+	<div class="example">Ms. X killed two men... <br>
+	who were raping her 6 year old daughter OR whom she lured to her apartment with promises of wild sex.<br>
+	</div></p>
+<p>When we contextualize it, it becomes evil.</p>
+
+<div class="date">January 14, 2015</div>
+
+<p>Age matters. Mrs. Y is 30 - sexual contact isn't out of ordinary. Mrs. Y is 12 - made Mr. X a child molester = high evils. </p>
+<p><em>The closer the act is to these 3 features, the more evil it is.</em></p>
+
+<div class="Example">Think about how balloons are treated. They have been subject to decades of systematic abuse. The Helium Liberaton Front. They see that behaviour is being justified. It's easier to talk about balloons than people. Most people go through the world not seeing themselves as evil. Even the church of Satan don't think themselves as evil.</div>
+
+<p>Two other research examples: </p>
+<div class="example">Alford (1997): Asked people if they considered Adolf Eichmann as evil. "I don't think Eichmann was evil, because if he didn't do his job, he probably would've been killed." Under the circumstances, Eichmann was trying to survive. <em>His behaviour was <strong>justifiable</strong></em>. </div>
+
+<div class="example">Quiles et al. (2010): Asked participants to rate acts as to how aggressive they are and how evil they perceive them to be.</div>
+<!--- Giving a blow to an intruder in the house. "I think they mean smacking someone. But using your teeth is evil. --->
+
+<h2>Can intent to harm (without harming) be &quot;Evil&quot;?</h2>
+
+<div class="example">The Wile E. Coyote Study. There no question about the coyote's intent. Is he evil?</div>
+
+<p>The more intelligent, the more insane he was  &#8594; intentionality (capacity for choice. When hit targets, capacity for choice didn't affect how evil they were. No capacity to choose harm + no ability to harm = reduced evilness. </p>
+<p>Wile E. Coyote is an idiot. People don't have nightmares about him.</p>
+
+<h2>Can Animals Be "Evil?"</h2>
+<!-- Dogs never lie about love. Dogs are better at being humans. Killer whale, orcas take sea lion pup and play volleyball. "Let's throw this shit around. Awesome. They don't even eat it. Not instinct. Animals can engage in deception. -->
+<p>No one can question the harm. But what was driving the behaviour? Intentional or instinctual? How you answer the question depends on what you're doing with the prototype. When we can't wrap our heads around something  &#8594; Evil (for no apparent reason).</p>
+
+<h2>So what about "EVIl" people?</h2> 
+<p>For offender, it was a good idea at the time. Even if it was for "a little bit of money". </p>
+<p>How do we make sense out of the labelling process? Evil behaviour  &#8594; evil person?</p>
+<ol>Two paths: 
+	<li><span class="keyword">prototypic &quot;evil&quot; behavior</span>  &#8594; "evildoer" <br>
+		Most of the justifications focus on environmental/situational factors. EXTERNAL factors. Why did they do it? Because they're assholes. Perceive doers of evil as evildoers. "What kind of person could've done this? The evil act was a significantly small part of the person's life, but it doesn't matter, because that person is a murderer. It takes just one act of evil to get labelled as evil.</li>
+	<li><span class="keyword">symbolic &quot;evil&quot; cues</span>  &#8594; "evildoer" <br>
+		
+	</li>
+</ol>
+
+<h3>About &quot;evil&quot; symbols</h3>
+<div class="example">The goatee: Anton Lavey. Evil Cartman. Evil Hitler.</div>
+<img class="right" alt="Evil Abed" src="images/evilabed.png" />
+<p>An &quot;evil&quot; symbol is a shorthand. It's a way of summarizing info and feelings. Words, numbers, abbreviations, etc. You may not be aware of it happening. They are possibly attribution-evoking. Embracing symbols - what kind of person would willingly wear these symbols?</p>
+<img class="left" alt="Evil Cartman" src="images/evilcartman.png" />
+<p>People were presented with a <strong>Smashing Car Dumper Story</strong>. He had a tattoo that was: a cross OR a swastika. Asked: <em>How evil was the person?</em>Swastika tattoo  &#8594; more of an &quot;evil&quot; person. How evil do you think his behaviour was? It was more evil with the swastika. </p>
+
+<table>
+	<tr>
+		<td>&quot;Evil&quot; person</td>
+		<td>3.00</td>
+		<td>3.64</td>
+	</tr>
+	<tr>
+		<td>&quot;Evil&quot; behaviour</td>
+		<td>4.xx</td>
+		<td>5.xx</td>
+	</tr>
+</table>
+
+<!--- Maybe they were going for a Miley Cyrus tattoo but they messed it up. --->
+<div class="clear"></div>
+
+<h2>Consequences of the &quot;evil&quot; Label</h2>
+
+<ol>
+	<li><span class="keyword">Stereotyping = "demonizing"</span>
+		<div class="example">Disney's "head start" - 3/4 of the Disney film contained references to "demonizing". Evil, wicked, demon. Kids are learning the evil stereotype. </div>
+		<div class="example">Baumeister's "myth of pure evil"</div>
+	</li>
+	<li>
+	<ul>
+		<li>&quot;Evil&quot; symbols make the MOPE more <span class="keyword">salient</span> (cognitively online). 
+		<div class="example">Study: Evil, religious, or neutral symbols. Got symbols in their head. Can these symbol bring myth of pure evil online? Yes. It's enough to access those stereotypes. The mere exposure brings up the myth of pure evil more online.</div></li>
+		<li>"Evildoers" are assumed to engage in &quot;evil&quot; behaviour. <strong>People assume the worst.</strong> Don't give them the benefit of the doubt anymore. Serial killers shop at Wal-Mart in the most evil way imaginable. Even though the amount of evildoing is a small slice of their life. What must a serial killers fart smell like?</li>
+		<li>"Evildoers" tend to be <strong>judged without mercy</strong>. "I'm not evil if I wanna hurt evil because they're evil." You will walk away seeing yourself as not evil.</li>
+	</ul>
+	</li>
+</ol>
+
+<h1>The origins of &quot;Evil&quot;</h1>
+
+<p>The prototype of evil behaviour still applies (intentional, harmful, justifiable):</p>
+<ul>
+	<li><span class="defn">Social</span>people as the cause of &quot;evil&quot;. Human-focus.</li>
+	<li><span class="defn">Metaphysical</span>unseen entities as the cause of &quot;evil&quot;. Demons and devils.</li>
+</ul>
+<p>We are <span class="keyword">prescientific eyeballin'</span> - how you would experience the world if you didn't have any scientific equipment. Experience only through your own senses. Talking about ideas that existed before they had access to technology. </p>
+
+<h2>What is an Unseen Entity? </h2>
+<div class="indent1"><em>
+<p>emerging consciousness &#8594; self as separate, "inner entity" (intuitive dualism) &#8594; causal agent</p>
+<p>and so, by extension<br>
+unexplained event &#8594; caused by Unseen Entity</p>
+<p>= intentionality (1/3 of evil prototype) - the cognitive foundation of religion?</p>
+</em></div>
+
+<p>We weren't always conscious. Our sense of self became. We are aware that we are aware, not just aware. As that ability emerged, we saw ourselves as separate. We experience consciousness as being not the same thing as our body. Where is my sense of consciousness? It's inside the body, but not the same thing as the body. We don't experience the world as a brain, even if it uses brain activity. Only psychotic people will locate consciousness outside the body. We experience consciousness as being the cause of our behaviour. How does our body move? We intend it to. I want to raise my arm and it is raised. My inner consciousness, I, my subjective self, wills it to move. Non-physical agent moves my body in the physical world. We learn this early on. </p>
+<!--- Go fMRI yourself. --->
+
+<p>I have an inner entity that intends for physical things to happen and they happen. <strong>What happens if I see some other metaphysical thing do something that I didn't do?</strong> Other people didn't cause it. Something that I didn't see wanted it to happen.</p>
+
+<div class="example">Earthquake  &#8594; some big-fisted entity is pissed off. </div>
+
+<h2>Why an <strong>EVIL</strong>, Unseen Entity?</h2>
+
+<p><span class="keyword">Eye-grabbing negativity</span> - humans seem to pay particular attention to events that have negative outcomes. They're more likely to beg for an explanation. There's the harm. Makes survival-sense. When things are good, who cares? When things go wrong, we need to figure out why it went wrong. Natural pull towards negative events.</p>
+
+<p>We describe these unseen entities with the intentions of them. Idea of an all-loving god - that's a first-world god. Gods used to be either nasty or moody. </p>
+
+<p>&quot;evil&quot; vs. "just" or "moody"</p>
+
+<div class="example">Old Testament - Uzzah - is there justifiability? If they are justified, then we don't see them as evil. If unjustified, we see them as evil.</div>
+<div class="example">Satan gets the flack. Do people still try to explain stuff as satanic. </div>
+
+<p>conservatively religious perceiver + "bad" actor & <em>really</em> bad outcome </p>
+
+
+<p>Being rational is nice when you can. </p>
+<!-- I had a dream. Satan visited me. We made a deal that if I ever became successful, I would make a psych of evil class and around this time, I would point at a student and Satan would visit them. Don't tweet it! Some of you are like "don't do that shit" -->
+
+<p>Someone said that the most disgusting item: Hitler's sweater. "I'm not gonna put on Hitler's sweater." Why? "Nghhhh. I don't wanna get HItler on me?" <br>Not rational at all. We are incredibly creative explanation-makers. </p>
+<p>The FEELING of evil: using the concept of evil to make sense of bad feelings in experiences.</p>
+
+<h2>The 2x2 Worldview Model</h2>
+<p class="center"><strong>The universe is one thing vs. The universe is two things</strong></p>
+<p class="center"><strong>Metaphysical vs. Physical.</strong></p>
+<img class="resize center" src="images/2x2worldviewmodel.png"/>
+
+<p><span class="defn">Animistic-Dualism (Animistic-dualists)</span>There are two aspects to reality and one of those is spirit. (Western religions.) "Body vs. soul". We are physical bodies inhabited by a spiritual essence. The real self departs the body when we die. Some say the soul is indestructable (V!!!). There is the seen and the unseen. There are spirits everywhere - some good, some bad. </p>
+<p><span class="defn">Animistic-Monism</span>Reality at it's core is one essence - spirit or mind or consciousness. (Eastern religions.) This physical world is not really real, it's an illusion. We get caught up in this illusion and we buy into this separateness. There's only one reality. </p>
+<p><span class="defn">Mechanistic-Monism</span>("hard" science.) Nothing metaphysical. The world can be understood in terms of physics and chemistry. All reduced to one thing that's not metaphysical. Domain of hardcore medical models. Everything can be explained by the brain. </p>
+<p><span class="defn">Mechanistic-Dualism</span>Two aspects of reality, but ultimately mechanistic. ("soft" science, mind/body psychology). An inner action between mind and body. Mental activity, mind, consciousness is an emergent property of the brain. Now that mental activity is taking place, that conscious activity can turn around and affect the brain. Brain &#8594; consciousness. Consciousness &#8594; brain. Mind is not a separate entity, but the activity itself modifies the chemical activity in the brain. Doing therapy changed brain structure. Consciousness does not exist independently. Without brain, there is no consciousness. </p>
+
+<p>Possession - animistic-dualistic. How will the others interpret this?</p>
+<div class="date">January 19, 2015</div>
+<h2>Possession<h2>
+
+<h3>Exorcists [Video]</h3>
+<!-- If this was a drinking game, you would take a shot every time they said "The Unexplained" -->
+<p>Take note of how people are making sense of what they're seeing. </p>
+
+<div class="indent1">
+<p>Exorcism fixed posession<br> 
+Exorcism caused symptoms of posesssion. Suggestion brings the symptoms on, suggestion cures the symptoms. <br> 
+Incestual experiences. <br>
+Temporal Lobe Epillepsy - skin welts. <br> 
+"Played along for some of it."
+</p>
+
+<p>Ellen Carney<br>
+Deliverance (like Exorcism)
+Need to banish demons. "A psychological problem doesn't talk to me, a demon does."
+Psychology - "demon" brings baggage. 
+</p>
+
+<p>Margaret Swift<br>
+Evil spirits in hospitals. <br>
+De-posession Process. <br>
+Theoretical exorcisms. Margaret was cured just because she expected to be cured. <br>
+The power of suggestion vs. exorcism. 
+</p>
+</div>
+<p>Doctors have to rule out alternative explanations before an exorcism is performed. All had a physical change - an unpleasant one. Curious that the names are "depression" and not DEMONSDKAR. Depending on your world view, you're going to spin the data. Paranormal Manifestations (Levitation - spirits, misperception, paranormal). We don't have therapists in the Savannah. Detaching widows from the men's claim (Of women by women for women). Trauma: dissociate(turning attention away) when traumatized, could have been trauma from death or sexual abuse. Change prayers from latin to English and put Michael the archangel. Naming things and having everything in place leads to successful resolution. Spatial component to exorcism. Model of posession can decide to make the body uninhabitable so the spirit can leave. 
+</p>
+<div class="date">January 21, 2015</div>
+<h2>Possession and Exorcism</h2>
+<ul>Origins (3 perspectives): 
+	<li><span class="keyword"><a href="#peor-meta">Metaphysical</a></span></li>
+	<li><span class="keyword"><a href="#peor-psych">Psychological</a></span></li>
+	<li><span class="keyword"><a href="#peor-socio">Sociopolitical</a></span></li>
+</ul>
+
+<h2 id="peor-meta">Metaphysical - assumes animistic dualism</h2>
+
+<p>Material aspect and spiritual aspect. Some non-resident personality takes over the resident personality. We are souls inhabiting physical bodies. Normally, it's one spirit per body. Animistic dualists: some other spirit is invading the body. </p>
+<p>An entity that is capable of having intentions, but their intentions go across the board. An entire range. Each column has some consistencies.</p>
+<table id="metaphysical-table">
+	<tr><td colspan="4"><strong>Character:</strong></td></tr>
+	<tr>
+		<td class="mal" colspan="2">MALEVOLENT</td>
+		<td class="neu">NEUTRAL</td>
+		<td class="bnv">BENEVOLENT</td>
+	</tr>
+	<tr><td colspan="4"><strong>Agent:</strong></td></tr>
+	<tr>
+		<td class="mal">demon</td>
+		<td class="mal neu">animals</td>
+		<td class="neu">unquiet dead (floaters -dumass human floating around)</td>
+		<td class="bnv">gods</td>
+	</tr>
+	<tr><td colspan="4"><strong>Motive:</strong></td></tr>
+	<tr>
+		<td class="mal">destruction</td>
+		<td class="mal neu">domination</td>
+		<td class="neu">confusion</td><!--Can't touch m'self or anything without a body. -->
+		<td class="bnv">instruction</td>
+	</tr>
+	<tr><td colspan="4"><strong>Method:</strong></td></tr>
+	<tr>
+		<td class="mal" colspan="2">"SIN"</td>
+		<td class="neu">"INFECTION"</td>
+		<td class="bnv">"CHOSEN"</td>
+	</tr>
+	<tr>
+		<td class="mal" colspan="2">compliance (Ouija board, communicating with demons)</td>
+		<td class="neu">body opening/dirt</td>
+		<td class="bnv">prep/"grace"</td>
+	</tr>
+	<tr><td colspan="4"><strong>Intervention (Exorcism):</strong></td></tr>
+	<tr>
+		<td class="mal" colspan="2">overpossession - invoke a more powerful good spirit to drive out the evil one</td>
+		<td class="neu">bargaining - "I'll leave if you start treating this person better"</td>
+		<td class="bnv">NONE! - a good thing. Don't need intervention.</td>
+	</tr>
+</table>
+
+<h3>Ritual Exorcism</h3>
+<p>verbal/physical - Symbolic objects, put the body in extreme discomfort to drive the spirits out. These are not random behaviours (they only knew what they knew at the time). </p>
+<p><strong>The label determines intervention</strong></p>
+
+<h2 id="peor-psych">Psychological</h2>
+<p>Assumes mechanistic dualism (soft sciences). Once mental activity occurs, it can go affect the body as well. Mind-body interplay. No spirits. Mental activity can affect the body just as much as the body can affect the mind. </p>
+
+<p>Possession challenges lay assumptions about the self</p>
+<ul>
+	<li>stable, unified identity - we might make changes, but we are still the same conscious entity. There's a continuity to our lives. What freaks us out is when we start naming our alternate personalities.</li>
+	<li>alert, aware, and in control (default self) 
+		<div class="example">sleep paralysis (Cheyne) - You're awake but you can't move and you feel a presence there. Sleep paralysis is a case of REM sleep. Part of your brain is in REM, part is awake. You get imagery + paralysis from REM with sense of awakenessness.</div>
+		<div class="example"><!--*--><a href="#exi">*Intentionality (Wegner)</a></div>
+	</li>
+</ul>
+<!--*-->
+<h3 id="exi">Experiencing Self as "I" (Wegner)</h3>
+<p>What We Assume Happens: <br>
+Conscious Intention (I want to do...)  &#8594; Action ("I do")</p>
+
+<p>What Research suggest really happens:</p>
+<img class="left" src="images/nonconscious_processing_small.jpg" />
+<p>The two are correlated, but conscious intention doesn't cause action. 
+What if there there is no <-> there? It's possible for us to see ourselves behave a certain way without having consciously intended that. <!--(PROF STUCK UP HIS MIDDLE FINGER). --->Oh, crap. We have a pickle. Behaviour that we don't have an explanation for because we can't track it to consciousness. Demon alcohol made you do crazy shit last night. It's terrifying to not have an explanation for such actions. This lays the foundation.</p>
+
+<h3>Possession as a dissociative phenomenon</h3>
+
+<p><span class="defn">dissociation</span>a shift in attention, awareness, or identity. Daydreaming is a mild form (you're not quite there). On auto-pilot. If you can get really, really absorbed. Your attention is diverted elsewhere. Hypnotism. </p>
+
+<ol>Three features of dissociation: 
+	<li><span class="keyword">Overlearned response to trauma</span> - physical or sexual abuse. Their way of surviving trauma. A means of filtering out psychological trauma. It becomes habitual, a reflex. Early on, it has to be practised, but it becomes automatic.</li>
+	<li><span class="keyword">elaborate role play</span> - You don't like the story you're in right now? change it. Makes it less intolerable. You're not dealing with the concrete reality. You turn it into a game. Maybe I'm somebody else. </li>
+	<li><span class="keyword">believed by self</span> - You have to be able to believe it to some extent. Doesn't work if you don't believe in it. At the time, it doesn't matter. It's real. If you believe it, it's not really a lie. </li>
+</ol>
+<ol>Three functions of dissociation: 
+	<li><span class="keyword">pain relief</span> - hypnotized people. You turn your attention away from the pain to lessen the intensity</li>
+	<li><span class="keyword">protection</span> - alternate identities (in most cases, there will be a protector). </li>
+	<li><span class="keyword">protest</span> - The abused will be pissed. Usually an alternate identity that is angry. Can be an outlet. </li>
+</ol>
+
+<h3>Childhood Trauma (physical/sexual abuse)</h3>
+
+<img class="center" src="images/disassociation.jpg" />
+<p>When a child dislikes reality (the abuse), they will disassociate. They discard this old story, create a new story, and then believe the new story. When they continue to discard old stories, they grow to have a need for a story. To create a new story, they must have the ability to fantasize it as some people are terrible at making up stories. They must also believe this story or else it won't work. This story comes from the <span class="keyword">Cultural Prism</span>. There are only a few tolerable stories: Satans, Demons, or Aliens. </p>
+
+"I didn't feel it, the demon did." - dissociative language. 
+
+<div class="date">January 26, 2015</div>
+
+<h2 id="peor-socio">Sociopolitical - Assumes mechanistic dualism</h2>
+<p>Special case of psychological model.</p>
+<div class="example">Malaysian factory women - possession is not uncommon. A spirit will take control of them. Serves as a work relief function. Supervisor has a 3 strikes and you're out policy. </div>
+<div class="example">African Tribal Women - Freed the women from their deceased husbands' claim. Not random, but a ritual. They manifest their behaviours that are consistent with the lion. </div>
+
+<h2>Challenges</h2>
+<h3>Metaphysical Challenges</h3>
+Why isn't it more random? 
+<ul>
+	<li>Possession seems to be <span class="keyword">locally defined</span>. The possessing agents identify themselves in terms of the locally-defined set of bad guys. Names are tradition-specific. Why are we only getting possessive identities that only match the host?</li>
+	<li><span class="keyword">demographically predictable</span> - lower status, marginalized, victimized. You don't see CEOs possessed. <strong>Not completely random. </strong></li>
+</ul>
+
+<h3>Psychological/Sociopolitical Challenges</h3>
+<ul>
+	<li><span class="keyword">"Paranormal" phenomenon</span>: seeing objects flying across the room, people speaking languages they couldn't have learned, seeing people levitate, </li>
+</ul>
+<p>Menu to describe such events: SPIRIT, MISPERCEPTION, OR ENERGY (parapsychological - like using more than 10% of brain)? </p>
+
+<h1>Hate: Evil's Engine?</h1>
+<p>Text outside of Baumeister: <em><strong>Let me count the ways: An integrative theory of love and hate</em></strong> by John K. Rempel and Christopher T. Burris</p>
+<h2>What is hate?</h2>
+<p><strong>Hate is a <span class="keyword">MOTIVE</span></strong>. Motives involve goals. Hate is about the intent to harm, diminishing the well-being of the other.(What is love? Perserving and promoting the well-being of the other). <strong>Love and Hate are both motives, not feelings.</strong> </p>
+<p class="indent1">Motives are <span class="keyword">thermostatic</span>. Stay on until it hits that set point and then it turns off. Switch on, goal done, switch off.</p>
+<p>Hate is frowned upon. You can fantasize about it, but you won't do it. <strong>Hate is gonna stay stable because it stays switched on.</strong></p>
+<p class="indent1">Instrumental or ultimate goals - Something can be a means to an end or an end in itself. Different types of hate. <span class="keyword">Redress</span> - revenge-oriented hate. It is a means to an end to restore order. <span class="keyword">Tethering</span> - willing to hurt somebody in order to keep them close so they don't abandon you (abusive relationships - they get really scrambled and call it love). It gets mislabelled as love, but it's hate. "If I can't have you, then no one can have you." Sadism - I'm willing to harm you for pleasure.</p>
+<p>When you think about the motive, the more things start to make sense. Altruistic love is an end in itself. Hate is not an emotion, but it can be triggred by emotions.</p>
+<p class="indent1">emotions as antecedents</p>
+
+<h2>How do we know?</h2>
+
+<h3>The prototype study</h3>
+<p>How would you define hate? 200-something responses  &#8594; 50 statements. Then to what degree does this capture hate as you. A 1 to 7 scale. </p>
+<table>
+<tr>
+	<td>motive to harm</td>
+	<td>"strong" emotion</td>
+	<td>"weak" emotion</td>
+</tr>
+<tr>
+	<td></td>
+	<td>intense emotions - disgust, etc. </td>
+	<td>agitation, irritation, jealousy</td>
+</tr>
+<tr>
+	<td>4.84 ></td>
+	<td>4.02 ></td>
+	<td>2.56</td>
+</tr>
+</table>
+<p>Desire to harm == hate. Emotion is not irrelevant, but not as important. </p>
+
+<h3>The "thought quote" study</h3>
+<p>If you were inside a person's head. How much these thought quotes capture hate.</p>
+<p class="indent1">Winner: "I want to hurt him. Period." [5.99] <br>Lowest: "I want him to stop doing what he is doing, but I don't want him to be hurt [2.50]."</p>
+<p>You just have to want them to be hurt. "I don't want him to be hurt"  &#8594; "That's not hate."</p>
+
+<h3>The Template Study</h3>
+<p>Had people read 1 of 2 descriptions of an experience. Represented two different types of hate: <br>
+<span class="keyword">Nihilistic</span> (hurt. period.) or <span class="keyword">Redress</span> (revenge). <br>Nihilistic: No reason offered, DIE, DIE, DIE. Redress: They need to be held accountable. <br>Asked people how much you think their thinking captures hate. Interest on whether intent to harm was in the explanation.</p>
+<p class="indent1"> Nihilism [6.78] - mentioned motive to harm. "Nosebleed high." <br>Nihilism [6.00] - did not mention harm. <br>Redress [5.27] - mentioned motive to harm. <br>Redress [3.34] - did not mention harm.</p>
+
+<h3>Thus... </h3>
+<ol>
+	<li>People may have trouble spontaneously defining hate - they do not focus on intent to harm right away. They <strong>focus on the emotions</strong>. People focus on how something makes them feel. </li>
+	<li>But... they know it when they see it.</li>
+	<li>Still, they have to "see it" to "know it". </li>
+</ol>
+
+<h1>Why is Hate "Evil's" Engine?</h1>
+<img class="left" src="images/hateequation.jpg" />
+<!--
+<p class="center">&quot;evil&quot; = intentional, unjustifiable harm</p>
+<p class="center">hate = intent to harm</p>
+<p class="center">hate = 2/3 of the &quot;evil&quot; prototype</p>
+<p class="center">Hate and &quot;evil&quot; should be (implicitly) linked.</p>-->
+
+<p>Word-completion tasks: HA_E. Neutral and Religious [28%]. Evil [49%]. There is an implicit cognitive link between evil and hate. </p>
+
+<p>Cain and Able - God makes him a social outcast. Cain: "My punishment is greater than I can bear." Cain intentionally harmed his brother. When we label someone as evil, it's like labelling them with "the Mark of Cain". Toxic and stigmatizing. </p>
+
+<p class="center">Hate = &quot;evil&quot; minus justification</p>
+<p>If you're going to hate somebody, you better damn well have it justified. Haters should be motivated to self-justify. If we do not, we end up in the situation where we are fitting the &quot;evil&quot; prototype. </p>
+
+<!--<p>Mr. Yuk stickers</p>-->
+
+<h2>If hating is toxic...</h2>
+<p>1st line of defense: simple denial? > "I just intensely dislike them." People deny instead of admitting that they hate.</p>
+<p>2nd line of defense: "populist normalizing"? > "Everybody makes mistakes." People say that everyone would hate them too.</p>
+	<div class="example">Charles Manson: How can you condemn me, I'm just a reflection of you.</div>
+<div class="date">January 28, 2015</div>
+<h3>Class Data </h3>
+
+<p>a) manipulate accessibility of "Hidden Observer" - "Have you ever hated anybody?" Hidden Observer is like a Dr.Phil </p>
+<p>b) manipulate salience of social judgement - Before asked whether or not you've ever hated anybody. Half did a thing on rewards on being good, half did a thing on being bad. </p>
+<p>c) examine effects on admissions of hate and framing one's experience as commonplace. Would they feel just like you did?  &#8594; I don't stand out. </p>
+
+<p>Hidden Observer > No Hidden Observer. 71% admitted hating anybody. 87% with a Hidden Observer. <strong>If people aren't getting pushed, they deny.</strong> </p>
+<p>Costs  &#8594; Social judgement is a bigger deal. Rewards side: turn down volume on social threat - HO doesn't differ. Costs: threat of judgement turned up, no HO - don't need to justify myself - don't need to populus normalize - high dissociation don't need to justify even more - not bothered by social threats. With a HO, need to defend - populus normalize - squirming - "in yer face" threat of social judgement. </p>
+
+<p>The Hidden Observer is a part of ourselves that knows all that is going on. They know more than us. A part of the survey gained access to this Hidden Observer. Once it was brought online, it was easier to admit to hating someone. With it online, it pushed the person to admit. Social judgement was manipulated. Some did a questionnaire on others judging you badly and some did one on rewards on being good. Rewards turned down social threat (HO didn't matter). Costs turned social threat up. Costs + No HO = don't need to justify myself. Costs + HO = need to defend myself.</p>
+
+<h2>An easy way to justify hate is to... </h2>
+<p>Label the hated &quot;EVIL&quot;. It's okay to hate evil. </p>
+
+<p>Endless cycle: Hate begets "evil," which begets hate, which begets &quot;evil&quot;...</p>
+<p>Easiest way to not see myself is evil is to see you as evil. They don't want that label, they're going to see you as evil. </p>
+<!-- Tosh.0 dick of the week / shovel prank--> 
+
+<h1>Sadism: The "Feelgood" Hate</h1>
+
+<p>Sadism is a sub-type of hate, an instrumental form of hate: </p>
+<p><span class="keyword">MEANS</span> - Harm other (physical, psychosocial)  &#8594; <span class="keyword">Ultimate Goal</span> - Positive affect (for self) - "I am willing to harm you because that brings me pleasure, gives me satisfaction, excites me (maybe sexually)"</p>
+<p>Sadism <strong>IS NOT</strong> coerced behaviour, superficially harmful behaviour, unintended positive affect.</p>
+<p class="indent1"><span class="keyword">coerced behaviour</span> (threatening) - motivationally, it's coming from a different place. The outcome may be the same, but the motivation is different. </p>
+<p class="indent1"><span class="keyword">superficially harmful behaviour</span> (behaviour that looks harmful, but isn't) - A parent punishing the child in the interest for the child's well-being. If the intent truly is to protect the child, then it's not sadism. </p>
+<p class="indent1">Sadism is a <span class="keyword">luxury</span>. If you have a masochist that says "hurt me", the true sadist will say "No." The true sadist denies you the pleasure because hurting you would be for your well-being, not theirs. The true sadist doesn't care.</p>
+<p class="indent1"><span class="keyword">unintended positive affect</span> - If you get revenge, you may feel relief, that is the by-product of getting justice. Your main goal was not to get positive affect. </p>
+
+<h2>The Sadistic Continuum</h2>
+<!-- Baumeister says it's very rare, but Burris says it's much more common -->
+<table>
+	<tr>
+		<td rowspan="2">Everyday<br><---------</td>
+		<td><span class="keyword">Pranking</span></td>
+		<td><span class="keyword">Hazing</span></td>
+		<td><span class="keyword">VICARIOUS</span></td>
+		<td><span class="keyword">Sexual Sadism</span></td>
+		<td rowspan="2">Extreme<br>---------></td>
+	</tr>
+	<tr>
+		<td><span class="keyword">Trolling</span></td>
+		<td><span class="keyword">"Normal Marital Sadism"</span></td>
+		<td></td>
+		<td><span class="keyword">Animal Cruelty</span></td>
+	</tr>
+</table>
+
+<p><span class="keyword">Pranking</span> - Motivationally, no different from other forms of sadism. Root word of "pranking" is "evil deed." FML. Close relationships creating intense reactions. Not as severe. </p>
+<p><span class="keyword">Trolling</span> - as outrageous and as controversial as possible. You're trying to piss people off, trying to get people arguing. Trolls get off on the chaos they create. "Don't feed the trolls."</p>
+<p><span class="keyword">Hazing</span> - initiation. Could push some hazing to "Extreme." </p>
+<p><span class="keyword">"Normal Marital Sadism"</span></p>
+<p><span class="keyword">VICARIOUS</span> (You don't have to be directly involved to find it pleasurable). You can take pleasure by watching something else do it.</p>
+<p><span class="keyword">Sexual Sadism</span> - rapists, murderers who derive sexual pleasure from torturing their victims</p>
+<p><span class="keyword">Animal Cruelty</span> - starts at a very young age. It escalates. Does it keep going? What makes it start, what makes it stop? Niche market of people who seek crushed videos for sexual arousal. "I won't be sending out a link or anything."</p>
+
+
+<h2>Mechanisms???</h2>
+
+<p>What is going to get me into the mindset?</p>
+<div class="left width-40"><p><span class="defn">Displaced Aggression</span> (VICARIOUS - you don't get to be the big man. If I can see somebody else get screwed over.)- If I feel like people are mistreating me, in retaliating on powerful people, I will displace my aggression to the weak, the ones who won't fight back. Animal cruelty is more likely to occur when there is physical abuse. Children can't fight back against parent, so they abuse the animals.</p></div>
+<div class="left"><span class="center"><br><br><br><br><br><br><--></span></div>
+<div class="left width-40"><p><span class="defn">Need for Intersubjective Elevation</span> - If I'm trying to hurt someone, when they are suffering, that brings me satisfaction because I did that. I have power over this other. It's dependant upon my getting a rise. Easiest way to piss off a sadist is to not react (you're blocking their goal). If I can get one over on you, I get to be the big man. </p></div>
+<div class="clear"></div>
+
+<p><-> These two can play against each other. Need to pick safer targets. </p>
+
+<img src="images/sadismprocess.jpg" />
+<p>I want to displace my aggression on those that are weaker than me and I will feel higher by doing so. I anticipate your reaction to my planned actions and am excited by it. I don't mind executing this plan and you don't matter. I am ready to hurt you. I hurt you.</p>
+
+<!--
+<p>The Two Together  &#8594; </p>
+<p class="center">fantasy/planning/anticipation - a chunk of the pleasure comes from the anticipated reaction. "Oh, this is going to be awesome. I can't wait to see the look on their face."</p>
+<p class="center"> &#8594; The "Mind over matter" Principle. I don't mind, and you don't matter. There has to be some threshold that you cross, where you're willing to compromise your well-being. </p>
+<p class="center"> &#8594; The Sadistic Act - once you've crossed the threshold.</p>
+-->
+<h2>Dealing with Censure</h2>
+<p>A lot of sadistic behaviour is not okay. What do you do then?</p>
+<ul>
+	<li><span class="keyword">Collectivize</span>: (populus normalize). Say it's tradition, that everybody does it.</li>
+	<li><span class="keyword">Conceal</span>: Hide it from the world. Intimate relationships.</li>
+	<li><span class="keyword">Justify</span>: Find a good reason for it.</li>
+	<li><span class="keyword">Thoughtlessness</span>: Ignore the consequences and think about how awesome it is. Don't think about how it could go wrong.</li>
+	<li><span class="keyword">Minimize</span>: It wasn't a big deal. Don't be a pussy. </li>
+	<li><span class="keyword">Hidden Benefits</span>: It's for something good. Fraternities: helps the group bond. This creates a cycle of victims becoming perpetrators.</li>
+</ul>
+
+<!--
+<p>Collectivize it - it's tradition. Fraternities. Everybody does it. Sounds like populus normalizing.</p>
+<p>Conceal it - Not make it public. Intimite relationships.</p>
+<p>Justify it - find a good reason for it. <br>Frame it as revenge whether or not it was. Makes it sound more justified. <br>Thoughtlessness - think about how awesome it is, don't think about the consequences. Don't think how it might go wrong. <br>Minimization - if something does go wrong, minimize it. It wasn't that big of a deal. Minimize appearance of harm. Suppress the victim - "Don't be a pussy." <br>Hidden benefits - fraternities will say it helps their group bond. Cycle of victims wanting to become perpetrators. </p>
+-->
+<p>Concealing + Justifying  &#8594; intimates as "ideal" targets. You can keep them on edge. This works if someone does this really, really smart. </p>
+<h2>Consequences</h2>
+
+<ul>Sadistically motivated behaviour may be... 
+	<li><span class="keyword">cyclical</span>: victims become perpetrators</li>
+	<li><span class="keyword">escalating</span>: need to 1-up them by revenge</li>
+	<li><span class="keyword">enveloping</span>: may start to bring in others. (Family abuse - may get transferred to an anima).</li>
+</ul>
+
+<div class="date">February 02, 2015</div>
+
+<h1>Propoganda: Giving "Evil" A Face</h1>
+
+<!-- Propoganda film - Faces of the Enemy -->
+<h2>[VIDEO] Faces of the Enemy</h2>
+<p>All images are the same. The enemy is always a demon, a barbarian, the agressor, a liar, a madman, or some vile animal that can be exterminated without regret. David Rice. </p>
+
+<p>David Rice - something was wrong. His world was in shambles and he needed to find somebody to blame. </p>
+<p>War - They had more in common than not. When you're being attacked, you think they are trying to kill you and it becomes something very different. Trained as a soldier to see the enemy. Most powerful weapon of a soldier is the ability to see the enemy. </p>
+<p>Have to feel that you are exterminating someone who is less than you. Japanese went after the leaders. Killing people who are not you and I. Easy to make an enemy out of different race, background, religion. "We never knew who they were." In war, there's a difference between killing and murder. No ambiguities in war. It's simpler - we know what we're supposed to do. </p>
+<p>Almost all the carnage in the world has come from those who believe in god. We need to look at the eyes that see the enemy. Need to use a stereotype to catch their attention for drawings. <!-- Milt Prigeee -->Supposed to completely disregard the other side of the story. "It's just simply easier to take a side." Good guys need bad guys. We wanna be heroes so we need villains. </p>
+<p>Empire Strikes back - Unmasked the monster and recognizes the humanity. You are the same life and the separation is simply the affect of time and space. Hero has gone past that self-preservation. </p>
+<p>When you can't see the enemy, you don't feel them as the enemy. </p>
+<p>"I'm not an evil person."</p>
+<div class="quote">I wish I could sit down and cry like when I used to. I wish there was something I could do to bring it all back.</div>
+
+<div class="date">February 04, 2015</div>
+<!-- 60 m/c questions - -->
+
+<h1>Propaganda: Giving "Evil" a Face</h1>
+<h2>Key Questions</h2>
+<ul>
+	<li><span class="keyword">What IS an enemy?</span> An enemy is the other. Someone who's not part of our extended selves. Not part of us, our group. </li>
+	<li><span class="keyword">What "faces" do NOT appear?</span> Posters won't compare enemy to a rock, or a plant (unless it's a Venus Flytrap). They need to have a contaminating quality. Propagandists all draw the same thing. </li>
+	<li><span class="keyword">What EMOTIONS are relevant?</span> Certain images are more likely to evoke emotions. </li>
+	<li><span class="keyword">Is the enemy always EVIL?</span></li>
+	<li><span class="keyword">Is the enemy always HATED?</span></li>
+</ul>
+<p>Propoganda is about trying to evoke powerful emotions. </p>
+
+<table>
+<thead>
+	<td></td>
+	<td>HATE (obliterate the other)</td>
+</thead>
+<tr><td colspan="2"><span class="keyword">ANGER</span></td></tr>
+<tr>
+	<td>Self -------------&gt;</td>
+	<td><-------------Other</td>
+</tr>
+<tr><td colspan="2"><span class="keyword">DISGUST</span></td></tr>
+<tr>
+	<td>Self --------------\</td>
+	<td></td>
+</tr>
+<tr>
+	<td></td>
+	<td>\--------------&gt;Other</td>
+</tr>
+<tr><td colspan="2"><span class="keyword">FEAR</span></td></tr>
+<tr>
+	<td>&lt;-- Self &lt;--------</td>
+	<td>---------------- Other</td>
+</tr>
+</table>
+
+<p><span class="keyword">Anger</span>: self and other clashing. </p>
+<p><span class="keyword">Disgust</span>: rejection of contaminants. You push out and push down. Trying to protect oneself from contamination. Core disgust - trying to protect your body. People talk about being disgusted without biology, but in a moral sense (<span class="keyword">symbolic disgust</span>). They must protect the soul from moral contamination.</p>
+<p><span class="keyword">Fear</span>: Fear doesn't evoke hate. Avoidance. Right after, you get an anger response. Fear can loop back up into anger. Other comes into contact with you and you try to avoid it. Right after, you get angry.</p>
+
+
+<h2>The Dehumanization Continuum</h2>
+<ul>
+	<li>Human Like Me = not evil + no hate + healthy respect. (We're enemies, but I feel ya.)</li>
+	<li>Barely Human = anger + disgust + evil + hated. (You're nothing like me, gtfo.)</li>
+	<li>Subhuman = disgust + not evil + hated. (You're just gross. I don't like you)</li>
+	<li>Not Living = fear + not evil + not hated. (Scary. Just don't want you near me.)</li>
+	<li>Not of this World = 2(anger + fear + disgust) + evil + hated. (GTFO IDK WHAT YOU ARE.)</li>
+</ul>
+
+<p><span class="defn">"Human like me"...</span> Some enemies are human like me. <br>
+	= "Healthy Respect" - yes, you're going head to head, but there's an acknowledgement. We're a lot like each other. All enemies are not necessarily seen as evil. <br>
+	= NOT EVIL<br>
+	= NOT HATED<br>
+	Not about harming the other. About being on opposite sides. 
+</p>
+<p class="indent1"><span class="keyword">Worthy Opponent</span> - jousting. Formal. Other is respected. Making and treating it a fair fight. Acknowledging that they're a worthy opponent. This is a competition with rules. Only do what's necessary to win. </p>
+<p><span class="defn">"Barely human"...</span>They're definitely not like us. All bets are off.<br>
+	= ANGER; symbolic DISGUST. <br>
+	= EVIL <br>
+	= HATED<br>
+The enemy is seen as... 
+</p>
+<!-- Gutting somebody like a fish. -->
+<p class="indent1"><span class="keyword">Aggressor</span> - Japanese + Hitler poster. They are gonna get you. This isn't suttle. Going towards the midbrain. Trying to get the sense of "we're being attacked." We're not the aggressors, we're under attack. If it's self-defense, that's justifiables. </p>
+<p class="indent1"><span class="keyword">Glutton</span> - A fat Westerner is gonna eat you up - not human. </p>
+<p class="indent1"><span class="keyword">Torturer</span> - this is the method of the enemy. </p>
+<p class="indent1"><span class="keyword">Rapist</span> - The enemy is accused of being sexually inappropriate. Sexual enticement. </p>
+<p class="indent1"><span class="keyword">Enemy of God</span> - Fighting to prevent giant Nazis from stepping on churches. You don't mess with people's symbols. </p>
+<p class="indent1"><span class="keyword">Barbarian</span> - language is not suttle. DESTROY the enemy. </p>
+
+<p><span class="defn">"Subhuman"...</span><br>
+	= core DISGUST (creepy crawlies) <br>
+	= NOT EVIL (take away intentionality)<br>
+	= HATED <br>
+Just because they're cockroaches doesn't mean I have to like them. 
+</p>
+<p class="indent1"><span class="keyword">Beast</span></p>
+<p class="indent1"><span class="keyword">Reptile</span></p>
+<p class="indent1"><span class="keyword">Disease</span> - puts Venereal Disease right in line with the enemy. Public Health message with propaganda. If you can connect humans to disease, you've got people hooked. They'll take care of the threat for you so they have your allegiance. 
+<div class="example">Deangelo's (2000) germs. X-SPIKEY. BADASS EVIL GERM. This isn't rational stuff. </div> 
+</p>
+<p><span class="defn">"Not Living"...</span><br>
+	= FEAR <br>
+	= NOT EVIL <br>
+	= NOT HATED <br>
+We still don't want them around. We're simply afraid of it. 
+</p>
+<p class="indent1"><span class="keyword">Death</span> - certain finality to it. No torturing, just an end. It frightens people. </p>
+<p class="indent1"><span class="keyword">Faceless</span> - a sense of interchangebility. All alike. Attack of the Clones. </p>
+<p class="indent1"><span class="keyword">Abstract</span> - "America as abstract man, interested only in numbers." - critique of capitalism. </p>
+
+<p><span class="defn">&quot;Not of this world...&quot;</span><br>
+	= ANGER, FEAR, DISGUST x 2 <br>
+	= EVIL <br>
+	= HATED<br>
+Opens up this entire menu of mythological possibilities. You can put every nasty, unpredictable aspect out there. 
+</p>
+<p class="indent1"><span class="keyword">Demonic</span> - Vampire Eagle President Nixon. </p>
+
+<div class="date">February 11, 2015</div>
+
+<!-- story time -->
+<p>"Big Bad Ed"</p>
+
+<h1>"Obvious Evil": Serial Killers</h1>
+
+<p>Serial killers have become a modern-day Satan. Replacing a religious evil by secular evil. Serial killer are mythologized. They're not attractive, not intelligent. They show up in lots of pop culture context. Used to be fighting the devil, now fighting crime. Good triumphs over evil. High-tech, secular version. <!-- 5 billion dollar crime lab --></p>
+
+<p><span class="defn">FBI Definition of Serial Killer</span>3 or more kills with distinct cooling off periods. These are motivationally distinct episodes. </p>
+<p class="indent1">vs. <span class="keyword">Mass Murderers</span> (one time) and <span class="keyword">Spree killers</span> (different locations) - in both, those victims are all part of the same motivational sequence. We get different characteristics with serial killers.</p>
+<p>Serial killers are extraordinarily rare. 300 out of 360 million. Can't get representative sample. Can only try to extract similarities from case studies.</p>
+
+<h2>What would it take for you to kill? <!-- We're not gonna have share time here --></h2>
+<p>Baumeister says, under most circumstances, we really don't want to kill people. </p>
+<p>We are talking about the average person. It's not necessarily rational, but it makes sense to people at the time. Throw in mental illness, emotions, substance abuse, etc. Poorly planned, impulsive, etc. It doesn't take a lot. A person may have very limited alternatives because they're high as hell. </p>
+<ol>
+	<li><span class="keyword"><em>perceived</em> threat</span> - Doesn't have to be actual threat. DAVID LEE RICE. Paranoia can be plenty. Threat can be directed to yourself or your extended self. They'll think about doing what's necessary to protect themselves.</li>
+	<li><span class="keyword">absent/limited/exhausted alternatives</span> - They see it as the last alternative. Killing is the only way I can think of to make this problem go away. There's an eye-witness, I need to deal with that. People who kill themselves - the only way to stop the pain is to take my own life.</li>
+	<li><span class="keyword">killing humans, killing non-humans, "killing" humans</span> - Are there any other things that people do that's kind of similar, but also different? People kill for food, kill for sport (hunting and fishing). People consider it their right to hunt. A lot in common with serial killers and hunters. Hunters hunt Bambi's mother, not humans. There's a difference there. "killing" humans - simulated killing. Video games and paintball. It's the same idea, but it's a freaking game. It's only play. The only thing that's different is: the <span class="keyword">targets</span>. People are getting jollies by not taking human victims. </li>
+<p>So what's extra? </p>
+<p><span class="defn">Expedience</span>Like "mind over matter." "I realize that they're dead, BUT YOU HAVE NO IDEA HOW HORNY I AM RIGHT NOW." If that's what it takes to satisfy my needs, then that's what I'm gonna do. It's worth the cost. The embrace of this is absolutely critical. This differentiates people who carry out homicidal attempts than those who don't.</p>
+	<li><span class="keyword">perceived injustice/insult/injury</span> - going beyond threat. You need to do something to bring your self back up to where it's supposed to be. What will it take to make me feel good and great and powerful again? The ultimate power is to hurt them and kill them. I have been shit upon on, I need to show them.</li>
+	<li><span class="keyword">fun</span> - it is entertaining. This sounds fun and I am willing that other people suffer and die.</li>
+</ol>
+
+<h3>The Big Picture</h3>
+
+<ol>
+	<li><span class="keyword">(Lack of) Attachment</span></li>
+	<li><span class="keyword">Fantasy</span></li>
+	<li><span class="keyword">Willful Reduction of Inner Restraints</span></li>
+	<li><span class="keyword">Symbolic Expression</span> - M.O. vs. "signature". Necessary vs. Extra. You're supposed to wear clothes. Wearing clothes is MO behaviour. Styling and colour is the signature. </li>
+</ol>
+
+<p><span class="defn">(Lack of) Attachment</span>Early emotional bond between an infant and the caregiver. We learn certain assumptions based on that first relationship. Most of what we call <span class="keyword">conscience</span> is based on based on people mattering to us. I shouldn't do this because I would feel bad if they suffered the negative consequences of my behaviour. If this bond isn't created, you don't give a shit about anyone. It opens up your moral domain. Sets you up for the mind over matter principle. If people don't ever matter, then you can do anything. No rules.</p>
+	<p class="indent1"><span class="keyword">undersocialized</span> - it'll take a lot of abuse. Child can't predict how people are going to respond.</p>
+	<p class="indent1"><span class="keyword">oversexualized</span> - may have been sexually abused, witnessed sexual acts. </p>
+	<p class="indent1"><span class="keyword">ostracized</span></p>
+		<ul>"the terrible triad"
+			<li>bedwetting - age-inappropriate bedwetting. If medical factors can be ruled out. </li>
+			<li>firesetting - violence</li>
+			<li>cruelty to animals - violence directed towards other living things. </li>
+		</ul>
+
+<p><span class="defn">Fantasy</span>kids with better fantasy can keep themselves behaved. They can keep themselves occupied. You take that fantasy ability and you put that kid in a chaotic, abusive environment, they can use fantasy in a compensatory way. They can start to use it in a way to think about getting back at people who are mistreating them. Fantasies start to become more rewarding than the outer world. People start to think that maybe if they start to do this, they'll feel even better.</p>
+<div class="example">Mark Chapman. John Lennon killer. Fantasy about little people. Something he carried around for many years. Persistence.  </div>
+<p>Fantasy is not bad, but when you combine it with other things, it gets risky. What can fantasy do?</p>
+<ul>
+	<li><span class="keyword">compensation</span></li>
+	<li><span class="keyword">dissociation</span> - step away from certain aspects of themselves. May step away from moral center. We don't need to talk about Dissociative Identity Disorder. It enables people to insulate themselves from emotions that they find problematic. Guilt and shame can be as problematic as fear can be. People don't have access to those memories.</li>
+	<li><span class="keyword">sexualization</span> - sexual serial killers - high correspondance to what they do and their fantasies.</li>
+</ul>
+<!-- John Wayne Gacy. He was able to dissociate himself from what he did. -->
+<p><span class="defn">Willful Reduction of Inner Restraints</span>Differentiates fantasizers from the do-er. </p>
+<ul>
+	<li><span class="keyword">entitlement</span> - "I have the right to do this." "Why shouldn't I?" Can't think of a good reason why I shouldn't do this. </li>
+	<li><span class="keyword">narcissistic wound</span></li>
+	<li><span class="keyword">overkill</span></li>
+</ul>
+	<div class="example">Javed Iqbal - I did this because the police mistreated me. Grandiose displaced aggression.</div>
+
+<h2>Types (adapted from Holmes, 1989)</h2>
+
+<p>"Externally" directed ("I have to") - I have to kill. </p>
+<ul>
+	<li>Visionary - claim that an external voice is telling them to kill. Might have some psychotic disorder. "I'm being directed to kill."</li>
+	<li>Mission - Responding to some kidn of ideology that they've embraced. Some self-appointed clean-up crew. Target members of a specific group. David Lee Rice. They feel like they're doing something that's part of some bigger plan. It's important and necessary. Iqbal. </li>
+</ul>
+<p>"Internally" directed ("I want to") - motivation inside the individual</p>
+<ul>
+	<li>3. Hedonistic </li>
+		lust/thrill - process-oriented, adrenaline rush. 
+		comfort - pleasure by means of acquiring material resources. Most common female serial killers. Buddying up with somebody and then poisoning them to get their insurance money. Killing for material. Black Widow. (17% are women)
+		
+	<li>4. Power/Control - I get to feel like the big man. Absolute control over someone else. Ted Bundy: "You are God." </li>
+	<li></li>
+</ul>
+
+<p>"The purpose of life is to make your mark on this earth." - Andre Chikatillo, Serial Killer. We want the same thing that serial killers do. Motives/Goals versus MEANS. We want the same things in life, but what differentiates us is the means. How do you go about getting those needs satisfied? </p>
+
+
+<h1>The Functions of "Evil"</h1>
+<h2>Why is there "evil"?</h2>
+<p>One way: Objective standpoint - no labelling, no disagreement. This self-evident thing that's there. Then go from there. </p>
+<p>Other way: Subjective label - Evil is a label. Then why do we have an evil label? Does it serve some sort of function?</p>
+
+<ul>Three approaches: 
+	<li><span class="keyword">Theological</span>: "the theodicy problem" - if God is all good and God is all powerful, then why is there evil? Treats evil as a given (objective). It will fit our prototype easily. They're interested in God's role in this. It's a fairly limited menu.<br>
+	God is... <br>
+		<p class="indent1">a) not all-powerful: Sorcerer's Apprentice - things get out of control. God got creation going, after that, things spiral out of control. This is a pisser. Story of Jobe.</br>
+		b) not all good (Jung): Narcissistic gods. <br>
+		c) a driving instructor: Whoever is in the driver's seat has most of the control, but the driving instrctor can hit the brakes if thigns go out of control. We are the driving students, the focus is on our growth and skill development. If things get too chaotic, god will intervene so evil will never go too far. 
+		</p>
+	</li>
+	<li><span class="keyword">Philosophical</span>: (subjective) logical/linguistic necessity. Focuses on evil from a label standpoint. If it is possible for a human to conceptualize/label an ideal, a greatest good, then we should also be able to think of a greatest bottom. Something that is better than everything else vs. something that is worst than everything else. Evil happens to be the evil for the greatest bad. If you eliminate the greatest evil, the second greatest evil will become the greatest evil. If you keep knocking things off, it sounds like first world problems. "Why do hot dogs come in an 8-pack and hot dog buns in a 12-pack?" </li>
+	<li><span class="keyword">Psychological</span> - (sbjective) "evil" is functional. Evil as a label. It means certain psychological needs. </li>
+</ul>
+
+<ol>Two Psychological Models: 
+	<li>Out There: Not in me, but out there.</li>
+	<li>In Here: The potential of evil inside me, and it's inside everyone else. </li>
+</ol>
+<!-- How comfortable would you be wearing this shirt? (Devil Inside shirt) Don't you wish your man was hot like him? -->
+<p>If the idea of wearing the shirt is uncomfortable, you're leaning towards the out there model. </p>
+
+<h2>"Out There"</h2>
+<p>Evil is not in me, I'm not evil. Evil is in the realm of the unseen. It's out there. </p>
+<h3>Cognitive Functions</h3>
+<p>Thinking, information processing.</p>
+<ul>
+	<li>simplification - it simplifies our view of reality. There are the good people and there are the bad people. Everyone I'm close to are good, everybody else, I'm not sure. People see the world as a battleground of good and evil. People know how they fit in. I have a mission, I have a clear enemy, I'm sure of myself. It's really, really appealing. We don't like complex models. <br>
+	"What type are you?" 
+	<form class="indent1" action="">
+	<input type="radio" name="ge" value="male">Good
+	<input type="radio" name="ge" value="female">Evil
+	</form> 
+	</li>
+	<li>differentiation - We know who we are by knowing who we're not. </li>
+</ul>
+
+<h3>Affective/Motivational Functions</h3>
+<ul>
+	<li>self-esteem - It feels good to feel good. It feels good to feel better than other people. Social comparison. I am better than this other person. 
+	<div class="example">Reality shows - some folks love watching people who make a fool of themselves. We see people breaking the law, doing embarrassing things, doing things we'd never do. We can look at ourselves to say "Good lord, I'm not gonna do that." Stealing stuff and saying "I'm not a thief." "I'm not an evil person." (David Lee Rice).</div>
+	By default, I'm not evil. 
+	</li>
+	<li>self-justification - right makes might. If we convince that we are correct, then that unleashes our motivation to carry out that behaviour. Aggressing from evil justifies doing evil. If you frame things of being in a battle, and you are obviously on the good side, that is the ultimate justification. <!-- short story about satan. Satan - "You need me." -->By having an evil enemy, that helps people to come together and fight.</li>
+</ul>
+
+<h3>How?</h3>
+<p>Projecting "the Shadow" - Robert Bly - the long bag.Every part of our personality that we do not love will become hostile to us. </p>
+
+<p>I am good (in a moral sense). We have to take all those things about ourselves that are unacceptable, and squash it down into unconsciousness. We call these things evil. That stuff goes down and out. It goes beyond the self. Projection of badness onto others will distract us from badness. We keep the evil a secret. I can't admit it to myself or others, so I need to project it onto others to create a smokescreen. Why are you focusing on me when the real badness is out there? </p>
+<p>Wholeness- admitting that we struggle with things. But bring those alongside with our strengths. If we're dealing with both good and bad at the same time, at least that's honest. This is a very, very risky thing. A lot of us would prefer to push down and out. </p>
+
+<p>Not necessarily good and evil. Smart and stupid. </p>
+
+Good <br>
+^&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"wholeness"<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;^&nbsp;&nbsp;&nbsp;&nbsp;^<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|<br>
+threshold of awareness <br>
+|<br>
+|<br>
+v<br>
+Evil&nbsp;&nbsp;&nbsp;"down and OUT"<br>
+
+<h3>Some old in-class data</h3>
+<p>Unstable Sense of Self (reliant on external ID markers) -> <br>
+disturbed by idea of demonic possession<br>
+"cannot imagine self as 'evil'"<br>
+"evil" should be hated </p>
+<p>There are some payoffs to an out there model, but there are also risks. The risk is that there will be no mercy. The risk is condemning the innocent. If you divide the world up, there will be a lot of grey that you will try to turn dark. The world must be in black and white. Heroes and Villains. People get caught in the crossfire. </p>
+
+<h2>"In Here"</h2>
+<p>I am capable of evil. I, like everyone else, am capable of doing evil things. People who find that statement objectionable will justify their actions. We always find someone worse than we are. </p>
+<h3>Cognitive Functions</h3>
+<ul>
+	<li>perserves complexity - there's no such thing as pure evil, it's always more complicated than that. <div class="example">There's two ways to make a decision - make the decision(not consider moral implications) or agonize then make the decision(consider moral implications - preserves complexity).</div></li>
+	<li>establishes similarity - I am capable of evil <strong>just like everybody else</strong>. We all have that in common. (Like Human like me.) </li>
+	<li></li>
+</ul>
+
+<h3>Affective/Motivational Functions</h3>
+<ul>
+	<li>creative tension - if you're going to admit that you can do this stuff, you have to think of creative ways to not do these stuffs. <!-- Skeleton nightmares. Skeletal UN. Embracing the evil. Led to a resolution --></li>
+	<li>humility & empathy - It's a struggle to do the right thing, it's a struggle to figure out what to do. I get it. I've screwed up too. Unlike an out there model, I could be in a similar position. It becomes good vs. evil in us as individuals. If we all have this, it's less conflictual..</li>
+	<li></li>
+</ul>
+
+<p>The Risk? The risk is letting off the guilty. No justice. There are some individuals whose dominant way of moving through the world is to exploit and use others. Then what do we do? </p>
+<p>Abraham Maslow - essentially his psychology of cool people. </p>
+
+<!-- feb 25 --> 
+
+<!-- New Stuff -->
+<h2>Question Time (Activity)</h2>
+
+<ol>
+	<li>Think of a specific example when you (sanely) confronted someone whom you felt "wronged you." </li>
+	<li>What (if anything) did s/he say in response? </li>
+	<li>What general types of responses are evident in your group? Denial, apologies, making it seem smaller than it really was, making up excuses. Given explanation (their side of story), half-baked apologies (sorry, not sorry), blame, minimization, turn themselves into the victim, taken aback, defensive, escalation, strong reaction, asserting dominance. No one has mentioned that they were actually sorry. </li>
+</ol>
+
+<h1>Self-Justification</h1>
+<p>Massive motivation for us to justify our behaviour. Consiousness developed to create a self-justification system.</p>
+<div class="example">Adam and Eve: Serpent persuades Eve to eat apple. Eve eats. Adam eats. They look so ashamed. "No but yeah but." Vicky Pollard - an incarnation of an excuse machine. Adam blames God through the woman. "C'mon, she's like hot and stuff." Eve says the serpent deceived her. They both made excuses. Excuses happen the moment after you have knowledge of what's good and wrong. </div>
+
+<h2>"A wrong has been done."</h2>
+<p>How do people deal with confrontation?</p>
+		|
+		v
+1"no it hasn't"(minimization of harm)	3"I did it, but..."		2"I didn't do it." 		
+3a"I AM GOOD" 			3b"I AM NOT BAD"				3c"I AM NO WORSE THAN YOU"
+3a"morale mandate"		3bsituational attributions 		3cpopulist normalizing
+3aOwnership				3b NO OWNERSHIP 				3cOWNERSHIP
+3aMORAL					3b AMORAL						3cIMMORAL
+I'm the hero 			It didn't mean anything, it was a one time thing 	I did something immoral, but you're immoral too 
+---- threshold of acceptability ---- 
+UNACCEPTABLE 
+
+5OR another way (very different strategy, but motivation similar): "I am more powerful than you." - I don't give a shit what you think. Go ahead, take your best shot. In the end, I can hurt you more than you can hurt me. (These can say ALL OF IT and not mean ANYTHING. Demonstrate power over you by making you believe me.If I can get you to believe that I am the victim, I won. - The clinical term for this is "sneaky bastard/") 
+versus 
+6"I did it, and..." (admitting)
+6aI was wrong.(acknowledging) 		6bI am sorry(legitimate - empathy for the person who has been wrong) 	6cI won't do it again (self-regulation) 	6dI'll fix what I can (what separates everything - amends) 
+
+1denying harm - there's not sufficient harm to make a case out of it. I don't know why you're making a big deal about it. Denial			
+2No one can deny that wrongdoing had been done, that harm had been done, but it wasn't me. I might have some idea of who did. Deflection 
+3aYeah, I did it, but I'm good. I had a good reason to do what I did. There is a good reason why you experience that harm. I harmed you for a good reason. 
+	"moral mandate" - there are certain things that are right to do so those are the things you should do. If you have to hurt them in order to stop doing what's wrong, then hurt them. 
+	Ownership - they feel proud. Not ashamed, not sorry because it needed to be done. That harm was right. 
+3bGood enough reason. Doesn't have the fire under moral mandate. 
+situational attributions - people want you to hear their side of the story. Here's what was happening to me at the time. They find things that affected them situationally. It's not a reflection of my character because there was a bunch of shit going on around. Eve: "I was deceived." Adam: "My partner put me up to it. I was victimized" Legal: "I was under duress." "I was mentally ill/under the influence." "I was so drunk, <strong>that's not the reflection of the person I am</strong>." No denial, but blaming external factors. Distancing from the core-self. 
+It is what it is. It happened. It seemed like a good idea at the time. It was an accident. I didn't think it through. Revenge. Reasons beyond the self. Becomes Neutral. 
+3c I'm not perfect and neither or you. Maybe it was bad, but you do bad things too. Blending in. 
+
+"I'm just a reflection of you." - Charles Manson - populist normalize 
+Keeps you afloat. I don't wanna be lower than you because then I'd be subject to rejection. You have no reason to condemn me, if you aren't going to condemn yourself (3c) 
+
+<h2>What's the engine? (why)</h2>
+<p>Remember the "Mark of Cain." -- social outcast. Being evil is the ultimate label for someone who is a social outcast</p>
+<p>Self-esteem as a "sociometer" (Leary) - self-esteem is an indicator of relational value. In general, do people think you're a pretty good joe? You play reasonably well with others. Enough people like you. If someone doesn't like them, self-esteem drops. It has adaptive value over the years. We're a cooperative humans. We are way more powerful together than alone. </p>
+<p>Social rejection and physical pain (MacDonald) - when people lose an important person, they're heart broken. There is evidence for that now. People experience rejection as physical pain. A very hardwired process. </p>
+<p>Self-justification to avoid the pain of social rejection - When I go into excuse-making mode, I'm trying to ensure that I'm not going to be cast off by myself. Because it hurts. I don't want to feel like that. It's so intense and reflexive. People feel threatened when confronted. A nonconscious physiological chain reaction. people freak. Social panic attack.</p>
+<p>The system can break down when: We carry audiences around inside our head that don't necessarily correspond to the world.  </p>
+<ul>
+	<li>If internal audiences are given priority. Social anxiety - "I don't want to do this because everybody is gonna laugh at me." Most people don't care that much, they don't notice. Exaggerate how many spotlights that are on them. These people feel less social connection. Self-sabotage. Or internal audience tells them that they've done something wrong. All I need to do is to convince my internal audience, and not the real people. I can sleep at night as long as the internal people are good. </li>
+	<li>self-esteem is pursued for its own sake - less about repairing the relationship and more about feeling good and not bad. Narcissism. Self-esteem is a kind of drug that people can become addicted to. Less about social connection. Leads to lying, false apologies. As long as I can convince you that I'm a good guy, I don't actually have to be a good guy. Chasing the high of self-esteem. </li>
+	<li></li>
+</ul>
+<!-- We're gonna split some butts here. We're gonna split it into 3 cheeks. -->
+
+<!-- MArch 04 --> 
+
+<h1>Search for the "Evil Personality"</h1>
+<p>Looking at things from the individual level. self -> self-appraisal. How do we as individuals evaluate ourselves? At the end of the day, our self-appraisal is positive. We got enough basis to like ourselves okay. Fairly grounded self-evaluation. <br>Individuals with a deflated sense of self are folks who are depressed. They are low-energy. If there's any harm, they're going to harm themselves. They're in screensaver mode. <br> An inflated self evaluation is a self-evaluation that is more positive than the data jsutifies. Those who think of themselves as being way better than other people think. It is artificially supported somehow. Individuals must engage in measueres to keep that level up. </p>
+Self-appraisal: <br> 
+^	Inflated (+++!)	- They're living in their own world. I'm AWESOME.<br> 
+|<br> 
+|<br> 
+|	Accurate (+)	- They're okay. I'm aight. <br> 
+|<br> 
+|<br> 
+v	Deflated (-) 	- Think pretty badly about themselves. I suck. <br> 
+
+<h2>Features of the Inflated (Narcissistic) Self</h2>
+
+<ul>
+	<li>grandiose self-image - It's great, it's awesome, it's special. They will see themselves as better than everyone else around them. A focus on specialness. Involves explicit social comparison. If I need to see myself as great, I need to engage in strategies that are going to keep myself up like that. I may routinely put other people down, point out other people's flaws. Trying to maintain that gap of specialness. </li>
+	<li>extreme self-focus - "I really want to be special to be somebody." "You're special, I let you help me." </li>
+	<li>lack of empathy - They'll have other people around, because other poeple are useful until they aren't. They keep people around so they can tell them how awesome they are. You're not going to firm my awesomeness, I don't need you in my life. I don't want anyone to confront me about doing anything wrong because I didn't do anything wrong. </li>
+	<li>sense of entitlement - sense of deservingness. </li>
+</ul>
+
+<div class="example">NPI scores and the "anonymous dictator" game. Naricssistic personality inventory. Statements to check off. I'm going to be a great person vs. I hope I become successful. hypothetical: <br>You receive $20 in appreciation for research participation. Anonymously donate any portion to stranger who received $0. No one would know - how much would you like to donate?<br>
+lower 20% on NPI: $8.21 - low narcissim scores.<br>
+upper 20% on NPI: $3.80 - high narcisism score <br>
+</div>
+<p>Scoring low on a narcissism scale doesn't mean a negative self-image. Humility is not about feeling bad about yourself, it's about a realistic self-appraisal. Acknowledgement of interdependencies of other people and factors. Inflated point is problematic, but low is not.</p>
+<p>the picture gets clearer when we add "stability"</p>
+2x2 self-appraisal Model 
+
+				Inflated(+++!) ^
+Stable <--------------------------------> Unstable 
+				Accurate v
+				
+<-- How other people are likely to perceive these individuals, their gut reactions, how folks in these quadrants deal with negative feedback. -->
+
+Narcissism is in the top two quadrants, regardless of stability. 
+<p>Stable-Accurate: <strong>confident</strong> (does not mean arrogant asshole). <strong>Realistic</strong> self-appraisal. Very clear sense of what they're good at, but also know their weaknesses and their struggles. A positive mixed bag. Working on weaknesses, gettign help on weaknesses, this is what I do well. They <strong>inspire reliance</strong> reactions in people. "This is a good go-to person." Sociometer- That's a decent person. They play nicely, they're okay. How do they deal with negative feedback? They will consider <strong>modifying themselves (maybe)</strong> - they take it realistically. (Ryan - recorded people trashing him. He took it seriously and changed. He said it was accurate.) </p>
+
+<p>Unstable-Accurate: <strong>insecure</strong>. Their self-image is more <strong>tentative</strong>. More day-to-day. Life's little tradgedies and setbacks are a bigger deal to them. May initially <strong>inspire nurturance?</strong> They seem like decent people, but they seem more fragile. More often than not that they're in some kind of crisis. It get's tiring. How do the insecure deal with negative feedback. They try to <strong>modify self & other</strong>. I'll do anything, just don't leave me. I need this connection, what can I do to make you stay? A sense of desperation. Sensitive hair-trigger sociometer. Really easy to go from accurate to deflated. </p>
+
+<p>Inflated-stabke: <strong>pompous</strong>. They present themselves as <strong>dismissive.</strong> They're always the smartest people in the room, just ask them. Everybody else to them is pretty stupid. Sometimes it happens in a classroom. "I could really be teaching this class, but I'm just going to comment on it." <strong>Inspires eye-rolls</strong>. It's a one-on-one thing in the classroom for them. Hwo to they deal with negative feedback? They respond by <strong>modifying no one</strong>. I'm not gonna change your midn on it, you wouldn't get it. They don't do anything. Obliviousness. You can't really convince them because the pompous know better. You can't rattle them. It makes the pompous a little bit less harmless. If you can't rattle them, you can't upset them. </p>
+
+<p>Inflated-Unstable: <strong>Evil</strong>. Very, very vulnerable to puncture. They are <strong>unpredictable</strong>. You pretty much know what the pompous are going to do, but these... you don't. They're going to react, but you don't know when and how. If you see it, <strong>RUN</strong>. You usually don't see it. "I'm more powerful than you." or they try to do something else. They prefer to <strong>modify other (NOT self)</strong>. I want you to change what you think about me without actually changing myself. That's when it gets scary. Layers and layers of deception, deflection, and misdirection. They're trying to keep an inflated self-esteem up there. They tend to drop to deflated which freaks them out. They have a high motivation to engage in ways to stay at a high level. They're trying to recalibrate the sociometer.</p>
+
+<h2>"Pompous" vs. "Evil"</h2>
+<p>Modeled vs. compensatory? Pompous individuals may get the message early on. No matter what you do, you're awesome. You're awesome because you're my son. They go out into the world and know that they're awesome so they get confused when people act like they're not awesome. Not just a good kid, you're the greatest kid that ever walked. The sociometer doesn't matter. <br> The evil have a compensatory approach. They construct a false self. Trying to fight against the negative dips. </p>
+<p>"unstable" -> vulnerable to "sociometric" threat. What other people think about them matter more. It's mattered in different ways.<br>
+"self-esteem addicts" & "chasing the high" - inflated unstable. Addiction. Initial positive experiences, but can never get that original experience back, but keep trying. They will increase dosage, and engage in riskier and riskier behaviour to try to feel the same way they once felt. Think about the lengths people will go. People are willing to take a life. It's not about feeling high anymore, it's about not feeling sick. There's a desperation that kicks in. </p>
+<p>This often manifests as: </p>
+<ul>
+	<li>Intolerance of guilt = "shame panic attack"? Guilt says I made a mistake. Shame says I am a mistake. Guilt is about behaviour, shame is about the person. They're afraid of shame. So when they feel guilt, they go "holy crap, can't allow that to happen." Guilt => shame. People want to escape the situation. They have to do anythign thats' necessary to keep shame from happening.</li>
+	<li>deflection of personal responsibility - If I can do that, I can deal with the guilt and then the shame won't happen. </li>
+	<li>at the expense of (vulnerable) others - they take responsibility of it. Addicts can't be addicts without enablers. Enablers bail them out of jail and give them a place to stay. They deal with the negative consequences. They keep them from rock-bottom. It can result in physical/social/psychological harm. </li>
+</ul>
+
+<div class="example">A data example (psych of evil class): Measured a sense of grandiosity. How much people measure themselves as "I get it better than anyone else." Then manipulation. Think/write about a time where you got the respect you deserved OR you didn't ge tthe respect you deserved. People are supposed to respect my authoritAY (CARTMAN). Then complete baumeisters myth of pure evil. High grandiosity => high on myth of pure evil - think about no respect => there are evil people out there. The ones who are most flinchy at people who don't respect their authoritay. </div>
+
+<p>Peck's "evil personality disorder": If I proposed a EPD, I would propose these as characterisitics (DSM diagnostic criteria)</p>
+<ul>
+	<li>scapegoating - finding somebody else to blame. Can be quite subtle. </li>
+	<li>extreme intolreance to criticism - trying to avoid shame panic attack </li>
+	<li>image of self as (morally) "good". They increased myth of pure evil. Evil is out there.</li>
+	<li>elaborate justifications (subject to breakdown) - gets hard to keep the facts straight with so many lies</li>
+</ul>
+
+<div class="example">Bobby and his parents: he got his brother's gun. the one his brother killed hmself with. The point of the story: map the criteria to the things Bobby's parents were doing. Bobby got the gun his brother killed himself with for Christmas even though he wanted a tennis racket. You hear forceful, agile evasion of any sense of accountability from the parents. The parents were being willfully and mindfully malicious. There's a certain level of cluelessness. How do people respond to this feedback? My goal is to change your perception of me instead of changing myself. Parents - you can't pin anything on us, we's good people. Whether or not the potential for harm was intentional, we're not going to consider the possibility that we were wrong. Didn't get second guessing, you got excuses and attacks. Refusal to even consider the possibility that your behaviour resulted in some harm and that you need to be accountable for that. </div>
+
+<!-- March 9 -->
+<p>"Gut" reaction to evil: (Only happens once you make the connection)</p>
+<ul>
+	<li>revulsion - Are you kidding me? Intense moral disgust. You are this clueless that you're going to pull something like this? </li>
+	<li>confusion - What the hell? What are you thinking? How are people thinking that this is a good idea? </li>
+	<li>fatigue - Power play - You don't want me to get the authorities involved, do you? This takes a lot of energy.</li>
+</ul>
+<p></p>
+
+<p>The Dark Tetrad - one of the original three was narcissism. Machiavellianism, Psychiopathic, Narcisssism + Sadistic(4th) </p>
+<p>Machiavellianism - interpersonally manipulative. Goes in inflated area. Cynical view of other people. Get them before they get you. Tell other people what they want to hear if that's to your own advantage. Dog eat dog world. You gotta  be the biggest dog out there. Pretty confident about their ability to manipulate other people. They tend to be very goal-oriented (prioritize material goals). Long-term goal-orientation, STRATEGIC => stability of self. Usually illegal activity, but typically never violent. </p>
+<p>Sadistic - Closer to unstable. Trolls. I want you to experience physical/psychological harm because that is a payoff to me. I get pleasure from seeing you hurting. Less interested on material, focusing on interpersonal goals => a little more unstable. They're more reactive.</p>
+<p>Psychopathic - very impulsive, erratic quality. Criminal, violent tendencies. It seemed like a good idea at the time. Blatant disgregard for other human beings. Towards the unstable end. </p>
+
+<p>Quest for public admiration - narccisist. Takes care while taking advantage - Machiavelliants. Psychopaths impulsively grab what they want, not caring wth is in their way. Seeking otu opportunities - Sadism. <br>
+I think of myself at a level that is beyond what is sociometrically valid. There is a motivation/appetite for all of this. </p>
+
+<h1>"Evil Personality" 2: The Engulfment Motive (Burris, Rempel, Munteanu, & Therrien, 2013)</h1>
+<p>Conceptualization - "Amoebic Self Theory" - What does a single-cell organism need in order to be able to survive in the world. There are 3 survival needs: eat, retreat(protect ourselves), excrete. How does an amoeba do it? It will engulfe that food. We're more complex organisms, but we do this psychologically as well. We need to take in stuff, protect ourselves from threats, discard what is no longer useful./ </p>
+
+<div class="example">If relationships go down, people change something about them. I poop out the memory. Do these symbolic things that say "Away with you." Psychological excretion.</div>
+
+<p>eat = engulfment</p>
+
+<p>3 domains of the self</p>
+<p>Bodily - sensation. Taking things through your senses. </p>
+<p>Social - domination. How do we engulfe in an interpersonal context? By dominating people. Can I influence you without influencing me? Influenced without being influenced by.</p>
+<p>Spatial-symbolic - acquisition - everything has symbolic  quality. </p>
+
+<p>What if the "appetite" doesn't "shut off"? </p>
+<p>Appetite is good - hungry => need food. What if an appetite doesn't shut off? Most body functions work like a thermostat. What if the thermostat is broken? What if there's no such thing as enough? What if people just want to take in, take in, take in,... Growth for the saek of growth is the idealogy of the cancer cell. </p>
+<p>Bodily - sensual excess. Getting too much. "The meal isn't over when I'm full, the meal is over when I hate myself.</p>
+<p>Social - domination and control</p>
+<p>Spatial-symbolic - treating the world as if it is mine. </p>
+
+<p>How far will people go to justify their "appetites"? </p>
+
+<h2>Study 1: The "Engulfing Self Scale" & Correlates</h2>
+<p>A three-part scale. Domain gets bigger from physical to social to spatial. </p>
+<ul>
+	<li>Bodily: Sensuality. The degree to which you take things from the outside world. Games like Twister are fun because of physical touching. Martial arts, dance, massage, trying new foods, pets are for petting. Taking the world through your senses and giving a certain priorirty to that. Your own individual person. </li>
+	<li>Social: Gave people a vartiery of audiences. PArtner, close friend, hated other. 7 or 8 audiences. Circle every person around them you like to do this. Competing against this person, using what you have to get what you want fromt his person, being able to hypnotize this person. Circle all possible targets. Focus: interpersonal domination. The more you wanted to be hgiher than someone, the higher you scored. </li>
+	<li>Spatial-symbolic: To what extent do people treat the world around them as their own? The core item: No matter how much I have, I want more. I'm just that kind of person. Would you be willing to rip a public phonebook. Does it bug you if someone is sitting in your spot in a classroom? MINE. The entire surroundings. </li>
+</ul>
+<p>If you score on one, you'll tend to score high on the other two. </p>
+<ul>Correlations 
+	<li>Bodily: sensation-seeking (lite) - prone to boredom, adventure-seeking, they place high value on stimulus of experiences, thrill-seeking, but nothing illegal. Didn't predict anything bad. </li>
+	<li>Social: Linked to Machiavellianism - wanting to have an edge over other people, trying to get the best of somebody else<br>Psychopathy<br>social dominance orientation - some groups are more priveleged than others, and I like it that way.<br>economic system justificaiton </li>
+	<li>Spatial-Symbolic: sensation-seeking(heavy) - want to mark their psychological terrirtory. Includes illegal behaviours. I'm willing to do something illegal in order to be stimulated. More strongly linked to Machiavellianism, psychopathy, narcisism, psychological entitlement(strongest correlation - 0.5), social dominance orientation, economic system justificaiton. There's nothing pro-social here. Not playing well with other groups. All interpersonal and intergroup problematic. </li>
+</ul>
+<div class="example">Experiment: Imagine you are working in a group project. Mark depends on each other ranking each other. Group leader has MArking scheme either guarantees you get a really good mark or won't really matter. How motivated would you be to rat on the group leader.<br>
+DV: Willingness to expose group leader. <br>
+Low levels of spatial-sym engulfment - doesn't matter if it helps or not. 
+High spatial symbolic engulfers - If group leaders info helps, not gonna turn them in 
+If it doesn't help us, screw you. Report leader. <br>I am going to treat you based on how useful you are to me. (Very Machiavellianist). 
+</div>
+
+<h2>Study 2: More Correlates</h2>
+<p></p>
+<ul>
+	<li>Bodily: openness to experience, univarlism - respect for all people and nature, beneveolence, negatively related to power, partner enriches me. They're nice. Pro-social values. </li>
+	<li>Social: hedonism, achievement. Nothing overtly problematic. </li>
+	<li>Spatial-symbolic: negative agreeableness, negative conscientiousness. Not concerned about deadlines, power - partner doesn't enrich me - no growth goals, greed (super strong relationship. No matter howmuch i have, I just want more. Nothing pro-social here. MY partner really doesn't do that much for me. </li>
+</ul>
+<h2>Study 3: Justification of Looting Behaviour</h2>
+<p>After Hurricane Katrina. Found $100 necessities(food, water, batteries) OR watch. Take looter's perspective OR not.<Br>
+DV(dependant variable): willingness to justify looter's behaviour. Take a justification, any justification. 
+</p>
+<p>Higher spatialsym, the more willing you are to justify the looter's behaviour especially when taking necessities. Other two not willing to justify. If I can figure out a good enough reason, I'll do it. Higher spatialsym - already taking looter's perspective already. Low spatialsym, are saying screw you, I'm not taking the looter's perspective. Asked to go there, but won't. Higher "I would've gone there anyway. You had me at Hello." </p>
+
+<h2>Study 4: Justification of Self-serving Ticket Allocaiton</h2>
+<p>Doing vocabulary test - competing for cash prize. they were competing with online :other:. If they won, they would get to divvy up the tickets. Whether you win or lose, there are these tickets you can divvy up and justify allocation. Justification was an issue. 2badsosad the other person wasn't picked to allocate the money. whether they won or lost, higher satialsym was associated more justification, especially true when they won. Self-serving is associated with justificaiton. </p>
+
+<p>If you put these studies together, there's no linking bodily to social. Bodily ain't illegal. Their values are pro-social, no negative. A little bit more negative for social A little bit of dominance. Once we get to spatial-sym things explode. Getting a consistent dark-triad, negative pattern of stuff.</p>
+
+<p>any bullshit reason that can bolster "Iwant it, I need it"/. Is it the real reason or is it a good reason. Any justification, if it sounds remotely plausibly, you'll go for it. Doesn't have to be a real reason, just has to be good. Justification: The REAL reason, or just a good reaosn? Is it selfish not to have kids? Is it selfish to have kids? People who don't want children are selfish. Caregivers will go "It's not for me, it's for the kids." Is it the real reason or a good reason? <br>
+God wants you to be rich. Prosperity Theology. </p>
+
+<p>Is engulfment motivation the "engine" of the Dark Tetrad?</p>
+Is greed, the appetite that doesnt shut off, the motivation to dark tetrad behaviours? 
+not saying it;s true, but it could be true. unconstrainted appetite thats the foundation. 
+
+<!-- 52/53 MC -->
+
+<h1>Power</h1>
+<!-- not really evil personality, but there is a natural progression --> 
+<p>Lord Action(some famous dead white guy): "Absolute Power corrupts absolutely. " 
+Can power corrupt? 
+</p>
+
+<p>What is power? The ability to influence others, to affect their outcomes in some way. It doesn't sound so bad. </p>
+
+<p>no power -------- some power -------------- absolute power</p>
+<p>"invisible"------ most of us -------------- "irresistable"</p>
+
+<ul>
+	<li>no power: invisible - that's not a good thing. Learned helplessness. They become depressed .</li>
+	<li>some power - most of us. </li>
+	<li>absolute power - "irresistable" - very few people who have that. </li>
+</ul>
+
+<h2>Two understandings of power</h2>
+<ol>
+	<li>Power as a value: something that is actively sought. Internally motivated to seek out these influence opportunities. When they are actively motivated, and it is an end in itself, it becomes problematic. This dynamic where I have the sense of influencing you, but you don't have the sense that you can influence me. It can end up becoming a twisted form of dependence. There is an inequality. How can I be assured that I do have power over you? You have to give me feedback so I know. Easiest way to piss of a sadist is to not respond. If you're not giving me the response that I want, you're blocking my goal. The sadist is dependent on whoever they're targeting. 
+	<div class="example">Family story. 6 years old, got into trouble. Spanking. As a budding psychologist at age 6... "You want some more?" "Yeah." Took another whooping. Dad needed to get the right response.</div>
+	Twisted because power-seekers don't admit that they depend on people. <br>
+	Philosophical - Hobbes' Leviathan - Those who want power fear equality. They're not comfortable with the idea. If everybody has the same thing, nobody has the upper hand. No has something the other wants. 
+	<img src="images/schawrtz.jpg" />
+	Research basis for this? - Schwartz (1992) - A cross-cultural theory of values - what defines a good life. Statistically narrow down into 10 basic themes. Each slice of pie is a different value. Slice on the other side, is incompatible. Power is one of the big values. What's adjacent (most motivationally-compatible): Security and Achievement (Safe and Winning). On the other side: Universalism (Equality, Justice, Harmony, Nature). We end up prioritizing things differently. 
+	Power is positively correlated with Spatial-symbolic Engulfment. Relationship - they don't benefit me because they don't make me feel powerful. 
+	</li>
+	<li>Power as a role: Externally imposed or found power. Not power that people seek out. They may end up in a position of responsibility whether they sought it or not. Found power.<br>
+	The "metamorphic" effects of power (Kipnis, 1976) - Looking at power as a role, not a value. Can it change you if you're in a power position? Yes. <br>
+	<div class="example">
+	Galinsky et al. (2006) - Given a dry erase marker. Draw a capital E on your forehead. <!-- I want you to visualize how you would put an E on your forehead." I don't have a forehead. -->
+	Thinking about a time when you had power over someone else or someone had power over you. 2 different ways. Did it affect how they drew the E? Flipped E - writing from their perspective = high power approximately 3x more. Proper E - writing from someone else's power = low power. Most people did it proper. Being in that power role, seemed to provoke self-focus.  
+	</div>
+	
+	</li>
+</ol>
+<h2>Types of Power-based influence strategies (Kipnis' Model)</h2>
+<p>He views power as a cumulative thing. The higher the power an individual has, the bigger the menu, the more options they have at their disposal. High power = strong, moderate, and weak strategies.</p>
+<ul>
+	<li>Strong - in terms of rewards, punishments, and threats. These influence techniques are based on the effects the powerholder thinks it will have. Behaviourist model. You can shape a lot of behaviour with rewards, punishments, and timing. Change your behavuour or suffer the consequences </li>
+	<li>Moderate - more about logic, appeals about reason, conscience. Best argument possible. Let's try to figure out what makes sense. Obama: "It's the right thing to do." - try to appeal to a sense of shared values. We can figure this out. Very cognitive focus. Challenges irrationalities. Influence technique that's based on people being irrational. Help them see the course of direction and they're gonna go that way willfully. </li>
+	<li>Weak - flattery, begging for cooperation, help. I can't be the one who decides this, you have to be the one who decides this. You're looking nice today. Admitting that you don't have to, but c'mon, why not? If that's what it's gonna take, that's survivable.</li>
+</ul>
+<p>Plays out in relationships - pissed off = high power. Can play out in a lot of different ways. </p>
+
+<ul>Three General Principles 
+	<li>Iron Law of Power - higher power individuals have access to a bigger menu. The greater the power differential, the more likely they're going to use strong tactics. </li>
+	<li>return of the "inflated, unstable" - very cynical. People don't like me very much, so how do I get what I want from people? I have to force them. They will sometimes seek out powerful rules. It legitimized this strong tactic against other people. They were perfectly fine people, but the moment they got promoted, they turned into asses. They're waiting for that time where they rise, then they can do what they wanted to do to people what they wanted to do the whole time. When an inflated, unstable obtains a power position, they can get nasty real quick. </li>
+	<li>Obeying strengthens, resisting weakens - if the power holder is going apeshit, that's the clinical term, with the application of strong influence techniques, if the targets respond with compliance, the power holder concludes that this works. Whereas if initially, the target resists, then they might stop using that technique. Targets need to intervene early on. </li>
+</ul>
+
+<h2>controlling others through "Strong" means</h2>
+Within the mind of the powerholder. 
+<p>affects others - assumptions about others' motivation and ability. If something works, then they go "this works because that's how people are." Powerholder looks at their targets as rats. Can lead to devaluing others and their performance. Leads to an unsympathetic view of the people they're trying to influence.</p>
+<p>affects the controller - increases social distance from others. I can't rely on these people, they're nothing like me. Contribures to inflated self-image which is terrrifying if the person is already inflated. I am awesome because when i say jump, poeple say how high? Contirubres to morap exceptionism - there's a different set of rules for me. I get it, they obviously don't. I should have more leeway. "When the President does it, that means it is not illegal." - Nixon, </p>
+<!-- The Big One - Nike Charmain Phil Knight with Michael Moore Youtube CLip-->
+<p>Look for influence strategies. <br> 
+I know you have a conscience. 
+Reasonably, economically. 
+Personal favour. 
+Making deals. 
+</p>
+
+<!-- March 18 -->
+
+<h1>Corporate "Evil"</h1>
+<div class="example">An extended case study (Darley). B.F. Goodrich. Warren - inflated-unstable. Reputation, ego. </div>
+
+<ul>What Organizations Do Harm? Two types of organizations.
+	<li>Social Control - designated watch dogs. Authorities. Government, military, peacekeepers. It's their official job to maintain order and structure. Because they're seen as legitimate authority, they could do a lot of harm.</li>
+	<li>Civilian - focus on corporations, business entities. Educational and Religious insutitions are a hybrid - civilian organizations with social control. They're not responsible for law and order, but people definitely look up to them. </li>
+</ul>
+
+<ul>How do organizations harm?
+	<li>deliberate - <em>externality</em>; corporation as psychopath. Refusal to take responsibility (Peck). WE're going to try to maximize our profits, if there's a mess, we're going to let other people clean up the mess. 
+	<div class="example">Factory that produces chemicals - could try to expose of them OR just drain it in the river. It's moving away from us, so we don't have to worry about it anymore. Let somebody else deal with the negative consequences of out behaviour.</div>
+	In some contexts, corporations have the rights of an individual, but they don't have the responsibilities of the individual. This is essentially a psychopathic way of viewing the world. Focus is to maximize profit, the single,ultimate, only goal, then everything else is irrelevant. The well-being of other people is irrelevant. Sounds like mind over matter. If it makes me money, I don't care. Full knowledgge of negative impact.</li>
+	<li>neglectful - If the information was there, but nobody made the effort to discover the information. Laziness (Peck). </li>
+	<li>unanticipated - you did know it going in, it wasn't easily discoverable. Long-term environmental impact - it may takes years, decades for consequences to manifest. Pesticide DDT - took over 30 years to find out. </li>
+</ul>
+(All can apply at the individual level). 
+
+<h2>How do Individuals get sucked in?</h2>
+<p>How are people joining these organizations? </p>
+<ul>
+	<li>0. self-selection/recruitment - <!-- clip In devastation, there is opportunity. The clinical term for that is "Holy Shit"-->Enron - Rank (how much profit you generated) and Yank - bottom 20% got fired. They're trying to screw me over, so they must be a profitable company. A subset of individuals who move through the world where the numbers are the only thing that is important. They choose profit over anything. </li>
+	<li>1. Diffusion of information - If the big picture isn't seen, the possibility for harm could be overlooked. Somebody has to see the big picture. Not due to laziness, there's just ineffective communication between information-gathering and decision-making bodies. </li>
+	<li>2. Diffusion/fragmentation of responsibility
+		<ul>
+			<li>passive diffusion - assume someone else is handling it. I don't have to act because that's not my job. </li>
+			<li>active diffusion - (a little more motivated) <br>
+			i) scapegoating (Peck) - making sure subordinates take responsibility. Plausible deniability<br>
+			ii) redefinition - redefine a subordinates role. Rather than framing things in terms of their official job, they may start to go "team player". <div class="example">Challenger - defective O-ring. Engineers were worried that rings could fail. Supervisor, we want you to take off your engineering hat and put on your manager hat. Tried to redefine their responsibilities. You'll have to prove to us that this will fail, or we're going ahead with the launch. </div>
+			If a corporation as an entity is going to be fined, that financial punishment is going to affect the lowest folks the most. 
+			</li>
+			<li>fragmentation - overspecialization. Trying to focus on a very narrow job description. Doing my job, only my job. I just shovel the ashes out of the oven, it's not like I kill anybody. Minimize my sense of connection to the broader organization. Focus on the lack of harm that I'm doing. (relevant to self-justification, sociometer - we don't want to feel like that guy). </li>
+		</ul>
+	</li>
+	<li>sunk costs - time and resoucrse that have already been invested in a course of action. We've already gone this far. Maybe already publicly committed to doing it. It sets motivational compass in a certain direction. It's a face-saving approach by keep going in that direction. We can't say we made a mistake because people will lose respect for us. I'm gonna hope for a miracle instead of admitting I screwed up. It's very financial. Focus on reputation. </li>
+	<li>abstract harm/tangible gains - tangible gains - focus on the for sures - how much money we're going to make vs. what could/might happen, but we can't be necessarily sure will happen. <!-- Ford Pento -->It would cost more to recall than to deal with lawsuits (pain and suffering). If it's only about numbers, things are morally wide-open. </li>
+	<li>Employee self-interest/job survival - This isn't right, but to say it isn't right, I could lose my job. Doing the right things vs. job security. What could possibly happen? We get lazy.</li>
+</ul>
+
+<h2>Late-blooming Evil</h2>
+<p>Harm is a given - we learn that it has happened. - what do we do?<br>
+> Admit knowledge<br>
+> take responsibility<br>
+Clean up/Assist Victims/Change Practices<br>
+= corporate amends<br>
+... or Not  - flip everything<br>
+= Evil [Cover up/deny responsibility/don't try and make amends]
+</p>
+
+<p>Doing it differently - in any context, there can be exploitation - doesn't have to be a big corporation, can be family-owned business.<br>
+Sustainability - Trying to minimize the negative impact that one's decision has on others. <br>
+Mindfulness - 
+</p>
+Do we stop and ask the question - how is the money being made? Do we stop and think about the impact our decision will make. What's the ethical decision if I had frutiloops this morning. 
+
+<h1>Genocide</h1>
+<p>FILM: The Last Just Man</p>
+
+<!-- March 25 --> 
+<p>Lemkin (1944) - U.N. adopted definition: "acts committed with <strong>intent to destroy</strong>, in whole or in part, a national, ethnic, racial, or religious group." <br>
+Hate is built into the definition. That intent to destroy. </p>
+
+<p>External or Internal: <br>
+Other people or subgroups within a nation. 
+Khmer Rouge - Cambodia. Can accept them or kill them all. Educated (7th grade) or wore glasses were the enemy. 2.5 million people targeted and killed because they were seen as threats. </p>
+<p>Direct or indirect: <br>
+Some ways are less obvious. Holodomor - Ukraine - not due to violence, but due to systematic starvation by political policy. Political machinery. 
+</p>
+
+<h2>Genocide versus Massacre</h2>
+<table>
+	<tr>
+		<td>Genocide</td>
+		<td>Massacre</td>
+	</tr>
+	<tr>
+		<td>Instrumental/political<br>controlled - taking care of business. Mission-oriented killer. This is necessary. "Final solution." This is a problem to be solved.</td>
+		<td>often wartime<br>overkill</td>
+	</tr>
+	<tr>
+		<td>technical/administrative - preparations, stockpiling weapons, </td>
+		<td>involved/elaborated - a very "want to" feel. over and above the practicalities</td>
+	</tr>
+</table>
+
+<h2>time blurs the victim/perpetrator distinction</h2>
+<p>Perps may become victims. Victims may become perps. The same groups over time can become victims or perpetrators.</p>
+<div class="example">Jews as victims of the Holocaust. In the sacred book, God -> Moses -> Joshua carrys out genocide on the land that the Israelis are taking over. Do not spare any of them. </div>
+
+<h2>A Model of Genocide(Staub, 1989)</h2>
+<p>Culture x Situation -> Motive<br>
+Motive to harm directed at some subgroup of interest. 
+</p>
+<p>Motive + Opportunity -> Genocide</p>
+<ul>Cultural factors
+	<li>nationalism - nation's self-image. Inflated as a nation. Uninflated unstable - particularly reactive to sense of threat. </li>
+	<li>authoritarianism - starts off at an individualism. It can be at a collective level. Very rule-oriented. Respect for legitimate authority. Conventional. Aggressive response to people to overturn that system. Don't like people who  destabilize things. You want your world to be free of chaos. They have vigilante response. Not about negotiation, education, common goals, etc. Just get rid of them. Kill them. </li>
+	<li>History - Every people group has aa history. There have been power shifts over time. Can start out as revenge-based and becomes nihilistic. That happened to me, I wanna do it to the new recruits. Somebody's gotta pay. </li>
+</ul>
+<p>You're gonna find people advocating final solutions. That only creates hate crimes. The issue becomes: how do you go from extreme ideologies make its way into the mainstream?</p>
+<ul>Situational factors - difficult life conditions.
+	<li>economic - "relative deprivation" - I'm not getting what I deserve. I'm getting screwed here. Desrvingness, entititlement. </li>
+	<li>violence - political or criminal. People feel unsafe.</li>
+	<li>social/cultural change - feel like their way of life is being attacked, their symbols. When people's symbols are getting attacked, oh man. </li>
+</ul>
+<p>Then the mainstream populus are going to buy into other solutions. </p>
+
+<ul>Motive 
+	<li>perceived threat(retreat) to (extended) self: bodily and spatial-symbolic -> FEAR and DISGUST - push it away, push it down. <div class="example">Herman Goering - Nuremburg Trials. Accuse everybody. Reframing responsibility - join us and attack the enemy. </div></li>
+	<li>perceived resistance to expansion (eat) -> zero sum thining -> ANGER. 
+	Getting int he way of what you/your country wants. Zero sum thinking - we can't both be right. If I win, you lose. It reinforce conflict. There is only one way out of this. If we don't do this, we're going to continue to have problems. No win-win. Zero sum all the way. If you get rid of them, you can have all their stuff. </li>
+	<li>either or both -> HATE </li>
+</ul>
+<ul>Opportunity - Hitler - economic depression - coming of factors that allowed Hitler to pull it off. Opportunity requires power. Genocide requires pwoer. 
+	<li>preparation and progression - genocide is not a sudden act. It moves along in steps. Starts out small and then it works up.</li>
+	<li>bystanders? (Rwandan - UN in NYC. RPF - rebels.) UN was passive bystanders. RPF tried to play by the rules, but said screw this. They got involved. Wherever the RPF went, the genocide stopped. The role of bystanders is absolutely critical. If they don't do anything, then it's like saying, the genocide do-ers are not a problem. </li>
+	<li></li>
+</ul>
+
+<h1>Responses to "Evil"</h1>
+
+<p>First we label "evil" then we respond to it. Once that label is seen as applicable, we respond in certain ways. </p>
+<ul>Two Dimensions: 
+	<li>Virulence - how potent is the threat? </li>
+	<li>Engagement - confrontation or distancing? How do you engage in that? </li>
+</ul>
+<p></p>
+
+High VIRULENCE 
+^
+Low Engagement <--------------------->High Engagement 
+v
+Low VIRULENCE 
+
+<p>High Virulence, Low Engagement - avoid. I do not want to engage in evil. Like an evilphobia. They physically feel scared. Symbols could get these folks reacting. Let me know when it's over. Cringey, queasy, makes-my-tummy-hurt avoidance response to evil. </p>
+<p>High Virulence, High Engagement - ATTACK. Evil is a force to be reckon'd with. Instead of running and hiding, you want to kick it's ass. This is something that needs to be taken seriously. It's a problem and has to be dealt with. </p>
+<p>Low Virulence, High Engagement - EMBRACE. Difference between being alarmed and panicked. Has your attention, but not as petrifying as it would be. Evil can never be totally eliminated, so might as well live with it. There's an acknowlegement of the reality of it. It captures an in-here model. Sense of mercy. </p>
+<p>Low Virulence, Low Engagement - IGNORE. Evil is a waste of time or energy. </p>
+
+<p>Validating the scales... Psych of Evil students vs. SLC students</p>
+<table>
+	<tr>
+		<td></td>
+		<td>PSYCH232 students</td>
+		<td></td>
+		<td>SLC students</td>
+	</tr>
+	<tr>
+		<td>Avoid</td>
+		<td>2.81</td>
+		<td><</td>
+		<td>3.21</td>
+	</tr>
+	<tr>
+		<td>Attack</td>
+		<td>4.19</td>
+		<td>=</td>
+		<td>4.42</td>
+	</tr>
+	<tr>
+		<td>Embrace</td>
+		<td>4.71</td>
+		<td>=</td>
+		<td>4.50</td>
+	</tr>
+	<tr>
+		<td>Ignore</td>
+		<td>2.60</td>
+		<td><</td>
+		<td>3.37</td>
+	</tr>
+</table>
+
+<h2>The Return of "Evil" Symbols(Burris &amp; Rempel, 2011)</h2>
+<p>Study 1: "Evil" symbols made MOPE more salient(cognitively online)</p>
+<p>Study 2: Convicted sex offender. Give people a more realistic scenario. Page-long case study about convicted sex offender. Before reading, completed REsponses to Evil Inventory. Computed Virulence index = Averge(Attack, Avoid - high virulence) minus Average(Embrace, Ignore - low virulence). Negative virulence = more embrace and ignore. Positive virulence = more attack and avoid. Manipulate "evil" symbols. Half a sentence that differed. Neutral - "He spends most of his time reading." Evil symbols - "He spends most of his time reading and he's especially fond of cult literature." Massive effect. What kind of person are we dealing with if he's interested in that? How evil is the offender? When evil symbols were not there, their virulence scores had no affect. If they were present, for people who saw evil as very threatening, they saw him as more evil. For people who had low-virulence, they see him as less evil. Evil symbols have a less effect on them depending what evil means to them. </p>
+<p>How should you respond to this guy? What do you want to see happen to this guy? Regardless of anything, if they saw him as more evil, they tended to direct more nihilistic hate to him (the world would be a better place if this guy never existed). Castration isn't even enough. When a person is labelled evil, it opens up the menu of negative treatment. </p>
+
+<p>Study 3: Group home worker - questionable behaviour. He's a very huggy, back-rubby kind of guy. Nothing ever suggested that he crossed the line. Responses to Evil Inventory: Virulence Index. Manipulate "evil" symbols by manipulating appearance. Youthful and average VS Goth dude. How evil was the offender?</p>
+<p>Averages a little over 2. This guy didn't do anything wrong. Goth dude, slight tendency to seem him as evil. Low virulence - barely evil. They see him as a poser. Symbols seem to polarize. Asked people how intentional, unjustifiable his behaviour was? Behaviour = evil prototype. When evil symbols were present, high virulence assume that he probably did. if it talks like a satan, and walks like a satan, i don't need to know more, im outta here. I'm going to assume he's engaged in bad behaviour. Low virulence are just sitting back and waiting. What should happen to this guy? There's no evidence that he did anything, but people want to punish him. Regardless of input, if they saw him as evil, they had this radical, overkill type of response. Treat him like he's Cain. </p>
+<p>Is one response "best"? </p>
+<p>ignore -> bliss? everything's okay. <br>
+embrace -> tolerance? <br>
+avoid -> safety? not associated. not connecting yourself with people that are problematic. <br>
+attack -> justice? 
+</p>
+<p>How many chances do they get if they're not changing anything. There are potential benefits associated with every one, but can each response produce evil?</p>
+<p>ignore -> oblivious passivity - you don't know and you don't care. genocide and the role of bystanders. Your bliss at whose expense? <br> 
+embrace -> delirious narcissism - massice amounts of people getting hurt<br>
+avoid -> constrictive paranoia - survivalist living in a doomsday camp. Everyone is against us. Very easy to feel cornered.<br>
+attack -> destructive zealotry - true believers who are so convinced they are right. Angry grandma. 
+</p>
+
+So you don't want to be evil, huh? 
+The best we can probably do is ask 
+
+1. Mind over matter? - A great deal of morality can be summed of whether or not you take other people's well being into account. It's never just about us. Sociometer idea. We are a social species. Does it matter at all or is it just about self? 
+2. Good reason vs. REAL reason? We like to see ourselves as moral and justified. As we think about our decisions and try to explain our behaviour, how honest are we being to ourselves? Most of us are going to have a good reason, but is it the real reason? When in doubt, ask your hidden observer. Consult your inner Dr. Phil. What's driving your behaviour? 
+3. What if I'm wrong? In labelling someone as evil? In taking an action? Self-justification towards others comes in. Amends is your backup plan. 
+
+And remember... 
+4. This isn't easy. Self-control is part of that. We can do our absolute best, but we may be labelled as evil. 
+Human nature to crap our pants. Human nature to not have pants. 
+
+
+
+<!--
+
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+
+<h1></h1>
+<div class="example"></div>
+<ul>
+	<li></li>
+	<li></li>
+	<li></li>
+</ul>
+<table>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+</table>
+-->
+
+
+
+
+
+<br><br><br><br>
+	</div>
+	<!-- CONTENT END -->
+	
+</div>
+<!-- CONTAINER END -->
+</div>
+<!-- FOOTER START -->
+<div id="nts-footer">
+	<span id="nts-last-mod">
+	<script>lastMod();</script>
+	</span>
+	<span id="nts-signature">Sandy Ho &#8212; sanzoid.com</span>
+</div>
+<!-- FOOTER END -->
+
+</body>
+</html>

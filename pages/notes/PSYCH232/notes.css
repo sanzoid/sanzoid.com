@@ -1,0 +1,556 @@
+/* NOTES CSS - for writing class notes */
+/* Created by Sandy Ho 2014 */
+body {
+	background-color: black;
+	font-family: "Arial";
+	font-size: 12px;
+	background-image: url('../notes/images/bg_notes.jpg');
+	background-attachment: fixed;
+	color: #1A1A1A;
+}
+
+::selection {
+	color: #696969;
+	background: yellow;
+}
+
+
+/*************** NAV START ***************/
+#nts-nav {
+background-color: rgba( 143, 230, 62, 1);
+	position: fixed; 
+	top: 0; 
+	right: 0; 
+	left: 0;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 15px;
+	font-size: 14px;
+}
+
+#nts-nav ul {
+	text-align: center;
+}
+
+#nts-nav ul  li {
+	background-color: rgba(255,255,255,0); 
+	padding: 5px 0;
+	display: inline; 
+	float: left;
+	width: 80px;
+	
+}
+
+#nts-nav ul li.web-link {	/* link to main site*/
+	width: 110px;
+	text-align: left;
+}
+#nts-nav ul li.web-link a {
+	text-shadow: 0 0 16px #FFFFFF; 
+}
+
+#nts-nav ul li a{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+#nts-nav ul li a:hover {
+	
+}
+/*************** NAV END ***************/
+
+/*************** TOC START ***************/
+#nts-toc {
+	z-index: 1000;
+	position: fixed; 
+	top: 60px; 
+	right: 15px; 
+	width: 120px;
+	max-width: 150px; 
+	background-color: rgba(255,255,255,0.8);
+
+}
+
+#nts-toc ul {
+	padding: 0;
+	background: rgba(255,255,255,0.8);
+}
+/*"Table of Contents"*/
+#nts-toc li{
+	list-style: none;
+	color: red;
+	padding: 10px 10px 10px 10px;
+}
+
+#nts-toc ul li:hover{
+	color: blue;
+}
+
+/*The hidden list*/
+#nts-toc ul li ul{
+	display: none;
+}
+/* display list when hovered*/
+#nts-toc ul li:hover ul{
+	display: block; 
+	background-color: white;
+	margin: 0;
+	padding: 10px 0 10px 0 ;
+}
+#nts-toc ul li:hover li{		/* h1 ul */
+	padding: 0;
+	padding-bottom: 3px;
+	color: #FF009D;
+}
+
+#nts-toc ul li:hover li a{	/* h1 link */
+	padding: 0;
+	color: #FF009D;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#nts-toc ul li:hover li a:hover{	/* h1 link hover */
+	padding: 0;
+	color: #4DACFF;
+	text-decoration: underline; 
+}
+
+/*FF009D 4DACFF B963F2*/
+#nts-toc ul li:hover li ul {	/* h2 ul */
+	padding: 0;
+	padding-bottom: 0;
+	padding-left: 10px; 
+}
+
+#nts-toc ul li:hover li ul li a{		/* h2 link */
+	color: #4DACFF;
+	text-transform: lowercase;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+#nts-toc ul li:hover li ul li a:hover {	/* h2 link hover*/
+	color: #B963F2;
+}
+
+#nts-toc ul li:hover li ul li ul {		/* h3 ul */
+	padding-left: 10px;
+	padding-bottom: 0;	
+}
+
+#nts-toc ul li:hover li ul li ul li a {		/* h3 link */
+	color: #B963F2;
+	text-transform: lowercase;
+	font-size: 10px;
+	font-weight: normal;
+}
+
+#nts-toc ul li:hover li ul li ul li a:hover {	/*h3 link hover */
+	color: #FF009D;
+}
+
+/*************** TOC END ***************/
+
+.clear { 		/* clear the floating element*/
+	clear:both;
+}
+
+#nts-cont {
+	padding-top: 100px;
+}
+
+/*************** CONTAINER - holds everything but navigation and footer ***************/
+#nts-container {
+	background-color: white;
+	border-left: 4px solid #8FE63E;
+	border-right: 4px solid #8FE63E;
+	border-radius: 2px;
+	width: 95%;
+	max-width: 900px;
+	/*margin-top: -200px;
+	padding-top: 200px;
+	padding-top: 100px;
+	margin: 50px auto;
+	padding: 30px 30px;*/
+	padding: 0 30px;
+	margin: 0 auto;
+	min-height: 500px;
+	margin-top: -100px; 
+	padding-top: 100px;
+	margin-bottom: 50px;
+	
+}
+
+/*************** BANNER START ***************/
+#nts-banner {		/* banner */
+	font-family: "Verdana";
+	margin: 50px 0 10px 0;
+	
+}
+#nts-banner-coursecode {			/* course code */
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#nts-banner-course {				/* course name */
+	font-size: 25px;
+	text-transform: lowercase;
+	color: #636363;
+	margin-bottom: 3px;
+}
+#nts-banner-prof:before { content: "instructor: "; }
+#nts-banner-author:before { content: "author: "}
+#nts-banner-prof, #nts-banner-author {				/* course prof */
+	font-size: 16px;
+	text-transform: lowercase;
+	color: #9E9E9E;
+	margin: 3px 0;
+}
+/*************** BANNER END ***************/
+
+/*************** COURSE DESCRIPTION ***************/
+#nts-course-desc::before { content:"Course Description: "; font-weight: bold;}
+#nts-text-desc::before { content:"Text Description: "; font-weight: bold;}
+#nts-course-desc, #nts-text-desc {
+	display: block;
+	border-left: 5px solid red;
+	border-right: 5px solid red;
+	padding: 5px 10px; 
+	background-color: #F7F7F7;
+	/*background-color: #383838;
+	color: #FFFFFF;*/
+}
+
+/*************** CONTENT CONTAINER ***************/
+#nts-content {
+	padding-bottom: 50px;
+}
+p{ line-height: 16px; }
+h1, h2, h3 {
+	font-family: "Verdana";
+	text-transform: capitalize;
+}
+/*h1::before { content: "\02928\00A0"; }*/
+h1 { color: #FF426E; font-size: 26px; text-transform: uppercase; border-bottom: 2px solid #FF426E; margin-top: 40px; z-index: 10000; }
+/*h2::before { content: "#\00A0"; }*/
+h2 { color: #4DACFF; font-size: 20px; text-transform: uppercase; /*border-bottom: 1.5px solid #4DACFF; */}
+/*h3::before { content: "#\00A0"; }*/
+h3 { color: #B963F2; font-size: 16px; }
+/*\021B3*/
+h1.chapter { color: #696969; border: none; font-size: 30px;}
+h1.part { border:none; font-size: 20px; border-left: 5px solid #FF426E; padding-left: 10px; background-color: #FAFAFA; }
+
+.psych232txt h2 { font-size: 15px; }
+
+/*************** UL ***************/
+/*#nts-content ul::before{ content: "\02913\00A0"; }*/
+#nts-content ul {
+	margin: 15px 0;
+	list-style-type: square;
+	font-weight: bold;
+	line-height: 22px;
+	font-size: 12px; 
+	/*color: #2FC9DE;*/
+	padding-left: 0px;
+}
+#nts-content li {
+	font-weight: normal;
+	margin-left: 40px;
+	line-height: 18px;
+	font-size: 12px; 
+	/*color: #00AFC7;*/
+}
+#nts-content ul li ul::before{ content: ""; }
+#nts-content ul li ul {
+	font-weight: normal;
+	line-height: 14px;
+	margin: 2px 0 5px 0;
+	margin-left: -48px; 
+	list-style-type: none;
+}
+#nts-content ul li ul li::before { content: "\0251C"; font-size: 14px; padding-right: 5px; color: #00000; }
+
+/*#nts-content ol::before{ content: "\00A0\000B1\00A0"; }*/
+#nts-content ol{
+	margin: 15px 0;
+	font-weight: bold;
+	line-height: 22px;
+	font-size: 12px; 
+	/*color: #2FC9DE;*/
+	padding-left: 0px;
+}
+#nts-content ol li ul {
+	list-style: lower-alpha;
+	margin-left: -25px;
+}
+#nts-content ol p {
+	font-weight: normal;
+}
+#nts-content p{
+
+}
+
+img {
+	max-width: 900px;
+	margin: 5px; 
+	padding: 5px;
+	border: 3px double #FFEE00;
+	border-radius: 6px;
+}
+img.right, div.right { float: right; margin-left: 15px; }
+img.left, div.left { float: left;  margin-right: 15px;}
+img.center, div.center { display: block; margin: 0 auto; }
+img.inline { 
+	position: relative; 
+	top: 11px; 
+	border: none;
+	padding: none;
+	margin: none;
+}
+
+img.resize {
+	min-width: 100px;
+}
+
+p.right{ text-align: right; }
+p.left { text-align: left; }
+p.center { text-align: center; }
+
+a {
+	color: #FF9500;
+}
+
+a:hover {
+	color: #FFE100;
+}
+
+.green { color: #4DE37A; }
+.blue { color: #33B1FF; }
+
+.defn-block {
+	margin-left: 30px; 
+}
+.defn { 
+	/*color: #33B1FF; */
+	color: #711DB5;
+	text-transform: uppercase; 
+	font-weight: bold; 
+	font-size: 14px; 
+	line-height: 15px; 
+}
+.defn::before { content: ">\00A0"; }
+.defn::after { content: "\00A0\2013\00A0"; color: #212121; font-size: 12px; line-height: 15px; }
+
+
+.self-note {
+
+}
+
+.remark {
+
+}
+
+.example::before { content: "Example: "; color: orange; font-weight: bold; font-size: 12px; }
+.example {
+	background-color: #F7F7F7;
+	border-left: solid 3px orange;
+	margin: 2px 36px;
+	padding: 3px 0;
+	padding-left: 10px;
+	font-size: 12px;
+}
+.quote::before {
+	content: "Quote: "; 
+	font-family: "Arial";
+	font-style: normal;
+	color: #D787FF;
+	font-weight: bold;
+	font-size: 12px; 
+}
+.quote {
+	background-color: #F7F7F7;
+	border-left: solid 3px #D787FF;
+	margin: 10px 36px;
+	padding: 3px 0;
+	padding-left: 10px;
+	font-size: 12px; 
+	font-family: "Comic Sans MS";
+}
+.profquote::before {
+	content: "Quote: "; 
+	font-family: "Arial";
+	font-style: normal;
+	color: #696969;
+	font-weight: bold;
+	font-size: 12px; 
+}
+.profquote {
+	background-color: #F7F7F7;
+	border-left: solid 3px #696969;
+	margin: 10px 36px;
+	padding: 3px 0;
+	padding-left: 10px;
+	font-size: 12px; 
+	font-family: "Comic Sans MS";
+}
+.remark::before { content: "Remark: "; color: #005CF0; font-weight: bold; font-size: 12px; }
+.remark {
+	background-color: #F7F7F7;
+	border-left: solid 3px #005CF0;
+	margin: 2px 36px;
+	padding: 3px 0;
+	padding-left: 10px;
+	font-size: 16px; 
+}
+
+.exam { font-weight: bold; color: #0BE3AD; font-size: 20px;}
+
+
+.code {
+
+}
+.date {
+	margin: 20px 0 5px 0;
+	text-align: right;
+	font-family: "Courier New";
+	padding-right: 10px;
+}
+.date::after { content: "\00A0\00A0\221E"; }
+
+.check::before { content: "\02713\00A0"; }
+
+.cross::before { content: "\02717\00A0"; }
+
+.important::before { font-size: 15px; color: #FFEE00; content: "\02605\00A0"; }
+
+.important {
+	font-weight: bold;
+	padding: 2px 0;
+	border-top: 2px solid #FFEE00; 
+	border-bottom: 2px solid #FFEE00; 
+}
+
+ul.poop { list-style-image: url('bullet-poop.png'); }
+
+ul.red-box { list-style-image: url('bullet-red-box.png'); }
+
+ul.plunger { list-style-image: url('bullet-plunger.png'); }
+
+.strikethrough { text-decoration: line-through; }
+
+.code { 
+	font-family: "Courier New"; 
+	font-weight: bold; 
+	background-color: #F5F5F5; padding: 0 3px; 
+	text-shadow: 0 0 2px #FFFFFF;
+}
+.block {
+	display: inline-block;
+	background-color: #FFF;
+	color: #292929;
+	padding: 6px 12px;
+	margin: 5px 20px;
+	border-left: 6px solid #FFB3B3;
+	border-right: 6px solid #FFB3B3;
+	border-top: 1px solid #FFB3B3;
+	border-bottom: 1px solid #FFB3B3;
+	font-weight: bold;
+	font-size: 13px;
+}
+.comment { color: #51C900; }
+span.dark {
+	background-color: #363636;
+	color: white; 
+	border-radius: 3px;
+	padding: 0 4px 0px 3px;
+}
+.filler { color: #CCCCCC; font-weight: normal; }
+
+.indent1 { margin-left: 28px; }
+.indent2 { margin-left: 56px; }
+.indent3 { margin-left: 84px; }
+
+.highlight { background-color: yellow; }
+
+
+.summary::before { content: "\00A0\00A0\00A0\00A0\00A0SUMMARY\00A0\00A0\021BA"; font-weight: bold; display:block; margin-bottom: 5px; border-left: 25px solid white; border-bottom: 1px solid white; }
+.summary { 
+	display: block;
+	border-left: 10px solid #BFFF00;
+	border-right: 10px solid #BFFF00;
+	padding: 10px 10px; 
+	background-color: #383838;
+	color: white;
+}
+
+#nts-footer { 
+	bottom: 0; 
+	left: 0; 
+	right: 0;
+	width: 100%; 
+	color: white;
+	position: fixed;
+	padding: 5px 0 0px 0;
+	font-family: "Courier New";
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	z-index: -1;
+}
+
+#nts-last-mod::before { content:"LAST MODIFIED: "; }/*
+#nts-last-mod::after { content:" (probably)"; text-transform: lowercase; }*/
+#nts-last-mod { 
+	float: left;
+	margin-left: 10px;
+	padding: 2px 6px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	background-color: rgba(0,0,0,0.4);
+}
+
+#nts-signature {
+	float: right;
+	margin-right: 10px;
+	padding: 2px 6px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	background-color: rgba(0,0,0,0.4);
+}
+#metaphysical td {
+	width: 33%; 
+}
+.mal { color: red; }
+.neu { font-style: italic; }
+.bnv { color: green; }
+
+.type1 { color: #EBC700; }
+
+.type2 { color: green; }
+
+/* Any word that needs to stand out */
+.keyword { 
+	font-weight: bold; 
+	text-transform: uppercase; 
+	/*color: #FFAC12;*/
+	color: #12CC28;
+}
+
+td.center {
+	text-align: center;
+}
+
+table, td, tr {
+	border-collapse: collapse;
+	border: dotted 1px #6e6e6e;
+	padding: 5px;
+}
+
+.width-40 {
+	width:40%;
+}
+
+

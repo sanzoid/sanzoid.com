@@ -1,6 +1,8 @@
 <?php 
-	$base = "/home/a1257259/public_html"; 	// does not work locally 
+	//$base = "/home/a1257259/public_html"; 	// does not work locally 
 	//$base = $_SERVER['DOCUMENT_ROOT']; 	// does not work with 000webhost 
+	//$base = dirname(getcwd());				// go up one level
+	$base = dirname(dirname(getcwd()));		// go up two levels 
 	$path_top = $base."/template/template-top.php";
 	$path_bottom = $base."/template/template-bottom.php";
 
@@ -16,7 +18,8 @@
 <?php /***************************** CUSTOM PAGE HTML BEGINS HERE ***************************************/ ?>
 
 <div id="books-main">
-<p>I don't read novels much. I have started many, many books over the years. Have barely finished any of them. I want to say I'm dyslexic, but it just takes a lot for me to sit down and read a book. I struggle with holding the book open, staying awake, and actually comprehending all of the big words. I get distracted really easily if there isn't complete silence. Since there are no visuals, I can't stay focused for too long. Usually visuals shuts off the listening part of my brain. Sounds and visuals trump words for me.</p>
+<p>I don't read novels much. I have started many, many books over the years and have barely finished any of them. The reason I can't sit and read a novel is because they are just words. I process things mostly by visuals, and sound comes next. So something without visuals or sound is difficult for me to pay attention to. Also, holding the book open and staying awake are difficult for me.</p>
+<p>Although novel-reading isn't really for me, I do enjoy reading manuals, instructions, labels, etc. I guess those pique my interest more. Maybe because I get to do something with that information? </p>
 
 <p><strong>Absolute favourite book series:</strong> <span style="font-size:20px; color:#346ED1; text-transform:uppercase; ">Artemis Fowl</span></p>
 <p><strong>Favourite of the series:</strong> <span style="font-size:20px; color:#346ED1; text-transform:uppercase; ">Artemis Fowl: The Eternity Code</span></p>
@@ -97,7 +100,7 @@
 
 <div id="books-comics" class="anchored">
 	<h2 id="books-comics">Comics</h2>
-	<p>I prefer my comics in film/TV version, but I'm taking a course which requires reading the comics.</p>
+	<p>I'm taking a course which requires reading comics.</p>
 	<ul>
 		<li>The Simpsons - Used to read whatever was in my small local library</li>
 		<li>X-Men: The Dark Phoenix Saga</li>
