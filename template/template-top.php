@@ -29,9 +29,9 @@
 	
 <!-- START: banner -->
 <div id="banner" class="global">
-	<!-- banner left --><div class="left"></div>
+	<!-- banner left --><!--<div class="left"></div>-->
 	<!-- banner mid --><a href="/"><div class="mid"></div></a>
-	<!-- banner right --><div class="right"></div>
+	<!-- banner right --><!--<div class="right"></div>-->
 </div>
 <!-- END: banner -->
 

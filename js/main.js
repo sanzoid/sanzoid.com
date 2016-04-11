@@ -211,6 +211,7 @@
 			$("#navbar-container").height(navbarHeight);
 		}
 
+/*
 		// dynamic banner 
 		if(windowWidth > 400) {
 			// calculate the percentage width of left and right banner divs 
@@ -226,7 +227,7 @@
 				$("#banner .left").css({"display" : "none"});
 				$("#banner .right").css({"display" : "none"});
 			}
-		} 
+		} */
 
 
 

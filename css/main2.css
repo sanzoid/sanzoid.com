@@ -37,13 +37,27 @@ body {
 	/*cursor: url('../images/main/cursors/cursor_maplestory.png'), auto;*/
 }
 
-
-a {
-	color: #454545;
+::selection {
+  background: #FFEC6E; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #FFEC6E; /* Gecko Browsers */
 }
 
-a:hover {
+ul {
+	line-height: 20px;
+	list-style-type: square;
+}
+
+a {
+	/*color: #454545;*/
+	color: #666666;
+}
+
+p a:hover, span a:hover, ul a:hover {
 	/*cursor: url(http://i247.photobucket.com/albums/gg132/chipmapple/maple%20cursor/link.gif), pointer;*/
+	background-color: #EDEDED;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -101,7 +115,7 @@ div#navbar ul.menu > li:hover {	/* main menu item block hover */
 	background-color: rgba(255,255,255,0.2);	/* n4v h0ver background */
 }
 div#navbar ul.menu > li:hover > a.menu-link {
-	/*color: rgba(0,0,0,0.9);	/* n4v h0ver text */
+	color: rgba(0,0,0,0.9);	/* n4v h0ver text */
 	/*color: yellow;*/
 }
 
@@ -111,7 +125,6 @@ div#navbar ul.menu > li > a.menu-link, div#navbar ul.menu > li span.menu-link {	
 	text-decoration: none;
 	display: block;	/* makes padding work */
 	padding: 15px 0;	/* padding to make whole block button */
-
 }
 
 div#navbar ul.menu > li > ul.submenu {	/* submenu */	
@@ -183,7 +196,7 @@ div#navbar ul.menu li.home .home-logo {	/* home logo */
 	left: 50%;	/* position it in the middle. */
 	margin-left: -25px;	/* half of width */
 
-	margin-top: -27px;	/* move it up a bit to center  */
+	margin-top: -28px;	/* move it up a bit to center  */
 	width: 50px;
 	height: 50px;
 	background-image: url('../images/main/logo/sandig_100.png');
@@ -472,13 +485,12 @@ and (max-device-width : 480px) {
 	background-position: center;
 	background-size: cover;
 }*/
-
+/*
 #banner div.left, #banner div.right {
 	background-color: yellow;
 	background-color: rgba(255,255,255, 0.9);
 	display: inline-block;
 	margin: 0;
-	/*width: 34%;*/
 	height: 100px;
 	width: 425px;
 	max-width: 425px;
@@ -488,7 +500,7 @@ and (max-device-width : 480px) {
 	background-size: cover;
 
 	display: none;
-}
+}*/
 #banner div.left {
 	/*background-image: url('../images/main/banners/banner_bitstrips_money.jpg');*/
 }
@@ -517,10 +529,10 @@ and (max-device-width : 480px) {
 	}
 	#banner  {
 		/*text-align: center;*/
-	}
+	}/*
 	#banner div.right, #banner div.left {
 		display: none;
-	}
+	}*/
 	#banner div.mid {
 		width: 100%;
 	}
@@ -575,6 +587,9 @@ div#credits, div#credits a {
 	/*visibility: visible;
 	margin-left: -62px;*/
 }
+#mc_embed_signup div.mc-field-group {
+	margin: 10px 0 0 0;
+}
 #mc_embed_signup input[type=submit] {
 	text-transform: uppercase;
 	padding: 5px 10px;
@@ -613,6 +628,12 @@ div#handles ul li a {	/* handle link */
 }
 
 /*********** Extra Page stuff *********************/
+
+div#twitter {
+	border: 1px solid #e1e8ed;
+	display: inline-block;
+	border-radius: 5px;
+}
 
 a.link-block {
 	display:inline-block; 
