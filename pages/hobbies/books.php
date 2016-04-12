@@ -18,8 +18,7 @@
 <?php /***************************** CUSTOM PAGE HTML BEGINS HERE ***************************************/ ?>
 
 <div id="books-main">
-<p>I don't read novels much. I have started many, many books over the years and have barely finished any of them. The reason I can't sit and read a novel is because they are just words. I process things mostly by visuals, and sound comes next. So something without visuals or sound is difficult for me to pay attention to. Also, holding the book open and staying awake are difficult for me.</p>
-<p>Although novel-reading isn't really for me, I do enjoy reading manuals, instructions, labels, etc. I guess those pique my interest more. Maybe because I get to do something with that information? </p>
+<p>I don't read novels much.</p>
 
 <p><strong>Absolute favourite book series:</strong> <span style="font-size:20px; color:#346ED1; text-transform:uppercase; ">Artemis Fowl</span></p>
 <p><strong>Favourite of the series:</strong> <span style="font-size:20px; color:#346ED1; text-transform:uppercase; ">Artemis Fowl: The Eternity Code</span></p>
@@ -100,9 +99,10 @@
 
 <div id="books-comics" class="anchored">
 	<h2 id="books-comics">Comics</h2>
-	<p>I'm taking a course which requires reading comics.</p>
 	<ul>
 		<li>The Simpsons - Used to read whatever was in my small local library</li>
+		<li>Garfield - My sister was a fan so I was fortunate enough to have access to Garfield</li>
+		<li>Calvin &amp; Hobbes - By far my favourite. Always bought these from Scholastic</li>
 		<li>X-Men: The Dark Phoenix Saga</li>
 		<li>Deadpool: Dead Presidents</li>
 		<li class="in-progress">Watchmen</li>

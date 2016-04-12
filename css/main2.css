@@ -68,6 +68,9 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0;
 }
 
+img {
+	max-width: 100%;
+}
 
 /**************************** START: NAVBAR ***************************************/
 
@@ -574,6 +577,38 @@ div#credits, div#credits a {
 }*/
 
 
+/**************************** START: FOOTER ***************************************/
+div#footer {
+	margin-top: 50px;
+
+	font-family: "Courier";
+	font-size: 11px;
+
+}
+
+div#footer .lastmodified {
+	position: absolute; 
+	left: 0;
+	margin-left: 5px;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+
+div#footer .statcounter {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+div#footer .siggy {
+	position: absolute;
+	right: 0;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+/**************************** END: FOOTER ***************************************/
+
 
 /************* Mailchimp Subscription Form *************/
 #mc_embed_signup{
@@ -760,4 +795,32 @@ div#manga-main span.progress {
 div#music-main li.favourite {
 	font-weight: bold; 
 	font-size: 14px;
+}
+
+ul.no-list-style, div.no-list-style ul {
+	list-style: none; 
+}
+
+ul.no-indent, div.no-indent ul {
+	margin: 0;
+	padding: 0;
+}
+
+div#celebs-main ul img {
+	display:block;
+}
+
+div#celebs-main .name, div#celebs-main .description {
+	display: block;
+}
+
+div#celebs-main .name {
+	font-weight: bold; 
+	font-size: 26px;
+	margin: 10px 0;
+}
+
+div#celebs-main li {
+	margin-bottom: 50px;
+	max-width: 500px;
 }

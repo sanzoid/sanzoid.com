@@ -16,7 +16,8 @@
 		<div class="profileimage"></div>
 		<p>My name is Sandy and this is my website!</p>
 		
-		<p>I am a Computer Science Major and <em>Psychology Minor</em> at the University of Waterloo. Currently taking a break from school and co-op after finishing an awesome 3A term. I'm working as a CEO Developer at Sanzoid Technologies in my very own home to learn how to be an iOS developer so I can leave web development as a hobby and start a mobile development career. </p>
+		<p>I am a Computer Science Major and <em>Psychology Minor</em> at the University of Waterloo. <br>
+			A Web Developer, but aspiring to become a professional iOS Application Developer.</p>
 	</div>
 	<!-- end: about me -->
 
@@ -83,8 +84,28 @@
 
 <!-- START: footer -->
 <div id="footer" class="global">
-	<div class="lastmodified"></div>
-	<div class="siggy"></div>
+	<div class="statcounter">
+		<!-- Start of StatCounter Code for Default Guide -->
+		<script type="text/javascript">
+		var sc_project=10912536; 
+		var sc_invisible=0; 
+		var sc_security="705582ce"; 
+		var sc_text=2; 
+		var scJsHost = (("https:" == document.location.protocol) ?
+		"https://secure." : "http://www.");
+		document.write("<sc"+"ript type='text/javascript' src='" +
+		scJsHost+
+		"statcounter.com/counter/counter.js'></"+"script>");
+		</script>
+		<noscript><div class="statcounter"><a title="shopify traffic
+		stats" href="http://statcounter.com/shopify/"
+		target="_blank"><img class="statcounter"
+		src="http://c.statcounter.com/10912536/0/705582ce/0/"
+		alt="shopify traffic stats"></a></div></noscript>
+		<!-- End of StatCounter Code for Default Guide -->
+	</div>
+	<div class="lastmodified"><?php last_modified($base.$_SERVER['PHP_SELF']); ?></div>
+	<div class="siggy">SANZOID.COM</div>
 </div>
 <!-- END: footer -->
 </body>

@@ -1,4 +1,15 @@
 <?php 
+function last_modified($filepath) {
+	if( ! ini_get('date.timezone') )
+	{
+	    date_default_timezone_set('America/Toronto');
+	}
+
+	$dateformat = ""; 
+
+	echo date("Y-M-d h:iA", filemtime($filepath));
+}
+
 function render_txt_file($file_link) {
 	// Dropbox will redirect, so we want the actual location of it since we won't redirect
 	$headers = get_headers($file_link, 1); 
@@ -37,6 +48,61 @@ function render_txt_file($file_link) {
 		} 
 
 		$line = str_replace(array("!", "?"), "", $line); 
+		$line = trim($line);
+
+		if (!empty($line)) {
+			$html = "<li class=\"" . $class . "\">" . $line ."</li>\n"; 
+		} else {
+			$html = "<li class=\"empty\"></li>\n";
+		}
+
+		echo $html; 
+	}
+	echo "</ul>\n";
+	echo "</div>\n";
+}
+
+function render_bulleted_txt_file($file_link) {
+	// Dropbox will redirect, so we want the actual location of it since we won't redirect
+	$headers = get_headers($file_link, 1); 
+	$file_link = $headers['location'];
+
+	$file = file_get_contents($file_link);
+
+	$file = explode("\n", $file); 
+	$title = trim(str_replace("?", "", utf8_decode($file[0]))); 
+
+	echo "<div>\n";
+	echo "<h2>" . $title . "</h2>\n";
+	echo "<p>(Rendered via Dropbox file)</p>\n"; 
+	$file[0] = ""; 	// clear title so it doesn't go in the list
+
+	echo "<ul class=\"upword\">\n"; 
+	foreach ($file as $string) {
+		// !!! 
+		// âœ“ strike 
+		// â€¢ bullet 
+		$html = "";
+		//$string = str_replace("!!!", "!", $string);	// only want one ! 
+		//$line = utf8_decode($string);	// decode weird characters to ?
+		$line = $string; 
+		$bullet = substr($line, 0, 3); 	// what kind of bullet is it 
+		$class = "";
+
+		if (strcmp($bullet, "!") == 0) {
+			$class = "important";
+		} else {
+			$class = "bullet";
+		}
+
+/*
+		$last_char = substr($line, -1);
+		if ($last_char == "?") {
+			$class = $class . " strike"; 
+		} 
+*/
+		//$line = str_replace(array("!", "?"), "", $line); 
+		$line = substr($line, 3);
 		$line = trim($line);
 
 		if (!empty($line)) {

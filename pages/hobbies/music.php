@@ -57,7 +57,7 @@
 </ul>
 
 <h2>Singles</h2>
-<p>Singles I've listened to on repeat. z103.5 from 2005-2007. Saturday Night Oldies (from the years of listening to 98.1 CHFI) and Shazams (from TV shows, movies, or the radio) I've collected over the years. </p>
+<p>Singles I've listened to on repeat. z103.5 from 2005-2007, 98.1 CHFI's Saturday Night Oldies, and Shazams (from TV shows, movies, or the radio) I've collected over the years. </p>
 
 <p>* bolded means no matter how many times I listen to it, I will never get sick of it.</p>
 

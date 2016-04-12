@@ -46,6 +46,7 @@
 				<li class=""><a class="menu-link" href="/pages/hobbies/books.php">books</a></li>
 				<li class=""><a class="menu-link" href="/pages/hobbies/manga.php">manga</a></li>
 				<li class=""><a class="menu-link" href="/pages/hobbies/music.php">music</a></li>
+				<li class=""><a class="menu-link" href="/pages/hobbies/celebs.php">the loves of my life</a></li>
 			</ul>
 		</li>
 		<li class="art "><a class="menu-link" href="/pages/art/art.php">art</a>
@@ -75,7 +76,7 @@
 		<li class="things "><a class="menu-link" href="/pages/things/things.php">things</a>
 			<ul class="submenu">
 				<li class=""><a class="menu-link" href="/pages/things/notes.php">notes</a></li>
-				<!--<li class=""><a class="menu-link" href="#">favourite things</a></li>-->
+				<li class=""><a class="menu-link" href="/pages/things/favourites.php">favourites</a></li>
 				<!--<li class=""><a class="menu-link" href="#">exploration</a></li>-->
 			</ul>
 		</li>

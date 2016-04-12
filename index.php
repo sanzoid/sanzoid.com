@@ -14,12 +14,15 @@
 
 <!-- START: BODY-->
 
-<p>Welcome to my newly renovated site. I have re-designed it so many times and I even thought the last one was the final time, but hopefully this is the last time I will ever re-design this. I worked hard to make it responsive, so feel free to minimize and maximize the window as much as you'd like. </p>
+<p>Welcome to my website. I have re-designed and re-implemented this many times, but I think I'm going to settle on this current design and implementation. I coded it from scratch using HTML, CSS, Javascript/jQuery, and PHP.</p>
 
-<p>I have finally uploaded content! I waited for when I had a template to use because I'm too lazy to do a bunch of HTML copy and pasting.</p>
-<p>Now every single link in my menu has leads to a page! I hope that it gives a little insight to who I am.</p>
-
-<p>Check it! I'm rendering stuff from my notes on Dropbox, edited via UpWord. So when I make a change to the note, it will update on here instantaneously! Y'all be gettin' real-time updates from me whenever, wherever!</p>
+<p>The reasons for this website are:</p>
+<ol>
+	<li>I love websites</li>
+	<li>I love building websites</li>
+	<li>I love having a space where I can show the world who I am and what I can do</li>
+</ol>
+<p>Hopefully this site can give you some insight as to who I am.</p>
 
 <!-- END: BODY -->
 
