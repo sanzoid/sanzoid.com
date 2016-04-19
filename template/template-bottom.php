@@ -84,7 +84,7 @@
 
 <!-- START: footer -->
 <div id="footer" class="global">
-	<div class="statcounter">
+		<div class="statcounter">
 		<!-- Start of StatCounter Code for Default Guide -->
 		<script type="text/javascript">
 		var sc_project=10912536; 

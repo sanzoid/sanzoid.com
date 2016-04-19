@@ -580,32 +580,32 @@ div#credits, div#credits a {
 /**************************** START: FOOTER ***************************************/
 div#footer {
 	margin-top: 50px;
-
 	font-family: "Courier";
 	font-size: 11px;
-
 }
+
+div#footer div {
+	background-color: rgba(0,0,0,0.6);
+	color: white;
+	display: inline-block;
+	position: absolute;
+	padding: 2px 5px;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
 
 div#footer .lastmodified {
-	position: absolute; 
 	left: 0;
-	margin-left: 5px;
-	text-transform: uppercase;
-	margin-bottom: 5px;
 }
 
-div#footer .statcounter {
-	position: absolute;
-	width: 100%;
-	text-align: center;
-	margin-bottom: 5px;
+div#footer div.statcounter {
 }
+
 
 div#footer .siggy {
-	position: absolute;
 	right: 0;
-	margin-right: 5px;
-	margin-bottom: 5px;
 }
 /**************************** END: FOOTER ***************************************/
 

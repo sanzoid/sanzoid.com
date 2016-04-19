@@ -50,6 +50,9 @@
 			</ul>
 		</li>
 		<li class="art "><a class="menu-link" href="/pages/art/art.php">art</a>
+			<ul class="submenu">
+				<li class=""><a class="menu-link" href="/pages/art/bleachin.php">bleachin'</a></li>
+			</ul>
 		</li>
 		<li class="goals "><a class="menu-link" href="/pages/projects/projects.php">projects</a>
 			<ul class="submenu">
