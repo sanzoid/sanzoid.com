@@ -21,3 +21,14 @@
 #art-main img {
 	max-width: 300px;
 }
+
+div#bleachin-finished-products .finished-product {
+	width: 300px;
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 0px; 
+}
+
+div#bleachin-finished-products img {
+	max-width: 300px;
+}
