@@ -26,7 +26,7 @@
 
 <p>These are most of my billion-dollar ideas!</p>
 
-<?php render_bulleted_txt_file("https://www.dropbox.com/s/kt6af020jirrczg/Thoughts.txt?raw=1"); ?>
+<?php render_bulleted_txt_file("https://www.dropbox.com/s/ohiclv3opdcufj6/Thoughts%20and%20Ideas.txt?raw=1"); ?>
 
 <?php /***************************** CUSTOM PAGE HTML ENDS HERE *****************************************/ ?>
 <!-- END: BODY -->

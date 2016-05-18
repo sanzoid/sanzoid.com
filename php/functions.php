@@ -10,10 +10,19 @@ function last_modified($filepath) {
 	echo date("Y-M-d h:iA", filemtime($filepath));
 }
 
-function render_txt_file($file_link) {
+function get_dropbox_location($link) {
 	// Dropbox will redirect, so we want the actual location of it since we won't redirect
-	$headers = get_headers($file_link, 1); 
+	$headers = get_headers($link, 1); 
 	$file_link = $headers['location'];
+	if (!$file_link) {
+		$file_link = $headers['Location']; 
+	}
+	//echo "<p>" . print_r($headers) ."</p>";
+	return $file_link;
+}
+
+function render_txt_file($file_link) {
+	$file_link = get_dropbox_location($file_link); 
 
 	$file = file_get_contents($file_link);
 
@@ -63,9 +72,7 @@ function render_txt_file($file_link) {
 }
 
 function render_bulleted_txt_file($file_link) {
-	// Dropbox will redirect, so we want the actual location of it since we won't redirect
-	$headers = get_headers($file_link, 1); 
-	$file_link = $headers['location'];
+	$file_link = get_dropbox_location($file_link); 
 
 	$file = file_get_contents($file_link);
 

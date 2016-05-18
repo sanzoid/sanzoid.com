@@ -22,19 +22,24 @@
 
 <h2>Current Projects</h2>
 <ul>
-	<li>Pooptracker (iOS)</li>
+	<li><a href="/pooptracker">Pooptracker (iOS)</a></li>
 	<li>Protect the Dot (iOS)</li>
-	<li>How Toilets Work (Javascript)</li>
+	<li>How Toilets Work (Javascript) - just an idea for now</li>
 	<li>sanzoid.com</li>
+</ul>
+<p>For school: </p>
+<ul>
+	<li>CS349 (UI): There will be 4 Java/Android programming assignments. First one is implementing Snake!</li>
 </ul>
 
 <h2>Projects from School</h2>
 <ul>
 	<li>Websites from High School</li>
 	<li>CS246: Tetris (C++). Programming Tetris with a partner. Received 104%.</li>
-	<li>CS241: Compiler (C++). Implementing a compiler.</li>
-	<li>CS350: OS161 (C). Implementing features to an operating system such as locks, fork, execv, etc. </li>
+	<li>CS241: Compiler (C++). Implementing a compiler. I got addicted to doing this. The last 3 assignments, I spent ~30 hours for each coding. I couldn't sleep without thinking about it, I woke up thinking about it. It's all I did. This course reassured me that I do, in fact, love programming. </li>
+	<li>CS350: OS161 (C). Implementing features to an operating system such as locks, fork, execv, etc. I look at operating systems so differently now. </li>
 </ul>
+
 
 <h2>Projects from Work</h2>
 <ul>
@@ -47,8 +52,8 @@
 
 	<!-- OICR -->
 	<li>Fixing and improving a website crawler that takes screenshots (casperJS).</li>
-	<li>Developing and updating webpages based on mockups (PHP, Javascript, HTML, Drupal, AngularJS).</li>
-	<li>Converting webpages to PDFs dynamically.</li>
+	<li>Developing and updating webpages based on mockups (PHP, Javascript, HTML, Drupal, tiny bit of AngularJS).</li>
+	<li>Converting webpages to PDFs dynamically - this started out as "research ways to do this" to me actually doing it. Solo'd it from start to finish. Was a HUGE accomplishment for me. </li>
 	<li>Working with several different websites in development environments (VirtualBox, Vagrant, Github).</li>
 </ul>
 

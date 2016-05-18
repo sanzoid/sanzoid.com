@@ -17,7 +17,7 @@
 		<p>My name is Sandy and this is my website!</p>
 		
 		<p>I am a Computer Science Major and <em>Psychology Minor</em> at the University of Waterloo. <br>
-			A Web Developer, but aspiring to become a professional iOS Application Developer.</p>
+			Aspiring to become a professional iOS Application Developer.</p>
 	</div>
 	<!-- end: about me -->
 

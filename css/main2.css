@@ -824,3 +824,24 @@ div#celebs-main li {
 	margin-bottom: 50px;
 	max-width: 500px;
 }
+
+
+div#pooptracker-pics div {
+	display: inline-block;
+	max-width: 400px;
+	vertical-align: top;
+	margin: 10px 20px 10px 0px;
+}
+div#pooptracker-main img {
+	border: lightgrey 3px solid;
+	border-radius: 5px;
+	padding: 5px;
+
+}
+div#pooptracker-pics span {
+	width: 100%;
+	text-align: center;
+}
+div#pooptracker-main span {
+	display: block;
+}

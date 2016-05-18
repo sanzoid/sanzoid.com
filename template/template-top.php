@@ -57,6 +57,7 @@
 		<li class="goals "><a class="menu-link" href="/pages/projects/projects.php">projects</a>
 			<ul class="submenu">
 				<li class=""><a class="menu-link" href="/pages/projects/goals.php">goals</a></li>
+				<li class=""><a class="menu-link" href="/pooptracker">pooptracker</a></li>
 			</ul>
 		</li>
 		<li class="home"><a href="/"><div class="home-logo"></div><span class="menu-link">home</span></a></li>

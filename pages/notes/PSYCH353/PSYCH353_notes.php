@@ -210,6 +210,104 @@ Phobic		Sociopath <br>
 Claustrophobic Acrophobic Hydrophobic | Rapist, Strangler, Torturer (very specific)
 </span>
 
+<p class="date">Lecture 4: May 16, 2016</p>
+
+<!-- Joni Mitchell Both Sides --> 
+
+<p><a href="http://www.azlyrics.com/lyrics/jonimitchell/bothsidesnow.html">Both Sides Now - Joni Mitchell</a></p>
+<p>Clouds you can see from multiple perspectives. Love and life. Clouds, love, life you can view in multiple perspectives. </p>
+
+<h1>Models of Representation</h1>
+
+<p>Once we have categoires, how od objects within the category relate with one aohter? </p>
+<ul>
+	<li>@@Associative network Models/Activation Spread@@ (Drawn from computer metaphor.) You have one concept and other things connected to it. <span class="ex">You think of table, you think of chair.</span> You have different neurons that are physically connected to others. Some neurons firing lead to other neurons firing. One concept activated, activation spreads to other concepts to which it is connected. (Too simple, but probably not what happens in the brain. Sometimes some are more likely to fire, some are less likely to occur.)</li>
+	<li>@@Parallel-constraint Model@@ Multiple neurons going off together - parallel. A much more complicated network. Connections can also lead to deactivation. Spread goes until it's at a stable state. </li>
+	<li></li>
+</ul>
+<span class="ex">We could end up thinking Donald is Asian. But that's not how it works. Leads to things that don't make sense.<br>Parallel-Constraint-Satisfaction Model - add an inhibitor link. Aggressive would inhibit Asian - so it makes it unlikely that Donald is Asian. (Computational Neuroscience - looks at nervous system and tries to think of a ocmputer model that is consistent with how the nervous system works.) </span>
+	
+<h1>Heuristics - Shortuts instead of Normative Decision Making </h1>
+<p>Heuristics are shortcuts. They are a lot like visual illusions. They are actually mistakes in reasoning. </p>
+
+<p>In general, we are talking about making decisions about how likely things are. Anytime you don't judge for sure. </p>
+<h2>Representativeness Heuristic</h2>
+<p>We base judgements based on similarity and not other things we should consider. </p>
+<ul>Evidence: 
+	<li>$$We ignore base-rates$$. ##Bayes Theorem## - if you want the best prediction, you should use base-rates. <span class="ex">What is Tom W.'s Major? Gave a description of Tom W. Asked 3 questions: 
+		<ol>
+			<li>What is the percentage of people in different majors? </li>
+			<li>How similar is Tom W. to each major?</li>
+			<li>How likely is Tom W. each major?</li>
+		</ol>
+	People use similarity and ignore base-rates. "Looks like an engineer, he's an engineer." 
+	</span>
+	<span class="ex">Is Jack a Lawyer or an Engineer? Jack sounds like an engineer. 1 Condition - took from group with 20/80 Engineer/Lawyers or 80/20. Almost all Engineer sor almost all Lawyers. Did that influence their decision? "the probability that Jack is one of the 30 engineers/lawyers in the sample of 100 is ____%. Whether it was engineer or lawyer did not affect it. </span>
+	<span class="ex">Is Dick a Lawyer or Engineer? You know nothing about dick. You should say 30%. People say 50% chance. </span>
+	People completely ignore the base-rate and make the decision based on similarity. If they don't sound similar to either one, they use 50/50. If they're given useless information, they say 50/50. <br>If they were given no information, they pay attention to base-rates. 
+
+</li>
+	<li>$$violations of logic$$ - What if they didn't have to do math, but just simple logic? <span class="ex">Linda - Bank Teller or a Feminist Bank Teller? Everybody who is a Feminist bank teller, is also a bank teller. It's more likely that she's a bank teller. She sounds like a feminist, so poeple think she is a feminist. </span></li>
+	<li></li>
+</ul>
+<h3>Social effects of the representative heuristic </h3>
+<ul>
+	<li>Consensus Information and the Fundamental Attribution Error. When you look at what was the cause of the behaviour - you have to consider what people usually do (base-rates), which people don't actually do. <span class="ex">Seizure study + attribution about a typical student. Person thinks they're alone or 1 of 5 other people. They have a conversation with other students. One of them has a seizure. Why does the person in the alone condition not help the person having a seizure? People say they're lazy, uncaring. Even if told that almos tno one helps, they still say they're uncaring. Shuldn't make an internal attribution since almost no one helped. It's a situation in which nobody helps. </span></li>
+	<li>The Dilution Effect - When you're given all kinds of other information about somebody, it ends up affecting your judgement about that person. <span class="ex">Looked at sentncing for a child molester - What happens if you learn trivial information about them? They have an IQ of 110, they didn't have significantly bad childhoods. They didn't SOUND like they were a molester, but they give a lighter sentence.</span><span class="ex">Murder sentencing for people who actually committed murders. If you tell them their mother loves them, it results in a lighter sentence. They don't seem like a murderer anymore.</span></li>
+	<li>Stereotypes - <span class="ex">Locksley. Occupational stereotypes. People ignore stereotypes if they're given a description that doesn't match the stereotype.</span>Not quite that simple.
+<ul>
+	<li>What you learn about the other person may not counter the stereotype. It may be consistent with the stereotype. Will lead to strong stereotyping.</li>
+	<li>Goals and motivation affects processes - they may have a goal to see stereotypes.</li>
+	<li>This only happens when the information only completely undermines the stereotypes. Will people use gender as a cue for making height judgement? Unless they give super clear information.</li>
+</ul>
+		</li>
+</ul>
+
+<h3>Qualifications of the Original Findings</h3>
+<ul>
+	<li>Focussing Attention on Chance Factors increases use of base rates. If people understadn the statistics, people can begin to incorporate it. <span class="ex">Asking people to pull person out of hat, they realize it's based on chance.</span></li>
+	<li>Rules of Language may exaggerate findings. Basic way of talking about things is usually based on similarity. If you make it more statistical sounding, people will pay more attention to base-rates</li>
+	<li>Order of whether base-rates an indivuating information affects people's use of base-rates.</li>
+	<li>People use base-rates when predicting muleiple occurences over time. People can adjust.</li>
+</ul>
+
+<h2>Statistical Heuristics - Violating Statisical Ruels</h2>
+<p>People ignore a bunch of statistical rules.</p>
+
+<ul>
+	<li>$$Poor understanding of probability$$ <span class="ex">Predicting the success of first year students. Given description of person. <br>
+		What percentage of descriptions of freshman do you believe would impress you more? People say 5%<br>
+		What percentage of freshman will obtain a higher GPA? People say 5% <br> 
+		Normative model says that the 2nd question is more uncertain than the first, so the % should be smaller. Is there a good correlation between admissions to university and success? No. Top 5% (admitted) will be on average in the top 20% (GPA). 
+	</span></li>
+	<li>$$Poor understanding of regression to the mean$$ <span class="ex">Predict score on an IQ test. Not recognizing that performance is part chance, part ability. Put confidence interval around 140. People put 140 right in the middle of the confidence interval. Should have a much wider CI below than above. </span></li>
+	<li>$$Poor understanding of the law of large numbers$$ When you have big samples, you get better estimates than small samples. <span class="ex">Hospital problem. Big hospital vs. Small hospital. Which hospital do you think recorded more days where there were more than 60% boys born? Most people say about the same. The answer: the small hospital because of the smaller sample size. 60% is 9/15 vs. 27/45. People aren't paying attention to the fact that large sample sizes provide more precise estimates than small sample sizes. </span></li>
+	<li>$$Misperceptions of chance$$ 
+<ul>
+	<li>Belief in the hot hand - You should pay attention to their average, not what has happened. Do you pay attention last 500 shots over year or last 5 shots in the game. Sports. </li>
+	<li>Interpretation of random events - you can have two events that are almost the same, but they seem contradictory. <span class="ex">Casino. They keep winning. What's the probability that they'll win again? Heads or tails. If we see HHHHHH, what's the probability H or T. Peolpe say T, but it's still 50/50. Nobody plays lottery 1,2,3,4,5,6. "If you're stupid enough to play the lottery, it's smart to pick the ones that no one thinks is less likely because no one will split the money." </span></li>
+	<li></li>
+</ul>
+	
+	</li>
+	<li></li>
+</ul>
+
+<ul>Statistical Heuristics - Factors that Affect their use
+	<li>Clarity of Sample space. Some things are more clearly statistical problems than others. sports and a bility: yes. personality: no. </li>
+	<li>Schemas help. <span class="ex">Why don't tryouts match actual performance? </span><span class="ex">People cna answer hospital problem if it is changed slightly and resembles how people think about families. Average size of Amish families is 10, non-Amish is 4. Change it to families, people realize that it's a lot less common in large families. </span></li>
+	<li>Experience with the domain. Experts are good at not using statistical heuristics. </li>
+	<li>Statistical training can lead people to use statistical reasoning more often. </li>
+</ul>
+<p>Representative is our default. Statistical heuristics are not our default, it's more like seeing both. </p>
+
+<p class="date">Lecture 5: May 18, 2016</p>
+
+<p><a href="">If You Could Read My Mind - Gordon Lightfoot</a></p>
+<!-- Telling her - forget about it. Feelings just not there. It's about the feeling. -->
+<!-- Essays on test are based on the readings. Test is based on textbook. -->
+<h1></h1>
+
 
 <div id="html-snippets" style="opacity:0.6;">
 	<input type="text" value="&lt;p class=&quot;date&quot;&gt;Lecture X: Month Day, 2016&lt;/p&gt;" onclick="this.focus();this.select()">
