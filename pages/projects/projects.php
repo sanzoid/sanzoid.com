@@ -29,7 +29,7 @@
 </ul>
 <p>For school: </p>
 <ul>
-	<li>CS349 (UI): There will be 4 Java/Android programming assignments. First one is implementing Snake!</li>
+	<li>CS349 (UI): There will be 2 Java and 2 Android programming assignments. 2nd one is JSketch, a vector-drawing application.</li>
 </ul>
 
 <h2>Projects from School</h2>
@@ -38,6 +38,7 @@
 	<li>CS246: Tetris (C++). Programming Tetris with a partner. Received 104%.</li>
 	<li>CS241: Compiler (C++). Implementing a compiler. I got addicted to doing this. The last 3 assignments, I spent ~30 hours for each coding. I couldn't sleep without thinking about it, I woke up thinking about it. It's all I did. This course reassured me that I do, in fact, love programming. </li>
 	<li>CS350: OS161 (C). Implementing features to an operating system such as locks, fork, execv, etc. I look at operating systems so differently now. </li>
+	<li>CS349: Snake! (Java) Implemented Snake, the game. Prof chose to demo my game and code!</li>
 </ul>
 
 

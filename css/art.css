@@ -1,19 +1,19 @@
 
-#art-main .section ul {
+#art-main .section ul, div#stickers-main ul {
 	list-style: none;
 	padding: 0;
 	margin: 20px 0;
 	text-align: center;
 }
 
-#art-main .section ul li {
+#art-main .section ul li, div#stickers-main ul li {
 	display: inline-block;
 	background-color: white;
 	margin: 10px;
 	vertical-align: middle;
 }
 
-#art-main .section ul li img {
+#art-main .section ul li img, div#stickers-main ul li img {
 	max-height: 200px;
 	display:block;
 }
@@ -31,4 +31,9 @@ div#bleachin-finished-products .finished-product {
 
 div#bleachin-finished-products img {
 	max-width: 300px;
+}
+
+div#stickers-main img {
+	max-width: 300px; 
+	vertical-align: top; 
 }

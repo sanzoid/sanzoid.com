@@ -44,6 +44,7 @@
 	<li>Hannah Montana</li>
 	<li>Camp Rock 1 &amp; 2 Soundtrack</li>
 	<li>The Sound of Music Soundtrack</li>
+	<li>S Club 7</li>
 	<li>Hayley Kiyoko</li>
 	<li>The Lonely Island</li>
 	<li>Raymond Lam</li>
@@ -54,6 +55,7 @@
 	<li>The All-American Rejects</li>
 	<li>The Postal Service</li>
 	<li>Bad Suns</li>
+	<li>Down With Webster</li>
 </ul>
 
 <h2>Singles</h2>
@@ -146,8 +148,9 @@
 	<li>Cupid's Chokehold - Gym Class Heroes</li>
 	<li>I Hate Everyone - Get Set Go</li>
 	<li>I Will Take Care Of You - Amy Sky</li>
-	<li>Ring of Keys - Fun Home</li>
+	<li>Ring of Keys - Fun Home <a href="https://www.youtube.com/watch?v=pMAuesRJm1E">(Watch Sydney Lucas' breathtaking performance)</a></li>
 	<li>Medicine - Daughter</li>
+	<li>Falling Slowly - Once Soundtrack (The Last Man On Earth)</li>
 </ul>
 
 </div>

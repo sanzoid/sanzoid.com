@@ -23,14 +23,24 @@
 
 <h2>The Process</h2>
 <p>How does it work, you say? You can Google it or I'll just tell you!</p>
+<ul>Ingredients: 
+	<li>Clothing/Fabric (100% cotton works best. Polyester does not bleach so any Cotton/Poly blends will not work as well)</li>
+	<li>Photoshop &amp; printer or pen &amp; paper</li>
+	<li>Xacto Knife</li>
+	<li>Freezer Paper or Shelf Liner (I buy Con-tact Paper Shelf Liner on Amazon)</li>
+	<li>Spray Bottle with 50% bleach and 50% water</li>
+</ul>
 
 <ol>
-	<li>The Idea: Think of what you want. Find images of it. A lot of designs already exist, but if you want something totally original, you can create your own design.</li>
-	<li>The Design: Every part of the design will be either positive or negative (bleached or not bleached, lightened or not). You can draw this on paper or on the computer. I like to get the images in Photoshop, erase everything that's negative, overlay the positive with white and put a black stroke. This creates a nice outline and doesn't waste too much ink when you print it. </li>
-	<li>The Stencil: Once you have the stencil on paper, you can trace it or cut directly with it. I've tried using cardstock, but bleach leaks through it. If you're just trying the process out, go for it with cardstock like I did, but if you really want a nice outcome, I recommend shelf liner or freezer paper. Well, other people recommend freezer paper. I haven't tried it, but I hear it's the best for this. It involves ironing, which I have no idea so I stuck with shelf liner. I got a huge roll for about $9 on Amazon. It's basically a clear adhesive so it's great for just sticking onto a shirt and peeling off when you're one. One disadvantage is that if your design has lots of shapes that peel in different directions, it will be hard to peel. Also, it's difficult to place it perfectly on the shirt and avoid sticking everything together.</li>
-	<li>The Bleaching: Get a spray bottle with 50% bleach and 50% water. Then, not too close, spray the shirt. Dab with a paper towel to prevent the bleach from bleeding under the design. Spraying from far away will land a nice mist on the shirt. A couple of layers and you've got yourself an awesome piece of clothing!</li>
+	<li>Designing: Create the design in Photoshop, on paper, etc. It should be a stencil, so each part of the design is either positive or negative. If you're doing multilayer, then each part is a layer is a single shade of colour. <br>What I do is get an image in Photoshop, erase negative areas, overlay with white, then add a black stroke. I end up with all of the lines I need to cut. </li>
+	<li>Cutting and Applying: Once you have the design on paper, you can trace it or cut directly on top of it. What you will use is something that is both waterproof and will stick to the shirt - freezer paper or shelf liner. Most people recommend freezer paper, but that requires ironing so I haven't tried it. I use shelf liner and the stuff works great. Once your stencil is on your shirt, you should have any parts you want to turn lighter exposed and any parts you want to stay the same covered. If you are doing multiple layers, the lightest layers are exposed first for bleaching and the darker layers are exposed later. 
+
+		<br>Tip: When working with shelf liner, because you have to peel it with the design already cut and then place it on the shirt, it can be difficult to work with. Parts will start ripping or sticking together. I recommend not cutting parts entirely so that when you peel it, the whole thing comes off without little pieces not agreeing with you. Once you have it placed on the shirt, you can then cut those little uncut bits. </li>
+	<li>Bleaching: Get a spray bottle with 50% bleach and 50% water. Then, not too close, spray the shirt. Dab with a paper towel to prevent the bleach from bleeding under the stencil. Spraying farther away will create a mistier effect. Do a couple of layers of this and the shirt will turn lighter due to the dye being removed from the bleach. If you're doing multilayer, you'll have to remove parts of your stencil in the middle of bleaching. <br>Heat will speed up the bleaching process. So do this in the sun or use a hair dryer/iron. </li>
+	<li>Washing: Dump it in cold water to stop the bleaching. Then wash it. I like to hand wash it and then wash with other bleached shirts so I don't bleach my regular clothes. </li>
 </ol>
 
+<p>(I recommend doing this outside as the bleach is smelly and intoxicating. Although bleach on skin is apparently bad, I have never had any problems with bleachy mist landing on my bare feet. Maybe because I am now immune to bleach.) </p>
 
 <h2>The Finished Products</h2>
 <p>So here are all of my bleachings. If the particle accelerator were to explode near me, I would become a bleach metahuman.</p>

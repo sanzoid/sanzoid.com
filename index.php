@@ -24,6 +24,14 @@
 </ol>
 <p>Hopefully this site can give you some insight as to who I am.</p>
 
+<hr>
+
+<p>Check out my <a href="/pages/things/Fall2016Schedule/Fall2016Schedule.html">Fall 2016 TV Schedule</a>! I'll be home with a TV to watch 2-3 hours of TV every night! :D</p>
+
+<hr>
+
+<p>AUG 24: Added new page - <a href="/pages/art/stickers.php">STICKERS!!!</a></p>
+
 <!-- END: BODY -->
 
 <!-- Template: Bottom -->

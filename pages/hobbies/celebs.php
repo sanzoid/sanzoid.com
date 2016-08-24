@@ -46,6 +46,7 @@
 	<li><img src="/images/celebs/timroth.jpg" /><span class="name">Tim Roth</span><span class="description">Dr. Cal Lightman. Amazing actor. Love the way he talks, love the way he walks.</span></li>
 	<li><img src="/images/celebs/galeharold.jpg" /><span class="name">Gale Harold</span><span class="description">The father on The Secret Circle. Brian Kinney on Queer as Folk.</span></li>
 	<li><img src="/images/celebs/peterkrause.jpeg" /><span class="name">Peter Krause</span><span class="description">If you look at his current photos where he's smiling, he has that look like "I'm going to murder your entire family just because I enjoy it." It's also a very charming smile. He has captivated me on The Catch. I love it when he smiles.</span></li>
+	<li><img src="/images/celebs/rufussewell.jpg" /><span class="name">Rufus Sewell</span><span class="description">Obergruppenf&#252;hrer John Smith! He portrays a character so evil, but you love him for it. The way he darts his eyes around, it just conveys so much. Brilliant actor. A fan said it perfectly, &quot;That voice made of velvet with just the right amount of dirt thrown in.&quot;</span></li>
 </ul>
 
 </div>
