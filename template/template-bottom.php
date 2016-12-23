@@ -16,8 +16,8 @@
 		<div class="profileimage"></div>
 		<p>My name is Sandy and this is my website!</p>
 		
-		<p>I am a Computer Science Major and <em>Psychology Minor</em> at the University of Waterloo. <br>
-			Aspiring to become a professional iOS Application Developer.</p>
+		<p>I am a Computer Science Major and <em>Psychology Minor</em> at the University of Waterloo.</p>
+		<p>Currently working towards becoming a master iOS Developer.</p>
 	</div>
 	<!-- end: about me -->
 
@@ -25,7 +25,7 @@
 	<div class="contactinfo">
 		<h1>Contact Info</h1>
 		<p>If you would like to hire me:<br><span class="contact-email"><span class="dont-spam-me">sandyho</span>.<span>cs</span><span>@</span><span>gmail</span>.<span>com</span></span></p>
-		<p>For other inquiries:<br><span class="contact-email"><span class="dont-spam-me">sandyworks</span><span>@</span><span>icloud</span>.com</span></p>
+		<p>If you would like to report a bug:<br><span class="contact-email"><span class="dont-spam-me">sandyworks</span><span>@</span><span>icloud</span>.com</span></p>
 	</div>
 	<!-- end: contact info -->
 

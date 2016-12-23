@@ -17,6 +17,14 @@
 <!-- START: BODY-->
 <?php /***************************** CUSTOM PAGE HTML BEGINS HERE ***************************************/ ?>
 
+<!-- farts farts farts -->
+<script src="http://code.onion.com/fartscroll.js"></script>
+<script>
+	$(document).ready(function() {
+            fartscroll(800);
+    });
+</script>
+
 <div id="pooptracker-main">
 
 <p>PoopTracker is an app I made during my hiatus in Winter 2016. I started out with something very basic and felt like I was almost done. Little did I know, that the deeper you go, the further away from your goal you get. I faced many challenges making this app. I made lots of mistakes. I learned a lot. I had fun. </p>

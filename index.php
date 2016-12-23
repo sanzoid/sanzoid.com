@@ -14,6 +14,21 @@
 
 <!-- START: BODY-->
 
+<p><a style="font-size:20px" href="https://www.amazon.ca/gp/product/B005DNRBEW/ref=oh_aui_detailpage_o09_s00?ie=UTF8&psc=1">Please visit the Crest Citrus Splash Toothpaste page on Amazon so that I can brush my teeth again.</a> My hypothesis is that Amazon restocks based on page views and other analytics. So if y'all could just generate some traffic for my toothpaste, maybe they will think that lots of people want to buy it and finally restock it. Please, I need to fight that tar tar.</p>
+
+<p>My Referral Links: </p>
+<ul>
+	<li><a href="http://looted.by/et6FM">Loot Crate</a> (both get $5 off)</li>
+	<li><a href="http://www.ebates.ca/referrer?referrerid=9%2BvjUF6pO%2FE%3D%0D%0A&src=Link">Ebates</a> (both get $5)</li>
+	<li><a href="http://www.popinabox.ca/referrals.list?applyCode=SANDY-R8&li">PopInABox</a> (I get $3?)</li>
+	<li><a href="https://www.just-eat.ca/join/sandyh1">JUST EAT</a> (We both get $7 with credit card purchase > $15)</li>
+	<li><a href="https://www.groupon.com/visitor_referral/h/bfda28dd-e4ba-411b-8b3a-e5d7ece6d391">Groupon</a> (I get $10)</li>
+	<li><a href="http://www.swagbucks.com/refer/ahshan">Swagbucks</a> (I get 10% of your points)</li>
+	<li><a href="http://fbuy.me/egWcb">Nerdblock</a> (I get $5) </li>
+</ul>
+
+<hr>
+
 <p>Welcome to my website. I have re-designed and re-implemented this many times, but I think I'm going to settle on this current design and implementation. I coded it from scratch using HTML, CSS, Javascript/jQuery, and PHP.</p>
 
 <p>The reasons for this website are:</p>
@@ -30,6 +45,7 @@
 
 <hr>
 
+<p>SEP 24: Added new section to stickers page - <a href="/pages/art/stickers.php#cards-main">DIY ID CARDS</a></p>
 <p>AUG 24: Added new page - <a href="/pages/art/stickers.php">STICKERS!!!</a></p>
 
 <!-- END: BODY -->
