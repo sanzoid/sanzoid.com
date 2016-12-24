@@ -55,6 +55,7 @@
 	<div id="handles">
 		<h2>The Picture of Sandy Ho</h2>
 		<ul>
+			<li class=""><a href="http://www.linkedin.com/in/sandycsho" target="_blank"><img src="/images/main/handle_icons/icon_linkedin.png" /></a></li>
 			<li class=""><a href="https://twitter.com/officesandy" target="_blank"><img src="/images/main/handle_icons/icon_twitter.png" /></a></li>
 			<li class=""><a href="https://sanzoid.wordpress.com/" target="_blank"><img src="/images/main/handle_icons/icon_wordpress.png" /></a></li>
 			<li class=""><a href="https://github.com/sanzoid" target="_blank"><img src="/images/main/handle_icons/icon_github.png" /></a></li>

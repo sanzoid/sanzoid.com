@@ -660,6 +660,7 @@ div#handles ul li img {	/* handle_icon */
 div#handles ul li a {	/* handle link */
 	target-name:new;
 	target-new:tab;
+	padding: 50px;
 }
 
 /*********** Extra Page stuff *********************/

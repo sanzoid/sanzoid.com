@@ -14,8 +14,6 @@
 
 <!-- START: BODY-->
 
-<p><a style="font-size:20px" href="https://www.amazon.ca/gp/product/B005DNRBEW/ref=oh_aui_detailpage_o09_s00?ie=UTF8&psc=1">Please visit the Crest Citrus Splash Toothpaste page on Amazon so that I can brush my teeth again.</a> My hypothesis is that Amazon restocks based on page views and other analytics. So if y'all could just generate some traffic for my toothpaste, maybe they will think that lots of people want to buy it and finally restock it. Please, I need to fight that tar tar.</p>
-
 <p>My Referral Links: </p>
 <ul>
 	<li><a href="http://looted.by/et6FM">Loot Crate</a> (both get $5 off)</li>

@@ -34,6 +34,7 @@
 <ul>
 	<li><a href="/pages/things/Fall2014Schedule/Fall2014Schedule.html">2014</a></li>
 	<li><a href="/pages/things/Fall2015Schedule/Fall2015Schedule.html">2015</a></li>
+	<li><a href="/pages/things/Fall2016Schedule/Fall2016Schedule.html">2016</a></li>
 </ul>
 
 
