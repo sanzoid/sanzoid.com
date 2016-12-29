@@ -61,6 +61,7 @@
 		<li>The Lord of the Rings Series</li>
 		<li>Strange Case of Dr. Jekyll and Mr. Hyde - Robert Louis Stevenson</li>
 		<li>The Magicians - Lev Grossman</li>
+		<li>The Man in the High Castle</li>
 	</ul>
 </div>
 
@@ -105,7 +106,11 @@
 		<li>Calvin &amp; Hobbes - By far my favourite. Always bought these from Scholastic</li>
 		<li>X-Men: The Dark Phoenix Saga</li>
 		<li>Deadpool: Dead Presidents</li>
-		<li class="in-progress">Watchmen</li>
+		<li>Watchmen</li>
+		<li>Superman: Birthright Vol. 1</li>
+		<li>Ms. Marvel (Carol Danvers) Vol. 1 - I spent 25 hours reading this when I was actually supposed to read the Khamala Khan one which only took 1 hour to read.</li>
+		<li class="in-progress">Ms. Marvel (Khamala Khan)</li>
+		<li>The Dark Knight Returns</li>
 	</ul>
 </div>
 

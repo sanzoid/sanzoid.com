@@ -19,8 +19,8 @@
 
 <p>My number one passion is Television. If someone paid me to just watch television all day without having to do anything else, that would be the dream life. I'm not talking about watching, then reviewing. No, I'm talking about just watching, no strings attached.</p>
 <p>Realistically, that is no way to live which is why I'm pursuing my second passion: <em>Building</em> (in my case, building with code).</p>
-<p>Growing up, I always believed that television was the best. I learned everything by watching TV. Although it's a bad influence, it also teaches many life lessions. In high school, I discovered American Network television (more like I felt I was old and mature enought to finally watch that stuff), and I fell in love. I found my meaning in life. I no longer felt that life was meaningless. I was happy. I had a reason to live.</p>
-<p>I mainly watch Network Television. Sometimes Cable.</p>
+<p>Growing up, I always believed that television was the best. I learned everything by watching TV. Although it's a bad influence, it also teaches many life lessons. In high school, I discovered American Network television (more like I felt I was old and mature enough to finally watch that stuff), and I fell in love. I found my meaning in life. I no longer felt that life was meaningless. I was happy. I had a reason to live.</p>
+<p>I mainly watch Network Television. Sometimes Cable. Never Netflix.</p>
 
 <p>If you would like to see my TV progress, check out my <a href="https://trakt.tv/users/sanzoidy">Trakt profile</a>. You can see my history, progress, watchlist, and more. If you want to keep track of your TV- or movie-watching progress, I recommend you check out <a href="https://trakt.tv">trakt.tv</a>. It's a really great site developed and maintained by only <em>three</em> people.</p>
 
@@ -64,10 +64,10 @@
 
 <p>I might post reviews/recommendations down here later. </p>
 
-<hr />
+<!--<hr />-->
 
 <?php 
-	render_txt_file("https://www.dropbox.com/s/0c295uz3l1x4uig/2016%20PILOT%20SEASON.txt?raw=1");
+	//render_txt_file("https://www.dropbox.com/s/0c295uz3l1x4uig/2016%20PILOT%20SEASON.txt?raw=1");
 ?>
 
 <?php /***************************** CUSTOM PAGE HTML ENDS HERE *****************************************/ ?>

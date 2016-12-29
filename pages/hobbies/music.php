@@ -22,7 +22,7 @@
 <p>Music keeps my focus off of the world around me. I tried to listen to Mozart before, but it was so good that I was getting distracted. If I listen to the same songs over and over again, eventually it becomes background music. </p>
 
 <p>Favourite Song: Get Out The Way - Mother Mother</p>
-<p></p>
+<p>Favourite Band: Mother Mother</p>
 
 <h2>Artists/Bands</h2>
 <p>List of artists/bands I listen to. When I say listen to, I mean their albums have been played into my ears over 100 times at one point in my life. They take me back to when I was listening to them.</p>
@@ -44,6 +44,7 @@
 	<li>Hannah Montana</li>
 	<li>Camp Rock 1 &amp; 2 Soundtrack</li>
 	<li>The Sound of Music Soundtrack</li>
+	<li>The Cars</li>
 	<li>S Club 7</li>
 	<li>Hayley Kiyoko</li>
 	<li>The Lonely Island</li>
