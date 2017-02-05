@@ -156,4 +156,9 @@ function render_quotes_list_from_file($data_file) {
 	echo "</ul>";
 }
 
+function linked_image($image_location) {
+
+	echo "<a href=\"" . $image_location ."\"><img src=\"" . $image_location . "\" /></a>\n"; 
+}
+
 ?>

@@ -845,3 +845,8 @@ div#pooptracker-pics span {
 div#pooptracker-main span {
 	display: block;
 }
+
+div#pooptracker-redesign-main img {
+	max-width: 200px;
+}
+
