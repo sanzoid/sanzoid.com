@@ -10,10 +10,24 @@ function last_modified($filepath) {
 	echo date("Y-M-d h:iA", filemtime($filepath));
 }
 
+// Get the content from url 
+function curl_get_contents($url)
+{
+  $ch = curl_init();
+  curl_setopt($ch, CURLOPT_URL, $url);
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+  curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+  $data = curl_exec($ch);
+  curl_close($ch);
+  //echo "<p>" . print_r($data) ."</p>";
+  return $data;
+}
+
+// No longer works
 function get_dropbox_location($link) {
 	// Dropbox will redirect, so we want the actual location of it since we won't redirect
 	$headers = get_headers($link, 1); 
-	$file_link = $headers['location'];
+	$file_link = isset($headers['location']) ? $headers['location'] : NULL;
 	if (!$file_link) {
 		$file_link = $headers['Location']; 
 	}
@@ -22,10 +36,8 @@ function get_dropbox_location($link) {
 }
 
 function render_txt_file($file_link) {
-	$file_link = get_dropbox_location($file_link); 
 
-	$file = file_get_contents($file_link);
-
+	$file = curl_get_contents($file_link);
 	$file = explode("\n", $file); 
 	$title = trim(str_replace("?", "", utf8_decode($file[0]))); 
 
@@ -72,10 +84,8 @@ function render_txt_file($file_link) {
 }
 
 function render_bulleted_txt_file($file_link) {
-	$file_link = get_dropbox_location($file_link); 
 
-	$file = file_get_contents($file_link);
-
+	$file = curl_get_contents($file_link);
 	$file = explode("\n", $file); 
 	$title = trim(str_replace("?", "", utf8_decode($file[0]))); 
 
