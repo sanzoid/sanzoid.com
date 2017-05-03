@@ -37,50 +37,50 @@
 	for ($i = 0; $i < $data_array_count; $i++) {
 		$html = "";
 
-
 		$data_line = $data_array[$i]; 
-		$first_char = $data_line[0]; 
 
 		if (empty($data_line)) {	// empty line 
 			$html = "</div>"; 
 		}
-		else if ($first_char == "@") {	// Heading 
-			$heading = substr($data_line, 1); 
-			$id = substr($data_array[$i + 1], 1); 
+		else 
+		{
+			$first_char = $data_line[0];
+			if ($first_char == "@") {	// Heading 
+				$heading = substr($data_line, 1); 
+				$id = substr($data_array[$i + 1], 1); 
 
-			array_push($data_headings, $heading); 
-			array_push($data_anchors, $id);
+				array_push($data_headings, $heading); 
+				array_push($data_anchors, $id);
 
-			$html = $html . "<div id=\"". $id."\" class=\"anchored section\">\n"; 
-			$html = $html . "<h2>" . $heading . "</h2>\n"; 
-		} 
-
-		else if ($first_char == "%") {
-			$html = $html . substr($data_line, 1) . "\n"; 
-		}
-
-		else if ($first_char == "/") {	// folder path 
-			$dir_path = $base.$data_line; 
-
-			$files = scandir($dir_path); 
-
-			foreach ($files as $file) {
-				//echo $file."\n";
-
-				$img_src = $data_line . "/" . $file; 
-
-				$img_src_parts = pathinfo($img_src); 
-
-				if (strcasecmp($img_src_parts['extension'] , "jpg")  == 0 ||
-					strcasecmp($img_src_parts['extension'] , "png")  == 0
-					) 
-				{
-					$html = $html . "\t<li><a href=\"". $img_src ."\" target=\"_blank\"><img src=\"" . $img_src . "\" /></a></li>\n";
-					
-				}
+				$html = $html . "<div id=\"". $id."\" class=\"anchored section\">\n"; 
+				$html = $html . "<h2>" . $heading . "</h2>\n"; 
+			} 
+			else if ($first_char == "%") {
+				$html = $html . substr($data_line, 1) . "\n"; 
 			}
-			
-			$html = "<ul>\n" . $html . "</ul>\n"; 
+			else if ($first_char == "/") {	// folder path 
+				$dir_path = $base.$data_line; 
+
+				$files = scandir($dir_path); 
+
+				foreach ($files as $file) {
+					//echo $file."\n";
+
+					$img_src = $data_line . "/" . $file; 
+
+					$img_src_parts = pathinfo($img_src); 
+
+					if (strcasecmp($img_src_parts['extension'] , "jpg")  == 0 ||
+						strcasecmp($img_src_parts['extension'] , "png")  == 0
+						) 
+					{
+						$html = $html . "\t<li><a href=\"". $img_src ."\" target=\"_blank\"><img src=\"" . $img_src . "\" /></a></li>\n";
+						
+					}
+				}
+				
+				$html = "<ul>\n" . $html . "</ul>\n"; 
+			}
 		}
 
 		echo $html; 

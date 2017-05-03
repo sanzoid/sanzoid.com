@@ -16,6 +16,51 @@
 
 <!-- START: BODY-->
 
+<hr>
+<h1>Link test: </h1>
+<?php 
+
+/*function button_link($title, $link){
+   $html = '<p';
+   if ($link != '')
+   {
+   		$html .= ' style="color: blue; text-decoration: underline;"'; // styling 
+   		$html .= ' onclick="window.open(\'' . $link . '\'); return false;"'; // open link 
+   }
+   $html .= '>';
+   $html .= $title; // title 
+   $html .= '</p>';
+
+   echo $html; 
+
+   return $html;
+}*/
+
+function button_link($atts){
+   extract(shortcode_atts(array(
+      'title' => '',
+      'link' => ''
+      ), $atts));
+
+   $html = '<p';
+   if ($link != '') // if no link 
+   {
+   		$html .= ' style="color: blue; text-decoration: underline;"'; // styling 
+   		$html .= ' onclick="window.open(\'' . $link . '\'); return false;"'; // open link 
+   }
+   $html .= '>';
+   $html .= $title; // title 
+   $html .= '</p>';
+
+   return $html;
+}
+
+?>
+
+<?php button_link('title', 'http://google.com'); button_link('title', ''); ?>
+<p>This text will open a link in a new tab with Javascript enabled: <span style="color: blue; text-decoration: underline;" onclick="window.open('http://google.com');return false;">Link</span></p>
+<p>This button will open a link in a new tab with Javascript enabled: <input onclick="window.open('google.com');return false;" type="button" value="minirlss.net" /></p>
+
 <p>This is an example of a txt file created by Upword being rendered via Dropbox:</p>
 <div class="capitalize">
 <?php 

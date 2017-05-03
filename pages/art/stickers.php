@@ -45,6 +45,7 @@
 
 	$dir_path = '/images/art/stickers/fp'; 
 	$files = scandir($base.$dir_path); 
+	$html = "";
 
 	foreach ($files as $file) {
 
@@ -52,10 +53,11 @@
 
 		$img_src_parts = pathinfo($img_src); 
 
-		if (strcasecmp($img_src_parts['extension'] , "jpg")  == 0 ||
+		if (isset($img_src_parts['extension']) && 
+			(strcasecmp($img_src_parts['extension'] , "jpg")  == 0 ||
 			strcasecmp($img_src_parts['extension'] , "png")  == 0 ||
 			strcasecmp($img_src_parts['extension'] , "jpeg")  == 0 ||
-			strcasecmp($img_src_parts['extension'] , "gif")  == 0
+			strcasecmp($img_src_parts['extension'] , "gif")  == 0)
 			) 
 		{
 			$img_name = pathinfo($img_src, PATHINFO_FILENAME); 
@@ -118,10 +120,11 @@
 
 		$img_src_parts = pathinfo($img_src); 
 
-		if (strcasecmp($img_src_parts['extension'] , "jpg")  == 0 ||
+		if (isset($img_src_parts['extension']) && 
+			(strcasecmp($img_src_parts['extension'] , "jpg")  == 0 ||
 			strcasecmp($img_src_parts['extension'] , "png")  == 0 ||
 			strcasecmp($img_src_parts['extension'] , "jpeg")  == 0 ||
-			strcasecmp($img_src_parts['extension'] , "gif")  == 0
+			strcasecmp($img_src_parts['extension'] , "gif")  == 0)
 			) 
 		{
 			$img_name = pathinfo($img_src, PATHINFO_FILENAME); 

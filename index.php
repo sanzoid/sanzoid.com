@@ -43,7 +43,7 @@
 
 <hr>
 
-<p>FEB 04: <a href="/pooptracker/redesign.php">POOPTRACKER REDESIGN</a> page. A promise to complete the app.</p>
+<p>FEB 04: <a href="/pooptracker/redesign">POOPTRACKER REDESIGN</a> page. A promise to complete the app.</p>
 <p>DEC 28: Updated some typos and content. UPCOMING: Full list of tv shows with reviews, rendered from a google spreadsheet.</p>
 <p>SEP 24: Added new section to stickers page - <a href="/pages/art/stickers.php#cards-main">DIY ID CARDS</a></p>
 <p>AUG 24: Added new page - <a href="/pages/art/stickers.php">STICKERS!!!</a></p>

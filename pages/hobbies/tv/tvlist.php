@@ -88,6 +88,8 @@
 		$parsed_data[trim($show[0])] = $show; 
 	}
 
+	// order by rating, order by title 
+	// tvshow.list will be my recommendation order
 
 	//echo "<table>\n";
 
