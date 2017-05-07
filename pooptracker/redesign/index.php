@@ -19,9 +19,15 @@
 
 <div id="pooptracker-redesign-main">
 <p>I am redesigning and rewriting PoopTracker. It is February 4, 2017 and my goal is to release it to the public before May 2017. I will update my progress on this page to document the design and development process, and also to motivate me. I was supposed to begin during the holidays in December 2016, but I was too lazy. This time I cannot be lazy. The fate of my future and everyone's pooping depends on it. WE'VE GOT 3 MONTHS TO SAVE THE WORLD. </p>
+<p>Update (May 6, 2017): It is now after May. My deadline was unrealistic because I hadn't gotten to the point where I was passionate enough to code all day every day. Well, I've gotten to that point now. So I'm hoping to definitely publish by the end of June?</p>
 
 <h2>The Day-to-Day</h2>
 <ul>
+	<li><a href="#PTR-2017-05-06">2017-05-06</a>: Calculations! Code was messy and it took me a while to find out why things weren't rendered properly. But I fixed it and now I've got a working slider. Just need to add characteristic level labels and icons, etc. It's looking good, though!</li>
+	<li>2017-05-05: Characteristic slider. Trying to finish this, as in drawing all the tick marks with labels. </li>
+	<li>2017-05-04: Everything is easier when you delegate-ize it! It makes everything cleaner when you do it earlier on. I hold off on it because I'm not sure what the structure is going to be like (who is calling what, who is doing what, etc.). Once I've got protocols set up, I'm like yeah everyone's role is so much clearer now. Tags can now be added and selected for both Foods and Tags. </li>
+	<li><a href="#PTR-2017-05-03">2017-05-03</a>: Made a concrete plan to finish this! I'm past my deadline, but I'm still in it to win it. Working on a collectionView for tags. </li>
+	<li>2017-05-01: Had an issue where I was refreshing a ManagedObject that was never saved. Added a flag to check if it was a new entry or existing. </li>
 	<li>2017-04-21: ViewController for editing the startDate, endDate, and duration. Learning how to send data between ViewControllers. Also, did not know you could basically scrap any changes you made to a Core Data object by refreshing the it with mergeChanges set to false. I thought I was going to have to declare 10 variables to hold temporary changes and then save them when final. Neat stuff.</li>
 	<li>2017-04-19: UITableViewAutomaticDimension!!! Discovered this beautiful thing. Autolayout for table cells. So easy, so dynamic. Put a textview in a table cell. It looks ugly, but I can always change it later. </li>
 	<li>2017-04-18: Trying to make a custom slider. Will have icons and ticks and whatnot. I know I can do it, just need to do all that math calculating where to draw things.</li>
@@ -108,6 +114,27 @@
 	linked_image("/images/pooptracker/redesign/pooptracker_20170318_characteristics.png");
 ?>
 
+<h3 id="PTR-2017-05-03">2017-05-03: New Plan (More like extended plan)</h3>
+<p>So I didn't hit my goal of publishing by the end of my co-op term. I overstretched <strong>as I always do</strong>. But you see, aiming higher is good for me. I aim high, I don't quite reach the goal, but I end up closer to that goal than ever. Yes, I did not reach my deadline, but I have gotten further along than I ever would have in the past.</p>
+<p>This experience so far has gotten me closer to the <em>me writing apps for fun on my own time</em> stage of my life. That's exactly what I am doing. I'm sitting here past 10PM on campus coding and reflecting. A few months ago, I thought, &quot;I am never going to be one of those people who just has side projects and somehow completes them.&quot; I'm terrible at finishing things I start. It's so easy for me to start things, but once I start, I never finish. Well, this isn't going to be happening with PoopTracker. I found something I can master &#8211; something that is challenging enough that I'll spend my entire life working on. I know it will be very worthwhile. I was not born to be a programmer, but that just means I have to work harder!</p>
+<p>So I made a plan. New goal is to be close to publishing by the end of May. How well will this work? I'm not sure. I'm taking 4 classes. I am eagerly waiting for assignments to be released so I can do them, so I think I'll be okay. </p>
+<?php 
+	linked_image("/images/pooptracker/redesign/pooptracker_20170503_plan1.jpg");
+	linked_image("/images/pooptracker/redesign/pooptracker_20170503_plan2.jpg");
+?>
+
+<h3 id="PTR-2017-05-06">2017-05-06: Editing Poops</h3>
+<p>11PM on a Saturday and I'm still on campus :'D. Literally no one here except a couple of grad students.</p>
+<?php 
+	linked_image("/images/pooptracker/redesign/pooptracker_20170506_mc6thfloor.jpg");
+?>
+<p>The Edit ViewController is almost complete. Still very ugly, but the underlying code needs to be beautiful before it gets a makeover on the outside. PoopTracker is like Beauty &amp; the Beast! Was beautiful on the outside in 1.0, ugly on the inside. Scrapped it, re-building the inside. And soon it will be beautiful on the outside again when Belle falls in love with it! Princesses have to poop too. </p>
+<?php 
+	linked_image("/images/pooptracker/redesign/pooptracker_20170506_datepicker.png");
+	linked_image("/images/pooptracker/redesign/pooptracker_20170506_tags.png");
+	linked_image("/images/pooptracker/redesign/pooptracker_20170506_editvc1.png");
+	linked_image("/images/pooptracker/redesign/pooptracker_20170506_editvc2.png");
+?>
 
 </div>
 

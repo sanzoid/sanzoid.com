@@ -92,6 +92,37 @@
 <p>##Transformational Evolution## Lamarck tried to figure out what could account for all of these theories. He was totally wrong. Wanted to believe the world was harmonious, but couldn't explain extinction - how could perfect creatures become extinct? People said it was because of a flood. But water creatures were also fossilized. Some people thought some were hunted by forebearers. Other people thought they moved somewhere else and we never found them yet - but this was becoming unlikely. He thought maybe the fossil animals are the forebearers. There were changes in the environment, they adapted, passed to descendants, they changed. It's a changing world - Transformational Evolution. Each species transforms into another. He proposed two laws: 1. Organs are strengthened by use and weakened by disuse - use it or lose it. 2. Inheritance of acquired characteristics. <span class="ex">Ex: Giraffes. Plant food on the ground was becoming scarce. Food was only in trees. They kept stretching necks.</span> If you dye your hair green, you can't pass that on. This doesn't work. But it paved the way for Darwin. </p>
 <p>Natural Selection. Charles Darwin and Alfred Russell Wallace. Wallace was an amateur naturalist. Theorized that a given species over time could give rise to species. Over how much time? Archbishop Usher - 9am on Oct 23 4004 BC. Lyell disagreed because of erosion studies - hundreds of thousands - wrong but right idea. Actually 4.5 billion years old. Darwin - </p>
 
+<p class="date">Lecture 3: May 5, 2017</p>
+
+<p>##Natural Selection## - best explanation that we have to account for biological variation. Every generation naturally has variation. The variants that are better adapted to the nevironment survive longer. This causes change in a species over time as qualities are preferentially passed on. To this view, ther is no essence to species. There is no "humanness," it's just all variation that is all-changing all the time. Have to think about it at a population-level, not individual-level. Lamarck - individual giraffes. Darwin - all giraffes - some giraffes naturally have longer necks - will survive longer with more offspring. Thomas Malvis had this idea that population increases geometrically but resources only increase arithmetically. Early on, not enough resources. Competition for resources so some variants get them and others don't. Those that don't survive, don't breed. ##Survival of the fittest##. </p>
+<ul>Darwin's rules
+	<li>No two individuals are identical</li>
+	<li>Traits are inherited. Offspring resemble their parents.</li>
+	<li>Natural selection</li>
+</ul>
+<p>Aptation - any kind of feature than an organism has, no matter where they got it from. Adaptation - any useful feature that has been shaped by natural selection. Exaptation - a feature that was originally shaped by natural selection and then it's useful for another thing. <span class="ex">Wings on insects were not originally shaped for flying. They were for cooling down. When they became big enough, they became useful for fluttering then flying. </span> </p>
+<p>##Biological fitness## - how many offspring do you have. </p>
+<p>Main problem with Darwin's theory: no one could explain how heredity worked. People knew traits were passed on, but they don't know how.</p>
+
+<h3>Heredity</h3>
+<p>##Pangenisis## - everybody is made up of particles. The particles from each parent merges and gives to child. If child gets more hair particles from father, then hair will be more like father's. </p>
+<p>Gregor Mendel - plant breeding experiments with peas. He noticed that pea plants - red flowers + white flowers =/= pink flowers. 2nd generation- 3:1. There is no blending. There's only one particle and every parent just passes just one. ##Co-dominant## trait - equally expressed trait. The particles were ocurring in pairs. Each individual gets one from each parent - ##Principle of Segregation##. When the embryo is formed, the pairs of particles are independently sorted - they come together at random in the offspring. But no one paid attention to it for 35 years. </p>
+<p>New science: ##Genetics##. ##Homozygous## - the same trait from each parent. Blue eyes are recessive. Nothing else to express. Different particles - ##Heterozygous##. ##Genes## - particles. </p>
+<p>Often more than two variants to a particular gene. ##Allele## - all the diferent possible variants of a trait. <span class="ex">Eye color: blue, brown, green, etc. </span> All chromosomes came in pairs. </p>
+<p>Cells have to different kinds of celll stuff - ##mitosis## - when cells make copies of themselves. ##meiosis## - when dividing, chromosomes obey Mendelian principles. The chromosomes are segregated and independently sorted. A gene has a position in a chromosome. Some traits only appeared if other traits were present - linked traits, passed on together. Part of a chromosome can break off and attach to another - crossing over. </p>
+<p>They used to think that genes perfectly mapped to traits. Happens in simple cases. ##Polygenetic## traits - governed by many genes. Continuum. <span class="ex">Skin colour.</span>##Pleiotropy## - just one gene that affects many traits. <span class="ex">Sickle-cell Anemia - Genetic condition. Affects red blood cells. Increases resistance to Malaria and decreases amount of oxygen carried in red blood cells. Two copies - fatal. One copy - good.</span>Genes undergo ##Mutation## - a new allele appears. Explained how variation exists. Inheritance can be unchanging, but mutations are totally random. Evolution is directionless. Mutations don't occur because organisms need them. Sometimes they can be good, neutral, or bad. Sometimes mutations are fatal. Lamarck was wrong - you can't modify yourself and pass it down. </p>
+<p>They still didn't understand the structure of chromosomes. DNA - deoxyfodjfsfjsd acid. Chromosomes are made of large molecules of DNA. Double helix. 4 bases. Before mitosis, unzip, complementary line up, reform. Mutations - changes in the structure of DNA. </p>
+<h3>Genotype vs Phenotype</h3>
+<p>Molecular structue can differ from how it is expressed. ##Genotype## - what's there in the DNA. ##Phenotype## - what's observable in the actual organism. <span class="ex">G: has 1 red and 1 white. P: it's red. </span>Geno can say one thing but Pheno is expressed another way. Phenotype is just what happens. Organisms can affect their own environments - ##Niche construction## <span class="ex">It's too cold. I'm moving.</span> Create different selection pressures if they maintain niche construction. Organisms that are less fit. Humans affect our niche construction to make us more biologically fit. Not strong enough to do anything about that lion, I'll invent a gun. Genetic losers are more likely to move environments. Turning your traits into an advantage. Humans are the ultimate niche constructors. </p>
+<p>People developed evolution theory independently in isolation. New discoveries happen all the time. Evolution is very complicated. It's not about going somewhere, it's directionless. Homo sapiens was not inevitable and will not be eternal. All species are time limited. </p>
+
+
+
+
+
+
+
+
 
 
 
