@@ -25,7 +25,7 @@
 	<div class="contactinfo">
 		<h1>Contact Info</h1>
 		<p>If you would like to hire me:<br><span class="contact-email"><span class="dont-spam-me">sandyho</span>.<span>cs</span><span>@</span><span>gmail</span>.<span>com</span></span></p>
-		<p>If you would like to report a bug:<br><span class="contact-email"><span class="dont-spam-me">sandyworks</span><span>@</span><span>icloud</span>.com</span></p>
+		<p>If you would like to report a typo or bug:<br><span class="contact-email"><span class="dont-spam-me">sandyworks</span><span>@</span><span>icloud</span>.com</span></p>
 	</div>
 	<!-- end: contact info -->
 
@@ -85,25 +85,25 @@
 
 <!-- START: footer -->
 <div id="footer" class="global">
-		<div class="statcounter">
-		<!-- Start of StatCounter Code for Default Guide -->
-		<script type="text/javascript">
-		var sc_project=10912536; 
-		var sc_invisible=0; 
-		var sc_security="705582ce"; 
-		var sc_text=2; 
-		var scJsHost = (("https:" == document.location.protocol) ?
-		"https://secure." : "http://www.");
-		document.write("<sc"+"ript type='text/javascript' src='" +
-		scJsHost+
-		"statcounter.com/counter/counter.js'></"+"script>");
-		</script>
-		<noscript><div class="statcounter"><a title="shopify traffic
-		stats" href="http://statcounter.com/shopify/"
-		target="_blank"><img class="statcounter"
-		src="http://c.statcounter.com/10912536/0/705582ce/0/"
-		alt="shopify traffic stats"></a></div></noscript>
-		<!-- End of StatCounter Code for Default Guide -->
+	<div class="statcounter">
+	<!-- Start of StatCounter Code for Default Guide -->
+	<script type="text/javascript">
+	var sc_project=10912536; 
+	var sc_invisible=0; 
+	var sc_security="705582ce"; 
+	var sc_text=2; 
+	var scJsHost = (("https:" == document.location.protocol) ?
+	"https://secure." : "http://www.");
+	document.write("<sc"+"ript type='text/javascript' src='" +
+	scJsHost+
+	"statcounter.com/counter/counter.js'></"+"script>");
+	</script>
+	<noscript><div class="statcounter"><a title="site stats"
+	href="http://statcounter.com/" target="_blank"><img
+	class="statcounter"
+	src="//c.statcounter.com/10912536/0/705582ce/0/" alt="site
+	stats"></a></div></noscript>
+	<!-- End of StatCounter Code for Default Guide -->
 	</div>
 	<div class="lastmodified"><?php last_modified($base.$_SERVER['PHP_SELF']); ?></div>
 	<div class="siggy">SANZOID.COM</div>

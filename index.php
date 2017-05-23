@@ -14,7 +14,7 @@
 
 <!-- START: BODY-->
 
-<p>My Referral Links: </p>
+<!--<p>My Referral Links: </p>
 <ul>
 	<li><a href="http://looted.by/et6FM">Loot Crate</a> (both get $5 off)</li>
 	<li><a href="http://www.ebates.ca/referrer?referrerid=9%2BvjUF6pO%2FE%3D%0D%0A&src=Link">Ebates</a> (both get $5)</li>
@@ -25,11 +25,15 @@
 	<li><a href="http://fbuy.me/egWcb">Nerdblock</a> (I get $5) </li>
 </ul>
 
-<hr>
+<hr>-->
 
-<p>Welcome to my website. I have re-designed and re-implemented this many times, but I think I'm going to settle on this current design and implementation. I coded it from scratch using HTML, CSS, Javascript/jQuery, and PHP.</p>
+<p style="border:#664d46 dashed 1px; border-radius: 5px; padding:10px; background-color: #f4e9e6; font-size: 16px;">If you are interested in my design/thought process for iOS Development, please check out my <a href="/pooptracker/redesign">PoopTracker Redesign</a> page.</p>
 
-<p>The reasons for this website are:</p>
+<hr> 
+
+<p>Welcome to my website. I have re-designed and re-implemented this many times, but I've finally settled on this current design and implementation. I coded it from scratch using HTML, CSS, Javascript/jQuery, and PHP. </p>
+
+<p>The reasons for this website:</p>
 <ol>
 	<li>I love websites</li>
 	<li>I love building websites</li>
@@ -39,14 +43,15 @@
 
 <hr>
 
-<p>Check out my <a href="/pages/things/Fall2016Schedule/Fall2016Schedule.html">Fall 2016 TV Schedule</a>! I'll be home with a TV to watch 2-3 hours of TV every night! :D</p>
+<p>Check out my <a href="/pages/things/Fall2016Schedule/Fall2016Schedule.html">Fall 2016 TV Schedule</a>!</p>
 
 <hr>
 
-<p>FEB 04: <a href="/pooptracker/redesign">POOPTRACKER REDESIGN</a> page. A promise to complete the app.</p>
-<p>DEC 28: Updated some typos and content. UPCOMING: Full list of tv shows with reviews, rendered from a google spreadsheet.</p>
-<p>SEP 24: Added new section to stickers page - <a href="/pages/art/stickers.php#cards-main">DIY ID CARDS</a></p>
-<p>AUG 24: Added new page - <a href="/pages/art/stickers.php">STICKERS!!!</a></p>
+<p>MAY 05 2017: Site was down for 3 days because 000webhost shut it down since I didn't migrate to their new control panel. Site is back up. Also upgraded to PHP 7.0, fixed some bugs.</p>
+<p>FEB 04 2017: <a href="/pooptracker/redesign">POOPTRACKER REDESIGN</a> page. A promise to complete the app.</p>
+<p>DEC 28 2016: Updated some typos and content. UPCOMING: Full list of tv shows with reviews, rendered from a google spreadsheet.</p>
+<p>SEP 24 2016: Added new section to stickers page - <a href="/pages/art/stickers.php#cards-main">DIY ID CARDS</a></p>
+<p>AUG 24 2016: Added new page - <a href="/pages/art/stickers.php">STICKERS!!!</a></p>
 
 <!-- END: BODY -->
 
