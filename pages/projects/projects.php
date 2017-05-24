@@ -50,8 +50,10 @@
 	<li>CS349: JSketch (Java). A vector-drawing application. Sort of like paint. You can draw, fill, drag shapes. Received 100%. Saving, loading capabilities. 
 		<img src="/images/projects/2016_java_jsketch.png" />
 	</li>
-	<li>CS349: JSketch (Android). Android implementation of the java application JSketch. Received 96% (because I couldn't get the toolbar to lay out properly in landscape mode). (Images to come if I ever reinstall Android Studio.) </li>
-	<li>CS349: Curio (Android). Simple Android application that would grab data from a web server and display it. Simple JSON parsing. Received 100%. (Images to come if I ever reinstall Android Studio.)</li>
+	<li>CS349: JSketch (Android). Android implementation of the java application JSketch. Received 96% (because I couldn't get the toolbar to lay out properly in landscape mode). Icons drawn by moi! 
+		<img src="/images/projects/2016_android_jsketch.png" />
+	</li>
+	<li>CS349: Curio (Android). Simple Android application that would grab data from a web server and render it nicely. Simple JSON parsing. Received 100%.</li>
 </ul>
 
 <h2>Work</h2>

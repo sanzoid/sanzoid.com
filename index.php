@@ -43,11 +43,12 @@
 
 <hr>
 
-<p>Check out my <a href="/pages/things/Fall2016Schedule/Fall2016Schedule.html">Fall 2016 TV Schedule</a>!</p>
+<p>Check out my <a href="/pages/things/Fall2016Schedule/Fall2016Schedule.html">Fall 2016 TV Schedule</a>! <br><a href="/images/main/random/fall2017tvschedulesketch.png">Fall 2017 schedule is coming soon...</a> </p>
 
 <hr>
 
-<p>MAY 05 2017: Site was down for 3 days because 000webhost shut it down since I didn't migrate to their new control panel. Site is back up. Also upgraded to PHP 7.0, fixed some bugs.</p>
+<p>MAY 23 2017: Updated projects page. New quotes!</p>
+<p>MAY 05 2017: Site was down for 3 days because 000webhost shut it down since I didn't migrate to their new control panel. Site is back up, but it reset all of my last updated dates. Also upgraded to PHP 7.0, fixed some bugs.</p>
 <p>FEB 04 2017: <a href="/pooptracker/redesign">POOPTRACKER REDESIGN</a> page. A promise to complete the app.</p>
 <p>DEC 28 2016: Updated some typos and content. UPCOMING: Full list of tv shows with reviews, rendered from a google spreadsheet.</p>
 <p>SEP 24 2016: Added new section to stickers page - <a href="/pages/art/stickers.php#cards-main">DIY ID CARDS</a></p>

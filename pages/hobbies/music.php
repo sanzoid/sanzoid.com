@@ -57,6 +57,7 @@
 	<li>The Postal Service</li>
 	<li>Bad Suns</li>
 	<li>Down With Webster</li>
+	<li>Twenty One Pilots</li>
 </ul>
 
 <h2>Singles</h2>
@@ -152,6 +153,8 @@
 	<li>Ring of Keys - Fun Home <a href="https://www.youtube.com/watch?v=pMAuesRJm1E">(Watch Sydney Lucas' breathtaking performance)</a></li>
 	<li>Medicine - Daughter</li>
 	<li>Falling Slowly - Once Soundtrack (The Last Man On Earth)</li>
+	<li>Defying Gravity - Wicked Soundtrack</li>
+	<li>Powerful Magic - Once Upon A Time Musical Soundtrack</li>
 </ul>
 
 </div>
