@@ -241,6 +241,16 @@
 
 
 <script language="javascript">
+function stairsDays()
+{
+	var startDate = new Date(2017, 05, 03); 
+	var today = new Date(); 
+
+	var diffDays = Math.floor((today.getTime() - startDate.getTime())/(1000*60*60*24)); 
+
+	return diffDays;
+}
+
 // Trailing text cursor 
 /*
 var text='0 1 1 2 3 5 8 13 21 34 55 89';

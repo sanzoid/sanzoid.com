@@ -10,6 +10,14 @@
 	<!-- start: margin-wrapper -->
 	<div class="margin-wrapper">
 
+	<div style="background-image:url('/images/main/random/mc_stairs.jpg'); background-position:center; background-repeat: no-repeat; background-size: cover; padding: 15px 10px; text-align:center; border-radius: 5px; border: 2px outset #6E6E6E; text-transform: uppercase; font-size: 16px; color: white; text-shadow: 2px 3px 5px #000000" >
+		<p style="font-family: Arial; margin: 0; padding: 0;" >I have not taken the elevator in</p>
+		<p style="text-align:center;padding:0;margin:0;">
+			<span style="font-size:80px;font-weight:bold; padding:0; margin: 0"><script>document.write(stairsDays())</script></span><br>
+			<span style="" >days</span>
+		</p>
+	</div>
+
 	<!-- start: about me -->
 	<div class="aboutme">
 		<h1>About Me</h1>
