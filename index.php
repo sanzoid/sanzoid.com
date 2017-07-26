@@ -47,6 +47,7 @@
 
 <hr>
 
+<p>JUN 15 2017: Added a counter for the number of days that I have restrained myself from using the elevator. I walk up 6 flights of stairs multiple times every day! It is a struggle, but one day it won't be.</p>
 <p>MAY 23 2017: Updated projects page. New quotes!</p>
 <p>MAY 05 2017: Site was down for 3 days because 000webhost shut it down since I didn't migrate to their new control panel. Site is back up, but it reset all of my last updated dates. Also upgraded to PHP 7.0, fixed some bugs.</p>
 <p>FEB 04 2017: <a href="/pooptracker/redesign">POOPTRACKER REDESIGN</a> page. A promise to complete the app.</p>
