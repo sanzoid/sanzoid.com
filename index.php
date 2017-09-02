@@ -43,10 +43,11 @@
 
 <hr>
 
-<p>Check out my <a href="/pages/things/Fall2016Schedule/Fall2016Schedule.html">Fall 2016 TV Schedule</a>! <br><a href="/images/main/random/fall2017tvschedulesketch.png">Fall 2017 schedule is coming soon...</a> </p>
+<p>Check out my <a href="/pages/things/Fall2017Schedule/Fall2017Schedule.php">Fall 2017 TV Schedule</a>!</p>
 
 <hr>
 
+<p>SEP 02 2017: My <a href="/pages/things/Fall2017Schedule/Fall2017Schedule.php">Fall 2017 TV Schedule</a>. PHP this time since I was getting tired of adding each show and also editing each HTML line when I wanted to change something. </p>
 <p>JUN 15 2017: Added a counter for the number of days that I have restrained myself from using the elevator. I walk up 6 flights of stairs multiple times every day! It is a struggle, but one day it won't be.</p>
 <p>MAY 23 2017: Updated projects page. New quotes!</p>
 <p>MAY 05 2017: Site was down for 3 days because 000webhost shut it down since I didn't migrate to their new control panel. Site is back up, but it reset all of my last updated dates. Also upgraded to PHP 7.0, fixed some bugs.</p>

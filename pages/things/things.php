@@ -22,6 +22,7 @@
 	<li><a href="/pages/things/Fall2014Schedule/Fall2014Schedule.html">Fall 2014 TV Schedule</a> (Doing this basically taught me HTML and CSS)</li>
 	<li><a href="/pages/things/Fall2015Schedule/Fall2015Schedule.html">Fall 2015 TV Schedule</a> (Responsive)</li>
 	<li><a href="/pages/things/Fall2016Schedule/Fall2016Schedule.html">Fall 2016 TV Schedule</a></li>
+	<li><a href="/pages/things/Fall2017Schedule/Fall2017Schedule.php">Fall 2017 TV Schedule</a> (Rendered with PHP - a much quicker process)</li>
 </ul>
 
 <?php /***************************** CUSTOM PAGE HTML ENDS HERE *****************************************/ ?>
