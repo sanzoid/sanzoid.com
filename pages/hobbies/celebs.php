@@ -19,7 +19,7 @@
 
 <div id="celebs-main">
 
-<p>All of my favourite actors and actresses.</p>
+<p>All of my favourite actors and actresses. I have a condition called Celebrity Worship Syndrome.</p>
 
 <ul class="no-list-style no-indent">
 	<li><img src="/images/celebs/hughjackman.png" /><span class="name">Hugh Jackman</span><span class="description">I loved him as Wolverine ever since we watched X-Men at daycare when I was 5.</span></li>
@@ -49,6 +49,8 @@
 	<li><img src="/images/celebs/rufussewell.jpg" /><span class="name">Rufus Sewell</span><span class="description">Obergruppenf&#252;hrer John Smith! He portrays a character so evil, but you love him for it. The way he darts his eyes around, it just conveys so much. Brilliant actor. A fan said it perfectly, &quot;That voice made of velvet with just the right amount of dirt thrown in.&quot;</span></li>
 	<li><img src="/images/celebs/jackdavenport.png" /><span class="name">Jack Davenport</span><span class="description">The best part of Smash. He's always so angry-looking, but gentle at the same time. His character is so passionate about directing the musical that he will do anything to make it happen, including yelling at people and being brutally honest. He's a justified arse. His voice is very much like Alan Rickman's.</span></li>
 	<li><img src="/images/celebs/anthonystewarthead.jpg" /><span class="name">Anthony Stewart Head</span><span class="description">I cannot imagine that anyone could ever play Rupert Giles better than Anthony Stewart Head did. He is absolutely adorable.</span><iframe width="560" height="315" src="https://www.youtube.com/embed/KNoQm9RoZk8?rel=0" frameborder="0" allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/5Psb8MTANCU?rel=0" frameborder="0" allowfullscreen></iframe></li>
+	<li><img src="/images/celebs/markstrong.jpg" /><span class="name">Mark Strong</span><span class="description">BALD Mark Strong, to be precise. It took me too long to start to appreciate Mark Strong. Every time I see a bald man, I'm like &quot;Mark Strong?!?! NO? WHY ARE YOU NOT MARK STRONG??!&quot; He's just so great. His voice, his bald head, his long legs, his everything.</span></li>
+	
 </ul>
 
 </div>
