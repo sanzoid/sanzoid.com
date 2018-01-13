@@ -27,10 +27,6 @@
 
 <hr>-->
 
-<p style="border:#664d46 dashed 1px; border-radius: 5px; padding:10px; background-color: #f4e9e6; font-size: 16px;">If you are interested in my design/thought process for iOS Development, please check out my <a href="/pooptracker/redesign">PoopTracker Redesign</a> page.</p>
-
-<hr> 
-
 <p>Welcome to my website. I have re-designed and re-implemented this many times, but I've finally settled on this current design and implementation. I coded it from scratch using HTML, CSS, Javascript/jQuery, and PHP. </p>
 
 <p>The reasons for this website:</p>
@@ -47,6 +43,7 @@
 
 <hr>
 
+<p>JAN 12 2018: Added old and current notes.</p>
 <p>SEP 02 2017: My <a href="/pages/things/Fall2017Schedule/Fall2017Schedule.php">Fall 2017 TV Schedule</a>. PHP this time since I was getting tired of adding each show and also editing each HTML line when I wanted to change something. </p>
 <p>JUN 15 2017: Added a counter for the number of days that I have restrained myself from using the elevator. I walk up 6 flights of stairs multiple times every day! It is a struggle, but one day it won't be.</p>
 <p>MAY 23 2017: Updated projects page. New quotes!</p>

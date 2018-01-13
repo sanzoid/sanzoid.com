@@ -115,6 +115,32 @@ img {
 	border: 5px solid #C2C2C2;
 }
 
+#course-info {
+}
+
+#course-info h1 {
+	text-align: center;
+	font-size: 44px;
+	color: #2d2d2d;
+	margin: 0;
+}
+
+#course-info #course {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 16px;
+	margin: 5px;
+	color: #848484;
+}
+
+#course-info #prof {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 16px;
+	margin: 5px;
+	color: #848484;
+}
+
 .ex {
 	display: block;
 	border-left: 5px solid #1737E8;

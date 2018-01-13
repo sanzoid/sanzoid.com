@@ -12,6 +12,7 @@
 <body>
 
 <div id="course-info"><h1>Intro to Anthropology</h1>
+	<p id="course">ANTH 100 - Spring 2017 - University of Waterloo</p>
 	<p id="prof">Nic Hayes</p>
 	<p>PAS 2020. nhayes@uwaterloo.ca. MW 1:00-2:00</p>
 	<p>3rd Edition American or 1st Canadian Edition. </p>

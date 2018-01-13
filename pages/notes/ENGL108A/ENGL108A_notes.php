@@ -12,7 +12,8 @@
 <body>
 
 <div id="course-info"><h1>The Superhero &amp; Reality</h1>
-	<p id="prof">Dr. Deman</p>
+	<p id="course">ENGL 108A - Spring 2016 - University of Waterloo</p>
+	<p id="prof">Dr. J. Andrew Deman</p>
 </div>
 
 <div id="notes-body" class="engl108a">

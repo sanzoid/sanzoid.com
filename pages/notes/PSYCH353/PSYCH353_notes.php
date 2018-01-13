@@ -24,7 +24,8 @@
 <body>
 
 <div id="course-info">
-	<h1>PSYCH&nbsp;353 - Social Cognition</h1>
+	<h1>Social Cognition</h1>
+	<p id="course">PSYCH 353 - Spring 2016 - University of Waterloo</p>
 	<p id="prof">Dr. Steven Spencer</p>
 </div>
 
