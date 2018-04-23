@@ -19,7 +19,7 @@
 
 <div id="celebs-main">
 
-<p>All of my favourite actors and actresses. I have a condition called Celebrity Worship Syndrome.</p>
+<p>All of my favourite actors. I have a condition called Celebrity Worship Syndrome.</p>
 
 <ul class="no-list-style no-indent">
 	<li><img src="/images/celebs/hughjackman.png" /><span class="name">Hugh Jackman</span><span class="description">I loved him as Wolverine ever since we watched X-Men at daycare when I was 5.</span></li>
@@ -27,7 +27,7 @@
 	<li><img src="/images/celebs/voldemort.png" /><span class="name">Voldemort (Ralph Fiennes)</span><span class="description">His every movement in Goblet of Fire, it was like he was dancing with his wand.</span></li>
 	<li><img src="/images/celebs/johnreese.gif" /><span class="name">Jim Caviezel</span><span class="description">His portrayal as John Reese in Person of Interest is so heartbreaking. He has a way of conveying everything his character is feeling. </span></li>
 	<li><img src="/images/celebs/mattbomer.jpg" /><span class="name">Matt Bomer</span><span class="description">Neal. Caffrey.</span></li>
-	<li><img src="/images/celebs/viggomortensen.jpg" /><span class="name">Viggo Mortensen</span><span class="description">Aragorn.</span></li>
+	<li><img src="/images/celebs/viggomortensen.jpg" /><span class="name">Viggo Mortensen</span><span class="description">Aragorn. My husband since I was 7.</span></li>
 	<li><img src="/images/celebs/booboostewart.jpg" /><span class="name">Booboo Stewart</span><span class="description">He was so pretty.</span></li>
 	<li><img src="/images/celebs/geoffstults.jpg" /><span class="name">Geoff Stults</span><span class="description">Hilarious in The Finder.</span></li>
 	<li><img src="/images/celebs/danielcraig.jpg" /><span class="name">Daniel Craig</span><span class="description">Ever since Casino Royale... </span></li>
@@ -50,7 +50,7 @@
 	<li><img src="/images/celebs/jackdavenport.png" /><span class="name">Jack Davenport</span><span class="description">The best part of Smash. He's always so angry-looking, but gentle at the same time. His character is so passionate about directing the musical that he will do anything to make it happen, including yelling at people and being brutally honest. He's a justified arse. His voice is very much like Alan Rickman's.</span></li>
 	<li><img src="/images/celebs/anthonystewarthead.jpg" /><span class="name">Anthony Stewart Head</span><span class="description">I cannot imagine that anyone could ever play Rupert Giles better than Anthony Stewart Head did. He is absolutely adorable.</span><iframe width="560" height="315" src="https://www.youtube.com/embed/KNoQm9RoZk8?rel=0" frameborder="0" allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/5Psb8MTANCU?rel=0" frameborder="0" allowfullscreen></iframe></li>
 	<li><img src="/images/celebs/markstrong.jpg" /><span class="name">Mark Strong</span><span class="description">BALD Mark Strong, to be precise. It took me too long to start to appreciate Mark Strong. Every time I see a bald man, I'm like &quot;Mark Strong?!?! NO? WHY ARE YOU NOT MARK STRONG??!&quot; He's just so great. His voice, his bald head, his long legs, his everything.</span></li>
-	
+	<li><img src="/images/celebs/ilfeneshhadera.jpg" /><span class="name">Ilefenesh Hadera</span><span class="description">Absolutely stunning. She started her acting career pretty late, but I was captured by her beauty in every episode of Deception. </span></li>
 </ul>
 
 </div>
