@@ -19,22 +19,13 @@
 	<li><a href="http://looted.by/et6FM">Loot Crate</a> (both get $5 off)</li>
 	<li><a href="http://www.ebates.ca/referrer?referrerid=9%2BvjUF6pO%2FE%3D%0D%0A&src=Link">Ebates</a> (both get $5)</li>
 	<li><a href="http://www.popinabox.ca/referrals.list?applyCode=SANDY-R8&li">PopInABox</a> (I get $3?)</li>
-	<li><a href="https://www.just-eat.ca/join/sandyh1">JUST EAT</a> (We both get $7 with credit card purchase > $15)</li>
 	<li><a href="https://www.groupon.com/visitor_referral/h/bfda28dd-e4ba-411b-8b3a-e5d7ece6d391">Groupon</a> (I get $10)</li>
 	<li><a href="http://www.swagbucks.com/refer/ahshan">Swagbucks</a> (I get 10% of your points)</li>
-	<li><a href="http://fbuy.me/egWcb">Nerdblock</a> (I get $5) </li>
 </ul>
 
 <hr>-->
 
-<p>Welcome to my website. I have re-designed and re-implemented this many times, but I've finally settled on this current design and implementation. I coded it from scratch using HTML, CSS, Javascript/jQuery, and PHP. </p>
-
-<p>The reasons for this website:</p>
-<ol>
-	<li>I love websites</li>
-	<li>I love building websites</li>
-	<li>I love having a space where I can show the world who I am and what I can do</li>
-</ol>
+<p>Welcome to my website. I created this from scratch (HTML/CSS, some Javascript/jQuery, and good ol' PHP) because I love building websites and having a place to express myself. </p>
 <p>Hopefully this site can give you some insight as to who I am.</p>
 
 <hr>
@@ -43,6 +34,7 @@
 
 <hr>
 
+<p>AUG 12 2018: University notes complete forever!</p>
 <p>JAN 12 2018: Added old and current notes.</p>
 <p>SEP 02 2017: My <a href="/pages/things/Fall2017Schedule/Fall2017Schedule.php">Fall 2017 TV Schedule</a>. PHP this time since I was getting tired of adding each show and also editing each HTML line when I wanted to change something. </p>
 <p>JUN 15 2017: Added a counter for the number of days that I have restrained myself from using the elevator. I walk up 6 flights of stairs multiple times every day! It is a struggle, but one day it won't be.</p>

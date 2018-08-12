@@ -956,7 +956,7 @@ Complex cultural represtantation that satisfies certain essential needs as they 
 
 
 
-<div id="html-snippets" style="opacity:0.4;">
+<div id="html-snippets" style="opacity:0.0;">
 	<input type="text" value="&lt;p class=&quot;date&quot;&gt;Lecture X: Month Day, 2016&lt;/p&gt;" onclick="this.focus();this.select()">
 	<input type="text" value="&lt;h1&gt;&lt;/h1&gt;" onclick="this.focus();this.select()">
 	<input type="text" value="&lt;h2&gt;&lt;/h2&gt;" onclick="this.focus();this.select()">

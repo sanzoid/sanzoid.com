@@ -24,8 +24,8 @@
 		<div class="profileimage"></div>
 		<p>My name is Sandy and this is my website!</p>
 		
-		<p>I am a Computer Science Major and <em>Psychology Minor</em> at the University of Waterloo.</p>
-		<p>Currently working towards becoming a master iOS Developer.</p>
+		<p>I studied Computer Science and Psychology at the University of Waterloo and am currently working towards becoming a master iOS Developer.</p>
+		<p>Areas of interest: Computer Science, Psychology, Anthropology, Sociology, Philosophy, Biochemistry, Biology, Anatomy, and Visual Arts.</p>
 	</div>
 	<!-- end: about me -->
 
