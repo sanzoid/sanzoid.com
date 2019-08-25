@@ -17,7 +17,7 @@
 <!-- START: BODY-->
 <?php /***************************** CUSTOM PAGE HTML BEGINS HERE ***************************************/ ?>
 
-<p>I have many hobbies. They include and are not limited to: </p>
+<p>I have many hobbies that I intensely dabble in from time to time. They include and are not limited to: </p>
 
 <ul>
 	<li><a href="/pages/hobbies/tv.php">Watching TV</a></li>
@@ -32,18 +32,19 @@
 	<li>Building just about anything</li>
 	<li>Biking in empty parking lots</li>
 	<li>Sitting</li>
-	<li>Reading manuals, instructions, terms &amp; conditions (for contests), labels</li>
+	<li>Reading manuals, instructions, terms &amp; conditions, labels</li>
 	<li>Grocery shopping/keeping an inventory of prices in my head</li>
-	
 	<li><a href="/pages/hobbies/movies.php">Watching Movies or at least planning to</a></li>
 	<li><a href="/pages/hobbies/manga.php">Reading Manga</a></li>
-
 	<li><a href="/pages/art/art.php">Arts &amp; Crafts</a>
 		<ul>
 			<li><a href="/pages/art/art.php#art-friendship-bracelets">Friendship Bracelets</a></li>
 			<li><a href="/pages/art/art.php#art-crafts">DIY projects</a></li>
 			<li><a href="/pages/art/art.php#art-drawings">Drawing</a></li>
 			<li><a href="/pages/art/art.php#art-sculptures">Sculpting</a></li>
+			<li><a href="/pages/art/stickers.php">Making Stickers</a></li>
+			<li><a href="/pages/art/bleachin.php">Bleaching T-shirts</a></li>
+			<li>Needle Felting</li>
 		</ul>
 	</li>
 	<li><a href="http://www.neopets.com/userlookup.phtml?user=sanzoidy">Neopets</a></li>
@@ -55,6 +56,8 @@
 	<li>Pop Culture - learning everyone's names, faces, works in the movie/tv industry</li>
 	<li>Philosophy (althought it makes me think so much I can't sleep at night)</li>
 	<li>Psychology</li>
+	<li>Jigsaw Puzzles</li>
+	<li>MapleStory M</li>
 </ul>
 
 <?php /***************************** CUSTOM PAGE HTML ENDS HERE *****************************************/ ?>

@@ -58,6 +58,21 @@
 	<li>Bad Suns</li>
 	<li>Down With Webster</li>
 	<li>Twenty One Pilots</li>
+	<li>Hilary Duff</li>
+	<li>Avril Lavigne</li>
+	<li>MGMT</li>
+	<li>Motion City Soundtrack</li>
+	<li>Breaking Benjamin</li>
+	<li>Tokyo Police Club</li>
+	<li>Death From Above</li>
+	<li>Logic</li>
+	<li>Billie Eilish</li>
+	<li>Simple Plan</li>
+	<li>Blink-182</li>
+	<li>Smash 'The Hit List' Soundtrack</li>
+	<li>Rent Soundtrack</li>
+	<li>The Greatest Showman Soundtrack</li>
+	<li>Dear Evan Hansen Soundtrack</li>
 </ul>
 
 <h2>Singles</h2>

@@ -18,7 +18,7 @@
 <?php /***************************** CUSTOM PAGE HTML BEGINS HERE ***************************************/ ?>
 
 <p>From time to time, I watch a load of movies at once. I always try to watch a movie a day, but after a while, I stop because it gets pretty time-consuming. On a regular basis, I just watch TV. Movies are big events to me, and I don't often plan big events. </p>
-<p>I only see cinema-worthy films in theatres. The rest I put on a watchlist and watch them years later. (I love <em>Scotiabank's</em> Scene VISA credit card. I got a load of Scene points saved up for free <em>D-Box</em> tickets.)</p>
+<p>I only see cinema-worthy films in theatres. The rest I put on a watchlist and watch them years later.</p>
 <p><a class="link-block" style="background-color:#d62b20; color:#FFF; font-family:proxima-nova, sans-serif;" href="https://trakt.tv/users/sanzoidy/history/movies/added">Movies I've Watched</a></p>
 <p><a class="link-block" style="background-color:#d62b20; color:#FFF; font-family:proxima-nova, sans-serif;" href="https://trakt.tv/users/sanzoidy/ratings/movies/all/added">Movie Ratings</a></p>
 <p><a class="link-block" style="background-color:#d62b20; color:#FFF; font-family:proxima-nova, sans-serif;" href="https://trakt.tv/users/sanzoidy/watchlist">Watchlist (Filter the list by movie)</a></p>
@@ -49,22 +49,14 @@
 </ul>
 
 <h2>MCU Films Ranked</h2>
-<p>(A while ago, I watched all of them in order.)</p>
-<ol>
-	<li>Captain America: The Winter Soldier</li>
-	<li>The Incredible Hulk</li>
-	<li>Captain America: Civil War</li>
-	<li>The Avengers</li>
-	<li>Guardians of the Galaxy</li>
-	<li>... The rest are a jumble... </li>
-	<li>Last: Captain America: The First Avenger</li>
-</ol>
+<p>I originally made a list after watching all of them in order up in until Civil War, but I need to make a new one after rewatching all of them.</p>
 
 <hr />
 
-<p>I might add reviews and recommendations down here some time. That's only if and when I watch movies.</p>
+<p>I might add reviews and recommendations down here some time.</p>
 
 <p>Below is a list of movies I want to watch (started in 2014). It's edited using an app called UpWord and syncs up to my Dropbox account. This renders it in real-time. So if I make a change in the app, it will reflect here automatically! Cool, huh?</p>
+<p>It's most likely incredibly outdated because I make new lists all the time.</p>
 <div class="capitalize">
 <?php 
 	render_txt_file("https://www.dropbox.com/s/fyu9oo8gagaglz8/movies%202014-2016.txt?raw=1");

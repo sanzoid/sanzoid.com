@@ -109,7 +109,7 @@
 		<li>Watchmen</li>
 		<li>Superman: Birthright Vol. 1</li>
 		<li>Ms. Marvel (Carol Danvers) Vol. 1 - I spent 25 hours reading this when I was actually supposed to read the Khamala Khan one which only took 1 hour to read.</li>
-		<li class="in-progress">Ms. Marvel (Khamala Khan)</li>
+		<li>Ms. Marvel (Khamala Khan) Vol. 1,2</li>
 		<li>The Dark Knight Returns</li>
 	</ul>
 </div>

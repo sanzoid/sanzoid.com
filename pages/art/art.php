@@ -21,7 +21,7 @@
 
 <p>I do art from time to time. I love building something out of nothing. I'm not very good at art, but I do enjoy it.</p>
 
-<p>Here is a showcase of my work in the past. It's not a complete collection. I'll add more as soon as I find more.</p>
+<p>Here is a showcase of my work in the past. It's not a complete collection. I'll add more if I find more.</p>
 
 
 <?php 

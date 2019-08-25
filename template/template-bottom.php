@@ -10,13 +10,16 @@
 	<!-- start: margin-wrapper -->
 	<div class="margin-wrapper">
 
+	<?php
+	/*
 	<div style="background-image:url('/images/main/random/mc_stairs.jpg'); background-position:center; background-repeat: no-repeat; background-size: cover; padding: 15px 10px; text-align:center; border-radius: 5px; border: 2px outset #6E6E6E; text-transform: uppercase; font-size: 16px; color: white; text-shadow: 2px 3px 5px #000000" >
 		<p style="font-family: Arial; margin: 0; padding: 0;" >I have not taken the elevator in</p>
 		<p style="text-align:center;padding:0;margin:0;">
 			<span style="font-size:80px;font-weight:bold; padding:0; margin: 0">0<!--<script>document.write(stairsDays())--></script></span><br>
 			<span style="" >days</span>
 		</p>
-	</div>
+	</div>*/
+	?>
 
 	<!-- start: about me -->
 	<div class="aboutme">
@@ -43,6 +46,7 @@
 	<form action="//sanzoid.us12.list-manage.com/subscribe/post?u=70e890cae5a65fcc4b0c01e9a&amp;id=86687df9eb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 	    <div id="mc_embed_signup_scroll">
 		<h2>Subscribe to my newsletter!</h2>
+		<p>(I haven't sent a newsletter out in years, but ain't it cool that I have one that you can subscribe to?)</p>
 	<div class="mc-field-group">
 		<!--<label for="mce-EMAIL">Email Address </label>-->
 		<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email Address">

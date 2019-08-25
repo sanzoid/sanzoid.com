@@ -19,7 +19,6 @@
 
 <div id="stickers-main">
 
-<p>I've gotten obsessed with making stickers ever since I finalized the process. The possibilities are infinite and I can't stop. Should've started this years ago. So many ideas. Although, I do admit that I take some designs from the internet.</p>
 <h2>The Process</h2>
 
 <ol>

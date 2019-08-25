@@ -23,18 +23,11 @@
 <h2>Ongoing Projects</h2>
 <ul>
 	<li>sanzoid.com</li>
-	<li><a href="/pooptracker/redesign">Pooptracker 2.0 (iOS/Swift)</a></li>
+	<li>PoopTracker 3.0 - an even better version of <a href="/pooptracker/redesign">Pooptracker 2.0 (iOS/Swift)</a> that's just an idea for now</li>
 	<!--<li>Protect the Dot (iOS)</li>-->
 	<li>How Toilets Work (Javascript) - just an idea for now</li>
-	<li>Top secret app - Ideas for now. I need to learn how to write beautiful apps before I start this.</li>
+	<li>Top secret app - Ideas for now. </li>
 	<li>So many app ideas... </li>
-</ul>
-
-<p>For school: </p>
-<ul>
-	<li>CS454 (Distributed Systems): Implementing a simple client/server using TCP. </li>
-	<li>CS456 (Networks): Implementing a simple client/server using UDP. </li>
-	<li>CS458 (Security &amp; Privacy): Exploiting programs!</li>
 </ul>
 
 <h2>School</h2>
@@ -54,6 +47,9 @@
 		<img src="/images/projects/2016_android_jsketch.png" />
 	</li>
 	<li>CS349: Curio (Android). Simple Android application that would grab data from a web server and render it nicely. Simple JSON parsing. Received 100%.</li>
+	<li>CS454 (Distributed Systems): Implementing a simple client/server using TCP. </li>
+	<li>CS456 (Networks): Implementing a simple client/server using UDP. </li>
+	<li>CS458 (Security &amp; Privacy): Exploiting programs!</li>
 </ul>
 
 <h2>Work</h2>

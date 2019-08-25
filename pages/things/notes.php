@@ -32,7 +32,7 @@
 	<li><a href="/pages/notes/PSYCH356/PSYCH356Notes.html">PSYCH 356 - Personality [Winter 2018]</a> (Incomplete) - Wasn't actually enrolled, skipped a lecture to study, then never went again. 3-hour evening class was draining!</li>
 	<li><a href="/pages/notes/PSYCH357/PSYCH357Notes.html">PSYCH 357 - Psychology of Good [Winter 2018]</a> (Complete)</li>
 	<li><a href="/pages/notes/ANTH202/ANTH202Notes.html">ANTH 202 - Cultural &amp; Social Anthropology [Spring 2018]</a> (Incomplete) - Wasn't enrolled, stopped going to lectures because they only talked about the readings which I didn't do. </li>
-	<li><a href="/pages/notes/PSYCH261/PSYCH261Notes.html">PSYCH 357 - Physiological Psychology [Spring 2018]</a> (Complete)</li>
+	<li><a href="/pages/notes/PSYCH261/PSYCH261Notes.html">PSYCH 261 - Physiological Psychology [Spring 2018]</a> (Complete)</li>
 </ul>
 
 
