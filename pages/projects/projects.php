@@ -23,7 +23,7 @@
 <h2>Ongoing Projects</h2>
 <ul>
 	<li>sanzoid.com</li>
-	<li>PoopTracker 3.0 - an even better version of <a href="/pooptracker/redesign">Pooptracker 2.0 (iOS/Swift)</a> that's just an idea for now</li>
+	<li><a href="/pooptracker/pooptracker">PoopTracker</a></li>
 	<!--<li>Protect the Dot (iOS)</li>-->
 	<li>How Toilets Work (Javascript) - just an idea for now</li>
 	<li>Top secret app - Ideas for now. </li>

@@ -1,13 +1,13 @@
 <?php 
 	//$base = "/home/a1257259/public_html"; // does not work locally 
 	//$base = $_SERVER['DOCUMENT_ROOT']; 	// does not work with 000webhost 
-	//$base = dirname(getcwd());				// go up one level
-	$base = dirname(dirname(getcwd()));		// go up two levels 
+	$base = dirname(getcwd());				// go up one level
+	//$base = dirname(dirname(getcwd()));		// go up two levels 
 	$path_top = $base."/template/template-top.php";
 	$path_bottom = $base."/template/template-bottom.php";
 
 	/////////////////////////////////////////
-	$title = 'PoopTracker Redesign'; 
+	$title = 'PoopTracker 2.0'; 
 	/////////////////////////////////////////
 ?>
 
@@ -18,6 +18,15 @@
 <?php /***************************** CUSTOM PAGE HTML BEGINS HERE ***************************************/ ?>
 
 <div id="pooptracker-redesign-main">
+
+<p>PoopTracker 2.0 is the second iteration of my app, PoopTracker.</p>
+<p>I started it in February 2017, during my second co-op term doing iOS development. At the time, I had just learned Swift on the job and felt ready to rewrite PoopTracker in Swift. I remember coding on the bus and really thinking I was going to finish it before the term was up. I even thought I was going to continue it during my study term. But I was so wrong as I'm a lazy bum and was never able to sacrifice academics.</p>
+<p>I also realize now that I was not experienced enough in Swift or making an app to have made something ready for production. The project allowed me to solidify the concepts I had learned and demonstrate that I could do what I wanted to do, even if not to completion.</p>
+
+<p>Below is the documentation of writing PoopTracker 2.0, from its conception to its death.</p>
+
+<hr>
+
 <p>I am redesigning and rewriting PoopTracker. It is February 4, 2017 and my goal is to release it to the public before May 2017. I will update my progress on this page to document the design and development process, and also to motivate me. I was supposed to begin during the holidays in December 2016, but I was too lazy. This time I cannot be lazy. The fate of my future and everyone's pooping depends on it. WE'VE GOT 3 MONTHS TO SAVE THE WORLD. </p>
 <p>Update (May 6, 2017): It is now after May. My deadline was unrealistic because I hadn't gotten to the point where I was passionate enough to code all day every day. Well, I've gotten to that point now. So I'm hoping to definitely publish by the end of June?</p>
 <p>Update (May 23, 2017): I'm really immersed in Distributed Systems, Networks, and Security &amp; Privacy. Curse me for caring too much about academics! PoopTracker is on hold for now. The most difficult part about building an app is finding the time for it, but I'm in this for the long run. </p>
