@@ -20,10 +20,11 @@
 
 <p>This page is for my projects.</p>
 
-<h2>Ongoing Projects</h2>
+<h2>Projects</h2>
 <ul>
 	<li>sanzoid.com</li>
 	<li><a href="/pooptracker/pooptracker">PoopTracker</a></li>
+	<li><a href="https://github.com/sanzoid/PotatoSteps">PotatoSteps</a></li>
 	<!--<li>Protect the Dot (iOS)</li>-->
 	<li>How Toilets Work (Javascript) - just an idea for now</li>
 	<li>Top secret app - Ideas for now. </li>
@@ -52,7 +53,7 @@
 	<li>CS458 (Security &amp; Privacy): Exploiting programs!</li>
 </ul>
 
-<h2>Work</h2>
+<!-- <h2>Work</h2>
 <h3>Web</h3>
 <ul>
 	<li>Public Accounts of Canada 2014 - converting PDF to HTML, writing regular expressions. </li>
@@ -71,7 +72,7 @@
 	<li>Blackberry Native - getting the XE Currency Blackberry Native app to run and fixing some errors/warnings.</li>
 	<li>Windows Phone/Desktop - updating the apps. Deprecating currency data service from Protocol Buffers to JSON.</li>
 	<li>Documentation! Added documentation when necessary because details were easy to forget, especially after a long weekend. Also added an iOS Fun Facts page for everyone to share their knowledge.</li>
-</ul>
+</ul> -->
 
 <?php 
 /*
