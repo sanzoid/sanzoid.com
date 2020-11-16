@@ -1,0 +1,11 @@
+DirectoryIndex index.php index.html index.htm index2.html
+
+RewriteEngine On 
+RewriteCond %{HTTPS} off 
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+ErrorDocument 400 /pages/error.php
+ErrorDocument 401 /pages/error.php
+ErrorDocument 403 /pages/error.php
+ErrorDocument 404 /pages/error.php
+ErrorDocument 500 /pages/error.php
