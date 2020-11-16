@@ -18,15 +18,16 @@
 <!-- START: BODY-->
 <?php /***************************** CUSTOM PAGE HTML BEGINS HERE ***************************************/ ?>
 
-<p>This page is for my projects.</p>
+<p><em>"Becoming me was the greatest creative project of my life."</em> - Eliot from <em>The Magicians</em></p>
 
 <h2>Projects</h2>
 <ul>
 	<li>sanzoid.com</li>
-	<li><a href="/pooptracker/pooptracker">PoopTracker</a></li>
+	<li><a href="/favlist">FAVLIST</a></li>
+	<li><a href="/pooptracker">PoopTracker</a></li>
 	<li><a href="https://github.com/sanzoid/PotatoSteps">PotatoSteps</a></li>
 	<!--<li>Protect the Dot (iOS)</li>-->
-	<li>How Toilets Work (Javascript) - just an idea for now</li>
+	<!-- <li>How Toilets Work (Javascript) - just an idea for now</li> -->
 	<li>Top secret app - Ideas for now. </li>
 	<li>So many app ideas... </li>
 </ul>

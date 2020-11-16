@@ -58,6 +58,7 @@
 		<li class="goals "><a class="menu-link" href="/pages/projects/projects.php">projects</a>
 			<ul class="submenu">
 				<li class=""><a class="menu-link" href="/pages/projects/goals.php">goals</a></li>
+				<li class=""><a class="menu-link" href="/favlist">FAVLIST</a></li>
 				<li class=""><a class="menu-link" href="/pooptracker">pooptracker</a></li>
 			</ul>
 		</li>

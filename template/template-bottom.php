@@ -35,8 +35,8 @@
 	<!-- start: contact info -->
 	<div class="contactinfo">
 		<h1>Contact Info</h1>
-		<p>If you would like to hire me:<br><span class="contact-email"><span class="dont-spam-me">sandyho</span>.<span>cs</span><span>@</span><span>gmail</span>.<span>com</span></span></p>
-		<p>If you would like to report a typo or bug:<br><span class="contact-email"><span class="dont-spam-me">sandyworks</span><span>@</span><span>icloud</span>.com</span></p>
+		<p>Professional Inquiries:<br><span class="contact-email"><span class="dont-spam-me">sandyho</span>.<span>cs</span><span>@</span><span>gmail</span>.<span>com</span></span></p>
+		<p>Website Inquiries:<br><span class="contact-email"><span class="dont-spam-me">sandyworks</span><span>@</span><span>icloud</span>.com</span></p>
 	</div>
 	<!-- end: contact info -->
 
@@ -46,7 +46,7 @@
 	<form action="//sanzoid.us12.list-manage.com/subscribe/post?u=70e890cae5a65fcc4b0c01e9a&amp;id=86687df9eb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 	    <div id="mc_embed_signup_scroll">
 		<h2>Subscribe to my newsletter!</h2>
-		<p>(I haven't sent a newsletter out in years, but ain't it cool that I have one that you can subscribe to?)</p>
+		<p><em>I won't send anything, but it's cool that you can subscribe.</em></p>
 	<div class="mc-field-group">
 		<!--<label for="mce-EMAIL">Email Address </label>-->
 		<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email Address">
@@ -71,9 +71,6 @@
 			<li class=""><a href="https://twitter.com/officesandy" target="_blank"><img src="/images/main/handle_icons/icon_twitter.png" /></a></li>
 			<li class=""><a href="https://sanzoid.wordpress.com/" target="_blank"><img src="/images/main/handle_icons/icon_wordpress.png" /></a></li>
 			<li class=""><a href="https://github.com/sanzoid" target="_blank"><img src="/images/main/handle_icons/icon_github.png" /></a></li>
-			<li class=""><a href="https://www.udemy.com/user/sandyho4/" target="_blank"><img src="/images/main/handle_icons/icon_udemy.png" /></a></li>
-			<li class=""><a href="https://www.codecademy.com/sanzoidy" target="_blank"><img src="/images/main/handle_icons/icon_codecademy.png" /></a></li>
-			<li class=""><a href="https://www.codeschool.com/users/sanzoidy" target="_blank"><img src="/images/main/handle_icons/icon_codeschool.png" /></a></li>
 			<li class=""><a href="https://www.duolingo.com/sanzoidy" target="_blank"><img src="/images/main/handle_icons/icon_duolingo.png" /></a></li>
 			<li class=""><a href="https://trakt.tv/users/sanzoidy" target="_blank"><img src="/images/main/handle_icons/icon_trakt.png" /></a></li>
 			<li class=""><a href="http://www.neopets.com/userlookup.phtml?user=sanzoidy" target="_blank"><img src="/images/main/handle_icons/icon_neopets.png" /></a></li>
